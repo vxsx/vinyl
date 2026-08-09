@@ -130,8 +130,11 @@ describe('parseRetryAfter', () => {
   })
 
   it('integration: 429 with HTTP-date header calls sleep with finite value', async () => {
-    const futureDate = 'Wed, 21 Oct 2026 07:28:00 GMT'
-    const pastDate = Date.parse('Wed, 21 Oct 2026 07:26:00 GMT')
+    // Relative to Date.now() so this test never goes stale — a literal future
+    // date eventually becomes a literal past date, at which point
+    // parseRetryAfter(header) (no `now` override, so it reads live Date.now())
+    // correctly returns 0 and the assertion below would start failing.
+    const futureDate = new Date(Date.now() + 120_000).toUTCString()
     const fetchImpl = vi.fn()
       .mockResolvedValueOnce(jsonResponse({ message: 'slow down' }, { status: 429, headers: { 'retry-after': futureDate } }))
       .mockResolvedValueOnce(jsonResponse({ id: 42 }))
