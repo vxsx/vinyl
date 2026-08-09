@@ -1,9 +1,8 @@
-// src/scripts/gallery.ts
 // A near-fullscreen lightbox shared by every `.art` block on the page.
 // Activating the main cover or any thumbnail opens it at up to ~90vw/90vh
-// using the full-size asset; ArrowLeft/ArrowRight step through that record's
-// images (cover first, then secondaries, wrapping); Escape or a backdrop
-// click closes it.
+// using the full-size asset; ArrowLeft/ArrowRight (or the visible prev/next
+// buttons) step through that record's images (cover first, then
+// secondaries, wrapping); Escape or a backdrop click closes it.
 interface GalleryItem {
   full: string
   alt: string
@@ -12,9 +11,17 @@ interface GalleryItem {
 let dialog: HTMLDivElement | null = null
 let dialogPanel: HTMLElement | null = null
 let imgEl: HTMLImageElement | null = null
+let prevBtn: HTMLButtonElement | null = null
+let nextBtn: HTMLButtonElement | null = null
 let items: GalleryItem[] = []
 let index = 0
 let lastFocused: HTMLElement | null = null
+
+// The keydown/resize listeners below are bound to `document`/`window`, which
+// (unlike the lightbox's own markup) survive a view-transition navigation —
+// so they must only ever be attached once, or Escape/ArrowLeft/ArrowRight
+// and the resize refit would each fire once per past navigation.
+let globalListenersBound = false
 
 function isOpen(): boolean {
   return dialog?.classList.contains('is-open') ?? false
@@ -46,8 +53,15 @@ function render(): void {
 }
 
 function step(delta: number): void {
-  if (items.length === 0) return
+  if (items.length <= 1) return
   index = (index + delta + items.length) % items.length
+  if (imgEl) {
+    // Restart the crossfade animation even if the previous step's is still
+    // playing — remove then force a reflow before re-adding the class.
+    imgEl.classList.remove('is-switching')
+    void imgEl.offsetWidth
+    imgEl.classList.add('is-switching')
+  }
   render()
 }
 
@@ -60,40 +74,54 @@ function close(): void {
 }
 
 function ensureDialog(): HTMLDivElement {
-  if (dialog) return dialog
+  // A view-transition navigation swaps the whole document body, which
+  // silently detaches this element (it was appended imperatively, not
+  // declared in any page template) — the cached reference then points at a
+  // node that's no longer on screen. Rebuild it whenever that's happened.
+  if (dialog && dialog.isConnected) return dialog
 
   const el = document.createElement('div')
   el.className = 'lightbox'
   el.innerHTML = `
     <div class="lightbox-backdrop"></div>
+    <button type="button" class="lightbox-nav lightbox-prev" aria-label="Previous photo">&lsaquo;</button>
     <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-label="Photo viewer" tabindex="-1">
       <button type="button" class="lightbox-close" aria-label="Close">&times;</button>
       <img class="lightbox-img" alt="" />
     </div>
+    <button type="button" class="lightbox-nav lightbox-next" aria-label="Next photo">&rsaquo;</button>
   `
   document.body.appendChild(el)
 
   dialog = el
   dialogPanel = el.querySelector<HTMLElement>('.lightbox-dialog')
   imgEl = el.querySelector<HTMLImageElement>('.lightbox-img')
+  prevBtn = el.querySelector<HTMLButtonElement>('.lightbox-prev')
+  nextBtn = el.querySelector<HTMLButtonElement>('.lightbox-next')
 
   el.querySelector('.lightbox-backdrop')?.addEventListener('click', close)
   el.querySelector('.lightbox-close')?.addEventListener('click', close)
+  prevBtn?.addEventListener('click', () => step(-1))
+  nextBtn?.addEventListener('click', () => step(1))
   imgEl?.addEventListener('load', fitImage)
 
-  document.addEventListener('keydown', (event) => {
-    if (!isOpen()) return
-    if (event.key === 'Escape') close()
-    else if (event.key === 'ArrowLeft') step(-1)
-    else if (event.key === 'ArrowRight') step(1)
-  })
+  if (!globalListenersBound) {
+    globalListenersBound = true
 
-  // The viewport can change size (window resize, orientation change) while
-  // the lightbox is open, so the 90vw/90vh target has to be recomputed —
-  // it's not something that CSS alone keeps in sync once JS owns the size.
-  window.addEventListener('resize', () => {
-    if (isOpen()) fitImage()
-  })
+    document.addEventListener('keydown', (event) => {
+      if (!isOpen()) return
+      if (event.key === 'Escape') close()
+      else if (event.key === 'ArrowLeft') step(-1)
+      else if (event.key === 'ArrowRight') step(1)
+    })
+
+    // The viewport can change size (window resize, orientation change) while
+    // the lightbox is open, so the 90vw/90vh target has to be recomputed —
+    // it's not something that CSS alone keeps in sync once JS owns the size.
+    window.addEventListener('resize', () => {
+      if (isOpen()) fitImage()
+    })
+  }
 
   return el
 }
@@ -105,6 +133,10 @@ function open(list: GalleryItem[], startIndex: number, label: string, trigger: H
   lastFocused = trigger
 
   dialogPanel?.setAttribute('aria-label', label)
+  const showNav = items.length > 1
+  prevBtn?.toggleAttribute('hidden', !showNav)
+  nextBtn?.toggleAttribute('hidden', !showNav)
+  imgEl?.classList.remove('is-switching')
   render()
 
   el.classList.add('is-open')
@@ -113,6 +145,10 @@ function open(list: GalleryItem[], startIndex: number, label: string, trigger: H
 
 export function initGallery(root: ParentNode = document): void {
   for (const art of root.querySelectorAll<HTMLElement>('.art')) {
+    // Idempotency guard — see the comment on the same pattern in tilt.ts.
+    if (art.dataset.galleryBound) continue
+    art.dataset.galleryBound = 'true'
+
     const coverButton = art.querySelector<HTMLButtonElement>('.cover-btn')
     const thumbButtons = [...art.querySelectorAll<HTMLButtonElement>('.thumbs button')]
     const buttons = (coverButton ? [coverButton] : []).concat(thumbButtons)

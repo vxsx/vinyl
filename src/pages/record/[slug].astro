@@ -123,7 +123,11 @@ const thumbs = (
 
 <script>
   import { initGallery } from '../../scripts/gallery'
-  initGallery()
+
+  // See index.astro's astro:page-load comment — same rewiring applies here.
+  document.addEventListener('astro:page-load', () => {
+    initGallery()
+  })
 </script>
 
 <style>
@@ -190,6 +194,11 @@ const thumbs = (
   /* The lightbox dialog is created and appended to <body> by gallery.ts, so
      it never receives this component's scoped data-astro-cid attribute —
      every rule targeting it must be :global(). */
+  /* Open: backdrop fades in and the image pops up from a slight scale —
+     fast and eased-out so it reads as arriving, not flashing on. Close is
+     the same pair run in reverse but a touch quicker, via the standard
+     trick of giving the base (closed) selector its own, shorter
+     transition — that's the one used when the is-open class is removed. */
   :global(.lightbox) {
     position: fixed;
     inset: 0;
@@ -200,13 +209,13 @@ const thumbs = (
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.18s ease, visibility 0s linear 0.18s;
+    transition: opacity 0.14s ease-in, visibility 0s linear 0.14s;
   }
   :global(.lightbox.is-open) {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    transition: opacity 0.18s ease;
+    transition: opacity 0.18s ease-out;
   }
   :global(.lightbox-backdrop) {
     position: absolute;
@@ -219,6 +228,12 @@ const thumbs = (
     max-width: 90vw;
     max-height: 90vh;
     display: flex;
+    transform: scale(0.96);
+    transition: transform 0.14s ease-in;
+  }
+  :global(.lightbox.is-open .lightbox-dialog) {
+    transform: scale(1);
+    transition: transform 0.18s var(--ease-settle);
   }
   :global(.lightbox-dialog:focus) { outline: none; }
   :global(.lightbox-img) {
@@ -232,6 +247,16 @@ const thumbs = (
     image-rendering: auto;
     display: block;
     box-shadow: 0 30px 80px rgb(0 0 0 / 0.6);
+  }
+  /* Stepping to another image (prev/next or arrow keys) restarts this via a
+     class toggle in gallery.ts — a quick fade-in reads as a crossfade
+     without needing to keep two <img> elements in sync. */
+  @keyframes lightbox-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  :global(.lightbox-img.is-switching) {
+    animation: lightbox-fade-in 0.14s ease-out;
   }
   :global(.lightbox-close) {
     all: unset;
@@ -247,7 +272,39 @@ const thumbs = (
   :global(.lightbox-close:hover) { color: var(--accent); }
   :global(.lightbox-close:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
 
+  /* Prev/next sit at the outer edges of the fullscreen overlay (not the
+     dialog box, which can be much narrower than the viewport) with a
+     generously padded hit area. gallery.ts hides both via [hidden] when a
+     record has only one image. */
+  :global(.lightbox-nav) {
+    all: unset;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    font-size: 34px;
+    line-height: 1;
+    color: var(--ink);
+    z-index: 1;
+  }
+  :global(.lightbox-prev) { left: 6px; }
+  :global(.lightbox-next) { right: 6px; }
+  :global(.lightbox-nav:hover) { color: var(--accent); }
+  :global(.lightbox-nav:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+  :global(.lightbox-nav[hidden]) { display: none; }
+
   @media (prefers-reduced-motion: reduce) {
-    :global(.lightbox), :global(.lightbox.is-open) { transition: none; }
+    :global(.lightbox),
+    :global(.lightbox.is-open),
+    :global(.lightbox-dialog),
+    :global(.lightbox.is-open .lightbox-dialog) {
+      transition: none;
+    }
+    :global(.lightbox-img.is-switching) { animation: none; }
   }
 </style>
