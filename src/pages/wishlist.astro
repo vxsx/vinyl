@@ -1,0 +1,24 @@
+---
+// src/pages/wishlist.astro
+import Base from '../layouts/Base.astro'
+import CoverGrid from '../components/CoverGrid.astro'
+import FilterBar from '../components/FilterBar.astro'
+import { wantlist } from '../lib/data'
+import { genreCounts, decadeCounts } from '../lib/facets'
+---
+<Base title="Wishlist" description="Records I'm looking for">
+  {wantlist.length > 0 && (
+    <FilterBar genres={genreCounts(wantlist)} decades={decadeCounts(wantlist)} total={wantlist.length} />
+  )}
+  <CoverGrid
+    records={wantlist}
+    emptyMessage="Nothing on the wishlist yet. Records added to the Discogs wantlist will appear here after the next sync."
+  />
+</Base>
+
+<script>
+  import { initTilt } from '../scripts/tilt'
+  import { initFilters } from '../scripts/filters'
+  initTilt()
+  initFilters()
+</script>
