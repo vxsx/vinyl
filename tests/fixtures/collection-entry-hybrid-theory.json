@@ -1,0 +1,76 @@
+{
+  "id": 14820313,
+  "instance_id": 2168623763,
+  "date_added": "2026-07-29T09:32:39-07:00",
+  "rating": 0,
+  "basic_information": {
+    "id": 14820313,
+    "master_id": 74519,
+    "master_url": "https://api.discogs.com/masters/74519",
+    "resource_url": "https://api.discogs.com/releases/14820313",
+    "thumb": "https://i.discogs.com/GxD-fkQ2TDzU9HxsWAr7gt_1zgGXuYjs-q5yGptBqN0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjMtODQ3OS5wbmc.jpeg",
+    "cover_image": "https://i.discogs.com/IxtYuVyECCK6SaPyv0WolhIQbhDoDFps5SnF7gqF3Cs/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjMtODQ3OS5wbmc.jpeg",
+    "title": "Hybrid Theory",
+    "year": 2020,
+    "formats": [
+      {
+        "name": "Vinyl",
+        "qty": "1",
+        "text": "Gatefold",
+        "descriptions": [
+          "LP",
+          "Album",
+          "Reissue"
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "name": "Warner Records",
+        "catno": "093624941422",
+        "entity_type": "1",
+        "entity_type_name": "Label",
+        "id": 134882,
+        "resource_url": "https://api.discogs.com/labels/134882"
+      },
+      {
+        "name": "Machine Shop Recordings",
+        "catno": "093624941422",
+        "entity_type": "1",
+        "entity_type_name": "Label",
+        "id": 49462,
+        "resource_url": "https://api.discogs.com/labels/49462"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Linkin Park",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 40029,
+        "resource_url": "https://api.discogs.com/artists/40029"
+      }
+    ],
+    "genres": [
+      "Hip Hop",
+      "Rock"
+    ],
+    "styles": [
+      "Nu Metal",
+      "Alternative Rock"
+    ]
+  },
+  "folder_id": 1,
+  "notes": [
+    {
+      "field_id": 1,
+      "value": "Near Mint (NM or M-)"
+    },
+    {
+      "field_id": 2,
+      "value": "Near Mint (NM or M-)"
+    }
+  ]
+}

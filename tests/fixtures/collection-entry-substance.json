@@ -1,0 +1,69 @@
+{
+  "id": 7132351,
+  "instance_id": 2168618692,
+  "date_added": "2026-07-29T09:15:26-07:00",
+  "rating": 0,
+  "basic_information": {
+    "id": 7132351,
+    "master_id": 4912,
+    "master_url": "https://api.discogs.com/masters/4912",
+    "resource_url": "https://api.discogs.com/releases/7132351",
+    "thumb": "https://i.discogs.com/0Mj7gliyy_3dC1Rk8xEw_laMRUs3O3DozAR4mAbWG4M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg1/MS03MDUyLmpwZWc.jpeg",
+    "cover_image": "https://i.discogs.com/De9jXNLkJcjlCxQ1sHCR3jdS4cLhWNCnEWTyCKt8jrM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg1/MS03MDUyLmpwZWc.jpeg",
+    "title": "Substance",
+    "year": 2015,
+    "formats": [
+      {
+        "name": "Vinyl",
+        "qty": "2",
+        "text": "180 Gram",
+        "descriptions": [
+          "LP",
+          "Compilation",
+          "Reissue",
+          "Remastered"
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "name": "Factory",
+        "catno": "Fact250R",
+        "entity_type": "1",
+        "entity_type_name": "Label",
+        "id": 857,
+        "resource_url": "https://api.discogs.com/labels/857"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Joy Division",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 3898,
+        "resource_url": "https://api.discogs.com/artists/3898"
+      }
+    ],
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "New Wave",
+      "Post-Punk",
+      "Punk"
+    ]
+  },
+  "folder_id": 1,
+  "notes": [
+    {
+      "field_id": 1,
+      "value": "Near Mint (NM or M-)"
+    },
+    {
+      "field_id": 2,
+      "value": "Near Mint (NM or M-)"
+    }
+  ]
+}

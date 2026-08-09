@@ -1,0 +1,312 @@
+{
+  "id": 925420,
+  "main_release": 7198251,
+  "most_recent_release": 17980264,
+  "resource_url": "https://api.discogs.com/masters/925420",
+  "uri": "https://www.discogs.com/master/925420-Verdi-Licinio-Montefusco-Anna-Maccianti-Michele-Molese-Nedda-Casei-Federico-Davia-Chor-Und-Orchester",
+  "versions_url": "https://api.discogs.com/masters/925420/versions",
+  "main_release_url": "https://api.discogs.com/releases/7198251",
+  "most_recent_release_url": "https://api.discogs.com/releases/17980264",
+  "num_for_sale": 17,
+  "lowest_price": 5.37,
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/fbpOr8VDOb2lQ_GCVprWqoJgS-l5z9e3hRraO-D3KkY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS05NzQ2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/fbpOr8VDOb2lQ_GCVprWqoJgS-l5z9e3hRraO-D3KkY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS05NzQ2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/R49Vn2J08WwQIUtqWzVOCfOge0Il-mmwz9oOhfeMBdc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS05NzQ2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/rzGuGlJ7IFuQ_Yb4FcBSBPTyVDG15ga81Cmf4JZpICQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS0yNDM1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/rzGuGlJ7IFuQ_Yb4FcBSBPTyVDG15ga81Cmf4JZpICQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS0yNDM1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/0CNqX43hZSkSl_Ng1xY1hfde6-YclTThVnthxca-8g0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS0yNDM1LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/j3qxG27gmB6Ks6IFUMZm2obsEl0KKOJ2gkIgFUAaMps/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS03OTgxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/j3qxG27gmB6Ks6IFUMZm2obsEl0KKOJ2gkIgFUAaMps/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS03OTgxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/9R1cR6pVdpn70uB0uS8VFJiBEVb5vX80kKpM7rbgxtE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS03OTgxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/rzoEIxoAPWq9d6GAIRUPbemw7WfmhNqS73X0fH2OcuE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS02MjI3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/rzoEIxoAPWq9d6GAIRUPbemw7WfmhNqS73X0fH2OcuE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS02MjI3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/C4hH_kEDnn7O8ltpoImL-ryZHGdUPx0lThHu1gOXXM4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS02MjI3LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/tIB2SSIc1KGVZG0EhEeHZ8HUB8YjMx2Pvcso7xzdF0g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS02MDc4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/tIB2SSIc1KGVZG0EhEeHZ8HUB8YjMx2Pvcso7xzdF0g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS02MDc4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/zsX2lDDKR3S7pL4YcNWsFno5fDMXfGkzcOYC2OxpCIM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS02MDc4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/AUiz8-TnaTTisPhgQ9of8ObY_wWY1D22G92CryOTWzM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS03Mzc2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/AUiz8-TnaTTisPhgQ9of8ObY_wWY1D22G92CryOTWzM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS03Mzc2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/w6GPfZEN8i8hB-fjRWXaqe-BsS-p6a5rf60-cp86Px8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS03Mzc2LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/6wxXufewz7YrYNPodJzY1r3aI_r9RL7iuLY3MX_A4L0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/Mi0zODIyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/6wxXufewz7YrYNPodJzY1r3aI_r9RL7iuLY3MX_A4L0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/Mi0zODIyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/6MsQbeaU8ZKWXP5-YsPNn0ND6RubptiUV9PvNVj7EGY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/Mi0zODIyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/hF2dWl3_SXNJ9vEev9ePjTeIA3BsgYtL1MbS_Egb_Xo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS00NjQ0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/hF2dWl3_SXNJ9vEev9ePjTeIA3BsgYtL1MbS_Egb_Xo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS00NjQ0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/iLnKPw6PiiGfFaNLctuqb5_58T95LE3Wd7CAk0SIbEo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyODYw/MS00NjQ0LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/IEu0kifGtUmXN21PlKGI7Nk9EHI-RgVYBBerVW4Xvw0/rs:fit/g:sm/q:90/h:600/w:365/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni01MDI5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/IEu0kifGtUmXN21PlKGI7Nk9EHI-RgVYBBerVW4Xvw0/rs:fit/g:sm/q:90/h:600/w:365/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni01MDI5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/H1aResZoypIcSkXUifn60Bd9pwjpU_qCHxdzUgScBRs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni01MDI5LmpwZWc.jpeg",
+      "width": 365,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/1g6lGdsQh_Ha_uNyJJE4Pq3nOj49X0A9uSYcSb5wIxc/rs:fit/g:sm/q:90/h:600/w:370/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni02MDc5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/1g6lGdsQh_Ha_uNyJJE4Pq3nOj49X0A9uSYcSb5wIxc/rs:fit/g:sm/q:90/h:600/w:370/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni02MDc5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/e9sP_5musXHucwMGQoxYlkNdvi5Y4CfmK7fKMpZyTE0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni02MDc5LmpwZWc.jpeg",
+      "width": 370,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/mqFKTMcyJuQn9ii6tS-iEjU2CJJyQveIFnhPZCJQAb4/rs:fit/g:sm/q:90/h:600/w:362/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Mi0xNTA5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/mqFKTMcyJuQn9ii6tS-iEjU2CJJyQveIFnhPZCJQAb4/rs:fit/g:sm/q:90/h:600/w:362/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Mi0xNTA5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/PlmZFuol3vqrVj6_53yqPJvOmyihozypP07mMsttpSY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Mi0xNTA5LmpwZWc.jpeg",
+      "width": 362,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/1miDlaAjdRZlU8KNjowuxVZrQ0FEi5EUQ0eINgCrdAA/rs:fit/g:sm/q:90/h:600/w:282/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni00NjMzLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/1miDlaAjdRZlU8KNjowuxVZrQ0FEi5EUQ0eINgCrdAA/rs:fit/g:sm/q:90/h:600/w:282/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni00NjMzLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/W3XkXqs8pTGHRusZDzPSNloibmiVpcLldEMz_Mz2fNk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni00NjMzLmpwZWc.jpeg",
+      "width": 282,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/3LSMnKsIZSNV7BgrwQlgTb3yJ51MRejbFgPZggLQRgE/rs:fit/g:sm/q:90/h:600/w:280/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NC04NzE3LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/3LSMnKsIZSNV7BgrwQlgTb3yJ51MRejbFgPZggLQRgE/rs:fit/g:sm/q:90/h:600/w:280/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NC04NzE3LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/2GUakw8cLIZyTL1yRg-89XnsdxRneoDWYWnejeUnIjM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NC04NzE3LmpwZWc.jpeg",
+      "width": 280,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/xCkv56sIpxf4mE8ZAzaYayOk9n3xoIeteAgkmQDjo4A/rs:fit/g:sm/q:90/h:600/w:288/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni02NTU0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/xCkv56sIpxf4mE8ZAzaYayOk9n3xoIeteAgkmQDjo4A/rs:fit/g:sm/q:90/h:600/w:288/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni02NTU0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/94WsM4iKyJbiHE6APIu6mv5Wl7jUnrKzQVPGweZn61U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni02NTU0LmpwZWc.jpeg",
+      "width": 288,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/nWxIMQ-FJiuIQxRm_-k-yiVo-do-2XlsG14AuTwIbeE/rs:fit/g:sm/q:90/h:600/w:281/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni04MzMxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/nWxIMQ-FJiuIQxRm_-k-yiVo-do-2XlsG14AuTwIbeE/rs:fit/g:sm/q:90/h:600/w:281/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni04MzMxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/rRCXpKqnKhc8w7ejiUqVig6jWOaIg_eKnepAAwxRAfY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni04MzMxLmpwZWc.jpeg",
+      "width": 281,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/AptQZgPkZwyH_QN7R3yQPFOp-igrAj4sT4_K-2ApxRM/rs:fit/g:sm/q:90/h:600/w:282/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NS03NTQ0LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/AptQZgPkZwyH_QN7R3yQPFOp-igrAj4sT4_K-2ApxRM/rs:fit/g:sm/q:90/h:600/w:282/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NS03NTQ0LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/dpAD7VvIi_2pZ3N4pdo--C4hmUvdBHzO-14p9EIhmic/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NS03NTQ0LmpwZWc.jpeg",
+      "width": 282,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/SSLScnwoH_lXXE4UY6zuWPODPSJaaCP3MICJsaoPIP0/rs:fit/g:sm/q:90/h:600/w:283/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni02MjQ5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/SSLScnwoH_lXXE4UY6zuWPODPSJaaCP3MICJsaoPIP0/rs:fit/g:sm/q:90/h:600/w:283/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni02MjQ5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/3Deo3fYAJDGlQvo5eY68FXGFsMlvQQDM-ipU_lu9RhQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/Ni02MjQ5LmpwZWc.jpeg",
+      "width": 283,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/1QnIbw1EVcrIIEK-CyrJR4qO_2mLUTtbzKMnN0ebaZQ/rs:fit/g:sm/q:90/h:600/w:282/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NS0yMTM2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/1QnIbw1EVcrIIEK-CyrJR4qO_2mLUTtbzKMnN0ebaZQ/rs:fit/g:sm/q:90/h:600/w:282/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NS0yMTM2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/TJgSfO9lzVYIF6ow_bzXkqpiojVUuSGgmpYy1zSqvEI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NS0yMTM2LmpwZWc.jpeg",
+      "width": 282,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/WW5SlVf7aNv1bWtnm0qqDaDi7EnxpU4sL2n3gCBYVSo/rs:fit/g:sm/q:90/h:600/w:278/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NS01MzE2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/WW5SlVf7aNv1bWtnm0qqDaDi7EnxpU4sL2n3gCBYVSo/rs:fit/g:sm/q:90/h:600/w:278/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NS01MzE2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/vFtzQR6XaCZxdfFS4w1ozXZ5PzC2braEBwVJ5IxlMto/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxOTgy/NTEtMTc2OTUyOTUw/NS01MzE2LmpwZWc.jpeg",
+      "width": 278,
+      "height": 600
+    }
+  ],
+  "genres": [
+    "Classical"
+  ],
+  "styles": [
+    "Opera"
+  ],
+  "year": 1966,
+  "tracklist": [
+    {
+      "position": "",
+      "type_": "index",
+      "title": "Rigoletto",
+      "extraartists": [
+        {
+          "name": "Giuseppe Verdi",
+          "anv": "Verdi",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 192327,
+          "resource_url": "https://api.discogs.com/artists/192327"
+        }
+      ],
+      "duration": "",
+      "sub_tracks": [
+        {
+          "position": "A",
+          "type_": "track",
+          "title": "Act I (Beginning)",
+          "duration": ""
+        },
+        {
+          "position": "B",
+          "type_": "track",
+          "title": "Act I (Conclusion)",
+          "duration": ""
+        },
+        {
+          "position": "C",
+          "type_": "track",
+          "title": "Act II",
+          "duration": ""
+        },
+        {
+          "position": "D",
+          "type_": "track",
+          "title": "Act III",
+          "duration": ""
+        }
+      ]
+    }
+  ],
+  "artists": [
+    {
+      "name": "Giuseppe Verdi",
+      "anv": "Verdi",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 192327,
+      "resource_url": "https://api.discogs.com/artists/192327",
+      "thumbnail_url": "https://i.discogs.com/RoKuZHHMwAN0bE0g2Nkyvm2WqA9G964qib0V70TbWuI/rs:fit/g:sm/q:90/h:309/w:225/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE5MjMy/Ny0xNDcyOTI3MTQw/LTQ0NjYuanBlZw.jpeg"
+    },
+    {
+      "name": "Licinio Montefusco",
+      "anv": "",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 2563932,
+      "resource_url": "https://api.discogs.com/artists/2563932",
+      "thumbnail_url": "https://i.discogs.com/FvGrvfPyh5PSBVvPj4LHTmUcPjYLQtyzcF7xy6tLTcc/rs:fit/g:sm/q:90/h:600/w:446/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NjM5/MzItMTY5MDQ5OTkz/Ny05MjcyLmpwZWc.jpeg"
+    },
+    {
+      "name": "Anna Maccianti",
+      "anv": "",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 1951618,
+      "resource_url": "https://api.discogs.com/artists/1951618",
+      "thumbnail_url": "https://i.discogs.com/QMClYw7bFBfgYG28gFKifNa_9rfDUC38aLrYXiX-irE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE5NTE2/MTgtMTQyNDQ3MDky/MS00NzQwLmpwZWc.jpeg"
+    },
+    {
+      "name": "Michele Molese",
+      "anv": "",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 1330400,
+      "resource_url": "https://api.discogs.com/artists/1330400",
+      "thumbnail_url": "https://i.discogs.com/JSiiOGLTetauDYrWkHHXwmeuC7_rd8HDiBwEn9eSyW0/rs:fit/g:sm/q:90/h:578/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzMzA0/MDAtMTU2NTgxMzk4/My0yMTYxLmpwZWc.jpeg"
+    },
+    {
+      "name": "Nedda Casei",
+      "anv": "",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 1330402,
+      "resource_url": "https://api.discogs.com/artists/1330402",
+      "thumbnail_url": "https://i.discogs.com/YwgHpIS_dKtrrf59f7lBcf-GqC3IWLBCUaArRRmMhBQ/rs:fit/g:sm/q:90/h:235/w:224/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzMzA0/MDItMTU4MDM4Mjg0/My01MjEzLmpwZWc.jpeg"
+    },
+    {
+      "name": "Federico Davià",
+      "anv": "Federico Davia",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 5325056,
+      "resource_url": "https://api.discogs.com/artists/5325056",
+      "thumbnail_url": "https://i.discogs.com/nDIg1X5zBHXx7NSAwzEexb8CZGi5Vhbz0NwZgg-R9fo/rs:fit/g:sm/q:90/h:300/w:247/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMjUw/NTYtMTYwNzA2Njg0/OC0xNjg1LmpwZWc.jpeg"
+    },
+    {
+      "name": "Wiener Staatsopernchor",
+      "anv": "Chor",
+      "join": "Und",
+      "role": "",
+      "tracks": "",
+      "id": 855072,
+      "resource_url": "https://api.discogs.com/artists/855072",
+      "thumbnail_url": "https://i.discogs.com/eG1ll0ZwY7OjQ_gJbFK4-2-JR-JNyIwySlTX75hXhiU/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1NTA3/Mi0xMzIxNTQ1NjEw/LmpwZWc.jpeg"
+    },
+    {
+      "name": "Orchester Der Wiener Staatsoper",
+      "anv": "",
+      "join": "Leitung:",
+      "role": "",
+      "tracks": "",
+      "id": 696188,
+      "resource_url": "https://api.discogs.com/artists/696188",
+      "thumbnail_url": "https://i.discogs.com/EumVb2MYp_VeP0nY-JaC8Itae0JPo7Co0j7UyvURM2w/rs:fit/g:sm/q:90/h:401/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5NjE4/OC0xNjY0NjQzMTcy/LTY4MTEuanBlZw.jpeg"
+    },
+    {
+      "name": "Gianfranco Rivoli",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 988713,
+      "resource_url": "https://api.discogs.com/artists/988713",
+      "thumbnail_url": "https://i.discogs.com/bRIYG1BklvHb4rXWVNlrEbKxExwvFwAJNBkWG20zM3o/rs:fit/g:sm/q:90/h:394/w:310/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk4ODcx/My0xMzU3MTc4MTI5/LTk3NDguanBlZw.jpeg"
+    }
+  ],
+  "title": "Rigoletto Oper In 3 Akten Von Verdi",
+  "data_quality": "Correct"
+}

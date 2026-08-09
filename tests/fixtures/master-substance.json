@@ -1,0 +1,268 @@
+{
+  "id": 4912,
+  "main_release": 76440,
+  "most_recent_release": 37639950,
+  "resource_url": "https://api.discogs.com/masters/4912",
+  "uri": "https://www.discogs.com/master/4912-Joy-Division-Substance",
+  "versions_url": "https://api.discogs.com/masters/4912/versions",
+  "main_release_url": "https://api.discogs.com/releases/76440",
+  "most_recent_release_url": "https://api.discogs.com/releases/37639950",
+  "num_for_sale": 767,
+  "lowest_price": 1.47,
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/F1c3AOFSPUgqebpsJ3mx0JxgxDfpz_pnvmOmJ_U_lfk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMjQt/MTc0Mi5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/F1c3AOFSPUgqebpsJ3mx0JxgxDfpz_pnvmOmJ_U_lfk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMjQt/MTc0Mi5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/j0adsnzKUQsJi8VhFqRewJnrSof85eE6UP-HpxcNp3M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMjQt/MTc0Mi5qcGVn.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/KYiQ_Sm-Z7qT4bfA23LhcgQTxXZ-0PQzFpoc-UiepfU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMzct/MjY5NC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/KYiQ_Sm-Z7qT4bfA23LhcgQTxXZ-0PQzFpoc-UiepfU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMzct/MjY5NC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/oHGOFSDdiS5GwxE6oXtT2BI7TyOj2X7rHcd3Om8geU4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMzct/MjY5NC5qcGVn.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/gXrydBAqsqOA1ULNC0fUihwbAt_BpoSgD02Fu2yQDKY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMzct/NTczNC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/gXrydBAqsqOA1ULNC0fUihwbAt_BpoSgD02Fu2yQDKY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMzct/NTczNC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/dcDtHPUhpf60ZmEnPcg-skU3yi2tWdr75BRa8_mNGrU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMzct/NTczNC5qcGVn.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/003jqKtNxohE-Tu4TPknZy7EHNjDICUjGWgj8S2QBJ8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMzUt/MTEyMC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/003jqKtNxohE-Tu4TPknZy7EHNjDICUjGWgj8S2QBJ8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMzUt/MTEyMC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/AAUAJdI5I2IwsN2q1doFolq4iCHdMl23FPnC6sNbgo8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTE1MTU2MDIyMzUt/MTEyMC5qcGVn.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/B0uC2_yB3oOPIoWgesWqPD7QluZH-HBAD818n-ohQCE/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTEzNDgzMTI0Nzkt/OTgxNS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/B0uC2_yB3oOPIoWgesWqPD7QluZH-HBAD818n-ohQCE/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTEzNDgzMTI0Nzkt/OTgxNS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/6TIG3gLDGBLWDF_QZvMKBgsE716TYDvv3mkBd-v3wLU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTEzNDgzMTI0Nzkt/OTgxNS5qcGVn.jpeg",
+      "width": 600,
+      "height": 594
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/_UvqkhJ8wpYyv38kYNLjc8skfWDuJNMEeeynmNvfM0w/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTEzNDgzMTI0ODUt/OTkzNS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/_UvqkhJ8wpYyv38kYNLjc8skfWDuJNMEeeynmNvfM0w/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTEzNDgzMTI0ODUt/OTkzNS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/0hrTb1LL7_4tOCG2w5h6-nOnHYdG9qBJL0XWTkTsNZg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NDQw/LTEzNDgzMTI0ODUt/OTkzNS5qcGVn.jpeg",
+      "width": 600,
+      "height": 594
+    }
+  ],
+  "genres": [
+    "Rock"
+  ],
+  "styles": [
+    "New Wave",
+    "Post-Punk"
+  ],
+  "year": 1988,
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Warsaw",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Leaders Of Men",
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Digital",
+      "duration": ""
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Autosuggestion",
+      "duration": ""
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Transmission",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "She's Lost Control",
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Incubation",
+      "duration": ""
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Dead Souls",
+      "duration": ""
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Atmosphere",
+      "duration": ""
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "Love Will Tear Us Apart",
+      "duration": ""
+    }
+  ],
+  "artists": [
+    {
+      "name": "Joy Division",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 3898,
+      "resource_url": "https://api.discogs.com/artists/3898",
+      "thumbnail_url": "https://i.discogs.com/HE_mL7XE9ddU4k7EJwbKRCX5MUN-SJEj8t9QszCrIFM/rs:fit/g:sm/q:90/h:599/w:567/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM4OTgt/MTMxOTM1OTY4Mi5q/cGVn.jpeg"
+    }
+  ],
+  "title": "Substance",
+  "notes": "Posthumous compilation of Joy Division songs, released in July 1988.\r\nIt compiles the four singles that did not appear on the albums and also collects tracks from [m=28414], [m=173930], [m=512922] and [m=54032].\r\nThe tracks from the appendix are only featured on cassette in some regions and CD issues worldwide.\r\n\r\nPeaked at no. 7 of the UK album charts, and at no. 146 of the US Billboard 200, marking the band's only chart appearance in the United States.\r\n\r\nThe 1992 re-release by London Records features a new longer version than the original 12\" mix of \"She's Lost Control\" (also found on Factory compilation [m=23459] and [m=23154]), while the other editions have the version featured on the \"[r=29007]\" single. Re-released again in 1999/2000, and remastered in 2015.",
+  "data_quality": "Correct",
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=gtSFtvXgeRk",
+      "title": "Warsaw (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nWarsaw (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davis\n",
+      "duration": 145,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Kx3EqNYQklg",
+      "title": "Transmission (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nTransmission (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nAudio  Recording  Engineer: John M",
+      "duration": 216,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Hzd5inljWhA",
+      "title": "She's Lost Control (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nShe's Lost Control (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar: Bernard Sumner\nUnknown: Chris Nagle\nLead  Vocals: Ian Curtis\nUnknown: Jon Davis\nProducer: Martin Hannett\nBass  Guitar: Pe",
+      "duration": 286,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=mKWHa65cmns",
+      "title": "Dead Souls (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nDead Souls (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Da",
+      "duration": 295,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=iQjGHxQ2nn4",
+      "title": "Leaders of Men (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nLeaders of Men (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jo",
+      "duration": 156,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=mAAqKx4aD_g",
+      "title": "Love Will Tear Us Apart (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nLove Will Tear Us Apart (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUn",
+      "duration": 205,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=MnnWHhAJktM",
+      "title": "Digital (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nDigital (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davis",
+      "duration": 170,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4DbnkkyhPnI",
+      "title": "Komakino (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nKomakino (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davi",
+      "duration": 233,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4_B690oDTPw",
+      "title": "Autosuggestion (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nAutosuggestion (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jo",
+      "duration": 367,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=12q03RA0HKY",
+      "title": "Incubation (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nIncubation (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Da",
+      "duration": 172,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=KSYBW8JlijM",
+      "title": "Atmosphere (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nAtmosphere (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown, Producer: Martin Hannett\nUn",
+      "duration": 250,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=5v8Frk_37-Y",
+      "title": "No Love Lost (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nNo Love Lost (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon ",
+      "duration": 223,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=7Bbb86ajF3U",
+      "title": "Failures (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nFailures (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davi",
+      "duration": 225,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=iI-IoAEGV4U",
+      "title": "Glass (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nGlass (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davis\nU",
+      "duration": 238,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=ZFV5XSGC4qQ",
+      "title": "From Safety to Where (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nFrom Safety to Where (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnkno",
+      "duration": 150,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Gqqr31PWsII",
+      "title": "Novelty (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nNovelty (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davis",
+      "duration": 241,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=6g_b0xr9rZs",
+      "title": "These Days (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nThese Days (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Da",
+      "duration": 207,
+      "embed": true
+    }
+  ]
+}

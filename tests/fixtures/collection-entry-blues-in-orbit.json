@@ -1,0 +1,66 @@
+{
+  "id": 11339741,
+  "instance_id": 2168615464,
+  "date_added": "2026-07-29T09:04:08-07:00",
+  "rating": 0,
+  "basic_information": {
+    "id": 11339741,
+    "master_id": 639911,
+    "master_url": "https://api.discogs.com/masters/639911",
+    "resource_url": "https://api.discogs.com/releases/11339741",
+    "thumb": "https://i.discogs.com/JRWAmRRQjrARJ63jtUhKESONJpqR1XULPCM4tlR_1Zk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MDQtNzM1My5qcGVn.jpeg",
+    "cover_image": "https://i.discogs.com/sKJMzCBu60NP31b7MmsmcjH-AjAQTPQSa9Lz9SgKaMw/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MDQtNzM1My5qcGVn.jpeg",
+    "title": "Blues In Orbit",
+    "year": 1960,
+    "formats": [
+      {
+        "name": "Vinyl",
+        "qty": "1",
+        "descriptions": [
+          "7\"",
+          "45 RPM",
+          "EP",
+          "Mono"
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "name": "Philips",
+        "catno": "429 741 BE",
+        "entity_type": "1",
+        "entity_type_name": "Label",
+        "id": 7704,
+        "resource_url": "https://api.discogs.com/labels/7704"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Duke Ellington And His Award Winners",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 3995296,
+        "resource_url": "https://api.discogs.com/artists/3995296"
+      }
+    ],
+    "genres": [
+      "Jazz"
+    ],
+    "styles": [
+      "Big Band"
+    ]
+  },
+  "folder_id": 1,
+  "notes": [
+    {
+      "field_id": 1,
+      "value": "Fair (F)"
+    },
+    {
+      "field_id": 2,
+      "value": "Good (G)"
+    }
+  ]
+}

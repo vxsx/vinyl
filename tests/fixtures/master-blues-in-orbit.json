@@ -1,0 +1,85 @@
+{
+  "id": 639911,
+  "main_release": 5271651,
+  "most_recent_release": 11339741,
+  "resource_url": "https://api.discogs.com/masters/639911",
+  "uri": "https://www.discogs.com/master/639911-Duke-Ellington-And-His-Award-Winners-Blues-In-Orbit",
+  "versions_url": "https://api.discogs.com/masters/639911/versions",
+  "main_release_url": "https://api.discogs.com/releases/5271651",
+  "most_recent_release_url": "https://api.discogs.com/releases/11339741",
+  "num_for_sale": 11,
+  "lowest_price": 2.65,
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/An2EZWnIxLd8xTZIMczmQGIdAjVdc_2Ezu03Z3gbIVs/rs:fit/g:sm/q:90/h:600/w:587/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNzE2/NTEtMTc1MTg4NDY4/NC01OTk2LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/An2EZWnIxLd8xTZIMczmQGIdAjVdc_2Ezu03Z3gbIVs/rs:fit/g:sm/q:90/h:600/w:587/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNzE2/NTEtMTc1MTg4NDY4/NC01OTk2LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/hy3uuiOyxGTq1gdDY5md2vHbw1XxjFH7rJ8M2CtOWe8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNzE2/NTEtMTc1MTg4NDY4/NC01OTk2LmpwZWc.jpeg",
+      "width": 587,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/0KsjSwYXEFJcdCLJDW6lopU-7YqCU40iFrh1KT8UKvM/rs:fit/g:sm/q:90/h:400/w:398/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNzE2/NTEtMTM4OTIzMTMz/OS04NTIxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/0KsjSwYXEFJcdCLJDW6lopU-7YqCU40iFrh1KT8UKvM/rs:fit/g:sm/q:90/h:400/w:398/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNzE2/NTEtMTM4OTIzMTMz/OS04NTIxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/DevyasNL12Jq7IB08nbVp93gTLXu9sLkJUCXX1_-jNc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNzE2/NTEtMTM4OTIzMTMz/OS04NTIxLmpwZWc.jpeg",
+      "width": 398,
+      "height": 400
+    }
+  ],
+  "genres": [
+    "Jazz"
+  ],
+  "styles": [
+    "Big Band"
+  ],
+  "year": 1960,
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Villes Ville Is The Place, Man",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "The Swingers Get The Blues Too",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Three J's Blues",
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "The Swinger's Jump",
+      "duration": ""
+    }
+  ],
+  "artists": [
+    {
+      "name": "Duke Ellington And His Award Winners",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 3995296,
+      "resource_url": "https://api.discogs.com/artists/3995296"
+    }
+  ],
+  "title": "Blues In Orbit",
+  "data_quality": "Correct",
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=meHvpBaxF5g",
+      "title": "Duke Ellington & His Award Winners - Blues In Blueprint",
+      "description": "Duke Ellington & His Award Winners - Blues In Blueprint",
+      "duration": 225,
+      "embed": true
+    }
+  ]
+}

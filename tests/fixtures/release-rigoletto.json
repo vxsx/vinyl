@@ -1,0 +1,440 @@
+{
+  "id": 17980264,
+  "status": "Accepted",
+  "year": 0,
+  "resource_url": "https://api.discogs.com/releases/17980264",
+  "uri": "https://www.discogs.com/release/17980264-Verdi-Licinio-Montefusco-Anna-Maccianti-Michele-Molese-Nedda-Casei-Federico-Davia-Chor-Und-Orchester",
+  "artists": [
+    {
+      "name": "Giuseppe Verdi",
+      "anv": "Verdi",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 192327,
+      "resource_url": "https://api.discogs.com/artists/192327",
+      "thumbnail_url": "https://i.discogs.com/RoKuZHHMwAN0bE0g2Nkyvm2WqA9G964qib0V70TbWuI/rs:fit/g:sm/q:90/h:309/w:225/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE5MjMy/Ny0xNDcyOTI3MTQw/LTQ0NjYuanBlZw.jpeg"
+    },
+    {
+      "name": "Licinio Montefusco",
+      "anv": "",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 2563932,
+      "resource_url": "https://api.discogs.com/artists/2563932",
+      "thumbnail_url": "https://i.discogs.com/FvGrvfPyh5PSBVvPj4LHTmUcPjYLQtyzcF7xy6tLTcc/rs:fit/g:sm/q:90/h:600/w:446/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI1NjM5/MzItMTY5MDQ5OTkz/Ny05MjcyLmpwZWc.jpeg"
+    },
+    {
+      "name": "Anna Maccianti",
+      "anv": "",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 1951618,
+      "resource_url": "https://api.discogs.com/artists/1951618",
+      "thumbnail_url": "https://i.discogs.com/QMClYw7bFBfgYG28gFKifNa_9rfDUC38aLrYXiX-irE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE5NTE2/MTgtMTQyNDQ3MDky/MS00NzQwLmpwZWc.jpeg"
+    },
+    {
+      "name": "Michele Molese",
+      "anv": "",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 1330400,
+      "resource_url": "https://api.discogs.com/artists/1330400",
+      "thumbnail_url": "https://i.discogs.com/JSiiOGLTetauDYrWkHHXwmeuC7_rd8HDiBwEn9eSyW0/rs:fit/g:sm/q:90/h:578/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzMzA0/MDAtMTU2NTgxMzk4/My0yMTYxLmpwZWc.jpeg"
+    },
+    {
+      "name": "Nedda Casei",
+      "anv": "",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 1330402,
+      "resource_url": "https://api.discogs.com/artists/1330402",
+      "thumbnail_url": "https://i.discogs.com/YwgHpIS_dKtrrf59f7lBcf-GqC3IWLBCUaArRRmMhBQ/rs:fit/g:sm/q:90/h:235/w:224/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEzMzA0/MDItMTU4MDM4Mjg0/My01MjEzLmpwZWc.jpeg"
+    },
+    {
+      "name": "Federico Davià",
+      "anv": "Federico Davia",
+      "join": ",",
+      "role": "",
+      "tracks": "",
+      "id": 5325056,
+      "resource_url": "https://api.discogs.com/artists/5325056",
+      "thumbnail_url": "https://i.discogs.com/nDIg1X5zBHXx7NSAwzEexb8CZGi5Vhbz0NwZgg-R9fo/rs:fit/g:sm/q:90/h:300/w:247/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUzMjUw/NTYtMTYwNzA2Njg0/OC0xNjg1LmpwZWc.jpeg"
+    },
+    {
+      "name": "Wiener Staatsopernchor",
+      "anv": "Chor",
+      "join": "Und",
+      "role": "",
+      "tracks": "",
+      "id": 855072,
+      "resource_url": "https://api.discogs.com/artists/855072",
+      "thumbnail_url": "https://i.discogs.com/eG1ll0ZwY7OjQ_gJbFK4-2-JR-JNyIwySlTX75hXhiU/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1NTA3/Mi0xMzIxNTQ1NjEw/LmpwZWc.jpeg"
+    },
+    {
+      "name": "Orchester Der Wiener Staatsoper",
+      "anv": "",
+      "join": "Leitung:",
+      "role": "",
+      "tracks": "",
+      "id": 696188,
+      "resource_url": "https://api.discogs.com/artists/696188",
+      "thumbnail_url": "https://i.discogs.com/EumVb2MYp_VeP0nY-JaC8Itae0JPo7Co0j7UyvURM2w/rs:fit/g:sm/q:90/h:401/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY5NjE4/OC0xNjY0NjQzMTcy/LTY4MTEuanBlZw.jpeg"
+    },
+    {
+      "name": "Gianfranco Rivoli",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 988713,
+      "resource_url": "https://api.discogs.com/artists/988713",
+      "thumbnail_url": "https://i.discogs.com/bRIYG1BklvHb4rXWVNlrEbKxExwvFwAJNBkWG20zM3o/rs:fit/g:sm/q:90/h:394/w:310/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTk4ODcx/My0xMzU3MTc4MTI5/LTk3NDguanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Giuseppe Verdi, Licinio Montefusco, Anna Maccianti, Michele Molese, Nedda Casei, Federico Davià, Wiener Staatsopernchor Und Orchester Der Wiener Staatsoper Leitung: Gianfranco Rivoli",
+  "labels": [
+    {
+      "name": "Concert Hall",
+      "catno": "SMS-2371",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 44301,
+      "resource_url": "https://api.discogs.com/labels/44301",
+      "thumbnail_url": "https://i.discogs.com/6dhb6e7oJXq4SeoS5sY-q5pzSPm5GvuA66o5NnVxsKs/rs:fit/g:sm/q:90/h:183/w:415/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ0MzAx/LTE0MzEzOTg3MTIt/MjY4Ny5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Turicaphon AG",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 316007,
+      "resource_url": "https://api.discogs.com/labels/316007",
+      "thumbnail_url": "https://i.discogs.com/Pvu5O5uNFlfVG2lij2KUxDB8G8xdnmJhUodRMzUU6y4/rs:fit/g:sm/q:90/h:300/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMxNjAw/Ny0xNTI1MDc5NDUy/LTI1MjYuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "2",
+      "descriptions": [
+        "LP",
+        "Stereo"
+      ],
+      "text": "Synchro stereo"
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 8,
+    "want": 3,
+    "rating": {
+      "count": 1,
+      "average": 3
+    },
+    "submitter": {
+      "username": "ALONOY",
+      "resource_url": "https://api.discogs.com/users/ALONOY"
+    },
+    "contributors": [
+      {
+        "username": "ALONOY",
+        "resource_url": "https://api.discogs.com/users/ALONOY"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 2,
+  "date_added": "2021-03-23T14:22:50-07:00",
+  "date_changed": "2021-03-23T14:37:15-07:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "master_id": 925420,
+  "master_url": "https://api.discogs.com/masters/925420",
+  "title": "Rigoletto Oper In 3 Akten Von Verdi",
+  "country": null,
+  "notes": "Liner Notes in German\n\nDer Herzog von Mantua - Michele Molles\nRigoletto - Licino Montefusco\nGilda - Anna Macciani\nSparafucile - Federico Davia\nMaddalena - Neda Casei \nGiovanna - Susanne Steffan\nDer Graf von Montieren - Karl Neugebauer\nMarullo - Friederich Strack\nBorsa - Karl Setzer\nDer Graf von Ceprano - Nikolaus Simkovsky\nDie Gräfin von Ceprano - Anna Vajda\n\nComes with a 32 page paper insert.",
+  "identifiers": [
+    {
+      "type": "Pressing Plant ID",
+      "value": "TU",
+      "description": "On Label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "SMS 2371-I-21 TU",
+      "description": "Runout side 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "SMS 2371-II-21 TU",
+      "description": "Runout side 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "SMS 2371-III-21 TU",
+      "description": "Runout side 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "SMS 2371-IV-21 TU",
+      "description": "Runout side 4"
+    }
+  ],
+  "videos": [],
+  "genres": [
+    "Classical"
+  ],
+  "styles": [
+    "Opera"
+  ],
+  "tracklist": [
+    {
+      "position": "",
+      "type_": "index",
+      "title": "Rigoletto",
+      "duration": "",
+      "sub_tracks": [
+        {
+          "position": "1",
+          "type_": "track",
+          "title": "Act I (beginning)",
+          "duration": ""
+        },
+        {
+          "position": "2",
+          "type_": "track",
+          "title": "Act I (conclusion)",
+          "duration": ""
+        },
+        {
+          "position": "3",
+          "type_": "track",
+          "title": "Act II",
+          "duration": ""
+        },
+        {
+          "position": "4",
+          "type_": "track",
+          "title": "Act III",
+          "duration": ""
+        }
+      ]
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Friedrich Strack",
+      "anv": "",
+      "join": "",
+      "role": "Baritone Vocals",
+      "tracks": "",
+      "id": 3412030,
+      "resource_url": "https://api.discogs.com/artists/3412030"
+    },
+    {
+      "name": "Licinio Montefusco",
+      "anv": "",
+      "join": "",
+      "role": "Baritone Vocals",
+      "tracks": "",
+      "id": 2563932,
+      "resource_url": "https://api.discogs.com/artists/2563932"
+    },
+    {
+      "name": "Federico Davià",
+      "anv": "",
+      "join": "",
+      "role": "Bass Vocals",
+      "tracks": "",
+      "id": 5325056,
+      "resource_url": "https://api.discogs.com/artists/5325056"
+    },
+    {
+      "name": "Karl Neugebauer",
+      "anv": "",
+      "join": "",
+      "role": "Bass Vocals",
+      "tracks": "",
+      "id": 3020563,
+      "resource_url": "https://api.discogs.com/artists/3020563"
+    },
+    {
+      "name": "Wiener Staatsopernchor",
+      "anv": "",
+      "join": "",
+      "role": "Choir",
+      "tracks": "",
+      "id": 855072,
+      "resource_url": "https://api.discogs.com/artists/855072"
+    },
+    {
+      "name": "Gianfranco Rivoli",
+      "anv": "",
+      "join": "",
+      "role": "Conductor",
+      "tracks": "",
+      "id": 988713,
+      "resource_url": "https://api.discogs.com/artists/988713"
+    },
+    {
+      "name": "Nedda Casei",
+      "anv": "",
+      "join": "",
+      "role": "Mezzo-soprano Vocals",
+      "tracks": "",
+      "id": 1330402,
+      "resource_url": "https://api.discogs.com/artists/1330402"
+    },
+    {
+      "name": "Orchester Der Wiener Staatsoper",
+      "anv": "",
+      "join": "",
+      "role": "Orchestra",
+      "tracks": "",
+      "id": 696188,
+      "resource_url": "https://api.discogs.com/artists/696188"
+    },
+    {
+      "name": "Ernst Lichtenhahn",
+      "anv": "",
+      "join": "",
+      "role": "Sleeve Notes",
+      "tracks": "",
+      "id": 1933621,
+      "resource_url": "https://api.discogs.com/artists/1933621"
+    },
+    {
+      "name": "Anna Maccianti",
+      "anv": "",
+      "join": "",
+      "role": "Soprano Vocals",
+      "tracks": "",
+      "id": 1951618,
+      "resource_url": "https://api.discogs.com/artists/1951618"
+    },
+    {
+      "name": "Michele Molese",
+      "anv": "",
+      "join": "",
+      "role": "Tenor Vocals",
+      "tracks": "",
+      "id": 1330400,
+      "resource_url": "https://api.discogs.com/artists/1330400"
+    },
+    {
+      "name": "Nikolaus Simkowsky",
+      "anv": "",
+      "join": "",
+      "role": "Tenor Vocals",
+      "tracks": "",
+      "id": 2304063,
+      "resource_url": "https://api.discogs.com/artists/2304063"
+    },
+    {
+      "name": "Anna Vajda",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 6030714,
+      "resource_url": "https://api.discogs.com/artists/6030714"
+    },
+    {
+      "name": "Karl Setzer",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 3876703,
+      "resource_url": "https://api.discogs.com/artists/3876703"
+    },
+    {
+      "name": "Susanne Steffan",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 3876702,
+      "resource_url": "https://api.discogs.com/artists/3876702"
+    }
+  ],
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/odJsWAMbsXgn6Be26Usz_iZP-MqJWzqRY7FAN8GpBwY/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODMtMzYzNi5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/odJsWAMbsXgn6Be26Usz_iZP-MqJWzqRY7FAN8GpBwY/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODMtMzYzNi5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/AV5Of3JF5Y4DdEWxHo7GqznNsBx2ZZoZHUrrMa-chmI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODMtMzYzNi5qcGVn.jpeg",
+      "width": 592,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/RyCVsLhfho1bfGJvrYW26s-JfBs7XJe5WypmFxx8kpY/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODUtMjE4Mi5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/RyCVsLhfho1bfGJvrYW26s-JfBs7XJe5WypmFxx8kpY/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODUtMjE4Mi5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/1UyZT9X6Pup1wuCSbf-xWSLqQ6TXNWqkvXkAy96BoC8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODUtMjE4Mi5qcGVn.jpeg",
+      "width": 592,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/S4RZg_TfKYUu4X-4n9zT3KpuShhn37shn1Ps5W8AMgA/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODgtOTExMy5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/S4RZg_TfKYUu4X-4n9zT3KpuShhn37shn1Ps5W8AMgA/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODgtOTExMy5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/XKKwxjs9rawmqJ1z-GFeB8UcdAt7A1FTWQnoVOabaAc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODgtOTExMy5qcGVn.jpeg",
+      "width": 591,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/116bt1R885sZKZ4L07BR4atHGOT50O23i1gsqINk7lQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTAtODk4OC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/116bt1R885sZKZ4L07BR4atHGOT50O23i1gsqINk7lQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTAtODk4OC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/tI3am1DCZYLrztEwc9L9YUjszXajQ15ij_zdnUWUAi0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTAtODk4OC5qcGVn.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/rinjCM9zxQvydVH2Dq_JWOTkNjZhkIasqbaIo54B7qc/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTMtNjc2OS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/rinjCM9zxQvydVH2Dq_JWOTkNjZhkIasqbaIo54B7qc/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTMtNjc2OS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/51VM7wC_8ilK5Lse7T2InCFNJB6ZcefDqSCnx3xcuUw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTMtNjc2OS5qcGVn.jpeg",
+      "width": 598,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/XmQL2EtuiXa9KAqpX80FZT9sgqe-aNF3BIRVJG6YKeU/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTUtOTg3MS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/XmQL2EtuiXa9KAqpX80FZT9sgqe-aNF3BIRVJG6YKeU/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTUtOTg3MS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/K1bkyLMKs-pX9sdbVhd_3VLsmuAcgeG7HRhx_VhSEO4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTUtOTg3MS5qcGVn.jpeg",
+      "width": 600,
+      "height": 599
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/tOkPj0Li4hEQXQ-nuQIJjUBk0AHbB7lez0ylljc10fo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTgtMzAyMC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/tOkPj0Li4hEQXQ-nuQIJjUBk0AHbB7lez0ylljc10fo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTgtMzAyMC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/D8trCR5gIbudoHH7sdOY0T_7uC1YfiT4YDu5iDPQohg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/OTgtMzAyMC5qcGVn.jpeg",
+      "width": 600,
+      "height": 598
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/EoRr5fALr_BSyyGuboIqt2WOzJzi_sAoC5bZHt_8AEA/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ2/MDAtMjgyNi5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/EoRr5fALr_BSyyGuboIqt2WOzJzi_sAoC5bZHt_8AEA/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ2/MDAtMjgyNi5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/-LT58RhuxhXSwqCxiK3LGhvEjl4qe6soBXZ0UNeeRog/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ2/MDAtMjgyNi5qcGVn.jpeg",
+      "width": 599,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/AV5Of3JF5Y4DdEWxHo7GqznNsBx2ZZoZHUrrMa-chmI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODMtMzYzNi5qcGVn.jpeg",
+  "estimated_weight": 460,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

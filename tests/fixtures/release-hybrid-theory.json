@@ -1,0 +1,1203 @@
+{
+  "id": 14820313,
+  "status": "Accepted",
+  "year": 2020,
+  "resource_url": "https://api.discogs.com/releases/14820313",
+  "uri": "https://www.discogs.com/release/14820313-Linkin-Park-Hybrid-Theory",
+  "artists": [
+    {
+      "name": "Linkin Park",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 40029,
+      "resource_url": "https://api.discogs.com/artists/40029",
+      "thumbnail_url": "https://i.discogs.com/SdPvVMgMoCnDjZ_JdZrEjA-Xgdwr6MoZ8yjCzxyx0WY/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQwMDI5/LTE3NDMxODY0MjEt/NzAxNC5qcGVn.jpeg"
+    }
+  ],
+  "artists_sort": "Linkin Park",
+  "labels": [
+    {
+      "name": "Warner Records",
+      "catno": "093624941422",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 134882,
+      "resource_url": "https://api.discogs.com/labels/134882",
+      "thumbnail_url": "https://i.discogs.com/VXe1252-kjlsKC8ahwKwRSTBIYAEwTInthD7CiS8BLE/rs:fit/g:sm/q:90/h:216/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEzNDg4/Mi0xNTYzNDU4NDI5/LTk2NjguanBlZw.jpeg"
+    },
+    {
+      "name": "Machine Shop Recordings",
+      "catno": "093624941422",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 49462,
+      "resource_url": "https://api.discogs.com/labels/49462",
+      "thumbnail_url": "https://i.discogs.com/_4a6NWRjJirFPpz5e79AfDde6RD--aWh3JJMjaGBHWI/rs:fit/g:sm/q:90/h:600/w:424/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQ5NDYy/LTE1MjY0MzE5MDMt/OTM1NS5qcGVn.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Warner Music Group",
+      "catno": "",
+      "entity_type": "4",
+      "entity_type_name": "Record Company",
+      "id": 2345,
+      "resource_url": "https://api.discogs.com/labels/2345",
+      "thumbnail_url": "https://i.discogs.com/95s0HdOCUU8FyLsHNEDnOWp4uyplgYi8soEbgIdX1dY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIzNDUt/MTc4MTM2Mjc2MS0x/OTYyLmpwZWc.jpeg"
+    },
+    {
+      "name": "Warner Records Inc.",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 596015,
+      "resource_url": "https://api.discogs.com/labels/596015",
+      "thumbnail_url": "https://i.discogs.com/RikpzVtGMoIwbY-bgMQP-LRaVwL6x9wlQ1_JhnRmylk/rs:fit/g:sm/q:90/h:48/w:246/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU5NjAx/NS0xNjQ5OTU4MDYy/LTY0NzguanBlZw.jpeg"
+    },
+    {
+      "name": "Warner Records Inc.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 596015,
+      "resource_url": "https://api.discogs.com/labels/596015",
+      "thumbnail_url": "https://i.discogs.com/RikpzVtGMoIwbY-bgMQP-LRaVwL6x9wlQ1_JhnRmylk/rs:fit/g:sm/q:90/h:48/w:246/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU5NjAx/NS0xNjQ5OTU4MDYy/LTY0NzguanBlZw.jpeg"
+    },
+    {
+      "name": "Universal Music-Z Songs",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 346833,
+      "resource_url": "https://api.discogs.com/labels/346833"
+    },
+    {
+      "name": "Chesterchaz Publishing",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 346834,
+      "resource_url": "https://api.discogs.com/labels/346834"
+    },
+    {
+      "name": "Big Bad Mr. Hahn Music",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 380128,
+      "resource_url": "https://api.discogs.com/labels/380128"
+    },
+    {
+      "name": "Nondisclosure Agreement Music",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 380127,
+      "resource_url": "https://api.discogs.com/labels/380127"
+    },
+    {
+      "name": "Rob Bourdon Music",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 380129,
+      "resource_url": "https://api.discogs.com/labels/380129"
+    },
+    {
+      "name": "Kenji Kobayashi Music",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 380130,
+      "resource_url": "https://api.discogs.com/labels/380130"
+    },
+    {
+      "name": "Pancakey Cakes Music",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 380126,
+      "resource_url": "https://api.discogs.com/labels/380126"
+    },
+    {
+      "name": "Dust Brothers Music",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 286667,
+      "resource_url": "https://api.discogs.com/labels/286667"
+    },
+    {
+      "name": "Universal Music Corp.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 277732,
+      "resource_url": "https://api.discogs.com/labels/277732"
+    },
+    {
+      "name": "Universal Music - Z Tunes LLC",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 376922,
+      "resource_url": "https://api.discogs.com/labels/376922"
+    },
+    {
+      "name": "Moper Music",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 482885,
+      "resource_url": "https://api.discogs.com/labels/482885"
+    },
+    {
+      "name": "NRG Studios",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 270281,
+      "resource_url": "https://api.discogs.com/labels/270281",
+      "thumbnail_url": "https://i.discogs.com/4F5gD9NJbW4thXWiRB9bJfG6NeApq0K-Mr_GE72hwAw/rs:fit/g:sm/q:90/h:309/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI3MDI4/MS0xMzMxNDMzNjQy/LmpwZWc.jpeg"
+    },
+    {
+      "name": "Soundtrack Studios",
+      "catno": "",
+      "entity_type": "27",
+      "entity_type_name": "Mixed At",
+      "id": 273437,
+      "resource_url": "https://api.discogs.com/labels/273437",
+      "thumbnail_url": "https://i.discogs.com/VV1rm1gtYYN831WPozxd46-_ejVcrLa7-6FmnuV7pSI/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI3MzQz/Ny0xMzUxNjIxNzk3/LTQwMDguanBlZw.jpeg"
+    },
+    {
+      "name": "Bernie Grundman Mastering",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 263896,
+      "resource_url": "https://api.discogs.com/labels/263896",
+      "thumbnail_url": "https://i.discogs.com/nsGBKV1E7CmO2wHP4oMbHuOfMxw-5FIZjetOKyez7GU/rs:fit/g:sm/q:90/h:182/w:383/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2Mzg5/Ni0xMzE1MzQ3NDEy/LmpwZWc.jpeg"
+    },
+    {
+      "name": "Optimal Media GmbH",
+      "catno": "BD06457",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 313190,
+      "resource_url": "https://api.discogs.com/labels/313190",
+      "thumbnail_url": "https://i.discogs.com/VHruzHmKvGgDvoWX6iI_4n5eC7mKyVei1mNz573rJtk/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMxMzE5/MC0xNTE2MzgxNjk2/LTIzMTgucG5n.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "LP",
+        "Album",
+        "Reissue"
+      ],
+      "text": "Gatefold"
+    }
+  ],
+  "data_quality": "Correct",
+  "community": {
+    "have": 27548,
+    "want": 3261,
+    "rating": {
+      "count": 2195,
+      "average": 4.71
+    },
+    "submitter": {
+      "username": "tdpyett",
+      "resource_url": "https://api.discogs.com/users/tdpyett"
+    },
+    "contributors": [
+      {
+        "username": "tdpyett",
+        "resource_url": "https://api.discogs.com/users/tdpyett"
+      },
+      {
+        "username": "EntePips",
+        "resource_url": "https://api.discogs.com/users/EntePips"
+      },
+      {
+        "username": "endlesssearch",
+        "resource_url": "https://api.discogs.com/users/endlesssearch"
+      },
+      {
+        "username": "Krogstrup",
+        "resource_url": "https://api.discogs.com/users/Krogstrup"
+      },
+      {
+        "username": "DavidCapell",
+        "resource_url": "https://api.discogs.com/users/DavidCapell"
+      },
+      {
+        "username": "vrp_pdx",
+        "resource_url": "https://api.discogs.com/users/vrp_pdx"
+      },
+      {
+        "username": "jweijde",
+        "resource_url": "https://api.discogs.com/users/jweijde"
+      },
+      {
+        "username": "afonsosriv",
+        "resource_url": "https://api.discogs.com/users/afonsosriv"
+      },
+      {
+        "username": "electro-lagune",
+        "resource_url": "https://api.discogs.com/users/electro-lagune"
+      },
+      {
+        "username": "cliffonthemoon",
+        "resource_url": "https://api.discogs.com/users/cliffonthemoon"
+      },
+      {
+        "username": "Viril666",
+        "resource_url": "https://api.discogs.com/users/Viril666"
+      },
+      {
+        "username": "teuberm",
+        "resource_url": "https://api.discogs.com/users/teuberm"
+      },
+      {
+        "username": "adrian.schmitt.96",
+        "resource_url": "https://api.discogs.com/users/adrian.schmitt.96"
+      },
+      {
+        "username": "lcephoenix",
+        "resource_url": "https://api.discogs.com/users/lcephoenix"
+      },
+      {
+        "username": "VinylRarity",
+        "resource_url": "https://api.discogs.com/users/VinylRarity"
+      },
+      {
+        "username": "Broed_Gunnar",
+        "resource_url": "https://api.discogs.com/users/Broed_Gunnar"
+      },
+      {
+        "username": "Chris_Roose",
+        "resource_url": "https://api.discogs.com/users/Chris_Roose"
+      },
+      {
+        "username": "bernd69",
+        "resource_url": "https://api.discogs.com/users/bernd69"
+      },
+      {
+        "username": "FabioAugusto85",
+        "resource_url": "https://api.discogs.com/users/FabioAugusto85"
+      },
+      {
+        "username": "njcollects",
+        "resource_url": "https://api.discogs.com/users/njcollects"
+      }
+    ],
+    "data_quality": "Correct",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2020-02-20T12:36:56-08:00",
+  "date_changed": "2026-07-27T15:46:00-07:00",
+  "num_for_sale": 242,
+  "lowest_price": 17.4,
+  "master_id": 74519,
+  "master_url": "https://api.discogs.com/masters/74519",
+  "title": "Hybrid Theory",
+  "country": "Europe",
+  "released": "2020",
+  "notes": "Reissue with new [l134882] logo.\n\nOn back cover:\nWarner Records Inc., A Warner Music Group Company.\n© 2001 Warner Records Inc. ℗ 2000 Warner Records Inc. Made in Germany.\n\nOn labels:\n© 2001 Warner Records Inc.\n℗ 2000 Warner Records Inc.\nMade in Germany.\n\nOn lyrics sheet:\n© 2001 Warner Records Inc. Made In Germany.\n\nAdditional information:\nIncluding a printed lyrics sheet.\n\nRunout information:\n\"211\" of runout side B, variant 4 is mirrored.\nOn variant 7 side B, the \"9\" of the \"9=\" part is mirrored",
+  "released_formatted": "2020",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "093624941422",
+      "description": "Scanned"
+    },
+    {
+      "type": "Barcode",
+      "value": "0 93624 94142 2",
+      "description": "Printed"
+    },
+    {
+      "type": "Rights Society",
+      "value": "BMI"
+    },
+    {
+      "type": "Rights Society",
+      "value": "ASCAP"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 A1 1-532432 A “!”",
+      "description": "Runout side A, variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 B1 1-532432 B “!”",
+      "description": "Runout side B, variant 1"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 A1 “!” △/Λ 1-532432 A",
+      "description": "Runout side A, variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 B1 X+Z 1-532432 B “!”",
+      "description": "Runout side B, variant 2"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 A1 “!” v=f 1-532432 A",
+      "description": "Runout side A, variant 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 B1 1-532432 A “!”",
+      "description": "Runout side B, variant 3"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "\"!\" 1-532432 A BD06457-01 A1 T+f",
+      "description": "Runout side A, variant 4"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 B1 1-532432 B \"!\" 211",
+      "description": "Runout side B, variant 4"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "8IX 1-532432A BD06457-01 A1 \"!\"",
+      "description": "Runout side A, variant 5"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "2XV 1-532432B BD06457-01 B1 \"!\"",
+      "description": "Runout side B, variant 5"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "\"!\" 1-532432 A BD06457-01 A1 21X",
+      "description": "Runout side A, variant 6"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 B1 1-532432 B \"!\" +1F",
+      "description": "Runout side B, variant 6"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 A1 “!” d+ 1-532432 A",
+      "description": "Runout side A, variant 7"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 B1 9= 1-532432 B “!”",
+      "description": "Runout side B, variant 7"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 A1 1-532432 A “!” X+F",
+      "description": "Runout side A, variant 8"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BD06457-01 B1 1-532432 B “!” TV5",
+      "description": "Runout side B, variant 8"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=eVTXPUF4Oz4",
+      "title": "In The End [Official HD Music Video] - Linkin Park",
+      "description": "In The End [Official HD Music Video] - Linkin Park\n----------\nFrom Zero | The New Album | Available Now\nOrder Now: https://lprk.co/fromzerodlx\n\nOfficial Linkin Park Merch: http://lprk.co/store\nText/Call: https://lprk.co/text\nNewsletter Sign Up: https://lp",
+      "duration": 219,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4qlCC1GOwFw",
+      "title": "One Step Closer [Official HD Music Video] - Linkin Park",
+      "description": "Watch the official HD music video for One Step Closer by Linkin Park from the album Hybrid Theory.\n----------\nFrom Zero (Deluxe Edition) - Out Now: https://lprk.co/fromzerodlx\n\nOfficial Linkin Park Merch: http://lprk.co/store\nText/Call: https://lprk.co/te",
+      "duration": 177,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Gd9OhYroLN0",
+      "title": "Crawling [Official HD Music Video] - Linkin Park",
+      "description": "Crawling [Official HD Music Video] - Linkin Park\n----------\nFrom Zero (Deluxe Edition) - Out Now: https://lprk.co/fromzerodlx\n\nOfficial Linkin Park Merch: http://lprk.co/store\nText/Call: https://lprk.co/text\nNewsletter Sign Up: https://lprk.co/newsletter\n",
+      "duration": 217,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=vjVkXlxsO8Q",
+      "title": "Papercut [Official HD Music Video] - Linkin Park",
+      "description": "Papercut [Official HD Music Video] - Linkin Park\n----------\nFrom Zero (Deluxe Edition) - Out Now: https://lprk.co/fromzerodlx\n\nOfficial Linkin Park Merch: http://lprk.co/store\nText/Call: https://lprk.co/text\nNewsletter Sign Up: https://lprk.co/newsletter\n",
+      "duration": 193,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=jZSPAp8kCl4",
+      "title": "Points Of Authority [Official HD Music Video] - Linkin Park",
+      "description": "Watch the official HD music video for Points Of Authority by Linkin Park from the album Hybrid Theory.\n----------\nFrom Zero (Deluxe Edition) - Out Now: https://lprk.co/fromzerodlx\n\nFrom Zero World Tour\nTickets On Sale Now: http://lprk.co/tour\n\nOfficial Li",
+      "duration": 212,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=u6z5U83lfrQ",
+      "title": "Cure For The Itch (Official Video) - Linkin Park",
+      "description": "From Zero (Deluxe Edition) - Out May 16th\nPre-Order Now: https://lprk.co/fromzerodlx\n\nFrom Zero World Tour 2025\nTickets On Sale Now: http://lprk.co/tour\n\nFrom Zero | The New Album | Available Now\nOrder Now: https://lprk.co/fromzero\n\nApple Music: http://lp",
+      "duration": 56,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Hip Hop",
+    "Rock"
+  ],
+  "styles": [
+    "Nu Metal",
+    "Alternative Rock"
+  ],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Papercut",
+      "extraartists": [
+        {
+          "name": "Ian Hornbeck",
+          "anv": "",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 117932,
+          "resource_url": "https://api.discogs.com/artists/117932"
+        },
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        }
+      ],
+      "duration": "3:05"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "One Step Closer",
+      "extraartists": [
+        {
+          "name": "Scott Koziol",
+          "anv": "",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 117933,
+          "resource_url": "https://api.discogs.com/artists/117933"
+        },
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        }
+      ],
+      "duration": "2:37"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "With You",
+      "extraartists": [
+        {
+          "name": "The Dust Brothers",
+          "anv": "",
+          "join": "",
+          "role": "Beats [Additional Beats]",
+          "tracks": "",
+          "id": 36647,
+          "resource_url": "https://api.discogs.com/artists/36647"
+        },
+        {
+          "name": "John King",
+          "anv": "J. King",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 16661,
+          "resource_url": "https://api.discogs.com/artists/16661"
+        },
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        },
+        {
+          "name": "Mike Simpson",
+          "anv": "M. Simpson",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 42169,
+          "resource_url": "https://api.discogs.com/artists/42169"
+        },
+        {
+          "name": "The Dust Brothers",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 36647,
+          "resource_url": "https://api.discogs.com/artists/36647"
+        }
+      ],
+      "duration": "3:23"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Points Of Authority",
+      "extraartists": [
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        }
+      ],
+      "duration": "3:20"
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Crawling",
+      "extraartists": [
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        }
+      ],
+      "duration": "3:29"
+    },
+    {
+      "position": "A6",
+      "type_": "track",
+      "title": "Runaway",
+      "extraartists": [
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        },
+        {
+          "name": "Mark Wakefield",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 714875,
+          "resource_url": "https://api.discogs.com/artists/714875"
+        }
+      ],
+      "duration": "3:04"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "By Myself",
+      "extraartists": [
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        }
+      ],
+      "duration": "3:10"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "In The End",
+      "extraartists": [
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        }
+      ],
+      "duration": "3:36"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "A Place For My Head",
+      "extraartists": [
+        {
+          "name": "Ian Hornbeck",
+          "anv": "",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 117932,
+          "resource_url": "https://api.discogs.com/artists/117932"
+        },
+        {
+          "name": "Dave Farrell",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 714876,
+          "resource_url": "https://api.discogs.com/artists/714876"
+        },
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        },
+        {
+          "name": "Mark Wakefield",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 714875,
+          "resource_url": "https://api.discogs.com/artists/714875"
+        }
+      ],
+      "duration": "3:05"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Forgotten",
+      "extraartists": [
+        {
+          "name": "Ian Hornbeck",
+          "anv": "",
+          "join": "",
+          "role": "Bass",
+          "tracks": "",
+          "id": 117932,
+          "resource_url": "https://api.discogs.com/artists/117932"
+        },
+        {
+          "name": "Dave Farrell",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 714876,
+          "resource_url": "https://api.discogs.com/artists/714876"
+        },
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        },
+        {
+          "name": "Mark Wakefield",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 714875,
+          "resource_url": "https://api.discogs.com/artists/714875"
+        }
+      ],
+      "duration": "3:14"
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "Cure For The Itch",
+      "extraartists": [
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        }
+      ],
+      "duration": "2:37"
+    },
+    {
+      "position": "B6",
+      "type_": "track",
+      "title": "Pushing Me Away",
+      "extraartists": [
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        }
+      ],
+      "duration": "3:11"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Jeff Blue",
+      "anv": "",
+      "join": "",
+      "role": "A&R",
+      "tracks": "",
+      "id": 254177,
+      "resource_url": "https://api.discogs.com/artists/254177"
+    },
+    {
+      "name": "Flem (2)",
+      "anv": "",
+      "join": "",
+      "role": "Art Direction, Design",
+      "tracks": "",
+      "id": 1939108,
+      "resource_url": "https://api.discogs.com/artists/1939108"
+    },
+    {
+      "name": "Frank Maddocks",
+      "anv": "",
+      "join": "",
+      "role": "Art Direction, Design",
+      "tracks": "",
+      "id": 655350,
+      "resource_url": "https://api.discogs.com/artists/655350"
+    },
+    {
+      "name": "Joseph Hahn",
+      "anv": "",
+      "join": "",
+      "role": "Artwork [Line Art Sketches + Drawings]",
+      "tracks": "",
+      "id": 517956,
+      "resource_url": "https://api.discogs.com/artists/517956"
+    },
+    {
+      "name": "Mike Shinoda",
+      "anv": "",
+      "join": "",
+      "role": "Artwork [Line Art Sketches + Drawings]",
+      "tracks": "",
+      "id": 86301,
+      "resource_url": "https://api.discogs.com/artists/86301"
+    },
+    {
+      "name": "Mike Shinoda",
+      "anv": "",
+      "join": "",
+      "role": "Artwork [Soldier Drawing]",
+      "tracks": "",
+      "id": 86301,
+      "resource_url": "https://api.discogs.com/artists/86301"
+    },
+    {
+      "name": "Scott Koziol",
+      "anv": "",
+      "join": "",
+      "role": "Bass [Touring Bass Player]",
+      "tracks": "",
+      "id": 117933,
+      "resource_url": "https://api.discogs.com/artists/117933"
+    },
+    {
+      "name": "Artist Group International",
+      "anv": "",
+      "join": "",
+      "role": "Booking [Booking Agent For]",
+      "tracks": "",
+      "id": 3682777,
+      "resource_url": "https://api.discogs.com/artists/3682777"
+    },
+    {
+      "name": "Michael Arfin",
+      "anv": "",
+      "join": "",
+      "role": "Booking [Booking Agent]",
+      "tracks": "",
+      "id": 2139084,
+      "resource_url": "https://api.discogs.com/artists/2139084"
+    },
+    {
+      "name": "X-ray Touring",
+      "anv": "",
+      "join": "",
+      "role": "Booking [Europe Booking Agent For]",
+      "tracks": "",
+      "id": 3521381,
+      "resource_url": "https://api.discogs.com/artists/3521381"
+    },
+    {
+      "name": "Scott Thomas (5)",
+      "anv": "",
+      "join": "",
+      "role": "Booking [Europe Booking Agent]",
+      "tracks": "",
+      "id": 2929509,
+      "resource_url": "https://api.discogs.com/artists/2929509"
+    },
+    {
+      "name": "Ariana Murray (2)",
+      "anv": "",
+      "join": "",
+      "role": "Coordinator [A&R Coordination]",
+      "tracks": "",
+      "id": 1886516,
+      "resource_url": "https://api.discogs.com/artists/1886516"
+    },
+    {
+      "name": "Natalie Preston",
+      "anv": "",
+      "join": "",
+      "role": "Coordinator [A&R Coordination]",
+      "tracks": "",
+      "id": 1886517,
+      "resource_url": "https://api.discogs.com/artists/1886517"
+    },
+    {
+      "name": "Rob Bourdon",
+      "anv": "",
+      "join": "",
+      "role": "Drums, Backing Vocals",
+      "tracks": "",
+      "id": 517955,
+      "resource_url": "https://api.discogs.com/artists/517955"
+    },
+    {
+      "name": "Don Gilmore",
+      "anv": "",
+      "join": "",
+      "role": "Engineer",
+      "tracks": "",
+      "id": 231758,
+      "resource_url": "https://api.discogs.com/artists/231758"
+    },
+    {
+      "name": "Steve Sisco",
+      "anv": "",
+      "join": "",
+      "role": "Engineer",
+      "tracks": "",
+      "id": 344702,
+      "resource_url": "https://api.discogs.com/artists/344702"
+    },
+    {
+      "name": "John Ewing Jr.",
+      "anv": "",
+      "join": "",
+      "role": "Engineer [Additional Engineering & Pro Tools]",
+      "tracks": "",
+      "id": 402383,
+      "resource_url": "https://api.discogs.com/artists/402383"
+    },
+    {
+      "name": "Matt Griffin",
+      "anv": "",
+      "join": "",
+      "role": "Engineer [Assistant Engineer]",
+      "tracks": "",
+      "id": 503809,
+      "resource_url": "https://api.discogs.com/artists/503809"
+    },
+    {
+      "name": "Mike Shinoda",
+      "anv": "",
+      "join": "",
+      "role": "Engineer [Assistant Pro Tools]",
+      "tracks": "",
+      "id": 86301,
+      "resource_url": "https://api.discogs.com/artists/86301"
+    },
+    {
+      "name": "Jeff Blue",
+      "anv": "",
+      "join": "",
+      "role": "Executive-Producer",
+      "tracks": "",
+      "id": 254177,
+      "resource_url": "https://api.discogs.com/artists/254177"
+    },
+    {
+      "name": "Brad Delson",
+      "anv": "",
+      "join": "",
+      "role": "Guitar, Bass, Backing Vocals",
+      "tracks": "",
+      "id": 462077,
+      "resource_url": "https://api.discogs.com/artists/462077"
+    },
+    {
+      "name": "Mike Shinoda",
+      "anv": "",
+      "join": "",
+      "role": "MC [Emcee], Vocals, Beats, Sampler [Sampling]",
+      "tracks": "",
+      "id": 86301,
+      "resource_url": "https://api.discogs.com/artists/86301"
+    },
+    {
+      "name": "Gudvi, Sussman & Oppenheim",
+      "anv": "",
+      "join": "",
+      "role": "Management [Business Manager For]",
+      "tracks": "",
+      "id": 3896110,
+      "resource_url": "https://api.discogs.com/artists/3896110"
+    },
+    {
+      "name": "Dana Miller",
+      "anv": "",
+      "join": "",
+      "role": "Management [Business Manager]",
+      "tracks": "",
+      "id": 1569864,
+      "resource_url": "https://api.discogs.com/artists/1569864"
+    },
+    {
+      "name": "Jonathan Schwartz (2)",
+      "anv": "",
+      "join": "",
+      "role": "Management [Business Manager]",
+      "tracks": "",
+      "id": 2305858,
+      "resource_url": "https://api.discogs.com/artists/2305858"
+    },
+    {
+      "name": "Michael Oppenheim",
+      "anv": "",
+      "join": "",
+      "role": "Management [Business Manager]",
+      "tracks": "",
+      "id": 2136581,
+      "resource_url": "https://api.discogs.com/artists/2136581"
+    },
+    {
+      "name": "Jordan Berliant",
+      "anv": "",
+      "join": "",
+      "role": "Management [Management Team]",
+      "tracks": "",
+      "id": 1561062,
+      "resource_url": "https://api.discogs.com/artists/1561062"
+    },
+    {
+      "name": "Michael Green (9)",
+      "anv": "",
+      "join": "",
+      "role": "Management [Management Team]",
+      "tracks": "",
+      "id": 2322537,
+      "resource_url": "https://api.discogs.com/artists/2322537"
+    },
+    {
+      "name": "Ryan DeMarti",
+      "anv": "",
+      "join": "",
+      "role": "Management [Management Team]",
+      "tracks": "",
+      "id": 1075466,
+      "resource_url": "https://api.discogs.com/artists/1075466"
+    },
+    {
+      "name": "The Collective (8)",
+      "anv": "",
+      "join": "",
+      "role": "Management [Worldwide Representation]",
+      "tracks": "",
+      "id": 979561,
+      "resource_url": "https://api.discogs.com/artists/979561"
+    },
+    {
+      "name": "Brian Gardner",
+      "anv": "Brian \"Big Bass\" Gardner",
+      "join": "",
+      "role": "Mastered By, Edited By [Digital Editing]",
+      "tracks": "",
+      "id": 70778,
+      "resource_url": "https://api.discogs.com/artists/70778"
+    },
+    {
+      "name": "Andy Wallace",
+      "anv": "",
+      "join": "",
+      "role": "Mixed By",
+      "tracks": "",
+      "id": 59472,
+      "resource_url": "https://api.discogs.com/artists/59472"
+    },
+    {
+      "name": "James Minchin III",
+      "anv": "",
+      "join": "",
+      "role": "Photography By",
+      "tracks": "",
+      "id": 1404697,
+      "resource_url": "https://api.discogs.com/artists/1404697"
+    },
+    {
+      "name": "Don Gilmore",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 231758,
+      "resource_url": "https://api.discogs.com/artists/231758"
+    },
+    {
+      "name": "Peter Standish",
+      "anv": "",
+      "join": "",
+      "role": "Product Manager [Marketing Director]",
+      "tracks": "",
+      "id": 464150,
+      "resource_url": "https://api.discogs.com/artists/464150"
+    },
+    {
+      "name": "Joseph Hahn",
+      "anv": "",
+      "join": "",
+      "role": "Turntables [Records], Sampler [Sampling], Backing Vocals",
+      "tracks": "",
+      "id": 517956,
+      "resource_url": "https://api.discogs.com/artists/517956"
+    },
+    {
+      "name": "Chester Bennington",
+      "anv": "",
+      "join": "",
+      "role": "Vocals",
+      "tracks": "",
+      "id": 241527,
+      "resource_url": "https://api.discogs.com/artists/241527"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/IxtYuVyECCK6SaPyv0WolhIQbhDoDFps5SnF7gqF3Cs/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjMtODQ3OS5wbmc.jpeg",
+      "resource_url": "https://i.discogs.com/IxtYuVyECCK6SaPyv0WolhIQbhDoDFps5SnF7gqF3Cs/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjMtODQ3OS5wbmc.jpeg",
+      "uri150": "https://i.discogs.com/GxD-fkQ2TDzU9HxsWAr7gt_1zgGXuYjs-q5yGptBqN0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjMtODQ3OS5wbmc.jpeg",
+      "width": 600,
+      "height": 589
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/1unaJu4cyegjKnbAPghJhE4itrWtGdPRdyhdNTfHh-U/rs:fit/g:sm/q:90/h:287/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE2OTgwNzIw/NTQtNzk1OC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/1unaJu4cyegjKnbAPghJhE4itrWtGdPRdyhdNTfHh-U/rs:fit/g:sm/q:90/h:287/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE2OTgwNzIw/NTQtNzk1OC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/Lagt5K70bZJSLTP-PjNb3V_IcTFEnM1u3AivMwtUdOk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE2OTgwNzIw/NTQtNzk1OC5qcGVn.jpeg",
+      "width": 600,
+      "height": 287
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/h20dX1dmqYx9jr-LRsWiY6Tpo4VmpddfZbR61vBw1N4/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjMtNjM0Mi5wbmc.jpeg",
+      "resource_url": "https://i.discogs.com/h20dX1dmqYx9jr-LRsWiY6Tpo4VmpddfZbR61vBw1N4/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjMtNjM0Mi5wbmc.jpeg",
+      "uri150": "https://i.discogs.com/m09PO_503mGio06vpcODuUe4-hU0yuepGeHmpp9ENrc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjMtNjM0Mi5wbmc.jpeg",
+      "width": 600,
+      "height": 591
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/otR_M-UG8hv6gE-Q37yyv8G96_Kp6YAum1dRF7_eeo8/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTkzODY1/MDgtMzkxNC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/otR_M-UG8hv6gE-Q37yyv8G96_Kp6YAum1dRF7_eeo8/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTkzODY1/MDgtMzkxNC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/XYg_8lTpP4iVq2rJePOAk1yoeQ-0SdtokBsTJnwkshw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTkzODY1/MDgtMzkxNC5qcGVn.jpeg",
+      "width": 600,
+      "height": 450
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/6PwqKqDxaSGkZiWCg-oI7Pwok8GenBS3TzY-RngcH5Y/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTkzODY1/MDgtODQ5Ni5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/6PwqKqDxaSGkZiWCg-oI7Pwok8GenBS3TzY-RngcH5Y/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTkzODY1/MDgtODQ5Ni5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/iWaJ2jbYac5ogk3pcGvSndxM6bs84HUP3POCeqgRxRc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTkzODY1/MDgtODQ5Ni5qcGVn.jpeg",
+      "width": 600,
+      "height": 450
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/IRRrwhkvwCbaIhCv0tvDY1I1S_NQq-nu0P4xeg1yyJ8/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE2OTgwNzIy/MzQtOTQxMi5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/IRRrwhkvwCbaIhCv0tvDY1I1S_NQq-nu0P4xeg1yyJ8/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE2OTgwNzIy/MzQtOTQxMi5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/qXQ-xCKRTujQ2IlqPuaJioXDLI_zZbiQe_fDMrQnbkU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE2OTgwNzIy/MzQtOTQxMi5qcGVn.jpeg",
+      "width": 600,
+      "height": 596
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/nhhhTYJ5BPGt2HuX1NCvygoEU7SJntLgZOj3uwJFDPQ/rs:fit/g:sm/q:90/h:600/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjAtMTM2MS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/nhhhTYJ5BPGt2HuX1NCvygoEU7SJntLgZOj3uwJFDPQ/rs:fit/g:sm/q:90/h:600/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjAtMTM2MS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/HqHfj0wy5pX0C6YMMp4slK4bTctYkUoW9JGbX_M97aU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjAtMTM2MS5qcGVn.jpeg",
+      "width": 550,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/8ZmtdJg-Y43FjUOKpWY7nbd7zGXFK63gu2Ah5jdBc3E/rs:fit/g:sm/q:90/h:15/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NTktNjA0OS5wbmc.jpeg",
+      "resource_url": "https://i.discogs.com/8ZmtdJg-Y43FjUOKpWY7nbd7zGXFK63gu2Ah5jdBc3E/rs:fit/g:sm/q:90/h:15/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NTktNjA0OS5wbmc.jpeg",
+      "uri150": "https://i.discogs.com/DmUCg1818lFdHiBGtckY_OLwuqOs1Nyw0sJZDXmgGUM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NTktNjA0OS5wbmc.jpeg",
+      "width": 600,
+      "height": 15
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/GkwErzSGs-CFuQjpl-5DWCBjdpu3vrFf0-QaTi3Iwoo/rs:fit/g:sm/q:90/h:69/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NTktMzk1Ni5wbmc.jpeg",
+      "resource_url": "https://i.discogs.com/GkwErzSGs-CFuQjpl-5DWCBjdpu3vrFf0-QaTi3Iwoo/rs:fit/g:sm/q:90/h:69/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NTktMzk1Ni5wbmc.jpeg",
+      "uri150": "https://i.discogs.com/AJIjqepF9ZXUxdXPiGse0H_KarCMw3v9XHWINlywnao/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NTktMzk1Ni5wbmc.jpeg",
+      "width": 600,
+      "height": 69
+    }
+  ],
+  "thumb": "https://i.discogs.com/GxD-fkQ2TDzU9HxsWAr7gt_1zgGXuYjs-q5yGptBqN0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODIw/MzEzLTE1OTA4NTM0/NjMtODQ3OS5wbmc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

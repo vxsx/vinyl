@@ -1,0 +1,299 @@
+{
+  "id": 74519,
+  "main_release": 369408,
+  "most_recent_release": 36091882,
+  "resource_url": "https://api.discogs.com/masters/74519",
+  "uri": "https://www.discogs.com/master/74519-Linkin-Park-Hybrid-Theory",
+  "versions_url": "https://api.discogs.com/masters/74519/versions",
+  "main_release_url": "https://api.discogs.com/releases/369408",
+  "most_recent_release_url": "https://api.discogs.com/releases/36091882",
+  "num_for_sale": 1073,
+  "lowest_price": 0.5,
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/pU2rfxJKyHRPQofpc2vFX3dzZ7i_kje9HdRQb6g3psM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1MzgwNTQw/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/pU2rfxJKyHRPQofpc2vFX3dzZ7i_kje9HdRQb6g3psM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1MzgwNTQw/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/R2mA6T-TDtaa51rsExeHTWHUq1R00p6DM56JXhjZ-xY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1MzgwNTQw/LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/y2qK7cTLsHFPHMomHUUeyTPQJ0S9kTpRjBKaJOHzbNQ/rs:fit/g:sm/q:90/h:468/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNzE0MzQ0NDgw/LTI4MDkucG5n.jpeg",
+      "resource_url": "https://i.discogs.com/y2qK7cTLsHFPHMomHUUeyTPQJ0S9kTpRjBKaJOHzbNQ/rs:fit/g:sm/q:90/h:468/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNzE0MzQ0NDgw/LTI4MDkucG5n.jpeg",
+      "uri150": "https://i.discogs.com/cMM-2LF08rh-J8L2zKQOZvaoDMhqlxSb4ssf0i-emGU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNzE0MzQ0NDgw/LTI4MDkucG5n.jpeg",
+      "width": 600,
+      "height": 468
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/mg2FWiDEZ1RpZh_pC5MKjxR5QhIbUZDsUAvaDHEDcDE/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNzE0MzQ0Mjkx/LTc0ODIucG5n.jpeg",
+      "resource_url": "https://i.discogs.com/mg2FWiDEZ1RpZh_pC5MKjxR5QhIbUZDsUAvaDHEDcDE/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNzE0MzQ0Mjkx/LTc0ODIucG5n.jpeg",
+      "uri150": "https://i.discogs.com/2MHjQS0s-KRV0q68c6Yr43DPCkJgRwz3JNud_PQH0-k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNzE0MzQ0Mjkx/LTc0ODIucG5n.jpeg",
+      "width": 597,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/CMD74Al6bT6s_q0yN58XxXRWlewLKnjHKs65rLBJL5s/rs:fit/g:sm/q:90/h:567/w:548/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNjE2NzEyNjY4/LTE5NzYuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/CMD74Al6bT6s_q0yN58XxXRWlewLKnjHKs65rLBJL5s/rs:fit/g:sm/q:90/h:567/w:548/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNjE2NzEyNjY4/LTE5NzYuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/ZyJAaxKXc2duVqXwDibCcTQ72ed_QD6gbsZMrJJ_bWk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNjE2NzEyNjY4/LTE5NzYuanBlZw.jpeg",
+      "width": 548,
+      "height": 567
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/hYKJW-_PKn7GhMiskzUvAUif_OjCy03lnfsTTmPZedw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDQ4/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/hYKJW-_PKn7GhMiskzUvAUif_OjCy03lnfsTTmPZedw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDQ4/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/mjxkWWMGHxPpPMo0krPJisXzfnia7re2YIuoHTEg-1k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDQ4/LmpwZWc.jpeg",
+      "width": 600,
+      "height": 590
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/DEnYCq42Jwnf2KqNdiSq_-f4qh14cXbvONDUCqxSk20/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDM4/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/DEnYCq42Jwnf2KqNdiSq_-f4qh14cXbvONDUCqxSk20/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDM4/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Rdb8R2JmU_etXKGjMdiee__X6ibMae5KEee_FpFrWks/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDM4/LmpwZWc.jpeg",
+      "width": 600,
+      "height": 591
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/wYqA0YXSEHVhNfyFfWCWLPDwWQSNGUY1_IT_dTFsh7w/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDI5/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/wYqA0YXSEHVhNfyFfWCWLPDwWQSNGUY1_IT_dTFsh7w/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDI5/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/1vjiT64oQYQcXhU7z0JQvMiwteMVRIzinJYmg-g1DrM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDI5/LmpwZWc.jpeg",
+      "width": 600,
+      "height": 597
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/4agK2jmDQIpM_RRuFdubuQuW4F_LhEYfwKnuLLpvdcw/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg1OTU3/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/4agK2jmDQIpM_RRuFdubuQuW4F_LhEYfwKnuLLpvdcw/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg1OTU3/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/9jY4QApZwn1aKEn0BplyBq148D2_DgSaab-gQ_t23vU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg1OTU3/LmpwZWc.jpeg",
+      "width": 600,
+      "height": 591
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/NvRmip-n6bBPXSUNHSdZ-r6X7NSYz3cIb_Kfe99UlhA/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg1OTc5/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/NvRmip-n6bBPXSUNHSdZ-r6X7NSYz3cIb_Kfe99UlhA/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg1OTc5/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/qDJz08NNQ_GVFymyCymN4J4Ta_HpN2GHxeLiOrcA0Zg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg1OTc5/LmpwZWc.jpeg",
+      "width": 600,
+      "height": 591
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/jX28esoVU139uMhgF8JQ4-FGlZ_zhrjJNwBhxwpjxf0/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg1OTkw/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/jX28esoVU139uMhgF8JQ4-FGlZ_zhrjJNwBhxwpjxf0/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg1OTkw/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/8O2waau7lAa9c5ie8tQxY70oiGE226CFUWZjalKPyLg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg1OTkw/LmpwZWc.jpeg",
+      "width": 600,
+      "height": 591
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/LbSHD3-MRisQdigvWNFF4T17-6ZTp3a1AGQTSfUXtoE/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDAw/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/LbSHD3-MRisQdigvWNFF4T17-6ZTp3a1AGQTSfUXtoE/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDAw/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/pH0K0WdbITLIFTvBfo5sgl21CM5NMTzsWVJMB04ynZw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDAw/LmpwZWc.jpeg",
+      "width": 600,
+      "height": 591
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/4a1uqaIArzUuWvSQlTrI-S8TseIRoyRMhY86WIQtO9s/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDEy/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/4a1uqaIArzUuWvSQlTrI-S8TseIRoyRMhY86WIQtO9s/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDEy/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/9kRlkrNi5nytJhFJkNINSbj7G1Pe580tXkU1DeUraOM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMjQ1NDg2MDEy/LmpwZWc.jpeg",
+      "width": 600,
+      "height": 596
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/47NhKRCBNsdV-LiPWy1kMqLDjCZ2pcX_D7o4PlbBh98/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMTczMzcyNTY4/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/47NhKRCBNsdV-LiPWy1kMqLDjCZ2pcX_D7o4PlbBh98/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMTczMzcyNTY4/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Hq-_F0mIbP_BVFFPIhUlPlQXimlSL7Y-g4K_quZHKp8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xMTczMzcyNTY4/LmpwZWc.jpeg",
+      "width": 600,
+      "height": 598
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/0UCXAA9PlOEaKqxhV4nMoGNzHJ9_lfy71o7mBiU-Jt4/rs:fit/g:sm/q:90/h:471/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNjk3NzQ4MDI2/LTE1MzIuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/0UCXAA9PlOEaKqxhV4nMoGNzHJ9_lfy71o7mBiU-Jt4/rs:fit/g:sm/q:90/h:471/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNjk3NzQ4MDI2/LTE1MzIuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/Q5kQfLpw9d9Yz4X6ASpK2or8vZ1cyzAuJp5tHgSQ62U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQw/OC0xNjk3NzQ4MDI2/LTE1MzIuanBlZw.jpeg",
+      "width": 600,
+      "height": 471
+    }
+  ],
+  "genres": [
+    "Electronic",
+    "Hip Hop",
+    "Rock"
+  ],
+  "styles": [
+    "Nu Metal",
+    "Alternative Rock",
+    "Hard Rock"
+  ],
+  "year": 2000,
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "Papercut",
+      "duration": "3:05"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "One Step Closer",
+      "duration": "2:36"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "With You",
+      "extraartists": [
+        {
+          "name": "The Dust Brothers",
+          "anv": "",
+          "join": "",
+          "role": "Beats [Additional Beats]",
+          "tracks": "",
+          "id": 36647,
+          "resource_url": "https://api.discogs.com/artists/36647"
+        },
+        {
+          "name": "John King",
+          "anv": "J. King",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 16661,
+          "resource_url": "https://api.discogs.com/artists/16661"
+        },
+        {
+          "name": "Mike Simpson",
+          "anv": "M. Simpson",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 42169,
+          "resource_url": "https://api.discogs.com/artists/42169"
+        }
+      ],
+      "duration": "3:23"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "Points Of Authority",
+      "duration": "3:20"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "Crawling",
+      "duration": "3:29"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Runaway",
+      "duration": "3:04"
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "By Myself",
+      "duration": "3:10"
+    },
+    {
+      "position": "8",
+      "type_": "track",
+      "title": "In The End",
+      "duration": "3:36"
+    },
+    {
+      "position": "9",
+      "type_": "track",
+      "title": "A Place For My Head",
+      "duration": "3:05"
+    },
+    {
+      "position": "10",
+      "type_": "track",
+      "title": "Forgotten",
+      "duration": "3:14"
+    },
+    {
+      "position": "11",
+      "type_": "track",
+      "title": "Cure For The Itch",
+      "duration": "2:37"
+    },
+    {
+      "position": "12",
+      "type_": "track",
+      "title": "Pushing Me Away",
+      "duration": "3:12"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Linkin Park",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 40029,
+      "resource_url": "https://api.discogs.com/artists/40029",
+      "thumbnail_url": "https://i.discogs.com/SdPvVMgMoCnDjZ_JdZrEjA-Xgdwr6MoZ8yjCzxyx0WY/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQwMDI5/LTE3NDMxODY0MjEt/NzAxNC5qcGVn.jpeg"
+    }
+  ],
+  "title": "Hybrid Theory",
+  "notes": "Debut studio album, released on October 24th, 2000. Four singles have been released: [url=https://www.discogs.com/master/74520]One Step Closer[/url], [url=https://www.discogs.com/master/74521]Crawling[/url], [url=https://www.discogs.com/master/74524]Papercut[/url] and [url=https://www.discogs.com/master/132382]In The End[/url].\r\n\r\n1st pressing (2001):\r\n- ??? - Black (non-gatefold)\r\n- ??? - Black\r\n\r\n2nd pressing (2013):\r\n- 3000 copies - Black w/ bonus 10\" vinyl (US and Europe) (Record Store Day 2013 exclusive) \r\n- ??? - black\r\n\r\n3rd pressing (2013):\r\n- 1000 copies - Clear (Hot Topic exclusive) \r\n\r\n4th pressing (2014):\r\n- ??? - Black\r\n\r\n5th pressing (2020):\r\n- ??? - Black\r\n\r\n6th pressing (2021):\r\n??? - Red (Walmart exclusive)\r\n\r\n7th pressing (2022):\r\n??? - Red (Walmart exclusive)\r\n\r\n8th pressing (2024)\r\n3000 - Black (One Step version, individually numbered)\r\n??? - Translucent Yellow (Best Buy exclusive - US)",
+  "data_quality": "Correct",
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=eVTXPUF4Oz4",
+      "title": "In The End [Official HD Music Video] - Linkin Park",
+      "description": "In The End [Official HD Music Video] - Linkin Park\n----------\nFrom Zero | The New Album | Available Now\nOrder Now: https://lprk.co/fromzerodlx\n\nOfficial Linkin Park Merch: http://lprk.co/store\nText/Call: https://lprk.co/text\nNewsletter Sign Up: https://lp",
+      "duration": 219,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4qlCC1GOwFw",
+      "title": "One Step Closer [Official HD Music Video] - Linkin Park",
+      "description": "Watch the official HD music video for One Step Closer by Linkin Park from the album Hybrid Theory.\n----------\nFrom Zero (Deluxe Edition) - Out Now: https://lprk.co/fromzerodlx\n\nOfficial Linkin Park Merch: http://lprk.co/store\nText/Call: https://lprk.co/te",
+      "duration": 177,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Gd9OhYroLN0",
+      "title": "Crawling [Official HD Music Video] - Linkin Park",
+      "description": "Crawling [Official HD Music Video] - Linkin Park\n----------\nFrom Zero (Deluxe Edition) - Out Now: https://lprk.co/fromzerodlx\n\nOfficial Linkin Park Merch: http://lprk.co/store\nText/Call: https://lprk.co/text\nNewsletter Sign Up: https://lprk.co/newsletter\n",
+      "duration": 217,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=vjVkXlxsO8Q",
+      "title": "Papercut [Official HD Music Video] - Linkin Park",
+      "description": "Papercut [Official HD Music Video] - Linkin Park\n----------\nFrom Zero (Deluxe Edition) - Out Now: https://lprk.co/fromzerodlx\n\nOfficial Linkin Park Merch: http://lprk.co/store\nText/Call: https://lprk.co/text\nNewsletter Sign Up: https://lprk.co/newsletter\n",
+      "duration": 193,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=jZSPAp8kCl4",
+      "title": "Points Of Authority [Official HD Music Video] - Linkin Park",
+      "description": "Watch the official HD music video for Points Of Authority by Linkin Park from the album Hybrid Theory.\n----------\nFrom Zero (Deluxe Edition) - Out Now: https://lprk.co/fromzerodlx\n\nFrom Zero World Tour\nTickets On Sale Now: http://lprk.co/tour\n\nOfficial Li",
+      "duration": 212,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=u6z5U83lfrQ",
+      "title": "Cure For The Itch (Official Video) - Linkin Park",
+      "description": "From Zero (Deluxe Edition) - Out May 16th\nPre-Order Now: https://lprk.co/fromzerodlx\n\nFrom Zero World Tour 2025\nTickets On Sale Now: http://lprk.co/tour\n\nFrom Zero | The New Album | Available Now\nOrder Now: https://lprk.co/fromzero\n\nApple Music: http://lp",
+      "duration": 56,
+      "embed": true
+    }
+  ]
+}

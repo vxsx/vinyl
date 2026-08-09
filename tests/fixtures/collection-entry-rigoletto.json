@@ -1,0 +1,141 @@
+{
+  "id": 17980264,
+  "instance_id": 2168597469,
+  "date_added": "2026-07-29T08:05:11-07:00",
+  "rating": 0,
+  "basic_information": {
+    "id": 17980264,
+    "master_id": 925420,
+    "master_url": "https://api.discogs.com/masters/925420",
+    "resource_url": "https://api.discogs.com/releases/17980264",
+    "thumb": "https://i.discogs.com/AV5Of3JF5Y4DdEWxHo7GqznNsBx2ZZoZHUrrMa-chmI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODMtMzYzNi5qcGVn.jpeg",
+    "cover_image": "https://i.discogs.com/odJsWAMbsXgn6Be26Usz_iZP-MqJWzqRY7FAN8GpBwY/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTgw/MjY0LTE2MTY1MzQ1/ODMtMzYzNi5qcGVn.jpeg",
+    "title": "Rigoletto Oper In 3 Akten Von Verdi",
+    "year": 0,
+    "formats": [
+      {
+        "name": "Vinyl",
+        "qty": "2",
+        "text": "Synchro stereo",
+        "descriptions": [
+          "LP",
+          "Stereo"
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "name": "Concert Hall",
+        "catno": "SMS-2371",
+        "entity_type": "1",
+        "entity_type_name": "Label",
+        "id": 44301,
+        "resource_url": "https://api.discogs.com/labels/44301"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Giuseppe Verdi",
+        "anv": "Verdi",
+        "join": ",",
+        "role": "",
+        "tracks": "",
+        "id": 192327,
+        "resource_url": "https://api.discogs.com/artists/192327"
+      },
+      {
+        "name": "Licinio Montefusco",
+        "anv": "",
+        "join": ",",
+        "role": "",
+        "tracks": "",
+        "id": 2563932,
+        "resource_url": "https://api.discogs.com/artists/2563932"
+      },
+      {
+        "name": "Anna Maccianti",
+        "anv": "",
+        "join": ",",
+        "role": "",
+        "tracks": "",
+        "id": 1951618,
+        "resource_url": "https://api.discogs.com/artists/1951618"
+      },
+      {
+        "name": "Michele Molese",
+        "anv": "",
+        "join": ",",
+        "role": "",
+        "tracks": "",
+        "id": 1330400,
+        "resource_url": "https://api.discogs.com/artists/1330400"
+      },
+      {
+        "name": "Nedda Casei",
+        "anv": "",
+        "join": ",",
+        "role": "",
+        "tracks": "",
+        "id": 1330402,
+        "resource_url": "https://api.discogs.com/artists/1330402"
+      },
+      {
+        "name": "Federico Davià",
+        "anv": "Federico Davia",
+        "join": ",",
+        "role": "",
+        "tracks": "",
+        "id": 5325056,
+        "resource_url": "https://api.discogs.com/artists/5325056"
+      },
+      {
+        "name": "Wiener Staatsopernchor",
+        "anv": "Chor",
+        "join": "Und",
+        "role": "",
+        "tracks": "",
+        "id": 855072,
+        "resource_url": "https://api.discogs.com/artists/855072"
+      },
+      {
+        "name": "Orchester Der Wiener Staatsoper",
+        "anv": "",
+        "join": "Leitung:",
+        "role": "",
+        "tracks": "",
+        "id": 696188,
+        "resource_url": "https://api.discogs.com/artists/696188"
+      },
+      {
+        "name": "Gianfranco Rivoli",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 988713,
+        "resource_url": "https://api.discogs.com/artists/988713"
+      }
+    ],
+    "genres": [
+      "Classical"
+    ],
+    "styles": [
+      "Opera"
+    ]
+  },
+  "folder_id": 1,
+  "notes": [
+    {
+      "field_id": 1,
+      "value": "Good (G)"
+    },
+    {
+      "field_id": 2,
+      "value": "Poor (P)"
+    },
+    {
+      "field_id": 3,
+      "value": "1 chf"
+    }
+  ]
+}

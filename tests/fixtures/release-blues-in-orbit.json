@@ -1,0 +1,359 @@
+{
+  "id": 11339741,
+  "status": "Accepted",
+  "year": 1960,
+  "resource_url": "https://api.discogs.com/releases/11339741",
+  "uri": "https://www.discogs.com/release/11339741-Duke-Ellington-And-His-Award-Winners-Blues-In-Orbit",
+  "artists": [
+    {
+      "name": "Duke Ellington And His Award Winners",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 3995296,
+      "resource_url": "https://api.discogs.com/artists/3995296"
+    }
+  ],
+  "artists_sort": "Duke Ellington And His Award Winners",
+  "labels": [
+    {
+      "name": "Philips",
+      "catno": "429 741 BE",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 7704,
+      "resource_url": "https://api.discogs.com/labels/7704",
+      "thumbnail_url": "https://i.discogs.com/BY7mNngwEuD3bNOAGPUYtjO9qCpDys2iwpP8hwhnWLk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTc3MDQt/MTU5Njc0Mjg3Mi0y/MzQ1LmpwZWc.jpeg"
+    }
+  ],
+  "series": [
+    {
+      "name": "Jazz Gallery (2)",
+      "catno": "",
+      "entity_type": "2",
+      "entity_type_name": "Series",
+      "id": 357638,
+      "resource_url": "https://api.discogs.com/labels/357638",
+      "thumbnail_url": "https://i.discogs.com/L57rewlC7zvXH4iQbGaQHPUfzr_fS5yEB4rQsPBID6o/rs:fit/g:sm/q:90/h:240/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM1NzYz/OC0xMzUxOTMzMTk2/LTg5MTkuanBlZw.jpeg"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Philips Records Ltd.",
+      "catno": "",
+      "entity_type": "30",
+      "entity_type_name": "Lacquer Cut At",
+      "id": 293581,
+      "resource_url": "https://api.discogs.com/labels/293581",
+      "thumbnail_url": "https://i.discogs.com/27gKstoNr_qgFpOVCWdvF5uccLM6GCi6pqCwmnpRfaA/rs:fit/g:sm/q:90/h:97/w:574/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI5MzU4/MS0xNjM5MzAwOTE2/LTU3NTkuanBlZw.jpeg"
+    },
+    {
+      "name": "Philips Records Ltd.",
+      "catno": "",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 293581,
+      "resource_url": "https://api.discogs.com/labels/293581",
+      "thumbnail_url": "https://i.discogs.com/27gKstoNr_qgFpOVCWdvF5uccLM6GCi6pqCwmnpRfaA/rs:fit/g:sm/q:90/h:97/w:574/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI5MzU4/MS0xNjM5MzAwOTE2/LTU3NTkuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "7\"",
+        "45 RPM",
+        "EP",
+        "Mono"
+      ]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 16,
+    "want": 3,
+    "rating": {
+      "count": 1,
+      "average": 4
+    },
+    "submitter": {
+      "username": "einarn",
+      "resource_url": "https://api.discogs.com/users/einarn"
+    },
+    "contributors": [
+      {
+        "username": "einarn",
+        "resource_url": "https://api.discogs.com/users/einarn"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2017-12-29T03:11:20-08:00",
+  "date_changed": "2017-12-29T03:25:54-08:00",
+  "num_for_sale": 3,
+  "lowest_price": 3.45,
+  "master_id": 639911,
+  "master_url": "https://api.discogs.com/masters/639911",
+  "title": "Blues In Orbit",
+  "country": "Netherlands",
+  "released": "1960",
+  "notes": "Front-laminated cover\nMinigroove\n\nA product of Philips\nMade in Holland\n\nRecording dates:\nA1: February 25, 1959\nA2: March 12, 1959\nB1: February 2, 1959\nB2: March 12, 1959",
+  "released_formatted": "1960",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "AA 429741 1E",
+      "description": "Side A label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "AA 429741 2E",
+      "description": "Side B label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "6D AA429741 1E 1 670",
+      "description": "Side A runout stamped"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "6D AA429741 2E 1 670",
+      "description": "Side B runout stamped"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=meHvpBaxF5g",
+      "title": "Duke Ellington & His Award Winners - Blues In Blueprint",
+      "description": "Duke Ellington & His Award Winners - Blues In Blueprint",
+      "duration": 225,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Jazz"
+  ],
+  "styles": [
+    "Big Band"
+  ],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Villes Ville Is The Place, Man",
+      "extraartists": [
+        {
+          "name": "Johnny Hodges",
+          "anv": "",
+          "join": "",
+          "role": "Soloist, Alto Saxophone",
+          "tracks": "",
+          "id": 258460,
+          "resource_url": "https://api.discogs.com/artists/258460"
+        },
+        {
+          "name": "Harry Carney",
+          "anv": "",
+          "join": "",
+          "role": "Soloist, Baritone Saxophone",
+          "tracks": "",
+          "id": 282551,
+          "resource_url": "https://api.discogs.com/artists/282551"
+        },
+        {
+          "name": "Ray Nance",
+          "anv": "",
+          "join": "",
+          "role": "Soloist, Trumpet",
+          "tracks": "",
+          "id": 282552,
+          "resource_url": "https://api.discogs.com/artists/282552"
+        },
+        {
+          "name": "Duke Ellington",
+          "anv": "D. Ellington",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 145257,
+          "resource_url": "https://api.discogs.com/artists/145257"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "The Swingers Get The Blues Too",
+      "extraartists": [
+        {
+          "name": "Johnny Hodges",
+          "anv": "",
+          "join": "",
+          "role": "Soloist, Alto Saxophone",
+          "tracks": "",
+          "id": 258460,
+          "resource_url": "https://api.discogs.com/artists/258460"
+        },
+        {
+          "name": "Matthew Gee",
+          "anv": "Mathew Gee Jr.",
+          "join": "",
+          "role": "Soloist, Horn [Baritone]",
+          "tracks": "",
+          "id": 295652,
+          "resource_url": "https://api.discogs.com/artists/295652"
+        },
+        {
+          "name": "Ray Nance",
+          "anv": "",
+          "join": "",
+          "role": "Soloist, Trumpet",
+          "tracks": "",
+          "id": 282552,
+          "resource_url": "https://api.discogs.com/artists/282552"
+        },
+        {
+          "name": "Duke Ellington",
+          "anv": "D. Ellington",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 145257,
+          "resource_url": "https://api.discogs.com/artists/145257"
+        },
+        {
+          "name": "Matthew Gee",
+          "anv": "M. Gee",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 295652,
+          "resource_url": "https://api.discogs.com/artists/295652"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Three J's Blues",
+      "extraartists": [
+        {
+          "name": "Jimmy Hamilton",
+          "anv": "",
+          "join": "",
+          "role": "Soloist, Tenor Saxophone",
+          "tracks": "",
+          "id": 312427,
+          "resource_url": "https://api.discogs.com/artists/312427"
+        },
+        {
+          "name": "Jimmy Hamilton",
+          "anv": "J. Hamilton",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 312427,
+          "resource_url": "https://api.discogs.com/artists/312427"
+        }
+      ],
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "The Swinger's Jump",
+      "extraartists": [
+        {
+          "name": "Johnny Hodges",
+          "anv": "",
+          "join": "",
+          "role": "Soloist, Alto Saxophone",
+          "tracks": "",
+          "id": 258460,
+          "resource_url": "https://api.discogs.com/artists/258460"
+        },
+        {
+          "name": "Jimmy Hamilton",
+          "anv": "",
+          "join": "",
+          "role": "Soloist, Tenor Saxophone",
+          "tracks": "",
+          "id": 312427,
+          "resource_url": "https://api.discogs.com/artists/312427"
+        },
+        {
+          "name": "Booty Wood",
+          "anv": "",
+          "join": "",
+          "role": "Soloist, Trombone",
+          "tracks": "",
+          "id": 371107,
+          "resource_url": "https://api.discogs.com/artists/371107"
+        },
+        {
+          "name": "Ray Nance",
+          "anv": "",
+          "join": "",
+          "role": "Soloist, Trumpet",
+          "tracks": "",
+          "id": 282552,
+          "resource_url": "https://api.discogs.com/artists/282552"
+        },
+        {
+          "name": "Duke Ellington",
+          "anv": "D. Ellington",
+          "join": "",
+          "role": "Written-By",
+          "tracks": "",
+          "id": 145257,
+          "resource_url": "https://api.discogs.com/artists/145257"
+        }
+      ],
+      "duration": ""
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/sKJMzCBu60NP31b7MmsmcjH-AjAQTPQSa9Lz9SgKaMw/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MDQtNzM1My5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/sKJMzCBu60NP31b7MmsmcjH-AjAQTPQSa9Lz9SgKaMw/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MDQtNzM1My5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/JRWAmRRQjrARJ63jtUhKESONJpqR1XULPCM4tlR_1Zk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MDQtNzM1My5qcGVn.jpeg",
+      "width": 600,
+      "height": 587
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Wf612cXJhKzZEJtyproKi1s5pReJs3op3nJZbTDSdVQ/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MTktNjkzOC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/Wf612cXJhKzZEJtyproKi1s5pReJs3op3nJZbTDSdVQ/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MTktNjkzOC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/320CQTnFT7dgPIN01mdfr7o_bCmr-_GWHPbGMxVE-Gg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MTktNjkzOC5qcGVn.jpeg",
+      "width": 600,
+      "height": 589
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/5WgwKzIe6lOM5DQ_6tX5KiXAVxgfqqUenqPWFzux0Fc/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MTgtNjgwMi5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/5WgwKzIe6lOM5DQ_6tX5KiXAVxgfqqUenqPWFzux0Fc/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MTgtNjgwMi5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/gJ3u5GNo7QLHDl-0tNx1OMD-UX0sDZu5uI0-esaDlMk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MTgtNjgwMi5qcGVn.jpeg",
+      "width": 600,
+      "height": 583
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/9p4YI6Bnw16amBk1Le1nDuDKSULMXX3XHZqNBIhUb1Q/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MTktOTg5MC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/9p4YI6Bnw16amBk1Le1nDuDKSULMXX3XHZqNBIhUb1Q/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MTktOTg5MC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/623JyGWn_zDhDNCxrYUt2OWMZrImjT83RTzMN9rbtKw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MTktOTg5MC5qcGVn.jpeg",
+      "width": 600,
+      "height": 593
+    }
+  ],
+  "thumb": "https://i.discogs.com/JRWAmRRQjrARJ63jtUhKESONJpqR1XULPCM4tlR_1Zk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM5/NzQxLTE1MTQ1NDU5/MDQtNzM1My5qcGVn.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

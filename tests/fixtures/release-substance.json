@@ -1,0 +1,826 @@
+{
+  "id": 7132351,
+  "status": "Accepted",
+  "year": 2015,
+  "resource_url": "https://api.discogs.com/releases/7132351",
+  "uri": "https://www.discogs.com/release/7132351-Joy-Division-Substance",
+  "artists": [
+    {
+      "name": "Joy Division",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 3898,
+      "resource_url": "https://api.discogs.com/artists/3898",
+      "thumbnail_url": "https://i.discogs.com/HE_mL7XE9ddU4k7EJwbKRCX5MUN-SJEj8t9QszCrIFM/rs:fit/g:sm/q:90/h:599/w:567/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM4OTgt/MTMxOTM1OTY4Mi5q/cGVn.jpeg"
+    }
+  ],
+  "artists_sort": "Joy Division",
+  "labels": [
+    {
+      "name": "Factory",
+      "catno": "Fact250R",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 857,
+      "resource_url": "https://api.discogs.com/labels/857",
+      "thumbnail_url": "https://i.discogs.com/OVh3QphQcBEhmVwUFeDegnC9Zt-eXqC4NUe1rL1DFX8/rs:fit/g:sm/q:90/h:249/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTg1Ny0x/Nzc5Mjg5MzkzLTI2/MDMuanBlZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Vinyl Collector",
+      "catno": "",
+      "entity_type": "4",
+      "entity_type_name": "Record Company",
+      "id": 873810,
+      "resource_url": "https://api.discogs.com/labels/873810",
+      "thumbnail_url": "https://i.discogs.com/DyAVDl_lkEOdsePa3hfSSWaJxpSJfCJOCiD414OV1Fw/rs:fit/g:sm/q:90/h:487/w:350/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTg3Mzgx/MC0xNDUxMzE4MDQz/LTg5NjMuanBlZw.jpeg"
+    },
+    {
+      "name": "Factory Records (5)",
+      "catno": "",
+      "entity_type": "4",
+      "entity_type_name": "Record Company",
+      "id": 265391,
+      "resource_url": "https://api.discogs.com/labels/265391",
+      "thumbnail_url": "https://i.discogs.com/SRjj5nxu5cqpgIlJAVSwKmD2WDPTtdQE0oqbvgFqOxk/rs:fit/g:sm/q:90/h:377/w:250/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NTM5/MS0xNDE0Njk2OTQ1/LTkyODcuanBlZw.jpeg"
+    },
+    {
+      "name": "Warner Records 90 Ltd.",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 901681,
+      "resource_url": "https://api.discogs.com/labels/901681"
+    },
+    {
+      "name": "Warner Records 90 Ltd.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 901681,
+      "resource_url": "https://api.discogs.com/labels/901681"
+    },
+    {
+      "name": "Fractured Music",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 264765,
+      "resource_url": "https://api.discogs.com/labels/264765",
+      "thumbnail_url": "https://i.discogs.com/ZSJNt2lpiVOKAPJbG4sWJ32Tzbj-CUjBbh5pVYASLVQ/rs:fit/g:sm/q:90/h:401/w:418/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NDc2/NS0xNzAwOTA1Nzk1/LTU1OTQuanBlZw.jpeg"
+    },
+    {
+      "name": "Zomba Music",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 158763,
+      "resource_url": "https://api.discogs.com/labels/158763",
+      "thumbnail_url": "https://i.discogs.com/8DljsurOrYFXqiODqFqApLZLSVwQE9fN9caBQtABONg/rs:fit/g:sm/q:90/h:61/w:156/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE1ODc2/My0xNTkxMDEzNjEz/LTQ3NjYuanBlZw.jpeg"
+    },
+    {
+      "name": "Optimal Media GmbH",
+      "catno": "BE72478",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 313190,
+      "resource_url": "https://api.discogs.com/labels/313190",
+      "thumbnail_url": "https://i.discogs.com/VHruzHmKvGgDvoWX6iI_4n5eC7mKyVei1mNz573rJtk/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMxMzE5/MC0xNTE2MzgxNjk2/LTIzMTgucG5n.jpeg"
+    },
+    {
+      "name": "Optimal Media GmbH",
+      "catno": "BF79083",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 313190,
+      "resource_url": "https://api.discogs.com/labels/313190",
+      "thumbnail_url": "https://i.discogs.com/VHruzHmKvGgDvoWX6iI_4n5eC7mKyVei1mNz573rJtk/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTMxMzE5/MC0xNTE2MzgxNjk2/LTIzMTgucG5n.jpeg"
+    },
+    {
+      "name": "Abbey Road Studios",
+      "catno": "",
+      "entity_type": "30",
+      "entity_type_name": "Lacquer Cut At",
+      "id": 217694,
+      "resource_url": "https://api.discogs.com/labels/217694",
+      "thumbnail_url": "https://i.discogs.com/XDYTZcjSSoTI3eUuMARX4Yjr7f6Ajl1tGgCYQr24Qms/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIxNzY5/NC0xNTI0Njg3MDc3/LTM2NzEucG5n.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "2",
+      "descriptions": [
+        "LP",
+        "Compilation",
+        "Reissue",
+        "Remastered"
+      ],
+      "text": "180 Gram"
+    }
+  ],
+  "data_quality": "Correct",
+  "community": {
+    "have": 15166,
+    "want": 1622,
+    "rating": {
+      "count": 1284,
+      "average": 4.66
+    },
+    "submitter": {
+      "username": "zepp69",
+      "resource_url": "https://api.discogs.com/users/zepp69"
+    },
+    "contributors": [
+      {
+        "username": "zepp69",
+        "resource_url": "https://api.discogs.com/users/zepp69"
+      },
+      {
+        "username": "sebfact",
+        "resource_url": "https://api.discogs.com/users/sebfact"
+      },
+      {
+        "username": "cb_rasmussen",
+        "resource_url": "https://api.discogs.com/users/cb_rasmussen"
+      },
+      {
+        "username": "Hot_Snake",
+        "resource_url": "https://api.discogs.com/users/Hot_Snake"
+      },
+      {
+        "username": "TheEvilGenius",
+        "resource_url": "https://api.discogs.com/users/TheEvilGenius"
+      },
+      {
+        "username": "karius",
+        "resource_url": "https://api.discogs.com/users/karius"
+      },
+      {
+        "username": "Atanasoff",
+        "resource_url": "https://api.discogs.com/users/Atanasoff"
+      },
+      {
+        "username": "jmoortga",
+        "resource_url": "https://api.discogs.com/users/jmoortga"
+      },
+      {
+        "username": "music-hunter",
+        "resource_url": "https://api.discogs.com/users/music-hunter"
+      },
+      {
+        "username": "DAVE-I.D.",
+        "resource_url": "https://api.discogs.com/users/DAVE-I.D."
+      },
+      {
+        "username": "EzraZebra",
+        "resource_url": "https://api.discogs.com/users/EzraZebra"
+      },
+      {
+        "username": "zobythefly",
+        "resource_url": "https://api.discogs.com/users/zobythefly"
+      },
+      {
+        "username": "rdlogie",
+        "resource_url": "https://api.discogs.com/users/rdlogie"
+      },
+      {
+        "username": "ksmiergala",
+        "resource_url": "https://api.discogs.com/users/ksmiergala"
+      },
+      {
+        "username": "peestone",
+        "resource_url": "https://api.discogs.com/users/peestone"
+      },
+      {
+        "username": "singles8698",
+        "resource_url": "https://api.discogs.com/users/singles8698"
+      },
+      {
+        "username": "rhys.mattison",
+        "resource_url": "https://api.discogs.com/users/rhys.mattison"
+      },
+      {
+        "username": "CitizenCat",
+        "resource_url": "https://api.discogs.com/users/CitizenCat"
+      },
+      {
+        "username": "kosats",
+        "resource_url": "https://api.discogs.com/users/kosats"
+      },
+      {
+        "username": "SJH",
+        "resource_url": "https://api.discogs.com/users/SJH"
+      }
+    ],
+    "data_quality": "Correct",
+    "status": "Accepted"
+  },
+  "format_quantity": 2,
+  "date_added": "2015-06-16T00:41:00-07:00",
+  "date_changed": "2025-03-23T11:20:29-07:00",
+  "num_for_sale": 152,
+  "lowest_price": 18.01,
+  "master_id": 4912,
+  "master_url": "https://api.discogs.com/masters/4912",
+  "title": "Substance",
+  "country": "Europe",
+  "released": "2015-06-00",
+  "notes": "Issued with two printed inner sleeves housed in a replica of the original single pocket jacket.\nSome copies do not include the download code and sticker 1.\n\nA1, A2: 12/77, A3: 12/78, A4: 4/79, A5: 7/79\nB1: 7/77, B2, B5: 3/80, B3, B4: 10/79\n\nSticker 1:\n[Vinyl Collector logo]\nIncludes download code for MP3 version of the album\nwww.thisisvinylcollector.com\n\nSticker 2:\nJoy Division Substance\n180gm heavyweight vinyl\nReplicating original album artwork, cut from the 2010 '+–' audio remasters\nIncludes two additional tracks\n'As You Said'\n'Love Will Tear Us Apart' Pennine version\n\nSpine, rear sleeve, labels:\nA Factory Record\n\nRear sleeve, inner sleeves, labels:\n℗&© 2015 Warner Records 90 Limited\n\nInner sleeve 1:\n'Energie-Piek ijs' (detail) by Jan Van Munster, 1981 © Jan Van Munster / DACS 1988\n\nRunouts are etched.",
+  "released_formatted": "Jun 2015",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "0 825646 183937",
+      "description": "Text"
+    },
+    {
+      "type": "Barcode",
+      "value": "825646183937",
+      "description": "Scanned"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "Fact250Ra",
+      "description": "Side A label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "Fact250Rb",
+      "description": "Side B label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "Fact250Rc",
+      "description": "Side C label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "Fact250Rd",
+      "description": "Side D label"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 A1 =II F.A. ABBEY ROAD FACT 250 R",
+      "description": "Variant 1 - side A runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 B1 FRANK - ABBEY ROAD VII FACT 250 R",
+      "description": "Variant 1 - side B runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 C1 AS",
+      "description": "Variant 1 - side C runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 D1 F.A. ABBEY ROAD V=+",
+      "description": "Variant 1 - side D runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 A1 F.A. ABBEY ROAD FACT 250 R VIV",
+      "description": "Variant 2 - side A runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 B1 FACT 250 R FRANK - ABBEY ROAD VIV",
+      "description": "Variant 2 - side B runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 C1 511",
+      "description": "Variant 2 - side C runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 D1 F.A. ABBEY ROAD V=X",
+      "description": "Variant 2 - side D runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 A1 F.A. ABBEY ROAD VIV FACT 250 R",
+      "description": "Variant 3 - side A runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 B1 VI- FACT 250 R FRANK - ABBEY ROAD",
+      "description": "Variant 3 - side B runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 C1 TI.50",
+      "description": "Variant 3 - side C runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 D1 VXI F.A. ABBEY ROAD",
+      "description": "Variant 3 - side D runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 A1 F.A. ABBEY ROAD VI∇ FACT 250 R",
+      "description": "Variant 4 - side A runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 B1 FACT 250 R VIT FRANK - ABBEY ROAD",
+      "description": "Variant 4 - side B runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 C1 51=",
+      "description": "Variant 4 - side C runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 D1 V = ∇ F.A. ABBEY ROAD",
+      "description": "Variant 4 - side D runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 A1 F.A. ABBEY ROAD VIV FACT 250 R",
+      "description": "Variant 5 - side A runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 B1 FACT 250 R VIV FRANK - ABBEY ROAD",
+      "description": "Variant 5 - side B runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 C1 - S",
+      "description": "Variant 5 - side C runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 D1 T = \\ F.A. ABBEY ROAD",
+      "description": "Variant 5 - side D runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 A1 F.A. ABBEY ROAD S+ FACT 250 R",
+      "description": "Variant 6 - side A runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BE72478-01 B1 FACT 250 R JV FRANK - ABBEY ROAD",
+      "description": "Variant 6 - side B runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 C1 - XIA",
+      "description": "Variant 6 - side C runout"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "BF79083-01 D1 F.A. ABBEY ROAD SII",
+      "description": "Variant 6 - side D runout"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=gtSFtvXgeRk",
+      "title": "Warsaw (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nWarsaw (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davis\n",
+      "duration": 145,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Kx3EqNYQklg",
+      "title": "Transmission (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nTransmission (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nAudio  Recording  Engineer: John M",
+      "duration": 216,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Hzd5inljWhA",
+      "title": "She's Lost Control (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nShe's Lost Control (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar: Bernard Sumner\nUnknown: Chris Nagle\nLead  Vocals: Ian Curtis\nUnknown: Jon Davis\nProducer: Martin Hannett\nBass  Guitar: Pe",
+      "duration": 286,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=mKWHa65cmns",
+      "title": "Dead Souls (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nDead Souls (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Da",
+      "duration": 295,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=iQjGHxQ2nn4",
+      "title": "Leaders of Men (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nLeaders of Men (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jo",
+      "duration": 156,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=mAAqKx4aD_g",
+      "title": "Love Will Tear Us Apart (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nLove Will Tear Us Apart (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUn",
+      "duration": 205,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=MnnWHhAJktM",
+      "title": "Digital (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nDigital (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davis",
+      "duration": 170,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4DbnkkyhPnI",
+      "title": "Komakino (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nKomakino (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davi",
+      "duration": 233,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4_B690oDTPw",
+      "title": "Autosuggestion (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nAutosuggestion (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jo",
+      "duration": 367,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=12q03RA0HKY",
+      "title": "Incubation (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nIncubation (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Da",
+      "duration": 172,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=KSYBW8JlijM",
+      "title": "Atmosphere (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nAtmosphere (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown, Producer: Martin Hannett\nUn",
+      "duration": 250,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=5v8Frk_37-Y",
+      "title": "No Love Lost (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nNo Love Lost (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon ",
+      "duration": 223,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=7Bbb86ajF3U",
+      "title": "Failures (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nFailures (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davi",
+      "duration": 225,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=iI-IoAEGV4U",
+      "title": "Glass (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nGlass (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davis\nU",
+      "duration": 238,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=ZFV5XSGC4qQ",
+      "title": "From Safety to Where (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nFrom Safety to Where (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnkno",
+      "duration": 150,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Gqqr31PWsII",
+      "title": "Novelty (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nNovelty (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Davis",
+      "duration": 241,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=6g_b0xr9rZs",
+      "title": "These Days (2010 Remaster)",
+      "description": "Provided to YouTube by Rhino\n\nThese Days (2010 Remaster) · Joy Division\n\nSubstance\n\n℗ 1978, 2010 Warner Music UK Ltd\n\nGuitar, Synthesizer: Bernard Sumner\nUnknown: Chris Nagle\nGuitar: Ian Curtis\nLead  Vocals: Ian Curtis\nUnknown: Jon Caffery\nUnknown: Jon Da",
+      "duration": 207,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Rock"
+  ],
+  "styles": [
+    "New Wave",
+    "Post-Punk",
+    "Punk"
+  ],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Warsaw",
+      "duration": ""
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Leaders Of Men",
+      "duration": ""
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Digital",
+      "duration": ""
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "Autosuggestion",
+      "duration": ""
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "Transmission",
+      "duration": ""
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "She’s Lost Control",
+      "duration": ""
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "Incubation",
+      "duration": ""
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Dead Souls",
+      "duration": ""
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "Atmosphere",
+      "duration": ""
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "Love Will Tear Us Apart",
+      "duration": ""
+    },
+    {
+      "position": "C1",
+      "type_": "track",
+      "title": "No Love Lost",
+      "duration": ""
+    },
+    {
+      "position": "C2",
+      "type_": "track",
+      "title": "Failures",
+      "duration": ""
+    },
+    {
+      "position": "C3",
+      "type_": "track",
+      "title": "Glass",
+      "duration": ""
+    },
+    {
+      "position": "C4",
+      "type_": "track",
+      "title": "From Safety To Where",
+      "duration": ""
+    },
+    {
+      "position": "D1",
+      "type_": "track",
+      "title": "Novelty",
+      "duration": ""
+    },
+    {
+      "position": "D2",
+      "type_": "track",
+      "title": "Komakino",
+      "duration": ""
+    },
+    {
+      "position": "D3",
+      "type_": "track",
+      "title": "As You Said",
+      "duration": ""
+    },
+    {
+      "position": "D4",
+      "type_": "track",
+      "title": "These Days",
+      "duration": ""
+    },
+    {
+      "position": "D5",
+      "type_": "track",
+      "title": "Love Will Tear Us Apart (Pennine Version)",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Peter Saville (2)",
+      "anv": "",
+      "join": "",
+      "role": "Art Direction",
+      "tracks": "",
+      "id": 1069010,
+      "resource_url": "https://api.discogs.com/artists/1069010"
+    },
+    {
+      "name": "Jan Van Munster",
+      "anv": "",
+      "join": "",
+      "role": "Artwork ['Energie-Piek IJs' (Detail)]",
+      "tracks": "",
+      "id": 2244042,
+      "resource_url": "https://api.discogs.com/artists/2244042"
+    },
+    {
+      "name": "Brett Wickens",
+      "anv": "",
+      "join": "",
+      "role": "Design",
+      "tracks": "",
+      "id": 298718,
+      "resource_url": "https://api.discogs.com/artists/298718"
+    },
+    {
+      "name": "Peter Saville Associates",
+      "anv": "",
+      "join": "",
+      "role": "Design",
+      "tracks": "",
+      "id": 512290,
+      "resource_url": "https://api.discogs.com/artists/512290"
+    },
+    {
+      "name": "Frank Arkwright",
+      "anv": "F.A.",
+      "join": "",
+      "role": "Lacquer Cut By",
+      "tracks": "A1 to A5, D1 to D5",
+      "id": 339601,
+      "resource_url": "https://api.discogs.com/artists/339601"
+    },
+    {
+      "name": "Frank Arkwright",
+      "anv": "Frank",
+      "join": "",
+      "role": "Lacquer Cut By",
+      "tracks": "B1 to B5",
+      "id": 339601,
+      "resource_url": "https://api.discogs.com/artists/339601"
+    },
+    {
+      "name": "Trevor Key",
+      "anv": "",
+      "join": "",
+      "role": "Photography By",
+      "tracks": "",
+      "id": 512289,
+      "resource_url": "https://api.discogs.com/artists/512289"
+    },
+    {
+      "name": "Joy Division",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 3898,
+      "resource_url": "https://api.discogs.com/artists/3898"
+    },
+    {
+      "name": "Martin Hannett",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 80561,
+      "resource_url": "https://api.discogs.com/artists/80561"
+    },
+    {
+      "name": "Joy Division",
+      "anv": "",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 3898,
+      "resource_url": "https://api.discogs.com/artists/3898"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/De9jXNLkJcjlCxQ1sHCR3jdS4cLhWNCnEWTyCKt8jrM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg1/MS03MDUyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/De9jXNLkJcjlCxQ1sHCR3jdS4cLhWNCnEWTyCKt8jrM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg1/MS03MDUyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/0Mj7gliyy_3dC1Rk8xEw_laMRUs3O3DozAR4mAbWG4M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg1/MS03MDUyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/3vLBTtBcZgeCP4qR_QPM87PB7E_Z35Ml_32wzggI0Oo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1NDAx/NC04NDc4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/3vLBTtBcZgeCP4qR_QPM87PB7E_Z35Ml_32wzggI0Oo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1NDAx/NC04NDc4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Ceemq-EbEgJTqC79fbtVAsGlWIzPgZXeynGRpixcL8U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1NDAx/NC04NDc4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/49Z1zYWcFU7789nGc4Nq6AfO2PbzwGfXUcgfUhwsrt4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg2/My01ODE4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/49Z1zYWcFU7789nGc4Nq6AfO2PbzwGfXUcgfUhwsrt4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg2/My01ODE4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/HBGrqCaT_B2VEncMaCIaHDfTpRXnz17fKUEHCQ7kojk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg2/My01ODE4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/bkNbywdVDBt-q2pU2AEpCPy6VDyHEGlptkmmJk8XfNs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg2/Ni05NTcyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/bkNbywdVDBt-q2pU2AEpCPy6VDyHEGlptkmmJk8XfNs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg2/Ni05NTcyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/89fCohs81ZUSGcoQenlJ4t_YLVgG6CUwZzBpEYsXbNM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg2/Ni05NTcyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/2EanbzIujuDIoZm7CwIJv70CRm5L-TKd87MM4vn7Upg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg4/My0xNTcyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/2EanbzIujuDIoZm7CwIJv70CRm5L-TKd87MM4vn7Upg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg4/My0xNTcyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/eDO4PkHMXCiTtT1EsnMJK5bbgE7jwqVln_3Uv9WkGuQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg4/My0xNTcyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Z7_5JkWBkwUDL6Fn7HJ5gtYPtvc8uwSDzNRgHDwwOB8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg4/NC03MDk1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/Z7_5JkWBkwUDL6Fn7HJ5gtYPtvc8uwSDzNRgHDwwOB8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg4/NC03MDk1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/62wSKpW8sZ2kL9cPbKZ5BaASUExYaYuxKQijgmTQ6eY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg4/NC03MDk1LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/fiUoJ8s_gWXf1qkEogYmOXzVMO-Cz_5e0jAQ4KwQwcM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzkw/OS01MDEyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/fiUoJ8s_gWXf1qkEogYmOXzVMO-Cz_5e0jAQ4KwQwcM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzkw/OS01MDEyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/YG8mTyTfaHyRIvvLSSbem-6waHazobnQJf7CgYug78I/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzkw/OS01MDEyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/wpqxWejq2uVuNH4wsXVRgytA1WUNBpYbkb8_EkuGrU8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzkw/My01MDIxLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/wpqxWejq2uVuNH4wsXVRgytA1WUNBpYbkb8_EkuGrU8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzkw/My01MDIxLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/7bappuZg-NU_OWc4yQ2qLAoSBB5CSDpdfvf8YLqPSck/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzkw/My01MDIxLmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/VarPOOQ3-3YzhJUjj4QoO8DTM69NtonI9YXM9FxRgC8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzky/Ni0zOTI4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/VarPOOQ3-3YzhJUjj4QoO8DTM69NtonI9YXM9FxRgC8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzky/Ni0zOTI4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/zi8SEhPijB-q4TL5FAbAhbSuxVAQp148nj6_TD5Zuy4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzky/Ni0zOTI4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/4bXZkcND_Ih1EZJR2FtdT2DaXuhgCl9zzV01I92fM_w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzkx/OS02Nzc4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/4bXZkcND_Ih1EZJR2FtdT2DaXuhgCl9zzV01I92fM_w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzkx/OS02Nzc4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Rxge5g3WCDvD0oMQhJbxQw_fqN9XX-WE_SfJDMmECJA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzkx/OS02Nzc4LmpwZWc.jpeg",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/GTcCpgGDzcBVn8UxoSOR7RtQgu_aOFdvqMh6lz0eb8I/rs:fit/g:sm/q:90/h:374/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzky/Ny00NDA5LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/GTcCpgGDzcBVn8UxoSOR7RtQgu_aOFdvqMh6lz0eb8I/rs:fit/g:sm/q:90/h:374/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzky/Ny00NDA5LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/7cw_-GiT5mS5C8Cl3cbNtZU41VEsbTr20knf_FyAn24/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzky/Ny00NDA5LmpwZWc.jpeg",
+      "width": 600,
+      "height": 374
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/ElB2jmPm48pzF2-ns_tYkfthGj4iixFlK-bHM3H-rDU/rs:fit/g:sm/q:90/h:129/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTQ4NDE0NzY0/OC05NDcyLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/ElB2jmPm48pzF2-ns_tYkfthGj4iixFlK-bHM3H-rDU/rs:fit/g:sm/q:90/h:129/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTQ4NDE0NzY0/OC05NDcyLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/6zINeY7vMfThQeCCfgdzTWDUJTIOMhq0zfh9sgBR8rs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTQ4NDE0NzY0/OC05NDcyLmpwZWc.jpeg",
+      "width": 600,
+      "height": 129
+    }
+  ],
+  "thumb": "https://i.discogs.com/0Mj7gliyy_3dC1Rk8xEw_laMRUs3O3DozAR4mAbWG4M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxMzIz/NTEtMTc0Mjc1Mzg1/MS03MDUyLmpwZWc.jpeg",
+  "estimated_weight": 460,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}
