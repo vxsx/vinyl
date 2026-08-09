@@ -39,8 +39,18 @@ const href = `${import.meta.env.BASE_URL}record/${record.slug}/`
 </a>
 
 <style>
-  /* Nothing may draw an edge on the artwork: no border, radius, ring or clipping. */
-  .sleeve { position: relative; display: block; overflow: visible; background: none; border: 0; }
+  /* Nothing may draw an edge on the artwork: no border, radius, ring or clipping.
+
+     touch-action hands sideways finger movement to the tilt (scripts/tilt.ts)
+     and leaves everything else to the browser. Without it Chrome claims the
+     gesture about 14px in and fires pointercancel, so a finger could set the
+     tilt but never steer it. `pan-y` keeps the vertical drag that scrolls the
+     page — nothing is locked, and the grid has no horizontal scroll to give up
+     — and `pinch-zoom` keeps zooming. A tap is unaffected either way. */
+  .sleeve {
+    position: relative; display: block; overflow: visible; background: none; border: 0;
+    touch-action: pan-y pinch-zoom;
+  }
   .sleeve :global(*) { border: 0; border-radius: 0; }
 
   .tilt {
