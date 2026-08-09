@@ -115,6 +115,21 @@ describe('normalizeRecord', () => {
     expect(record.decade).toBe('Unknown')
   })
 
+  it('falls through to basic.year when release.year is 0 (Discogs "unknown")', () => {
+    const record = normalizeRecord({
+      entry: {
+        date_added: '2026-01-01T00:00:00Z',
+        basic_information: { id: 1, title: 'T', year: 1999 },
+      },
+      release: { year: 0 },
+      master: null,
+      slug: 'slug-year-fallthrough',
+      coverFile: null,
+      images: [],
+    })
+    expect(record.pressedYear).toBe(1999)
+  })
+
   it('flattens the rigoletto index entry into its 4 real tracks, with no side letters', () => {
     const record = build('rigoletto')
     expect(record.tracklist).toHaveLength(4)

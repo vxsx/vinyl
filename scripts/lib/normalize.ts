@@ -106,7 +106,11 @@ export function normalizeRecord(input: NormalizeInput): VinylRecord {
   const descriptions = format.descriptions ?? []
   const label = (release.labels ?? basic.labels ?? [])[0] ?? {}
 
-  const pressedYear = year(release.year ?? basic.year)
+  // `??` only falls through on null/undefined, not 0 — and Discogs uses 0 for
+  // "unknown", so a release.year of 0 must fall through to basic.year too.
+  // Mapping each side through year() first (which turns 0 into null) makes
+  // the `??` fall through correctly in that case.
+  const pressedYear = year(release.year) ?? year(basic.year)
   const originalYear = year(master?.year)
   const tracklist = cleanTracklist(release.tracklist ?? [])
 
