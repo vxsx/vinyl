@@ -46,4 +46,46 @@ describe('assignSlugs', () => {
     const slugs = assignSlugs([{ id: 9, primaryArtist: '', title: '???' }])
     expect(slugs.get(9)).toBe('release-9')
   })
+
+  it('resolves three-way collision with counter logic', () => {
+    // Exact counterexample from the brief: base "foo-200" collides with a suffixed slug
+    const slugs = assignSlugs([
+      { id: 555, primaryArtist: '', title: 'foo 200' },
+      { id: 111, primaryArtist: '', title: 'foo' },
+      { id: 200, primaryArtist: '', title: 'foo' },
+    ])
+    expect(slugs.get(555)).toBe('foo-200')
+    expect(slugs.get(111)).toBe('foo')
+    expect(slugs.get(200)).toBe('foo-200-2')
+    expect(new Set(slugs.values()).size).toBe(3)
+  })
+
+  it('increments counter when base and base-id both collide', () => {
+    // base "test", base-id "test-2", and base-id-2 collision forces counter
+    const slugs = assignSlugs([
+      { id: 1, primaryArtist: '', title: 'test' },
+      { id: 2, primaryArtist: '', title: 'test' },
+      { id: 20, primaryArtist: '', title: 'test 2' },
+    ])
+    expect(slugs.get(1)).toBe('test')
+    expect(slugs.get(2)).toBe('test-2')
+    expect(slugs.get(20)).toBe('test-2-20')
+    expect(new Set(slugs.values()).size).toBe(3)
+  })
+
+  it('truncates base before appending suffix to stay within MAX_LENGTH', () => {
+    // Create a collision with a very long base
+    const longTitle = 'a'.repeat(100) // Will be slugified to 80 chars of 'a's
+    const slugs = assignSlugs([
+      { id: 1, primaryArtist: '', title: longTitle },
+      { id: 9999, primaryArtist: '', title: longTitle },
+    ])
+    const slug1 = slugs.get(1)
+    const slug9999 = slugs.get(9999)
+    expect(slug1).toBe('a'.repeat(80))
+    expect(slug9999).toBeDefined()
+    expect(slug9999!.length).toBeLessThanOrEqual(80)
+    expect(slug9999!.endsWith('-')).toBe(false)
+    expect(new Set(slugs.values()).size).toBe(2)
+  })
 })
