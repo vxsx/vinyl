@@ -78,14 +78,14 @@ async function buildRecords(
     let coverFile: string | null = null
     if (coverUrl) {
       coverFile = `${id}.jpg`
-      await downloadIfMissing(coverUrl, join(COVER_DIR, coverFile))
+      await downloadIfMissing(coverUrl, join(COVER_DIR, coverFile), { force })
     }
 
     const secondary = allImages.filter((image) => image.type === 'secondary').slice(0, MAX_SECONDARY_IMAGES)
     const images: { file: string; width: number; height: number }[] = []
     for (const [n, image] of secondary.entries()) {
       const file = `${id}-${n + 1}.jpg`
-      await downloadIfMissing(image.uri, join(IMAGE_DIR, file))
+      await downloadIfMissing(image.uri, join(IMAGE_DIR, file), { force })
       images.push({ file, width: image.width, height: image.height })
     }
 
@@ -110,41 +110,71 @@ const collectionEntries = await client.getAllPages<RawCollectionEntry>(
 )
 const wantEntries = await client.getAllPages<RawCollectionEntry>(`/users/${user}/wants`, 'wants')
 
-// Slugs must be assigned once across the UNION of both lists: two different
-// releases whose artist+title slugify identically must not collide across
-// collection/wantlist, and a release appearing in both lists must get the
-// same slug in both (assignSlugs is keyed by release id, so it does).
-const slugs = assignSlugs(
-  [...collectionEntries, ...wantEntries].map((entry) => ({
-    id: entry.basic_information.id,
-    primaryArtist: primaryArtistName(entry.basic_information.artists ?? []),
-    title: entry.basic_information.title,
-  })),
-)
+// Slugs must be assigned once across the UNION of both lists, deduped by
+// release id first: two different releases whose artist+title slugify
+// identically must not collide across collection/wantlist, and a release
+// appearing in both lists must get the same slug in both. Feeding the same
+// id to assignSlugs twice would make its own second pass see the first
+// pass's slug as already "taken" and suffix itself — so the union is
+// deduped by id BEFORE assigning, not after.
+const byId = new Map<number, { id: number; primaryArtist: string; title: string }>()
+for (const entry of [...collectionEntries, ...wantEntries]) {
+  const basic = entry.basic_information
+  byId.set(basic.id, {
+    id: basic.id,
+    primaryArtist: primaryArtistName(basic.artists ?? []),
+    title: basic.title,
+  })
+}
+const slugs = assignSlugs([...byId.values()])
 
 const collection = await buildRecords(collectionEntries, 'collection', slugs)
 const wantlist = await buildRecords(wantEntries, 'wantlist', slugs)
 
 // Defensive guard: a slug collision must fail the sync loudly, not silently
-// overwrite one record's page with another's at build time.
-const allSlugs = [...collection, ...wantlist].map((record) => record.slug)
-const uniqueSlugs = new Set(allSlugs)
-if (uniqueSlugs.size !== allSlugs.length) {
-  const seen = new Set<string>()
-  const duplicates = new Set<string>()
-  for (const slug of allSlugs) {
-    if (seen.has(slug)) duplicates.add(slug)
-    seen.add(slug)
-  }
-  throw new Error(`Duplicate slug(s) across collection/wantlist: ${[...duplicates].join(', ')}`)
+// overwrite one record's page with another's at build time. A record that
+// legitimately appears in both collection and wantlist shares one release id
+// and (by construction above) one slug — that is NOT a collision. Only flag
+// a slug claimed by two DIFFERENT release ids.
+const idsBySlug = new Map<string, Set<number>>()
+for (const record of [...collection, ...wantlist]) {
+  const ids = idsBySlug.get(record.slug) ?? new Set<number>()
+  ids.add(record.id)
+  idsBySlug.set(record.slug, ids)
+}
+const duplicates = [...idsBySlug.entries()].filter(([, ids]) => ids.size > 1).map(([slug]) => slug)
+if (duplicates.length > 0) {
+  throw new Error(`Duplicate slug(s) across collection/wantlist: ${duplicates.join(', ')}`)
 }
 
 // Validate before writing — a schema failure must not corrupt committed data.
 CollectionSchema.parse(collection)
 CollectionSchema.parse(wantlist)
 
-await writeJson(join(DATA_DIR, 'collection.json'), collection)
-await writeJson(join(DATA_DIR, 'wantlist.json'), wantlist)
-await writeJson(join(DATA_DIR, 'synced-at.json'), { syncedAt: new Date().toISOString() })
+const collectionPath = join(DATA_DIR, 'collection.json')
+const wantlistPath = join(DATA_DIR, 'wantlist.json')
+const syncedAtPath = join(DATA_DIR, 'synced-at.json')
+
+// synced-at.json must only move when collection/wantlist content actually
+// changed. Rewriting it unconditionally makes `git status` dirty on every
+// run — even a no-op week — which defeats the CI change-detection step and
+// republishes identical output every Monday.
+const newCollectionJson = JSON.stringify(collection, null, 2)
+const newWantlistJson = JSON.stringify(wantlist, null, 2)
+const [existingCollectionJson, existingWantlistJson] = await Promise.all([
+  readFile(collectionPath, 'utf8').catch(() => null),
+  readFile(wantlistPath, 'utf8').catch(() => null),
+])
+const contentChanged =
+  existingCollectionJson !== newCollectionJson || existingWantlistJson !== newWantlistJson
+
+await writeJson(collectionPath, collection)
+await writeJson(wantlistPath, wantlist)
+
+if (contentChanged) {
+  await writeJson(syncedAtPath, { syncedAt: new Date().toISOString() })
+} else {
+  console.log('\nNo content changes — leaving data/synced-at.json untouched.')
+}
 
 console.log(`\nSynced ${collection.length} records, ${wantlist.length} wantlist items.`)
