@@ -39,8 +39,17 @@ const href = `${import.meta.env.BASE_URL}record/${record.slug}/`
 </a>
 
 <style>
-  /* Nothing may draw an edge on the artwork: no border, radius, ring or clipping. */
-  .sleeve { position: relative; display: block; overflow: visible; background: none; border: 0; }
+  /* Nothing may draw an edge on the artwork: no border, radius, ring or clipping.
+
+     `manipulation` is `auto` minus double-tap-to-zoom: panning on both axes
+     and pinch-zoom stay with the browser, so a drag that starts on a sleeve
+     still scrolls the page and the page still zooms. Giving up double-tap is
+     what removes the wait the browser otherwise sits through on every tap,
+     deciding whether a second one is still coming. */
+  .sleeve {
+    position: relative; display: block; overflow: visible; background: none; border: 0;
+    touch-action: manipulation;
+  }
   .sleeve :global(*) { border: 0; border-radius: 0; }
 
   .tilt {

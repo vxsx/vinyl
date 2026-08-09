@@ -134,7 +134,11 @@ const thumbs = (
 </script>
 
 <style>
-  .back { display: inline-block; margin-top: 26px; font-size: 12px; color: var(--dim); }
+  /* Same reasoning as the grid sleeves: `manipulation` gives up double-tap
+     zoom on this link alone, so the tap fires without the browser first
+     waiting to see whether a second one is coming. Panning and pinch-zoom are
+     untouched. */
+  .back { display: inline-block; margin-top: 26px; font-size: 12px; color: var(--dim); touch-action: manipulation; }
   .back:hover { color: var(--ink); }
 
   /* The cover column scales with the viewport (no more fixed 430px cap now
@@ -181,6 +185,7 @@ const thumbs = (
     overflow: hidden;
     cursor: pointer;
     display: block;
+    touch-action: manipulation;
   }
   .thumbs button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .thumbs :global(img) { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.6; transition: opacity 0.18s; }
@@ -338,6 +343,7 @@ const thumbs = (
     line-height: 1;
     color: var(--ink);
     padding: 6px 10px;
+    touch-action: manipulation;
   }
   :global(.lightbox-close:hover) { color: var(--accent); }
   :global(.lightbox-close:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -361,6 +367,7 @@ const thumbs = (
     line-height: 1;
     color: var(--ink);
     z-index: 1;
+    touch-action: manipulation;
   }
   :global(.lightbox-prev) { left: 6px; }
   :global(.lightbox-next) { right: 6px; }
