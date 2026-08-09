@@ -1,0 +1,49 @@
+---
+// src/components/DetailFacts.astro
+import type { VinylRecord } from '../lib/schema'
+
+interface Props { record: VinylRecord; released: string | null }
+const { record, released } = Astro.props
+const gap = record.pressedYear !== null && record.originalYear !== null
+  ? record.pressedYear - record.originalYear
+  : null
+---
+<dl class="facts">
+  <div>
+    <dt>Pressed</dt>
+    <dd>{released ?? record.pressedYear ?? '—'}</dd>
+  </div>
+
+  {record.isOriginalPressing && (
+    <div><dt>Status</dt><dd>Original pressing</dd></div>
+  )}
+
+  {!record.isOriginalPressing && record.originalYear !== null && (
+    <div>
+      <dt>Originally released</dt>
+      <dd>{record.originalYear}{gap !== null && <span class="ago">{gap} years earlier</span>}</dd>
+    </div>
+  )}
+
+  {!record.isPlainLP && record.formatDescriptions.length > 0 && (
+    <div><dt>Format</dt><dd>{record.formatDescriptions.join(', ')}</dd></div>
+  )}
+
+  {record.tracklist.length > 0 && (
+    <div>
+      <dt>Tracks</dt>
+      <dd>{record.tracklist.length}{record.sides.length > 0 ? ` over ${record.sides.length} sides` : ''}</dd>
+    </div>
+  )}
+</dl>
+
+<style>
+  .facts {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 16px 22px; margin: 22px 0; padding: 18px 0;
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+  }
+  dt { font-size: 9.5px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--faint); margin-bottom: 4px; }
+  dd { margin: 0; font-size: 13.5px; }
+  .ago { display: block; font-size: 10.5px; color: var(--faint); margin-top: 2px; }
+</style>

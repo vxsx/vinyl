@@ -1,0 +1,53 @@
+---
+// src/components/Tracklist.astro
+import type { VinylRecord } from '../lib/schema'
+
+interface Props { record: VinylRecord }
+const { record } = Astro.props
+
+// Sides come pre-derived from sync. When empty (numeric positions), show one flat list.
+const groups = record.sides.length > 0
+  ? record.sides.map((side) => ({
+      side,
+      tracks: record.tracklist.filter((track) => track.position.startsWith(side)),
+    }))
+  : [{ side: null, tracks: record.tracklist }]
+---
+{record.tracklist.length > 0 && (
+  <section class="block">
+    <h2>Tracklist</h2>
+    <div class="sides">
+      {groups.map((group) => (
+        <div class="side">
+          {group.side && <h3>Side {group.side}</h3>}
+          <ol>
+            {group.tracks.map((track) => (
+              <li>
+                <span class="pos">{track.position}</span>
+                <span class="title">{track.title}</span>
+                <span class="dur">{track.duration ?? '—'}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+    </div>
+  </section>
+)}
+
+<style>
+  .sides { display: flex; gap: 34px; flex-wrap: wrap; }
+  .side { flex: 1 1 250px; }
+  .side h3 {
+    margin: 0 0 9px; font-size: 10px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--accent);
+  }
+  .side ol { list-style: none; margin: 0; padding: 0; }
+  .side li {
+    display: flex; gap: 11px; align-items: baseline;
+    padding: 6px 0; border-bottom: 1px solid #191614; font-size: 13px;
+  }
+  .pos { color: var(--faint); font-size: 10.5px; width: 22px; flex: none; font-variant-numeric: tabular-nums; }
+  .title { flex: 1; }
+  .dur { color: var(--dim); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+</style>
