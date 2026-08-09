@@ -89,6 +89,14 @@ const href = `${import.meta.env.BASE_URL}record/${record.slug}/`
   .sleeve.is-active .frame {
     box-shadow: 0 30px 54px rgb(0 0 0 / 0.75), 0 8px 18px rgb(0 0 0 / 0.55);
   }
+
+  /* Press acknowledgement. A tap is answered by the cover morph, and that
+     cannot start until the destination document is in hand — so between the
+     finger landing and anything moving there is a gap the artwork has to fill
+     itself. `filter` is deliberately not in .frame's transition list: the dim
+     lands on the same frame as the touch, and lifts the moment the finger
+     does. Nothing here touches a box metric, so no neighbour moves. */
+  .sleeve:active .frame { filter: brightness(0.62); }
   /* The image is exactly 1:1 with its box and never translates, so no edge can be exposed. */
   .frame :global(img) { width: 100%; height: 100%; object-fit: cover; display: block; }
   .missing { display: block; width: 100%; height: 100%; background: #1a1817; }
@@ -131,5 +139,9 @@ const href = `${import.meta.env.BASE_URL}record/${record.slug}/`
     .tilt, .frame, .cap { transition: none; }
     .sleeve.is-active .tilt { transform: none; }
     .sheen, .amb { display: none; }
+    /* The morph is `animation: none !important` under this query (tokens.css),
+       so the destination simply appears and there is no gap left to cover. The
+       press dim goes with the rest of the sleeve's chrome. */
+    .sleeve:active .frame { filter: none; }
   }
 </style>

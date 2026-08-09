@@ -140,6 +140,13 @@ const thumbs = (
      untouched. */
   .back { display: inline-block; margin-top: 26px; font-size: 12px; color: var(--dim); touch-action: manipulation; }
   .back:hover { color: var(--ink); }
+  /* Same reasoning as the sleeve's press dim: the return morph is the answer
+     to this tap and it cannot begin immediately, so the link answers first.
+     Colour only — the text stays exactly where and how big it was. */
+  .back:active { color: var(--accent); }
+  @media (prefers-reduced-motion: reduce) {
+    .back:active { color: var(--dim); }
+  }
 
   /* The cover column scales with the viewport (no more fixed 430px cap now
      that the page has no max-width container) but stops growing past 720px
