@@ -10,7 +10,7 @@
     "sync": "node --env-file-if-exists=.env --import tsx scripts/sync.ts",
     "capture-fixtures": "node --env-file-if-exists=.env --import tsx scripts/capture-fixtures.ts",
     "test": "vitest run",
-    "verify": "npm run build && vitest run tests/build.test.ts --config vitest.build.config.ts"
+    "verify": "npm run build && node --env-file-if-exists=.env node_modules/vitest/vitest.mjs run tests/build.test.ts --config vitest.build.config.ts"
   },
   "dependencies": {
     "astro": "^5.0.0",
