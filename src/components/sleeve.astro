@@ -13,6 +13,7 @@ const href = `${import.meta.env.BASE_URL}record/${record.slug}/`
 <a
   class="sleeve"
   href={href}
+  data-slug={record.slug}
   data-genres={record.genres.join('|')}
   data-decade={record.decade}
   data-search={searchTextFor(record)}
@@ -25,7 +26,6 @@ const href = `${import.meta.env.BASE_URL}record/${record.slug}/`
             alt={`${record.primaryArtist} — ${record.title}`}
             widths={[280, 560, 840]}
             sizes="(min-width: 1440px) 20vw, (min-width: 1080px) 25vw, (min-width: 700px) 33vw, 50vw"
-            transition:name={`cover-${record.slug}`}
           />
         : <span class="missing" aria-hidden="true"></span>}
       <span class="sheen" aria-hidden="true"></span>

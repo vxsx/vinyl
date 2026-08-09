@@ -54,16 +54,25 @@ a { color: inherit; text-decoration: none; }
   border: 0;
 }
 
-/* Only the cover images opt into a named view transition (sleeve.astro /
-   [slug].astro give matching elements a `cover-<slug>` transition:name), so
-   this universal selector reaches exactly those plus the implicit
-   whole-page crossfade — slowed and eased to read as a deliberate move
-   rather than the browser's default 0.25s flash. Astro's own reduced-motion
-   stylesheet (bundled automatically once transition:name is used) overrides
-   this with !important, so no separate guard is needed here. */
+/* Two transition groups exist on any navigation: `root`, the implicit
+   whole-page crossfade, and `cover`, the one sleeve/cover pair that morphs.
+   Both are slowed and eased to read as a deliberate move rather than the
+   browser's default 0.25s flash. */
 ::view-transition-group(*),
 ::view-transition-old(*),
 ::view-transition-new(*) {
   animation-duration: 420ms;
   animation-timing-function: var(--ease-settle);
+}
+
+/* Astro only bundles its own reduced-motion override for view transitions when
+   a `transition:*` directive is used somewhere, and none is any more — the
+   cover name is set in plain CSS and JS. Everything above is therefore guarded
+   here, including the arc, which no stylesheet but this one knows about. */
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
 }

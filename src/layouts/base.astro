@@ -35,5 +35,17 @@ const showNav = wantlist.length > 0
       )}
       <main><slot /></main>
     </div>
+
+    <script>
+      import { initCoverTransition } from '../scripts/cover-transition'
+
+      // Every page type takes part in the cover morph — grids hand the name
+      // over, detail pages hand it back — so this is wired in the layout rather
+      // than per page. astro:page-load also fires on the initial load, so this
+      // one listener covers both.
+      document.addEventListener('astro:page-load', () => {
+        initCoverTransition()
+      })
+    </script>
   </body>
 </html>

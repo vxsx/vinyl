@@ -53,7 +53,7 @@ const thumbs = (
 ---
 <Base title={label}>
   <a class="back" href={import.meta.env.BASE_URL}>&larr; Collection</a>
-  <article class="detail">
+  <article class="detail" data-slug={record.slug}>
     <div class="art" data-label={label}>
       {cover && (
         <button type="button" class="cover-btn" data-full={coverFull} aria-label={`View full-size photo — ${label}`}>
@@ -63,7 +63,6 @@ const thumbs = (
             widths={[430, 860]}
             sizes="(min-width: 900px) min(46vw, 720px), 100vw"
             class="cover"
-            transition:name={`cover-${record.slug}`}
           />
         </button>
       )}
@@ -161,7 +160,17 @@ const thumbs = (
     box-shadow: 0 22px 50px rgb(0 0 0 / 0.6);
   }
   .cover-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .cover-btn :global(.cover) { width: 100%; height: 100%; object-fit: contain; display: block; }
+  /* This page has exactly one cover, so it can hold the constant transition
+     name outright — no JS needed on this side. The matching grid sleeve is
+     named at navigation time by scripts/cover-transition.ts, and the group is
+     styled (z-index, arc) in tokens.css, which both documents share. */
+  .cover-btn :global(.cover) {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    view-transition-name: cover;
+  }
 
   /* Small wrapping thumbnails — never a horizontal scroller, never full-size
      stacks. The BUTTON (not the img) is the grid item and owns the square
