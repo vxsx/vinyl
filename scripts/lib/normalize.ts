@@ -1,7 +1,14 @@
 import type { VinylRecord, Track } from '../../src/lib/schema.js'
 import { formatArtists, primaryArtistName, type RawArtist } from './artist.js'
 
-export type RawTrack = { type_?: string; position?: string; title?: string; duration?: string }
+export type RawTrack = {
+  type_?: string
+  position?: string
+  title?: string
+  duration?: string
+  /** Discogs hangs real tracks off an `index` entry (opera acts, suite movements, …). One level deep only. */
+  sub_tracks?: RawTrack[]
+}
 
 export type RawRelease = {
   artists?: RawArtist[]
@@ -51,14 +58,34 @@ export function decadeOf(value: number | null): string {
   return value === null ? 'Unknown' : `${Math.floor(value / 10) * 10}s`
 }
 
+function toTrack(raw: RawTrack): Track {
+  return {
+    position: raw.position ?? '',
+    title: raw.title ?? '',
+    duration: raw.duration ? raw.duration : null,
+  }
+}
+
+/**
+ * Most entries are plain tracks. Discogs also uses `type_: 'index'` to group a
+ * work (an opera, a symphony, a suite) and hangs its real tracks off that
+ * entry's `sub_tracks` array instead of listing them at the top level — so an
+ * index entry with sub-tracks contributes those sub-tracks, not itself.
+ * A bare heading, or an index with no sub-tracks, contributes nothing.
+ * Only one level of sub_tracks is ever flattened; Discogs does not nest deeper.
+ */
 export function cleanTracklist(raw: RawTrack[]): Track[] {
-  return raw
-    .filter((track) => (track.type_ ?? 'track') === 'track')
-    .map((track) => ({
-      position: track.position ?? '',
-      title: track.title ?? '',
-      duration: track.duration ? track.duration : null,
-    }))
+  const tracks: Track[] = []
+  for (const entry of raw) {
+    if ((entry.type_ ?? 'track') === 'track') {
+      tracks.push(toTrack(entry))
+    } else if (entry.sub_tracks && entry.sub_tracks.length > 0) {
+      for (const sub of entry.sub_tracks) {
+        if ((sub.type_ ?? 'track') === 'track') tracks.push(toTrack(sub))
+      }
+    }
+  }
+  return tracks
 }
 
 export function deriveSides(tracks: Track[]): string[] {

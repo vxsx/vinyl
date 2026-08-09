@@ -35,6 +35,44 @@ describe('cleanTracklist', () => {
     const cleaned = cleanTracklist([{ type_: 'track', position: 'A1', title: 'Tank!', duration: '' }])
     expect(cleaned[0]!.duration).toBeNull()
   })
+
+  it('flattens an index entry with sub_tracks into its sub-tracks, dropping the wrapper', () => {
+    const cleaned = cleanTracklist([
+      {
+        type_: 'index',
+        position: '',
+        title: 'Rigoletto',
+        duration: '',
+        sub_tracks: [
+          { type_: 'track', position: '1', title: 'Act I (beginning)', duration: '' },
+          { type_: 'track', position: '2', title: 'Act I (conclusion)', duration: '' },
+        ],
+      },
+    ])
+    expect(cleaned).toEqual([
+      { position: '1', title: 'Act I (beginning)', duration: null },
+      { position: '2', title: 'Act I (conclusion)', duration: null },
+    ])
+  })
+
+  it('drops an index entry with no sub_tracks', () => {
+    const cleaned = cleanTracklist([{ type_: 'index', position: '', title: 'Suite', duration: '' }])
+    expect(cleaned).toEqual([])
+  })
+
+  it('drops a heading entry even when a sibling entry has sub_tracks', () => {
+    const cleaned = cleanTracklist([
+      { type_: 'heading', position: '', title: 'Side One', duration: '' },
+      {
+        type_: 'index',
+        position: '',
+        title: 'Rigoletto',
+        duration: '',
+        sub_tracks: [{ type_: 'track', position: '1', title: 'Act I', duration: '' }],
+      },
+    ])
+    expect(cleaned).toEqual([{ position: '1', title: 'Act I', duration: null }])
+  })
 })
 
 describe('deriveSides', () => {
@@ -75,6 +113,19 @@ describe('normalizeRecord', () => {
     const record = build('rigoletto')
     expect(record.pressedYear).toBeNull()
     expect(record.decade).toBe('Unknown')
+  })
+
+  it('flattens the rigoletto index entry into its 4 real tracks, with no side letters', () => {
+    const record = build('rigoletto')
+    expect(record.tracklist).toHaveLength(4)
+    expect(record.tracklist[0]!.title).toMatch(/^Act I \(beginning\)/)
+    expect(record.sides).toEqual([])
+  })
+
+  it('leaves tracklist lengths of fixtures without sub_tracks unchanged', () => {
+    expect(build('substance', 'substance').tracklist).toHaveLength(19)
+    expect(build('hybrid-theory').tracklist).toHaveLength(12)
+    expect(build('blues-in-orbit').tracklist).toHaveLength(4)
   })
 
   it('keeps the full long credit but exposes a short primary artist', () => {
