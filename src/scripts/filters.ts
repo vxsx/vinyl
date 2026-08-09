@@ -4,17 +4,18 @@ import { readState, stateKey, writeState, type FilterState } from './filter-stat
 
 // The scroll offset is only final at the moment the page is left, so as well
 // as saving on every filter change there has to be a save on the way out.
-// Both hooks below live on document/window, which survive a view-transition
-// navigation — so they are bound exactly once and each initFilters() swaps in
-// the saver belonging to the page currently on screen. A page with no grid
-// (the wishlist while it's empty) clears it, so leaving that page can't
-// overwrite another page's entry with this page's scroll offset.
+// All three hooks below live on document/window, which survive a
+// view-transition navigation — so they are bound exactly once and each
+// initFilters() swaps in the saver belonging to the page currently on screen.
+// A page with no grid (the wishlist while it's empty) clears it, so leaving
+// that page can't overwrite another page's entry with this page's scroll
+// offset.
 let saveCurrentPage: (() => void) | null = null
-let exitHooksBound = false
+let globalHooksBound = false
 
-function bindExitHooks(): void {
-  if (exitHooksBound) return
-  exitHooksBound = true
+function bindGlobalHooks(): void {
+  if (globalHooksBound) return
+  globalHooksBound = true
 
   // Client-side navigation away — link click or Back button alike. Fires on
   // the outgoing document while its scroll offset is still the live one, and
@@ -25,10 +26,19 @@ function bindExitHooks(): void {
   // Full unload — hard reload, or a link out of the site. No Astro event fires
   // for those, and pagehide covers the bfcache case that beforeunload doesn't.
   window.addEventListener('pagehide', () => saveCurrentPage?.())
+  // Arriving. The page's own astro:page-load hook calls this too, but that
+  // fires after the router's update callback has returned — by which point the
+  // browser has already taken the view-transition snapshot of the new page, so
+  // restoring there would both flash the unfiltered grid and let the returning
+  // cover aim at a sleeve that is about to be hidden. astro:after-swap is
+  // inside that callback, with the new DOM in place and the URL already moved
+  // on, which is the correct moment. The guard below makes the later
+  // page-load call a no-op.
+  document.addEventListener('astro:after-swap', () => initFilters())
 }
 
 export function initFilters(): void {
-  bindExitHooks()
+  bindGlobalHooks()
 
   const grid = document.getElementById('grid')
   if (!grid) {
@@ -175,13 +185,13 @@ function restoreScroll(top: number): void {
   if (top <= 0) return
   // apply() has just hidden every non-matching sleeve, which shortens the
   // document — scrolling before that reflow has landed gets clamped to the
-  // wrong height, which reads as a silent no-op. Two frames (one to let the
-  // pending style/layout flush run, one that lands after it) tie this to the
-  // browser's actual paint instead of guessing at a timeout. The grid's boxes
-  // are sized by aspect-ratio, so the final height doesn't wait on images.
-  requestAnimationFrame(() => {
-    requestAnimationFrame(() => {
-      window.scrollTo({ top, left: 0, behavior: 'instant' })
-    })
-  })
+  // wrong height, which reads as a silent no-op. Reading scrollHeight forces
+  // the pending layout to flush right here instead of at the next frame, which
+  // matters because on a view-transition navigation this runs inside the
+  // router's update callback: anything deferred to a later frame lands after
+  // the browser has snapshotted the new page, and the arriving cover would fly
+  // to where the sleeve was before the scroll. The grid's boxes are sized by
+  // aspect-ratio, so the final height doesn't wait on images.
+  void document.documentElement.scrollHeight
+  window.scrollTo({ top, left: 0, behavior: 'instant' })
 }
