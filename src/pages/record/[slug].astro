@@ -9,6 +9,15 @@ import type { VinylRecord } from '../../lib/schema'
 
 export function getStaticPaths() {
   const all = [...collection, ...wantlist]
+  const seen = new Set<string>()
+  const duplicates = new Set<string>()
+  for (const record of all) {
+    if (seen.has(record.slug)) duplicates.add(record.slug)
+    seen.add(record.slug)
+  }
+  if (duplicates.size > 0) {
+    throw new Error(`Duplicate record slug(s): ${[...duplicates].join(', ')}`)
+  }
   return all.map((record) => ({ params: { slug: record.slug }, props: { record } }))
 }
 
@@ -41,7 +50,7 @@ const eyebrow = [record.label, record.catno, record.country].filter(Boolean).joi
         {record.styles.map((style) => <span class="style">{style}</span>)}
       </div>
 
-      <DetailFacts record={record} released={null} />
+      <DetailFacts record={record} />
       <Tracklist record={record} />
 
       <div class="two">

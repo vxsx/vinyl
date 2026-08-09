@@ -6,12 +6,20 @@ interface Props { record: VinylRecord }
 const { record } = Astro.props
 
 // Sides come pre-derived from sync. When empty (numeric positions), show one flat list.
-const groups = record.sides.length > 0
-  ? record.sides.map((side) => ({
-      side,
-      tracks: record.tracklist.filter((track) => track.position.startsWith(side)),
-    }))
-  : [{ side: null, tracks: record.tracklist }]
+// `sides` and track positions are independent derivations, so nothing guarantees every
+// track matches a side — any leftovers are rendered in a final unlabelled group so the
+// union of what's shown always equals the full tracklist.
+const sideGroups = record.sides.map((side) => ({
+  side,
+  tracks: record.tracklist.filter((track) => track.position.startsWith(side)),
+}))
+const grouped = new Set(sideGroups.flatMap((group) => group.tracks))
+const ungrouped = record.tracklist.filter((track) => !grouped.has(track))
+const groups = record.sides.length === 0
+  ? [{ side: null, tracks: record.tracklist }]
+  : ungrouped.length > 0
+    ? [...sideGroups, { side: null, tracks: ungrouped }]
+    : sideGroups
 ---
 {record.tracklist.length > 0 && (
   <section class="block">

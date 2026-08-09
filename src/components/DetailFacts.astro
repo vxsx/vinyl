@@ -2,8 +2,8 @@
 // src/components/DetailFacts.astro
 import type { VinylRecord } from '../lib/schema'
 
-interface Props { record: VinylRecord; released: string | null }
-const { record, released } = Astro.props
+interface Props { record: VinylRecord }
+const { record } = Astro.props
 const gap = record.pressedYear !== null && record.originalYear !== null
   ? record.pressedYear - record.originalYear
   : null
@@ -11,7 +11,7 @@ const gap = record.pressedYear !== null && record.originalYear !== null
 <dl class="facts">
   <div>
     <dt>Pressed</dt>
-    <dd>{released ?? record.pressedYear ?? '—'}</dd>
+    <dd>{record.pressedYear ?? '—'}</dd>
   </div>
 
   {record.isOriginalPressing && (
