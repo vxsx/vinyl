@@ -37,9 +37,21 @@ a { color: inherit; text-decoration: none; }
   gap: 24px;
   padding: 34px 0 22px;
 }
-.site-header h1 { margin: 0; font-size: 19px; letter-spacing: -0.01em; font-weight: 660; }
+.site-header .brand { margin: 0; font-size: 19px; letter-spacing: -0.01em; font-weight: 660; }
 .site-header nav { display: flex; gap: 16px; font-size: 13px; color: var(--dim); }
 .site-header nav a[aria-current="page"] { color: var(--accent); }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 
 .site-footer {
   padding: 60px 0 40px;

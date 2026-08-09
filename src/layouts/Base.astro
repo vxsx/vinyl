@@ -19,7 +19,7 @@ const path = Astro.url.pathname
   <body>
     <div class="wrap">
       <header class="site-header">
-        <h1>Records</h1>
+        <p class="brand">Records</p>
         <nav>
           <a href={base} aria-current={path === base ? 'page' : undefined}>Collection</a>
           <a href={`${base}wishlist/`} aria-current={path.includes('wishlist') ? 'page' : undefined}>Wishlist</a>

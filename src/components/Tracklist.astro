@@ -23,11 +23,11 @@ const groups = record.sides.length === 0
 ---
 {record.tracklist.length > 0 && (
   <section class="block">
-    <h2>Tracklist</h2>
+    <h3>Tracklist</h3>
     <div class="sides">
       {groups.map((group) => (
         <div class="side">
-          {group.side && <h3>Side {group.side}</h3>}
+          {group.side && <h4>Side {group.side}</h4>}
           <ol>
             {group.tracks.map((track) => (
               <li>
@@ -44,9 +44,10 @@ const groups = record.sides.length === 0
 )}
 
 <style>
+  .block h3 { font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin-bottom: 11px; }
   .sides { display: flex; gap: 34px; flex-wrap: wrap; }
   .side { flex: 1 1 250px; }
-  .side h3 {
+  .side h4 {
     margin: 0 0 9px; font-size: 10px; letter-spacing: 0.2em;
     text-transform: uppercase; color: var(--accent);
   }

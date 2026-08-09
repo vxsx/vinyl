@@ -7,6 +7,7 @@ import { collection } from '../lib/data'
 import { genreCounts, decadeCounts } from '../lib/facets'
 ---
 <Base title="Records" description="A vinyl collection">
+  <h1 class="sr-only">Collection</h1>
   <FilterBar genres={genreCounts(collection)} decades={decadeCounts(collection)} total={collection.length} />
   <CoverGrid records={collection} />
 </Base>

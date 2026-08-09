@@ -7,6 +7,7 @@ import { wantlist } from '../lib/data'
 import { genreCounts, decadeCounts } from '../lib/facets'
 ---
 <Base title="Wishlist" description="Records I'm looking for">
+  <h1 class="sr-only">Wishlist</h1>
   {wantlist.length > 0 && (
     <FilterBar genres={genreCounts(wantlist)} decades={decadeCounts(wantlist)} total={wantlist.length} />
   )}
