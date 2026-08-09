@@ -166,6 +166,10 @@ const thumbs = (
     overflow: hidden;
     background: var(--panel);
     box-shadow: 0 22px 50px rgb(0 0 0 / 0.6);
+    /* Missed when the same rule went on the sleeves, the back link, the chips
+       and the thumbnails: opening the lightbox is a tap like any other and
+       must not wait out the double-tap window either. */
+    touch-action: manipulation;
   }
   .cover-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   /* This page has exactly one cover, so it can hold the constant transition
