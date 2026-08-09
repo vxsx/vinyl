@@ -1,27 +1,105 @@
 // src/scripts/gallery.ts
-// Restores the approved detail-page behaviour: clicking a thumbnail swaps
-// the main image. Each `.art` block on the page (there's one per detail
-// page today) is wired independently so this stays safe if reused.
+// A near-fullscreen lightbox shared by every `.art` block on the page.
+// Activating the main cover or any thumbnail opens it at up to ~90vw/90vh
+// using the full-size asset; ArrowLeft/ArrowRight step through that record's
+// images (cover first, then secondaries, wrapping); Escape or a backdrop
+// click closes it.
+interface GalleryItem {
+  full: string
+  alt: string
+}
+
+let dialog: HTMLDivElement | null = null
+let dialogPanel: HTMLElement | null = null
+let imgEl: HTMLImageElement | null = null
+let items: GalleryItem[] = []
+let index = 0
+let lastFocused: HTMLElement | null = null
+
+function isOpen(): boolean {
+  return dialog?.classList.contains('is-open') ?? false
+}
+
+function render(): void {
+  const item = items[index]
+  if (!item || !imgEl) return
+  imgEl.src = item.full
+  imgEl.alt = item.alt
+}
+
+function step(delta: number): void {
+  if (items.length === 0) return
+  index = (index + delta + items.length) % items.length
+  render()
+}
+
+function close(): void {
+  if (!dialog || !isOpen()) return
+  dialog.classList.remove('is-open')
+  const toFocus = lastFocused
+  lastFocused = null
+  toFocus?.focus()
+}
+
+function ensureDialog(): HTMLDivElement {
+  if (dialog) return dialog
+
+  const el = document.createElement('div')
+  el.className = 'lightbox'
+  el.innerHTML = `
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-label="Photo viewer" tabindex="-1">
+      <button type="button" class="lightbox-close" aria-label="Close">&times;</button>
+      <img class="lightbox-img" alt="" />
+    </div>
+  `
+  document.body.appendChild(el)
+
+  dialog = el
+  dialogPanel = el.querySelector<HTMLElement>('.lightbox-dialog')
+  imgEl = el.querySelector<HTMLImageElement>('.lightbox-img')
+
+  el.querySelector('.lightbox-backdrop')?.addEventListener('click', close)
+  el.querySelector('.lightbox-close')?.addEventListener('click', close)
+
+  document.addEventListener('keydown', (event) => {
+    if (!isOpen()) return
+    if (event.key === 'Escape') close()
+    else if (event.key === 'ArrowLeft') step(-1)
+    else if (event.key === 'ArrowRight') step(1)
+  })
+
+  return el
+}
+
+function open(list: GalleryItem[], startIndex: number, label: string, trigger: HTMLElement): void {
+  const el = ensureDialog()
+  items = list
+  index = startIndex
+  lastFocused = trigger
+
+  dialogPanel?.setAttribute('aria-label', label)
+  render()
+
+  el.classList.add('is-open')
+  dialogPanel?.focus()
+}
+
 export function initGallery(root: ParentNode = document): void {
   for (const art of root.querySelectorAll<HTMLElement>('.art')) {
-    const main = art.querySelector<HTMLImageElement>('.cover')
-    const buttons = [...art.querySelectorAll<HTMLButtonElement>('.thumbs button')]
-    if (!main || buttons.length === 0) continue
+    const coverButton = art.querySelector<HTMLButtonElement>('.cover-btn')
+    const thumbButtons = [...art.querySelectorAll<HTMLButtonElement>('.thumbs button')]
+    const buttons = (coverButton ? [coverButton] : []).concat(thumbButtons)
+    if (buttons.length === 0) continue
 
-    for (const button of buttons) {
-      button.addEventListener('click', () => {
-        const full = button.dataset.full
-        if (!full) return
+    const label = art.dataset.label ?? 'Photo viewer'
+    const list: GalleryItem[] = buttons.map((button) => ({
+      full: button.dataset.full ?? '',
+      alt: button.getAttribute('aria-label') ?? label,
+    }))
 
-        // Drop the responsive srcset/sizes generated for the thumbnail-sized
-        // rendition so the browser doesn't ignore the swapped src in favour
-        // of a stale candidate — this is a plain swap, no transition needed.
-        main.removeAttribute('srcset')
-        main.removeAttribute('sizes')
-        main.src = full
-
-        for (const other of buttons) other.setAttribute('aria-pressed', String(other === button))
-      })
-    }
+    buttons.forEach((button, i) => {
+      button.addEventListener('click', () => open(list, i, label, button))
+    })
   }
 }

@@ -33,10 +33,13 @@ export function getStaticPaths() {
 interface Props { record: VinylRecord }
 const { record } = Astro.props
 const cover = coverFor(record.coverFile)
+const label = `${record.primaryArtist} — ${record.title}`
 const eyebrow = [record.label, record.catno, record.country].filter(Boolean).join(' · ')
 
-// The full-size URL for each secondary image, so clicking its thumbnail can
-// swap the main image in without hardcoding any asset path.
+// The full-size URL for the cover and each secondary image, so the lightbox
+// (src/scripts/gallery.ts) can show the full-resolution asset without
+// hardcoding any path — it just reads each button's data-full.
+const coverFull = cover ? (await getImage({ src: cover })).src : null
 const thumbs = (
   await Promise.all(
     record.images.map(async (image) => {
@@ -48,17 +51,21 @@ const thumbs = (
   )
 ).filter((thumb) => thumb !== null)
 ---
-<Base title={`${record.primaryArtist} — ${record.title}`}>
+<Base title={label}>
+  <a class="back" href={import.meta.env.BASE_URL}>&larr; Collection</a>
   <article class="detail">
-    <div class="art">
-      {cover && <Image src={cover} alt={`${record.primaryArtist} — ${record.title}`} widths={[430, 860]} sizes="(min-width: 900px) 430px, 100vw" class="cover" />}
+    <div class="art" data-label={label}>
+      {cover && (
+        <button type="button" class="cover-btn" data-full={coverFull} aria-label={`View full-size photo — ${label}`}>
+          <Image src={cover} alt={label} widths={[430, 860]} sizes="(min-width: 900px) 430px, 100vw" class="cover" />
+        </button>
+      )}
       {thumbs.length > 0 && (
         <div class="thumbs">
           {thumbs.map((thumb, index) => (
             <button
               type="button"
               aria-label={`Show photo ${index + 1} of ${thumbs.length}`}
-              aria-pressed="false"
               data-full={thumb.fullSrc}
             >
               <Image src={thumb.asset} alt="" widths={[64, 128]} sizes="64px" />
@@ -120,17 +127,44 @@ const thumbs = (
 </script>
 
 <style>
-  .detail { display: grid; grid-template-columns: minmax(300px, 430px) 1fr; gap: 46px; align-items: start; padding: 24px 0 40px; }
-  @media (max-width: 900px) { .detail { grid-template-columns: 1fr; } }
-  .art :global(.cover) { width: 100%; height: auto; display: block; box-shadow: 0 22px 50px rgb(0 0 0 / 0.6); }
+  .back { display: inline-block; margin-top: 26px; font-size: 12px; color: var(--dim); }
+  .back:hover { color: var(--ink); }
 
-  /* Small wrapping thumbnails — never a horizontal scroller, never full-size stacks. */
+  .detail { display: grid; grid-template-columns: minmax(300px, 430px) 1fr; gap: 46px; align-items: start; padding: 16px 0 40px; }
+  @media (max-width: 900px) { .detail { grid-template-columns: 1fr; } }
+
+  /* Fixed square box, letterboxed (object-fit: contain) so a horizontal
+     spread is fully visible and the layout never jumps between records —
+     only the lightbox shows an image at its natural aspect ratio. */
+  .cover-btn {
+    all: unset;
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    cursor: pointer;
+    overflow: hidden;
+    background: var(--panel);
+    box-shadow: 0 22px 50px rgb(0 0 0 / 0.6);
+  }
+  .cover-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .cover-btn :global(.cover) { width: 100%; height: 100%; object-fit: contain; display: block; }
+
+  /* Small wrapping thumbnails — never a horizontal scroller, never full-size
+     stacks. The BUTTON (not the img) is the grid item and owns the square
+     sizing, so wrapping the img in a button can't distort it. */
   .thumbs { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 8px; margin-top: 12px; }
-  .thumbs button { all: unset; cursor: pointer; display: block; }
+  .thumbs button {
+    all: unset;
+    aspect-ratio: 1;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+  }
   .thumbs button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .thumbs :global(img) { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; opacity: 0.6; transition: opacity 0.18s; }
+  .thumbs :global(img) { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.6; transition: opacity 0.18s; }
   .thumbs :global(img:hover) { opacity: 1; }
-  .thumbs button[aria-pressed="true"] :global(img) { opacity: 1; }
 
   .eyebrow { font-size: 11.5px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--dim); margin: 0 0 8px; }
   h1 { margin: 0 0 6px; font-size: 34px; line-height: 1.1; letter-spacing: -0.02em; font-weight: 680; }
@@ -152,4 +186,65 @@ const thumbs = (
   .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; color: #b3a99e; }
   .more { margin: 6px 0 0; font-size: 11px; color: var(--faint); }
   .notes { font-size: 13px; line-height: 1.62; color: #c0b7ac; max-width: 66ch; }
+
+  /* The lightbox dialog is created and appended to <body> by gallery.ts, so
+     it never receives this component's scoped data-astro-cid attribute —
+     every rule targeting it must be :global(). */
+  :global(.lightbox) {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.18s ease, visibility 0s linear 0.18s;
+  }
+  :global(.lightbox.is-open) {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transition: opacity 0.18s ease;
+  }
+  :global(.lightbox-backdrop) {
+    position: absolute;
+    inset: 0;
+    background: rgb(0 0 0 / 0.94);
+    cursor: pointer;
+  }
+  :global(.lightbox-dialog) {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+  }
+  :global(.lightbox-dialog:focus) { outline: none; }
+  :global(.lightbox-img) {
+    max-width: 90vw;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    box-shadow: 0 30px 80px rgb(0 0 0 / 0.6);
+  }
+  :global(.lightbox-close) {
+    all: unset;
+    position: fixed;
+    top: 20px;
+    right: 28px;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 1;
+    color: var(--ink);
+    padding: 6px 10px;
+  }
+  :global(.lightbox-close:hover) { color: var(--accent); }
+  :global(.lightbox-close:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    :global(.lightbox), :global(.lightbox.is-open) { transition: none; }
+  }
 </style>
