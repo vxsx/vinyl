@@ -30,7 +30,10 @@ const { genres, decades, total } = Astro.props
 
   <div class="group">
     <label class="label" for="q">Search</label>
-    <input id="q" class="q" type="search" placeholder="artist, title, label…" autocomplete="off" />
+    <div class="search-wrap">
+      <input id="q" class="q" type="search" placeholder="artist, title, label…" autocomplete="off" />
+      <button type="button" class="q-clear" aria-label="Clear search" hidden>&times;</button>
+    </div>
   </div>
 
   <p class="count" aria-live="polite"><b id="shown">{total}</b> of {total}</p>
@@ -51,14 +54,30 @@ const { genres, decades, total } = Astro.props
   }
   .chip:hover { border-color: #4a423c; color: #fff; }
   .chip i { font-style: normal; font-size: 9.5px; color: var(--faint); }
+  /* Active state is colour/background only — a font-weight (or any other
+     box-affecting) difference here would resize the chip and reflow the
+     whole row every time one is toggled, shoving other chips out from
+     under the pointer. */
   .chip[aria-pressed="true"] {
-    background: var(--accent); border-color: var(--accent); color: #17130c; font-weight: 640;
+    background: var(--accent); border-color: var(--accent); color: #17130c;
   }
   .chip[aria-pressed="true"] i { color: #17130c; opacity: 0.62; }
+
+  .search-wrap { position: relative; display: inline-flex; }
   .q {
     font: inherit; font-size: 13px; background: var(--panel); border: 1px solid #2b2724;
-    color: var(--ink); padding: 8px 12px; border-radius: 7px; width: 210px;
+    color: var(--ink); padding: 8px 26px 8px 12px; border-radius: 7px; width: 210px;
   }
   .q:focus { outline: none; border-color: var(--accent); }
+  /* WebKit's native cancel button reads as a stray emoji and ignores
+     cursor: pointer — replaced with .q-clear below. */
+  .q::-webkit-search-cancel-button { -webkit-appearance: none; display: none; }
+  .q-clear {
+    all: unset;
+    position: absolute; right: 7px; top: 50%; transform: translateY(-50%);
+    width: 16px; height: 16px; line-height: 1; text-align: center;
+    font-size: 15px; color: var(--faint); cursor: pointer;
+  }
+  .q-clear:hover { color: var(--ink); }
   .count { margin: 0 0 0 auto; font-size: 12px; color: var(--dim); }
 </style>
