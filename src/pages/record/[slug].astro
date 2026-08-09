@@ -57,7 +57,14 @@ const thumbs = (
     <div class="art" data-label={label}>
       {cover && (
         <button type="button" class="cover-btn" data-full={coverFull} aria-label={`View full-size photo — ${label}`}>
-          <Image src={cover} alt={label} widths={[430, 860]} sizes="(min-width: 900px) 430px, 100vw" class="cover" />
+          <Image
+            src={cover}
+            alt={label}
+            widths={[430, 860]}
+            sizes="(min-width: 900px) min(46vw, 720px), 100vw"
+            class="cover"
+            transition:name={`cover-${record.slug}`}
+          />
         </button>
       )}
       {thumbs.length > 0 && (
@@ -134,7 +141,10 @@ const thumbs = (
   .back { display: inline-block; margin-top: 26px; font-size: 12px; color: var(--dim); }
   .back:hover { color: var(--ink); }
 
-  .detail { display: grid; grid-template-columns: minmax(300px, 430px) 1fr; gap: 46px; align-items: start; padding: 16px 0 40px; }
+  /* The cover column scales with the viewport (no more fixed 430px cap now
+     that the page has no max-width container) but stops growing past 720px
+     so it doesn't dominate an ultra-wide window. */
+  .detail { display: grid; grid-template-columns: minmax(300px, min(46vw, 720px)) 1fr; gap: 46px; align-items: start; padding: 16px 0 40px; }
   @media (max-width: 900px) { .detail { grid-template-columns: 1fr; } }
 
   /* Fixed square box, letterboxed (object-fit: contain) so a horizontal

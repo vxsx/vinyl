@@ -1,6 +1,7 @@
 ---
 // src/layouts/Base.astro
 import '../styles/tokens.css'
+import { ClientRouter } from 'astro:transitions'
 import { wantlist } from '../lib/data'
 
 interface Props { title: string; description?: string }
@@ -20,6 +21,7 @@ const showNav = wantlist.length > 0
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <ClientRouter />
   </head>
   <body>
     <div class="wrap">
