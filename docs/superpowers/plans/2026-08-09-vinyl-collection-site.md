@@ -85,7 +85,8 @@ Three decisions made while verifying the API, which differ from or add to the sp
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "sync": "tsx scripts/sync.ts",
+    "sync": "node --env-file-if-exists=.env --import tsx scripts/sync.ts",
+    "capture-fixtures": "node --env-file-if-exists=.env --import tsx scripts/capture-fixtures.ts",
     "test": "vitest run",
     "verify": "npm run build && vitest run tests/build.test.ts --config vitest.build.config.ts"
   },
@@ -924,7 +925,7 @@ Expected: three lines printing the real release ids. Update `TARGETS` in the scr
 
 - [ ] **Step 3: Run the capture**
 
-Run: `DISCOGS_TOKEN=... npx tsx scripts/capture-fixtures.ts`
+Run: `npm run capture-fixtures`  (reads `DISCOGS_TOKEN` from `.env`)
 Expected: `captured substance`, `captured hybrid-theory`, `captured rigoletto`, `captured blues-in-orbit`.
 
 - [ ] **Step 4: Write the collection-entry fixtures by hand**
@@ -960,7 +961,7 @@ Collection entries are small; extract the matching `basic_information` from the 
 # API fixtures
 
 Trimmed real responses from the Discogs API, captured from the live collection.
-Refresh with `DISCOGS_TOKEN=... npx tsx scripts/capture-fixtures.ts`.
+Refresh with `npm run capture-fixtures` (reads `DISCOGS_TOKEN` from `.env`).
 
 Each fixture exists to pin a specific edge case found in the real data:
 
@@ -1519,7 +1520,7 @@ Expected: no errors.
 
 - [ ] **Step 3: Run the real sync**
 
-Run: `DISCOGS_TOKEN=<token> npm run sync`
+Run: `npm run sync`  (reads `DISCOGS_TOKEN` from `.env`)
 
 Expected: progress lines for 57 records, then `Synced 57 records, 0 wantlist items.` Takes roughly two minutes on a cold run because of throttling.
 
@@ -2794,7 +2795,7 @@ lives as the `DISCOGS_TOKEN` repository secret.
 
 | Command | Does |
 |---|---|
-| `npm run sync` | Fetch from Discogs into `data/` and `src/assets/` |
+| `npm run sync` | Fetch from Discogs into `data/` and `src/assets/` (token from `.env`) |
 | `npm run sync -- --force` | Ignore the local response cache |
 | `npm run dev` | Local dev server |
 | `npm run build` | Static build into `dist/` |
