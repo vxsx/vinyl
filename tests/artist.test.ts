@@ -51,6 +51,33 @@ describe('formatArtists', () => {
     expect(out).not.toMatch(/\s{2,}/)
     expect(out).not.toMatch(/[,\/&-]\s*$/)
   })
+
+  it('elides French apostrophes onto the next name', () => {
+    expect(formatArtists([
+      { name: 'Les Chanteurs', join: "Et L'" },
+      { name: 'Orchestre', join: '' },
+    ])).toBe("Les Chanteurs Et L'Orchestre")
+  })
+
+  it('drops a trailing em-dash join', () => {
+    expect(formatArtists([
+      { name: 'A', join: '—' },
+      { name: 'B', join: '—' },
+    ])).toBe('A — B')
+  })
+
+  it('drops a trailing Leitung: join', () => {
+    expect(formatArtists([
+      { name: 'A', join: 'Leitung:' },
+      { name: 'B', join: 'Leitung:' },
+    ])).toBe('A Leitung: B')
+  })
+
+  it('does not truncate artist names ending in hyphen', () => {
+    expect(formatArtists([
+      { name: 'Jay-', join: '' },
+    ])).toBe('Jay-')
+  })
 })
 
 describe('primaryArtistName', () => {
