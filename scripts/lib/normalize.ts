@@ -136,6 +136,9 @@ export function normalizeRecord(input: NormalizeInput): VinylRecord {
     // only a record with no master year falls back to the pressing. The detail
     // page still shows both years verbatim; this is the facet only.
     decade: decadeOf(originalYear ?? pressedYear),
+    // Never derived — only data/decade-overrides.json can set this, and sync.ts
+    // does so after normalisation.
+    recordedDecade: null,
     formatDescriptions: descriptions,
     isPlainLP: descriptions.includes('LP'),
     tracklist,

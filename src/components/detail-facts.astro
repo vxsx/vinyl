@@ -14,6 +14,12 @@ const gap = record.pressedYear !== null && record.originalYear !== null
     <dd>{record.pressedYear ?? '—'}</dd>
   </div>
 
+  {/* Present only where data/decade-overrides.json corrected the filing, so the
+      page says why a 1984 pressing sits under 1930s instead of looking wrong. */}
+  {record.recordedDecade !== null && (
+    <div><dt>Recorded</dt><dd>{record.recordedDecade}</dd></div>
+  )}
+
   {record.isOriginalPressing && (
     <div><dt>Status</dt><dd>Original pressing</dd></div>
   )}

@@ -23,6 +23,7 @@
     "originalYear": 2006,
     "isOriginalPressing": true,
     "decade": "2000s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album"
@@ -216,6 +217,7 @@
     "originalYear": null,
     "isOriginalPressing": false,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP"
     ],
@@ -373,6 +375,7 @@
     "originalYear": 1968,
     "isOriginalPressing": false,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -770,6 +773,7 @@
     "originalYear": 1963,
     "isOriginalPressing": false,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -977,6 +981,7 @@
     "originalYear": 1973,
     "isOriginalPressing": true,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -1636,6 +1641,7 @@
     "originalYear": 1973,
     "isOriginalPressing": false,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -1859,7 +1865,8 @@
     "pressedYear": 1970,
     "originalYear": 1950,
     "isOriginalPressing": false,
-    "decade": "1950s",
+    "decade": "1930s",
+    "recordedDecade": "1930s",
     "formatDescriptions": [
       "LP",
       "Reissue"
@@ -2186,7 +2193,8 @@
     "pressedYear": 1978,
     "originalYear": 1977,
     "isOriginalPressing": false,
-    "decade": "1970s",
+    "decade": "1930s",
+    "recordedDecade": "1930s",
     "formatDescriptions": [
       "LP",
       "Compilation"
@@ -2428,6 +2436,7 @@
     "originalYear": 1966,
     "isOriginalPressing": false,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -2587,6 +2596,7 @@
     "originalYear": 1988,
     "isOriginalPressing": true,
     "decade": "1980s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -2744,6 +2754,7 @@
     "originalYear": 1972,
     "isOriginalPressing": false,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -2915,6 +2926,7 @@
     "originalYear": 1985,
     "isOriginalPressing": true,
     "decade": "1980s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -3314,6 +3326,7 @@
     "originalYear": 1969,
     "isOriginalPressing": true,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation"
@@ -3470,7 +3483,8 @@
     "pressedYear": 1984,
     "originalYear": 1984,
     "isOriginalPressing": true,
-    "decade": "1980s",
+    "decade": "1930s",
+    "recordedDecade": "1930s",
     "formatDescriptions": [
       "LP",
       "Compilation"
@@ -3711,7 +3725,8 @@
     "pressedYear": 1960,
     "originalYear": 1960,
     "isOriginalPressing": true,
-    "decade": "1960s",
+    "decade": "1950s",
+    "recordedDecade": "1950s",
     "formatDescriptions": [
       "7\"",
       "45 RPM",
@@ -3811,6 +3826,7 @@
     "originalYear": 1978,
     "isOriginalPressing": true,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation"
@@ -4026,6 +4042,7 @@
     "originalYear": 1969,
     "isOriginalPressing": false,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP"
     ],
@@ -4120,6 +4137,7 @@
     "originalYear": 1977,
     "isOriginalPressing": false,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -4314,6 +4332,7 @@
     "originalYear": 1971,
     "isOriginalPressing": false,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -4469,6 +4488,7 @@
     "originalYear": 2022,
     "isOriginalPressing": true,
     "decade": "2020s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation"
@@ -4772,6 +4792,7 @@
     "originalYear": 1981,
     "isOriginalPressing": true,
     "decade": "1980s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -5199,6 +5220,7 @@
     "originalYear": 2017,
     "isOriginalPressing": true,
     "decade": "2010s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation"
@@ -5491,6 +5513,7 @@
     "originalYear": 1996,
     "isOriginalPressing": false,
     "decade": "1990s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -5785,6 +5808,7 @@
     "originalYear": 1990,
     "isOriginalPressing": true,
     "decade": "1990s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -6125,6 +6149,7 @@
     "originalYear": null,
     "isOriginalPressing": false,
     "decade": "Unknown",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Stereo"
@@ -6239,7 +6264,8 @@
     "pressedYear": 1977,
     "originalYear": null,
     "isOriginalPressing": false,
-    "decade": "1970s",
+    "decade": "1920s",
+    "recordedDecade": "1920s",
     "formatDescriptions": [
       "LP",
       "Compilation"
@@ -6460,6 +6486,7 @@
     "originalYear": 1962,
     "isOriginalPressing": false,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP"
     ],
@@ -6652,6 +6679,7 @@
     "originalYear": 1966,
     "isOriginalPressing": false,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Stereo"
@@ -6836,6 +6864,7 @@
     "originalYear": 1976,
     "isOriginalPressing": true,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -7015,6 +7044,7 @@
     "originalYear": 1959,
     "isOriginalPressing": false,
     "decade": "1950s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Stereo"
@@ -7128,6 +7158,7 @@
     "originalYear": null,
     "isOriginalPressing": false,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP"
     ],
@@ -7442,6 +7473,7 @@
     "originalYear": null,
     "isOriginalPressing": false,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP"
     ],
@@ -7581,6 +7613,7 @@
     "originalYear": 1980,
     "isOriginalPressing": true,
     "decade": "1980s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -8019,6 +8052,7 @@
     "originalYear": 1969,
     "isOriginalPressing": false,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -8181,6 +8215,7 @@
     "originalYear": 1979,
     "isOriginalPressing": true,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Stereo"
@@ -8327,6 +8362,7 @@
     "originalYear": 1988,
     "isOriginalPressing": false,
     "decade": "1980s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -8702,6 +8738,7 @@
     "originalYear": null,
     "isOriginalPressing": false,
     "decade": "Unknown",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Reissue",
@@ -8910,6 +8947,7 @@
     "originalYear": 2000,
     "isOriginalPressing": false,
     "decade": "2000s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -9298,6 +9336,7 @@
     "originalYear": 1959,
     "isOriginalPressing": false,
     "decade": "1950s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -9494,6 +9533,7 @@
     "originalYear": 2017,
     "isOriginalPressing": true,
     "decade": "2010s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "12\""
     ],
@@ -9566,6 +9606,7 @@
     "originalYear": 1980,
     "isOriginalPressing": false,
     "decade": "1980s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -9690,7 +9731,8 @@
     "pressedYear": 2017,
     "originalYear": null,
     "isOriginalPressing": false,
-    "decade": "2010s",
+    "decade": "1950s",
+    "recordedDecade": "1950s",
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -9906,6 +9948,7 @@
     "originalYear": 1959,
     "isOriginalPressing": false,
     "decade": "1950s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Stereo"
@@ -9992,6 +10035,7 @@
     "originalYear": 1972,
     "isOriginalPressing": true,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -10178,6 +10222,7 @@
     "originalYear": 1963,
     "isOriginalPressing": false,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Mono"
@@ -10281,6 +10326,7 @@
     "originalYear": 1965,
     "isOriginalPressing": false,
     "decade": "1960s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Reissue",
@@ -10415,6 +10461,7 @@
     "originalYear": 1991,
     "isOriginalPressing": false,
     "decade": "1990s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -10735,6 +10782,7 @@
     "originalYear": 1998,
     "isOriginalPressing": false,
     "decade": "1990s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP"
     ],
@@ -11115,6 +11163,7 @@
     "originalYear": null,
     "isOriginalPressing": false,
     "decade": "Unknown",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -11198,6 +11247,7 @@
     "originalYear": 2021,
     "isOriginalPressing": false,
     "decade": "2020s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -11419,6 +11469,7 @@
     "originalYear": 1980,
     "isOriginalPressing": true,
     "decade": "1980s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album",
@@ -11741,6 +11792,7 @@
     "originalYear": 1982,
     "isOriginalPressing": true,
     "decade": "1980s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -11911,6 +11963,7 @@
     "originalYear": 1973,
     "isOriginalPressing": true,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album"
@@ -12070,6 +12123,7 @@
     "originalYear": 1990,
     "isOriginalPressing": true,
     "decade": "1990s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -12263,6 +12317,7 @@
     "originalYear": null,
     "isOriginalPressing": false,
     "decade": "Unknown",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Album"
@@ -12361,6 +12416,7 @@
     "originalYear": null,
     "isOriginalPressing": false,
     "decade": "Unknown",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -12547,6 +12603,7 @@
     "originalYear": 1977,
     "isOriginalPressing": false,
     "decade": "1970s",
+    "recordedDecade": null,
     "formatDescriptions": [
       "LP",
       "Compilation"

@@ -6,7 +6,13 @@ import { assignSlugs } from './lib/slug.js'
 import { primaryArtistName } from './lib/artist.js'
 import { normalizeRecord, type RawCollectionEntry, type RawRelease, type RawMaster } from './lib/normalize.js'
 import { downloadIfMissing, MAX_SECONDARY_IMAGES } from './lib/assets.js'
-import { CollectionSchema, type VinylRecord } from '../src/lib/schema.js'
+import { applyDecadeOverrides, unusedOverrideIds } from './lib/decade-overrides.js'
+import {
+  CollectionSchema,
+  DecadeOverridesSchema,
+  type DecadeOverrides,
+  type VinylRecord,
+} from '../src/lib/schema.js'
 
 const USER_AGENT = 'VinylSite/1.0 +https://github.com/vxsx/vinyl'
 const CACHE_DIR = '.cache/discogs'
@@ -24,6 +30,41 @@ if (!token) {
 }
 
 const client = new DiscogsClient({ token, userAgent: USER_AGENT })
+
+const OVERRIDES_PATH = join(DATA_DIR, 'decade-overrides.json')
+
+/**
+ * Read before a single request goes out: a broken override file should cost a
+ * second, not two minutes of fetching. Every failure mode here throws — a
+ * missing file, unparseable JSON, an unknown key shape, a decade that isn't
+ * one. The one thing this must never do is shrug and correct nothing.
+ */
+async function loadDecadeOverrides(): Promise<DecadeOverrides> {
+  let raw: string
+  try {
+    raw = await readFile(OVERRIDES_PATH, 'utf8')
+  } catch (cause) {
+    throw new Error(`${OVERRIDES_PATH} is missing — it is committed alongside the data it corrects`, { cause })
+  }
+
+  let parsed: unknown
+  try {
+    parsed = JSON.parse(raw)
+  } catch (cause) {
+    throw new Error(`${OVERRIDES_PATH} is not valid JSON`, { cause })
+  }
+
+  const result = DecadeOverridesSchema.safeParse(parsed)
+  if (!result.success) {
+    const issues = result.error.issues
+      .map((issue) => `  ${issue.path.join('.') || '(root)'}: ${issue.message}`)
+      .join('\n')
+    throw new Error(`${OVERRIDES_PATH} is invalid:\n${issues}`)
+  }
+  return result.data
+}
+
+const decadeOverrides = await loadDecadeOverrides()
 
 async function cached<T>(kind: string, id: number, fetcher: () => Promise<T>): Promise<T> {
   const path = join(CACHE_DIR, kind, `${id}.json`)
@@ -128,8 +169,24 @@ for (const entry of [...collectionEntries, ...wantEntries]) {
 }
 const slugs = assignSlugs([...byId.values()])
 
-const collection = await buildRecords(collectionEntries, 'collection', slugs)
-const wantlist = await buildRecords(wantEntries, 'wantlist', slugs)
+// Overrides are applied AFTER normalisation, to both lists: a release id names
+// the same record wherever it appears, and its detail page renders from either.
+const collectionBuilt = await applyDecadeOverrides(
+  await buildRecords(collectionEntries, 'collection', slugs),
+  decadeOverrides,
+)
+const wantlistBuilt = await applyDecadeOverrides(
+  await buildRecords(wantEntries, 'wantlist', slugs),
+  decadeOverrides,
+)
+const collection = collectionBuilt.records
+const wantlist = wantlistBuilt.records
+
+for (const id of unusedOverrideIds(decadeOverrides, collection, wantlist)) {
+  console.warn(
+    `[warn] decade override for release ${id} (-> ${decadeOverrides[id]!.decade}) matches nothing in the collection or wantlist`,
+  )
+}
 
 // Defensive guard: a slug collision must fail the sync loudly, not silently
 // overwrite one record's page with another's at build time. A record that
@@ -161,4 +218,8 @@ const wantlistPath = join(DATA_DIR, 'wantlist.json')
 await writeJson(collectionPath, collection)
 await writeJson(wantlistPath, wantlist)
 
-console.log(`\nSynced ${collection.length} records, ${wantlist.length} wantlist items.`)
+const overridden = new Set([...collectionBuilt.appliedIds, ...wantlistBuilt.appliedIds]).size
+console.log(
+  `\nSynced ${collection.length} records, ${wantlist.length} wantlist items, ` +
+    `${overridden} decade override(s) applied.`,
+)

@@ -18,6 +18,7 @@ const valid = {
   originalYear: 1988,
   isOriginalPressing: false,
   decade: '2010s',
+  recordedDecade: null,
   formatDescriptions: ['LP', 'Compilation', 'Reissue'],
   isPlainLP: true,
   tracklist: [{ position: 'A1', title: 'Warsaw', duration: '2:25' }],
@@ -65,5 +66,29 @@ describe('RecordSchema', () => {
     expect(() => RecordSchema.parse({ ...valid, decade: '1975s' })).toThrow()
     expect(() => RecordSchema.parse({ ...valid, decade: '' })).toThrow()
     expect(() => RecordSchema.parse({ ...valid, decade: 'banana' })).toThrow()
+  })
+})
+
+describe('RecordSchema recordedDecade', () => {
+  it('accepts null — the normal case, no override', () => {
+    expect(() => RecordSchema.parse({ ...valid, recordedDecade: null })).not.toThrow()
+  })
+
+  it('accepts a decade label when an override supplied one', () => {
+    expect(() => RecordSchema.parse({ ...valid, recordedDecade: '1930s' })).not.toThrow()
+  })
+
+  it('rejects "Unknown" — absence is null here, not a label', () => {
+    expect(() => RecordSchema.parse({ ...valid, recordedDecade: 'Unknown' })).toThrow()
+  })
+
+  it('rejects a bare year and other malformed labels', () => {
+    expect(() => RecordSchema.parse({ ...valid, recordedDecade: '1935' })).toThrow()
+    expect(() => RecordSchema.parse({ ...valid, recordedDecade: 1930 })).toThrow()
+  })
+
+  it('requires the field to be present', () => {
+    const { recordedDecade: _omitted, ...without } = valid
+    expect(() => RecordSchema.parse(without)).toThrow()
   })
 })

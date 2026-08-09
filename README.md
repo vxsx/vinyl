@@ -18,6 +18,19 @@ Three stages, deliberately separate:
 Because the build reads committed data, it is reproducible and works when Discogs is
 down or rate-limiting.
 
+## Decade overrides
+
+The decade facet files a record under `originalYear ?? pressedYear`, which is right
+for reissues and wrong for compilations: Discogs stamps a compilation's own issue
+date on both the pressing and the master, so Django Reinhardt's 1930s Quintette
+sides land in the 1980s. The recording period exists only as prose on the sleeve, so
+`data/decade-overrides.json` corrects it by hand — keyed by Discogs release id (ids
+survive a re-sync, slugs don't), each entry a decade (never a year: a set of sides
+cut across 1934–1939 has no single year) plus a note saying where the period is
+stated. Sync applies it after normalisation, changing nothing but the facet, and
+adds a "Recorded" row to the detail page so the filing explains itself. A malformed
+entry fails the sync; an entry for a release no longer in the collection only warns.
+
 ## Setup
 
 ```bash

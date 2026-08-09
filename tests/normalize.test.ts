@@ -125,6 +125,13 @@ describe('normalizeRecord', () => {
     expect(record.decade).toBe('2010s')
   })
 
+  // Normalisation can never know a recording period — it is prose on a sleeve.
+  // Only data/decade-overrides.json fills this in, after normalisation.
+  it('never derives a recordedDecade', () => {
+    expect(build('substance', 'substance').recordedDecade).toBeNull()
+    expect(build('rigoletto').recordedDecade).toBeNull()
+  })
+
   it('maps Discogs year 0 to null and decade Unknown', () => {
     const record = build('rigoletto')
     expect(record.pressedYear).toBeNull()

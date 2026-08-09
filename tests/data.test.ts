@@ -5,7 +5,7 @@ import type { VinylRecord } from '../src/lib/schema'
 const record = (over: Partial<VinylRecord>): VinylRecord => ({
   id: 1, slug: 's', title: 'T', artist: 'A', primaryArtist: 'A', artistSort: 'A',
   coverFile: null, genres: [], styles: [], label: 'L', catno: 'C', country: null,
-  pressedYear: null, originalYear: null, isOriginalPressing: false, decade: 'Unknown',
+  pressedYear: null, originalYear: null, isOriginalPressing: false, decade: 'Unknown', recordedDecade: null,
   formatDescriptions: [], isPlainLP: true, tracklist: [], sides: [], credits: [],
   identifiers: [], notes: null, images: [], dateAdded: '2026-07-29T00:00:00Z',
   ...over,
