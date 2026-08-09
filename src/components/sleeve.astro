@@ -9,10 +9,24 @@ interface Props { record: VinylRecord }
 const { record } = Astro.props
 const cover = coverFor(record.coverFile)
 const href = `${import.meta.env.BASE_URL}record/${record.slug}/`
+
+// The site-wide default strategy is `tap`, and it can never fire here. Astro's
+// tap listener sits on `document` and tests `event.target.tagName === "A"` with
+// no `closest()` — a sleeve's touch always lands on the <img> inside it, so the
+// test fails and no prefetch is ever issued for a sleeve. (Measured: zero
+// prefetch requests on a sleeve touchstart, and the destination document
+// arriving with fromPrefetchCache=false on every navigation.)
+//
+// `viewport` binds its IntersectionObserver to the anchor itself, so the nested
+// <img> is irrelevant, and a sleeve the eye can see has been cached for seconds
+// by the time a finger reaches it — which is the whole of the wait that `tap`
+// was supposed to shorten and could not. Only sleeves opt in; every other link
+// on the site is a bare anchor that `tap` handles correctly.
 ---
 <a
   class="sleeve"
   href={href}
+  data-astro-prefetch="viewport"
   data-slug={record.slug}
   data-genres={record.genres.join('|')}
   data-decade={record.decade}
