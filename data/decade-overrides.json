@@ -19,6 +19,14 @@
     "decade": "1930s",
     "note": "Benny Goodman, The Famous 1938 Carnegie Hall Jazz Concert. Title dates the concert; Discogs' 1950 master year is the first LP issue of it, and 1970 is this pressing."
   },
+  "7499444": {
+    "decade": "1930s",
+    "note": "Sergei Rachmaninoff, Rhapsody On A Theme Of Paganini / Piano Concerto No.1. Decade supplied by the collection's owner from personal knowledge of the record; the release carries no recording date, no master year and no pressing year, so nothing in the Discogs metadata could place it."
+  },
+  "2779927": {
+    "decade": "1940s",
+    "note": "Various, History Of Jazz Vol.7. Decade supplied by the collection's owner from personal knowledge of the record; the release carries no recording date, no master year and no pressing year, and the volume number alone dates nothing."
+  },
   "4132446": {
     "decade": "1950s",
     "note": "Various, 20 Rock'n Roll Hits. The tracklist is dominated by mid-to-late-1950s rock'n'roll — Roll Over Beethoven 1956, Rock Around The Clock 1954, Whole Lotta Shakin' Goin' On 1957, Bo Diddley 1955, Good Golly Miss Molly 1958 — alongside a handful of early-1960s sides; the labels state ℗ 1956-1969. This is the dominant era of a compilation that spans several, not a single date. Nothing on the release dates the pressing, so it filed under Unknown."
@@ -30,5 +38,9 @@
   "11339741": {
     "decade": "1950s",
     "note": "Duke Ellington, Blues In Orbit. Sleeve notes give recording dates for all four tracks: 2 February to 12 March 1959. Issued 1960, so it filed one decade late."
+  },
+  "12200440": {
+    "decade": "1970s",
+    "note": "Klaus Wunderlich, Weihnachten Mit Klaus Wunderlich - Hammond For Christmas. Decade supplied by the collection's owner from personal knowledge of the record; the release carries no recording date, no master year and no pressing year, so nothing in the Discogs metadata could place it."
   }
 }

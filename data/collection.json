@@ -8737,8 +8737,8 @@
     "pressedYear": null,
     "originalYear": null,
     "isOriginalPressing": false,
-    "decade": "Unknown",
-    "recordedDecade": null,
+    "decade": "1970s",
+    "recordedDecade": "1970s",
     "formatDescriptions": [
       "LP",
       "Reissue",
@@ -11162,8 +11162,8 @@
     "pressedYear": null,
     "originalYear": null,
     "isOriginalPressing": false,
-    "decade": "Unknown",
-    "recordedDecade": null,
+    "decade": "1930s",
+    "recordedDecade": "1930s",
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -12316,8 +12316,8 @@
     "pressedYear": null,
     "originalYear": null,
     "isOriginalPressing": false,
-    "decade": "Unknown",
-    "recordedDecade": null,
+    "decade": "1940s",
+    "recordedDecade": "1940s",
     "formatDescriptions": [
       "LP",
       "Album"
