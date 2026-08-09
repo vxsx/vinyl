@@ -1,6 +1,6 @@
 ---
 // src/pages/record/[slug].astro
-import { Image } from 'astro:assets'
+import { Image, getImage } from 'astro:assets'
 import Base from '../../layouts/Base.astro'
 import Tracklist from '../../components/Tracklist.astro'
 import DetailFacts from '../../components/DetailFacts.astro'
@@ -8,7 +8,16 @@ import { collection, wantlist, coverFor, imageFor } from '../../lib/data'
 import type { VinylRecord } from '../../lib/schema'
 
 export function getStaticPaths() {
-  const all = [...collection, ...wantlist]
+  // A record that appears in both collection and wantlist shares one release
+  // id and (sync.ts assigns slugs by id) one slug — it must produce a single
+  // page, not two competing ones. Dedupe by id first; collection wins ties.
+  const byId = new Map<number, VinylRecord>()
+  for (const record of wantlist) byId.set(record.id, record)
+  for (const record of collection) byId.set(record.id, record)
+  const all = [...byId.values()]
+
+  // Ids are already unique here, so any slug collision left standing means
+  // two DIFFERENT release ids produced the same slug — a real defect.
   const seen = new Set<string>()
   const duplicates = new Set<string>()
   for (const record of all) {
@@ -25,24 +34,43 @@ interface Props { record: VinylRecord }
 const { record } = Astro.props
 const cover = coverFor(record.coverFile)
 const eyebrow = [record.label, record.catno, record.country].filter(Boolean).join(' · ')
+
+// The full-size URL for each secondary image, so clicking its thumbnail can
+// swap the main image in without hardcoding any asset path.
+const thumbs = (
+  await Promise.all(
+    record.images.map(async (image) => {
+      const asset = imageFor(image.file)
+      if (!asset) return null
+      const full = await getImage({ src: asset })
+      return { asset, fullSrc: full.src }
+    }),
+  )
+).filter((thumb) => thumb !== null)
 ---
 <Base title={`${record.primaryArtist} — ${record.title}`}>
   <article class="detail">
     <div class="art">
       {cover && <Image src={cover} alt={`${record.primaryArtist} — ${record.title}`} widths={[430, 860]} sizes="(min-width: 900px) 430px, 100vw" class="cover" />}
-      {record.images.length > 0 && (
+      {thumbs.length > 0 && (
         <div class="thumbs">
-          {record.images.map((image) => {
-            const asset = imageFor(image.file)
-            return asset ? <Image src={asset} alt="" widths={[64, 128]} sizes="64px" /> : null
-          })}
+          {thumbs.map((thumb, index) => (
+            <button
+              type="button"
+              aria-label={`Show photo ${index + 1} of ${thumbs.length}`}
+              aria-pressed="false"
+              data-full={thumb.fullSrc}
+            >
+              <Image src={thumb.asset} alt="" widths={[64, 128]} sizes="64px" />
+            </button>
+          ))}
         </div>
       )}
     </div>
 
     <div class="info">
       {eyebrow && <p class="eyebrow">{eyebrow}</p>}
-      <h2>{record.title}</h2>
+      <h1>{record.title}</h1>
       <p class="by">{record.artist}</p>
 
       <div class="tags">
@@ -56,17 +84,20 @@ const eyebrow = [record.label, record.catno, record.country].filter(Boolean).joi
       <div class="two">
         {record.credits.length > 0 && (
           <section class="block">
-            <h2>Credits</h2>
+            <h3>Credits</h3>
             {record.credits.slice(0, 12).map((credit) => (
               <div class="row"><span class="k">{credit.role}</span><span class="v">{credit.name}</span></div>
             ))}
+            {record.credits.length > 12 && (
+              <p class="more">+{record.credits.length - 12} more</p>
+            )}
           </section>
         )}
 
         {record.identifiers.length > 0 && (
           <section class="block">
-            <h2>Pressing details</h2>
-            {record.identifiers.slice(0, 6).map((identifier) => (
+            <h3>Pressing details</h3>
+            {record.identifiers.map((identifier) => (
               <div class="row">
                 <span class="k">{identifier.type}{identifier.description ? ` — ${identifier.description}` : ''}</span>
                 <span class="v mono">{identifier.value}</span>
@@ -77,11 +108,16 @@ const eyebrow = [record.label, record.catno, record.country].filter(Boolean).joi
       </div>
 
       {record.notes && (
-        <section class="block"><h2>Notes</h2><p class="notes">{record.notes}</p></section>
+        <section class="block"><h3>Notes</h3><p class="notes">{record.notes}</p></section>
       )}
     </div>
   </article>
 </Base>
+
+<script>
+  import { initGallery } from '../../scripts/gallery'
+  initGallery()
+</script>
 
 <style>
   .detail { display: grid; grid-template-columns: minmax(300px, 430px) 1fr; gap: 46px; align-items: start; padding: 24px 0 40px; }
@@ -90,11 +126,14 @@ const eyebrow = [record.label, record.catno, record.country].filter(Boolean).joi
 
   /* Small wrapping thumbnails — never a horizontal scroller, never full-size stacks. */
   .thumbs { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 8px; margin-top: 12px; }
+  .thumbs button { all: unset; cursor: pointer; display: block; }
+  .thumbs button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .thumbs :global(img) { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; opacity: 0.6; transition: opacity 0.18s; }
   .thumbs :global(img:hover) { opacity: 1; }
+  .thumbs button[aria-pressed="true"] :global(img) { opacity: 1; }
 
   .eyebrow { font-size: 11.5px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--dim); margin: 0 0 8px; }
-  h2 { margin: 0 0 6px; font-size: 34px; line-height: 1.1; letter-spacing: -0.02em; font-weight: 680; }
+  h1 { margin: 0 0 6px; font-size: 34px; line-height: 1.1; letter-spacing: -0.02em; font-weight: 680; }
   .by { margin: 0 0 16px; font-size: 16px; color: #c8bfb4; }
 
   .tags { display: flex; flex-wrap: wrap; gap: 5px; }
@@ -103,7 +142,7 @@ const eyebrow = [record.label, record.catno, record.country].filter(Boolean).joi
   .style { background: var(--panel); color: #b3a99e; }
 
   .block { margin-top: 26px; }
-  .block h2 { font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin-bottom: 11px; }
+  .block h3 { font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin-bottom: 11px; }
   .two { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; }
   @media (max-width: 820px) { .two { grid-template-columns: 1fr; } }
 
@@ -111,5 +150,6 @@ const eyebrow = [record.label, record.catno, record.country].filter(Boolean).joi
   .k { color: var(--faint); flex: 0 0 150px; }
   .v { flex: 1; }
   .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; color: #b3a99e; }
+  .more { margin: 6px 0 0; font-size: 11px; color: var(--faint); }
   .notes { font-size: 13px; line-height: 1.62; color: #c0b7ac; max-width: 66ch; }
 </style>
