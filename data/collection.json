@@ -372,7 +372,7 @@
     "pressedYear": 2018,
     "originalYear": 1968,
     "isOriginalPressing": false,
-    "decade": "2010s",
+    "decade": "1960s",
     "formatDescriptions": [
       "LP",
       "Album",
@@ -769,7 +769,7 @@
     "pressedYear": 2012,
     "originalYear": 1963,
     "isOriginalPressing": false,
-    "decade": "2010s",
+    "decade": "1960s",
     "formatDescriptions": [
       "LP",
       "Album",
@@ -1859,7 +1859,7 @@
     "pressedYear": 1970,
     "originalYear": 1950,
     "isOriginalPressing": false,
-    "decade": "1970s",
+    "decade": "1950s",
     "formatDescriptions": [
       "LP",
       "Reissue"
@@ -2427,7 +2427,7 @@
     "pressedYear": null,
     "originalYear": 1966,
     "isOriginalPressing": false,
-    "decade": "Unknown",
+    "decade": "1960s",
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -2743,7 +2743,7 @@
     "pressedYear": null,
     "originalYear": 1972,
     "isOriginalPressing": false,
-    "decade": "Unknown",
+    "decade": "1970s",
     "formatDescriptions": [
       "LP",
       "Album",
@@ -4025,7 +4025,7 @@
     "pressedYear": null,
     "originalYear": 1969,
     "isOriginalPressing": false,
-    "decade": "Unknown",
+    "decade": "1960s",
     "formatDescriptions": [
       "LP"
     ],
@@ -4119,7 +4119,7 @@
     "pressedYear": 1983,
     "originalYear": 1977,
     "isOriginalPressing": false,
-    "decade": "1980s",
+    "decade": "1970s",
     "formatDescriptions": [
       "LP",
       "Album",
@@ -5490,7 +5490,7 @@
     "pressedYear": 2018,
     "originalYear": 1996,
     "isOriginalPressing": false,
-    "decade": "2010s",
+    "decade": "1990s",
     "formatDescriptions": [
       "LP",
       "Album",
@@ -6459,7 +6459,7 @@
     "pressedYear": null,
     "originalYear": 1962,
     "isOriginalPressing": false,
-    "decade": "Unknown",
+    "decade": "1960s",
     "formatDescriptions": [
       "LP"
     ],
@@ -6651,7 +6651,7 @@
     "pressedYear": null,
     "originalYear": 1966,
     "isOriginalPressing": false,
-    "decade": "Unknown",
+    "decade": "1960s",
     "formatDescriptions": [
       "LP",
       "Stereo"
@@ -7014,7 +7014,7 @@
     "pressedYear": null,
     "originalYear": 1959,
     "isOriginalPressing": false,
-    "decade": "Unknown",
+    "decade": "1950s",
     "formatDescriptions": [
       "LP",
       "Stereo"
@@ -8018,7 +8018,7 @@
     "pressedYear": null,
     "originalYear": 1969,
     "isOriginalPressing": false,
-    "decade": "Unknown",
+    "decade": "1960s",
     "formatDescriptions": [
       "LP",
       "Album",
@@ -8326,7 +8326,7 @@
     "pressedYear": 2015,
     "originalYear": 1988,
     "isOriginalPressing": false,
-    "decade": "2010s",
+    "decade": "1980s",
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -8909,7 +8909,7 @@
     "pressedYear": 2020,
     "originalYear": 2000,
     "isOriginalPressing": false,
-    "decade": "2020s",
+    "decade": "2000s",
     "formatDescriptions": [
       "LP",
       "Album",
@@ -9297,7 +9297,7 @@
     "pressedYear": 2020,
     "originalYear": 1959,
     "isOriginalPressing": false,
-    "decade": "2020s",
+    "decade": "1950s",
     "formatDescriptions": [
       "LP",
       "Album",
@@ -9905,7 +9905,7 @@
     "pressedYear": 1960,
     "originalYear": 1959,
     "isOriginalPressing": false,
-    "decade": "1960s",
+    "decade": "1950s",
     "formatDescriptions": [
       "LP",
       "Stereo"
@@ -10177,7 +10177,7 @@
     "pressedYear": null,
     "originalYear": 1963,
     "isOriginalPressing": false,
-    "decade": "Unknown",
+    "decade": "1960s",
     "formatDescriptions": [
       "LP",
       "Mono"
@@ -10280,7 +10280,7 @@
     "pressedYear": null,
     "originalYear": 1965,
     "isOriginalPressing": false,
-    "decade": "Unknown",
+    "decade": "1960s",
     "formatDescriptions": [
       "LP",
       "Reissue",
@@ -10414,7 +10414,7 @@
     "pressedYear": 2016,
     "originalYear": 1991,
     "isOriginalPressing": false,
-    "decade": "2010s",
+    "decade": "1990s",
     "formatDescriptions": [
       "LP",
       "Compilation",
@@ -10734,7 +10734,7 @@
     "pressedYear": 2022,
     "originalYear": 1998,
     "isOriginalPressing": false,
-    "decade": "2020s",
+    "decade": "1990s",
     "formatDescriptions": [
       "LP"
     ],
@@ -12546,7 +12546,7 @@
     "pressedYear": 1987,
     "originalYear": 1977,
     "isOriginalPressing": false,
-    "decade": "1980s",
+    "decade": "1970s",
     "formatDescriptions": [
       "LP",
       "Compilation"

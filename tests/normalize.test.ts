@@ -106,12 +106,29 @@ describe('normalizeRecord', () => {
     expect(record.pressedYear).toBe(2015)
     expect(record.originalYear).toBe(1988)
     expect(record.isOriginalPressing).toBe(false)
+  })
+
+  // A reissue is *from* the year the music came out, not the year this copy
+  // was manufactured — otherwise every remaster files under the decade it was
+  // reprinted in and the facet stops describing the collection.
+  it('files a reissue under the decade of its original release, not its pressing', () => {
+    const record = build('substance', 'substance')
+    expect(record.pressedYear).toBe(2015)
+    expect(record.originalYear).toBe(1988)
+    expect(record.decade).toBe('1980s')
+  })
+
+  it('falls back to the pressing decade when there is no original year', () => {
+    const record = build('substance')
+    expect(record.originalYear).toBeNull()
+    expect(record.pressedYear).toBe(2015)
     expect(record.decade).toBe('2010s')
   })
 
   it('maps Discogs year 0 to null and decade Unknown', () => {
     const record = build('rigoletto')
     expect(record.pressedYear).toBeNull()
+    expect(record.originalYear).toBeNull()
     expect(record.decade).toBe('Unknown')
   })
 

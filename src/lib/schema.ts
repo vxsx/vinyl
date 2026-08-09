@@ -44,7 +44,7 @@ export const RecordSchema = z.object({
   pressedYear: YearSchema,
   originalYear: YearSchema,
   isOriginalPressing: z.boolean(),
-  /** "1970s" … or "Unknown" when pressedYear is null. */
+  /** Decade of originalYear, falling back to pressedYear; "Unknown" when both are null. */
   decade: z.union([z.string().regex(/^\d{3}0s$/), z.literal('Unknown')]),
   formatDescriptions: z.array(z.string()),
   isPlainLP: z.boolean(),

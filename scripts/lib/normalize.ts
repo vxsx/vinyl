@@ -131,7 +131,11 @@ export function normalizeRecord(input: NormalizeInput): VinylRecord {
     originalYear,
     isOriginalPressing:
       pressedYear !== null && originalYear !== null && pressedYear === originalYear,
-    decade: decadeOf(pressedYear),
+    // The decade facet answers "when is this record from", not "when was this
+    // copy manufactured" — so a reissue files under the original release, and
+    // only a record with no master year falls back to the pressing. The detail
+    // page still shows both years verbatim; this is the facet only.
+    decade: decadeOf(originalYear ?? pressedYear),
     formatDescriptions: descriptions,
     isPlainLP: descriptions.includes('LP'),
     tracklist,
