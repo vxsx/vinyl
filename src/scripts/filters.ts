@@ -3,7 +3,11 @@ import { foldDiacritics } from '../lib/facets'
 
 export function initFilters(): void {
   const grid = document.getElementById('grid')
-  if (!grid) return
+  // Guard against astro:page-load re-running this against DOM that's already
+  // wired up — without it, a second call double-binds every chip/search
+  // listener and toggles cancel each other out.
+  if (!grid || grid.dataset.filtersBound) return
+  grid.dataset.filtersBound = 'true'
 
   const sleeves = [...grid.querySelectorAll<HTMLElement>('.sleeve')]
   const shown = document.getElementById('shown')

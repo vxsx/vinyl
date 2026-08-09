@@ -15,6 +15,13 @@ import { genreCounts, decadeCounts } from '../lib/facets'
 <script>
   import { initTilt } from '../scripts/tilt'
   import { initFilters } from '../scripts/filters'
-  initTilt()
-  initFilters()
+
+  // With <ClientRouter/> a client-side navigation swaps the DOM without a
+  // full page load, so module-scope code here only ever runs once. Both
+  // init functions are idempotent, so re-running them on every page-load
+  // (including the first) is what actually rewires the new DOM each time.
+  document.addEventListener('astro:page-load', () => {
+    initTilt()
+    initFilters()
+  })
 </script>

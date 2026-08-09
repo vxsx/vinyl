@@ -7,6 +7,12 @@ export function initTilt(root: ParentNode = document): void {
   const liftScale = parseFloat(rootStyle.getPropertyValue('--tilt-scale')) || 1.05
 
   for (const sleeve of root.querySelectorAll<HTMLElement>('.sleeve')) {
+    // With view transitions, astro:page-load can run this against DOM that's
+    // already wired up (or run twice back to back) — skip anything already bound
+    // so listeners never stack.
+    if (sleeve.dataset.tiltBound) continue
+    sleeve.dataset.tiltBound = 'true'
+
     const tilt = sleeve.querySelector<HTMLElement>('.tilt')
     const frame = sleeve.querySelector<HTMLElement>('.frame')
     if (!tilt || !frame) continue

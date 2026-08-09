@@ -17,6 +17,10 @@ import { genreCounts, decadeCounts } from '../lib/facets'
 <script>
   import { initTilt } from '../scripts/tilt'
   import { initFilters } from '../scripts/filters'
-  initTilt()
-  initFilters()
+
+  // See index.astro — same astro:page-load rewiring is required here.
+  document.addEventListener('astro:page-load', () => {
+    initTilt()
+    initFilters()
+  })
 </script>
