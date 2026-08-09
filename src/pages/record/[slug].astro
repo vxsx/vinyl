@@ -189,6 +189,31 @@ const thumbs = (
   .thumbs :global(img) { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.6; transition: opacity 0.18s; }
   .thumbs :global(img:hover) { opacity: 1; }
 
+  /* Everything beside the cover arrives in sequence rather than all at once.
+     The cover is doing the loud thing (it morphs in from the grid), so this
+     stays small: a short drop from just above, one modest step per item.
+
+     The children come from three different .astro files, so they carry their
+     own scope attributes, not this page's — :global() is what makes a child
+     selector reach them at all. Delays are positional (:nth-child) because the
+     eyebrow, the tracklist and the notes are each conditional, so no fixed
+     class-to-delay mapping would survive a record that omits one.
+
+     Pure CSS, so it plays identically on a cold load and after a client-side
+     navigation: the router builds these elements fresh either way. */
+  @keyframes detail-rise {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: none; }
+  }
+  .info > :global(*) { animation: detail-rise 260ms var(--ease-settle) both; }
+  .info > :global(*:nth-child(2)) { animation-delay: 45ms; }
+  .info > :global(*:nth-child(3)) { animation-delay: 90ms; }
+  .info > :global(*:nth-child(4)) { animation-delay: 135ms; }
+  .info > :global(*:nth-child(5)) { animation-delay: 180ms; }
+  .info > :global(*:nth-child(6)) { animation-delay: 225ms; }
+  .info > :global(*:nth-child(7)) { animation-delay: 270ms; }
+  .info > :global(*:nth-child(n + 8)) { animation-delay: 315ms; }
+
   .eyebrow { font-size: 11.5px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--dim); margin: 0 0 8px; }
   h1 { margin: 0 0 6px; font-size: 34px; line-height: 1.1; letter-spacing: -0.02em; font-weight: 680; }
   .by { margin: 0 0 16px; font-size: 16px; color: #c8bfb4; }
@@ -318,6 +343,9 @@ const thumbs = (
   :global(.lightbox-nav[hidden]) { display: none; }
 
   @media (prefers-reduced-motion: reduce) {
+    /* No delay, no offset, no fade — the content is simply there. */
+    .info > :global(*) { animation: none; }
+
     :global(.lightbox),
     :global(.lightbox.is-open),
     :global(.lightbox-dialog),
