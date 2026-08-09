@@ -1,0 +1,48 @@
+/* src/styles/tokens.css */
+:root {
+  --bg: #0d0c0b;
+  --panel: #1a1817;
+  --ink: #f4efe8;
+  --dim: #8d857c;
+  --faint: #6b625b;
+  --accent: #d0a94f;
+  --line: #242020;
+
+  --grid-gap-col: 34px;
+  --grid-gap-row: 56px;
+
+  --tilt-max: 12deg;
+  --tilt-perspective: 2400px;
+  --tilt-scale: 1.05;
+  --ease-settle: cubic-bezier(0.2, 0.9, 0.28, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: ui-sans-serif, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.wrap { max-width: 1760px; margin: 0 auto; padding: 0 32px; }
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  padding: 34px 0 22px;
+}
+.site-header h1 { margin: 0; font-size: 19px; letter-spacing: -0.01em; font-weight: 660; }
+.site-header nav { display: flex; gap: 16px; font-size: 13px; color: var(--dim); }
+.site-header nav a[aria-current="page"] { color: var(--accent); }
+
+.site-footer {
+  padding: 60px 0 40px;
+  font-size: 11.5px;
+  color: var(--faint);
+}
