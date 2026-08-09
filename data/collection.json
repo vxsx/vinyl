@@ -6148,8 +6148,8 @@
     "pressedYear": null,
     "originalYear": null,
     "isOriginalPressing": false,
-    "decade": "Unknown",
-    "recordedDecade": null,
+    "decade": "1920s",
+    "recordedDecade": "1920s",
     "formatDescriptions": [
       "LP",
       "Stereo"
@@ -12415,8 +12415,8 @@
     "pressedYear": null,
     "originalYear": null,
     "isOriginalPressing": false,
-    "decade": "Unknown",
-    "recordedDecade": null,
+    "decade": "1950s",
+    "recordedDecade": "1950s",
     "formatDescriptions": [
       "LP",
       "Compilation",
