@@ -11,7 +11,7 @@ Three stages, deliberately separate:
    cover art, and writes normalised JSON to `data/` plus images to `src/assets/`.
    Both are committed.
 2. **Build** (`npm run build`) — Astro turns the committed data into static HTML and
-   generates responsive AVIF/WebP images. Never touches the network.
+   generates responsive WebP images. Never touches the network.
 3. **Deploy** — GitHub Actions publishes `dist/` to Pages on every push to `main`,
    and re-syncs weekly.
 
