@@ -1,7 +1,6 @@
 ---
 // src/layouts/Base.astro
 import '../styles/tokens.css'
-import { syncedAt } from '../lib/data'
 
 interface Props { title: string; description?: string }
 const { title, description = 'A vinyl collection' } = Astro.props
@@ -19,16 +18,12 @@ const path = Astro.url.pathname
   <body>
     <div class="wrap">
       <header class="site-header">
-        <p class="brand">Records</p>
         <nav>
           <a href={base} aria-current={path === base ? 'page' : undefined}>Collection</a>
           <a href={`${base}wishlist/`} aria-current={path.includes('wishlist') ? 'page' : undefined}>Wishlist</a>
         </nav>
       </header>
       <main><slot /></main>
-      <footer class="site-footer">
-        Synced from Discogs on {new Date(syncedAt).toLocaleDateString('en-GB', { dateStyle: 'medium' })}
-      </footer>
     </div>
   </body>
 </html>

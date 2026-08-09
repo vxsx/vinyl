@@ -153,28 +153,12 @@ CollectionSchema.parse(wantlist)
 
 const collectionPath = join(DATA_DIR, 'collection.json')
 const wantlistPath = join(DATA_DIR, 'wantlist.json')
-const syncedAtPath = join(DATA_DIR, 'synced-at.json')
 
-// synced-at.json must only move when collection/wantlist content actually
-// changed. Rewriting it unconditionally makes `git status` dirty on every
-// run — even a no-op week — which defeats the CI change-detection step and
-// republishes identical output every Monday.
-const newCollectionJson = JSON.stringify(collection, null, 2)
-const newWantlistJson = JSON.stringify(wantlist, null, 2)
-const [existingCollectionJson, existingWantlistJson] = await Promise.all([
-  readFile(collectionPath, 'utf8').catch(() => null),
-  readFile(wantlistPath, 'utf8').catch(() => null),
-])
-const contentChanged =
-  existingCollectionJson !== newCollectionJson || existingWantlistJson !== newWantlistJson
-
+// writeJson always serialises with the same stable JSON.stringify(value, null, 2)
+// output, so a no-op sync re-writes byte-identical files — `git status` stays
+// clean and the CI change-detection step (which diffs the working tree) sees
+// nothing to commit, without needing a separate "did anything change" flag.
 await writeJson(collectionPath, collection)
 await writeJson(wantlistPath, wantlist)
-
-if (contentChanged) {
-  await writeJson(syncedAtPath, { syncedAt: new Date().toISOString() })
-} else {
-  console.log('\nNo content changes — leaving data/synced-at.json untouched.')
-}
 
 console.log(`\nSynced ${collection.length} records, ${wantlist.length} wantlist items.`)
