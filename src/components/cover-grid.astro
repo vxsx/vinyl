@@ -15,7 +15,10 @@ const { records, emptyMessage = 'Nothing here yet.' } = Astro.props
   .grid {
     display: grid;
     gap: var(--grid-gap-row) var(--grid-gap-col);
-    padding: 44px 0 10px;
+    /* The hover caption is absolutely positioned at `top: 100%`, so it adds no
+       layout height. The last row needs room for it (45px) plus slack, or its
+       descenders clip against the end of the document. */
+    padding: 44px 0 72px;
     grid-template-columns: repeat(2, 1fr);
   }
   @media (min-width: 700px)  { .grid { grid-template-columns: repeat(3, 1fr); } }
