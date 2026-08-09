@@ -222,11 +222,14 @@ const thumbs = (
   }
   :global(.lightbox-dialog:focus) { outline: none; }
   :global(.lightbox-img) {
+    /* gallery.ts sets an explicit width/height in px once the image's
+       natural size is known, scaling it UP to fill up to 90vw/90vh —
+       these max-width/max-height rules are only a no-JS/pre-load fallback
+       so the image never overflows the viewport before that runs. */
     max-width: 90vw;
     max-height: 90vh;
-    width: auto;
-    height: auto;
     object-fit: contain;
+    image-rendering: auto;
     display: block;
     box-shadow: 0 30px 80px rgb(0 0 0 / 0.6);
   }
