@@ -54,7 +54,7 @@ a { color: inherit; text-decoration: none; }
   border: 0;
 }
 
-/* Only the cover images opt into a named view transition (Sleeve.astro /
+/* Only the cover images opt into a named view transition (sleeve.astro /
    [slug].astro give matching elements a `cover-<slug>` transition:name), so
    this universal selector reaches exactly those plus the implicit
    whole-page crossfade — slowed and eased to read as a deliberate move
