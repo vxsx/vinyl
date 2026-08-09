@@ -74,6 +74,29 @@ a { color: inherit; text-decoration: none; }
 ::view-transition-group(root) { z-index: 0; }
 ::view-transition-group(cover) { z-index: 1; }
 
+/* A straight line from sleeve to cover reads as a slide. The bow makes it read
+   as a throw.
+
+   The browser's implicit morph is left in place — it is what interpolates
+   position and size, and replacing `animation-name` outright would discard it
+   and make the cover jump. Instead the UA's own group animation is re-listed
+   first and the bow is appended as a second animation over the same property,
+   composited on top of (not in place of) the result. Amplitude is deliberately
+   under a tenth of the distance travelled: enough to see, not a detour.
+
+   The morph keeps --ease-settle; the bow gets ease-in-out, because a bow that
+   returns to zero wants to peak in the middle rather than snap to its apex and
+   hang there, which is what --ease-settle's front-loaded curve would do. */
+@keyframes cover-arc {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-52px); }
+}
+::view-transition-group(cover) {
+  animation-name: -ua-view-transition-group-anim-cover, cover-arc;
+  animation-composition: replace, add;
+  animation-timing-function: var(--ease-settle), ease-in-out;
+}
+
 /* Astro only bundles its own reduced-motion override for view transitions when
    a `transition:*` directive is used somewhere, and none is any more — the
    cover name is set in plain CSS and JS. Everything above is therefore guarded
