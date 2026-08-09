@@ -1,0 +1,19 @@
+---
+// src/pages/index.astro
+import Base from '../layouts/Base.astro'
+import CoverGrid from '../components/CoverGrid.astro'
+import FilterBar from '../components/FilterBar.astro'
+import { collection } from '../lib/data'
+import { genreCounts, decadeCounts } from '../lib/facets'
+---
+<Base title="Records" description="A vinyl collection">
+  <FilterBar genres={genreCounts(collection)} decades={decadeCounts(collection)} total={collection.length} />
+  <CoverGrid records={collection} />
+</Base>
+
+<script>
+  import { initTilt } from '../scripts/tilt'
+  import { initFilters } from '../scripts/filters'
+  initTilt()
+  initFilters()
+</script>

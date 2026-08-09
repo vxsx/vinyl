@@ -1,0 +1,27 @@
+---
+// src/components/CoverGrid.astro
+import Sleeve from './Sleeve.astro'
+import type { VinylRecord } from '../lib/schema'
+
+interface Props { records: VinylRecord[]; emptyMessage?: string }
+const { records, emptyMessage = 'Nothing here yet.' } = Astro.props
+---
+{records.length === 0
+  ? <p class="empty-state">{emptyMessage}</p>
+  : <div class="grid" id="grid">{records.map((record) => <Sleeve record={record} />)}</div>}
+<p class="empty-state" id="no-matches" hidden>Nothing matches those filters.</p>
+
+<style>
+  .grid {
+    display: grid;
+    gap: var(--grid-gap-row) var(--grid-gap-col);
+    padding: 44px 0 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 700px)  { .grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 1080px) { .grid { grid-template-columns: repeat(4, 1fr); } }
+  @media (min-width: 1440px) { .grid { grid-template-columns: repeat(5, 1fr); } }
+
+  .grid :global(.sleeve.is-hidden) { display: none; }
+  .empty-state { color: var(--dim); font-size: 13px; padding: 60px 0; }
+</style>

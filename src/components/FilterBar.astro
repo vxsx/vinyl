@@ -1,0 +1,64 @@
+---
+// src/components/FilterBar.astro
+import type { Facet } from '../lib/facets'
+
+interface Props { genres: Facet[]; decades: Facet[]; total: number }
+const { genres, decades, total } = Astro.props
+---
+<div class="filters">
+  <div class="group">
+    <span class="label" id="genre-label">Genre</span>
+    <div class="chips" role="group" aria-labelledby="genre-label">
+      {genres.map((facet) => (
+        <button class="chip" type="button" data-facet="genre" data-value={facet.value} aria-pressed="false">
+          {facet.value}<i>{facet.count}</i>
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <div class="group">
+    <span class="label" id="decade-label">Decade</span>
+    <div class="chips" role="group" aria-labelledby="decade-label">
+      {decades.map((facet) => (
+        <button class="chip" type="button" data-facet="decade" data-value={facet.value} aria-pressed="false">
+          {facet.value}<i>{facet.count}</i>
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <div class="group">
+    <label class="label" for="q">Search</label>
+    <input id="q" class="q" type="search" placeholder="artist, title, label…" autocomplete="off" />
+  </div>
+
+  <p class="count" aria-live="polite"><b id="shown">{total}</b> of {total}</p>
+</div>
+
+<style>
+  .filters {
+    display: flex; flex-wrap: wrap; gap: 18px 26px; align-items: flex-end;
+    padding-bottom: 18px; border-bottom: 1px solid var(--line);
+  }
+  .group { display: flex; flex-direction: column; gap: 8px; }
+  .label { font-size: 9.5px; letter-spacing: 0.17em; text-transform: uppercase; color: var(--faint); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; max-width: 620px; }
+  .chip {
+    font: inherit; font-size: 11.5px; color: #cfc6bc; background: var(--panel);
+    border: 1px solid #2b2724; padding: 5px 9px 5px 10px; border-radius: 99px;
+    cursor: pointer; display: inline-flex; align-items: center; gap: 6px; transition: 0.14s;
+  }
+  .chip:hover { border-color: #4a423c; color: #fff; }
+  .chip i { font-style: normal; font-size: 9.5px; color: var(--faint); }
+  .chip[aria-pressed="true"] {
+    background: var(--accent); border-color: var(--accent); color: #17130c; font-weight: 640;
+  }
+  .chip[aria-pressed="true"] i { color: #17130c; opacity: 0.62; }
+  .q {
+    font: inherit; font-size: 13px; background: var(--panel); border: 1px solid #2b2724;
+    color: var(--ink); padding: 8px 12px; border-radius: 7px; width: 210px;
+  }
+  .q:focus { outline: none; border-color: var(--accent); }
+  .count { margin: 0 0 0 auto; font-size: 12px; color: var(--dim); }
+</style>
