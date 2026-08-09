@@ -28,6 +28,15 @@ export function decadeCounts(records: VinylRecord[]): Facet[] {
     })
 }
 
+/**
+ * Folds diacritics the same way scripts/lib/slug.ts does, so a search for
+ * "wintertraume" matches a record whose title is "Winterträume". Applied to
+ * both the indexed text below and the user's typed query in filters.ts.
+ */
+export function foldDiacritics(input: string): string {
+  return input.normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+}
+
 export function searchTextFor(record: VinylRecord): string {
-  return `${record.artist} ${record.title} ${record.label}`.toLowerCase()
+  return foldDiacritics(`${record.artist} ${record.title} ${record.label}`).toLowerCase()
 }

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { genreCounts, decadeCounts, searchTextFor } from '../src/lib/facets'
+import { genreCounts, decadeCounts, searchTextFor, foldDiacritics } from '../src/lib/facets'
 import type { VinylRecord } from '../src/lib/schema'
 
 const record = (over: Partial<VinylRecord>): VinylRecord => ({
@@ -39,5 +39,11 @@ describe('searchTextFor', () => {
   it('lowercases artist, title and label into one haystack', () => {
     const text = searchTextFor(record({ artist: 'Joy Division', title: 'Substance', label: 'Factory' }))
     expect(text).toBe('joy division substance factory')
+  })
+
+  it('folds diacritics so an accented record matches an unaccented query', () => {
+    const text = searchTextFor(record({ artist: 'Combo', title: 'Winterträume', label: 'L' }))
+    expect(text).toContain(foldDiacritics('wintertraume'))
+    expect(text).toContain('wintertraume')
   })
 })

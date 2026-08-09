@@ -1,4 +1,6 @@
 // src/scripts/filters.ts
+import { foldDiacritics } from '../lib/facets'
+
 export function initFilters(): void {
   const grid = document.getElementById('grid')
   if (!grid) return
@@ -51,7 +53,7 @@ export function initFilters(): void {
 
   function handleSearchInput(): void {
     if (!search) return
-    query = search.value.trim().toLowerCase()
+    query = foldDiacritics(search.value.trim()).toLowerCase()
 
     if (searchDebounce !== undefined) clearTimeout(searchDebounce)
     searchDebounce = setTimeout(apply, 250)
