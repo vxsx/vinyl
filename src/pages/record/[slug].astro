@@ -94,7 +94,7 @@ const thumbs = (
       <DetailFacts record={record} />
       <Tracklist record={record} />
 
-      <div class="two">
+      <div class="flow">
         {record.credits.length > 0 && (
           <section class="block">
             <h3>Credits</h3>
@@ -115,11 +115,11 @@ const thumbs = (
             ))}
           </section>
         )}
-      </div>
 
-      {record.notes && (
-        <section class="block"><h3>Notes</h3><p class="notes">{record.notes}</p></section>
-      )}
+        {record.notes && (
+          <section class="block"><h3>Notes</h3><p class="notes">{record.notes}</p></section>
+        )}
+      </div>
     </div>
   </article>
 </Base>
@@ -220,15 +220,41 @@ const thumbs = (
   .genre { background: var(--accent); color: #17130c; font-weight: 640; }
   .style { background: var(--panel); color: #b3a99e; }
 
-  .block { margin-top: 26px; }
+  .block { margin: 0 0 26px; }
+  .block:last-child { margin-bottom: 0; }
   .block h3 { font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin-bottom: 11px; }
-  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; }
-  @media (max-width: 820px) { .two { grid-template-columns: 1fr; } }
+
+  /* Credits, pressing details and notes are wildly uneven — 7 credits beside 26
+     pressing rows, or 5 credits beside 82. Side by side in fixed grid columns the
+     shorter one left a screen of dead space before Notes. As ONE multi-column
+     flow they run on continuously and the browser balances the columns, so the
+     region is only ever as tall as its content needs.
+
+     `columns: 300px 2` is deliberately container-relative rather than a viewport
+     media query: this block's width is not monotonic in viewport width (below
+     900px .detail stacks, so the info column suddenly gets *wider*), and a
+     viewport query got it backwards — at 900px it still forced two 171px columns
+     against a 150px label. Two columns now appear only when there is room for
+     two readable ones, which is also what collapses this to a single column on a
+     narrow screen. */
+  .flow { columns: 300px 2; column-gap: 34px; margin-top: 26px; }
+
+  /* The long lists are exactly what SHOULD break across a column boundary —
+     that flow is the whole point, so no break-inside guard on .block. Only the
+     two things that read as broken are pinned: a heading must never be left
+     stranded at the foot of a column (break-after drags it, and with it the
+     start of its list, into the next column), and a label/value pair must not
+     be torn in half mid-row. */
+  .flow h3 { break-after: avoid; }
+  .flow .row { break-inside: avoid; }
 
   .row { display: flex; gap: 12px; font-size: 12.5px; padding: 4px 0; }
   .k { color: var(--faint); flex: 0 0 150px; }
   .v { flex: 1; }
   .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; color: #b3a99e; }
+  /* The 66ch cap still bites in the single-column case (a full-width info block
+     is wider than 66ch); inside a ~300px column it is simply inert and the
+     paragraph fills the column, which is narrower than 66ch and so still reads. */
   .notes { font-size: 13px; line-height: 1.62; color: #c0b7ac; max-width: 66ch; }
 
   /* The lightbox dialog is created and appended to <body> by gallery.ts, so
