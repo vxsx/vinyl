@@ -90,12 +90,17 @@ a { color: inherit; text-decoration: none; }
    composited on top of (not in place of) the result. Amplitude is deliberately
    under a tenth of the distance travelled: enough to see, not a detour.
 
+   The bow goes DOWN, not up. The detail cover already sits higher on the page
+   than the grid's filter bar, so an upward bow spent the middle of the flight
+   pushing the cover further over the chips; downward it sags away from them
+   and the arc can never be what puts the cover on top of the filter bar.
+
    The morph keeps --ease-settle; the bow gets ease-in-out, because a bow that
    returns to zero wants to peak in the middle rather than snap to its apex and
    hang there, which is what --ease-settle's front-loaded curve would do. */
 @keyframes cover-arc {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-52px); }
+  50% { transform: translateY(20px); }
 }
 ::view-transition-group(cover) {
   animation-name: -ua-view-transition-group-anim-cover, cover-arc;
