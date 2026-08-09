@@ -98,12 +98,9 @@ const thumbs = (
         {record.credits.length > 0 && (
           <section class="block">
             <h3>Credits</h3>
-            {record.credits.slice(0, 12).map((credit) => (
+            {record.credits.map((credit) => (
               <div class="row"><span class="k">{credit.role}</span><span class="v">{credit.name}</span></div>
             ))}
-            {record.credits.length > 12 && (
-              <p class="more">+{record.credits.length - 12} more</p>
-            )}
           </section>
         )}
 
@@ -232,7 +229,6 @@ const thumbs = (
   .k { color: var(--faint); flex: 0 0 150px; }
   .v { flex: 1; }
   .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; color: #b3a99e; }
-  .more { margin: 6px 0 0; font-size: 11px; color: var(--faint); }
   .notes { font-size: 13px; line-height: 1.62; color: #c0b7ac; max-width: 66ch; }
 
   /* The lightbox dialog is created and appended to <body> by gallery.ts, so
