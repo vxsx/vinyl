@@ -11,10 +11,7 @@ import { genreCounts, decadeCounts } from '../lib/facets'
   {wantlist.length > 0 && (
     <FilterBar genres={genreCounts(wantlist)} decades={decadeCounts(wantlist)} total={wantlist.length} />
   )}
-  <CoverGrid
-    records={wantlist}
-    emptyMessage="Nothing on the wishlist yet. Records added to the Discogs wantlist will appear here after the next sync."
-  />
+  <CoverGrid records={wantlist} emptyMessage="Empty" />
 </Base>
 
 <script>
