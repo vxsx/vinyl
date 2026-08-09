@@ -49,15 +49,11 @@ async function writeJson(path: string, value: unknown): Promise<void> {
 
 type ImageInfo = { uri: string; type: string; width: number; height: number }
 
-async function buildRecords(entries: RawCollectionEntry[], label: string): Promise<VinylRecord[]> {
-  const slugs = assignSlugs(
-    entries.map((entry) => ({
-      id: entry.basic_information.id,
-      primaryArtist: primaryArtistName(entry.basic_information.artists ?? []),
-      title: entry.basic_information.title,
-    })),
-  )
-
+async function buildRecords(
+  entries: RawCollectionEntry[],
+  label: string,
+  slugs: Map<number, string>,
+): Promise<VinylRecord[]> {
   const records: VinylRecord[] = []
 
   for (const [index, entry] of entries.entries()) {
@@ -114,8 +110,34 @@ const collectionEntries = await client.getAllPages<RawCollectionEntry>(
 )
 const wantEntries = await client.getAllPages<RawCollectionEntry>(`/users/${user}/wants`, 'wants')
 
-const collection = await buildRecords(collectionEntries, 'collection')
-const wantlist = await buildRecords(wantEntries, 'wantlist')
+// Slugs must be assigned once across the UNION of both lists: two different
+// releases whose artist+title slugify identically must not collide across
+// collection/wantlist, and a release appearing in both lists must get the
+// same slug in both (assignSlugs is keyed by release id, so it does).
+const slugs = assignSlugs(
+  [...collectionEntries, ...wantEntries].map((entry) => ({
+    id: entry.basic_information.id,
+    primaryArtist: primaryArtistName(entry.basic_information.artists ?? []),
+    title: entry.basic_information.title,
+  })),
+)
+
+const collection = await buildRecords(collectionEntries, 'collection', slugs)
+const wantlist = await buildRecords(wantEntries, 'wantlist', slugs)
+
+// Defensive guard: a slug collision must fail the sync loudly, not silently
+// overwrite one record's page with another's at build time.
+const allSlugs = [...collection, ...wantlist].map((record) => record.slug)
+const uniqueSlugs = new Set(allSlugs)
+if (uniqueSlugs.size !== allSlugs.length) {
+  const seen = new Set<string>()
+  const duplicates = new Set<string>()
+  for (const slug of allSlugs) {
+    if (seen.has(slug)) duplicates.add(slug)
+    seen.add(slug)
+  }
+  throw new Error(`Duplicate slug(s) across collection/wantlist: ${[...duplicates].join(', ')}`)
+}
 
 // Validate before writing — a schema failure must not corrupt committed data.
 CollectionSchema.parse(collection)
