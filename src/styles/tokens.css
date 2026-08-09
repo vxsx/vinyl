@@ -65,6 +65,15 @@ a { color: inherit; text-decoration: none; }
   animation-timing-function: var(--ease-settle);
 }
 
+/* The cover always rides above the page it is leaving or arriving at. Groups
+   are painted in the order they were named, which on the way back puts the
+   grid's `root` on top and drags the flying cover underneath the surrounding
+   sleeves. An explicit pair of z-indexes settles it in both directions.
+   (This is only reachable because the name is the constant `cover`; see
+   scripts/cover-transition.ts for why a per-record name could not be.) */
+::view-transition-group(root) { z-index: 0; }
+::view-transition-group(cover) { z-index: 1; }
+
 /* Astro only bundles its own reduced-motion override for view transitions when
    a `transition:*` directive is used somewhere, and none is any more — the
    cover name is set in plain CSS and JS. Everything above is therefore guarded
