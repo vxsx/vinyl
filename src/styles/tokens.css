@@ -33,11 +33,17 @@ body {
 
 a { color: inherit; text-decoration: none; }
 
-.wrap { padding: 0 32px; }
+/* The top inset lives here, not on the header: the header is omitted whenever
+   the wishlist is empty, and anything that hangs the page's top spacing off it
+   leaves the first row of content — the filter bar's GENRE label — flush
+   against the viewport edge in that state. On the wrapper it holds in both,
+   and the header-present layout is unchanged because the header gave up
+   exactly the padding the wrapper took on. */
+.wrap { padding: 34px 32px 0; }
 
 .site-header {
   display: flex;
-  padding: 34px 0 22px;
+  padding: 0 0 22px;
 }
 .site-header nav { display: flex; gap: 16px; font-size: 13px; color: var(--dim); }
 .site-header nav a[aria-current="page"] { color: var(--accent); }
