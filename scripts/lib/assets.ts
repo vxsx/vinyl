@@ -18,9 +18,9 @@ async function exists(path: string): Promise<boolean> {
 export async function downloadIfMissing(
   url: string,
   destPath: string,
-  deps: { fetchImpl?: FetchLike } = {},
+  deps: { fetchImpl?: FetchLike; force?: boolean } = {},
 ): Promise<'downloaded' | 'cached'> {
-  if (await exists(destPath)) return 'cached'
+  if (!deps.force && (await exists(destPath))) return 'cached'
 
   const fetchImpl = deps.fetchImpl ?? (globalThis.fetch as FetchLike)
   const response = await fetchImpl(url)

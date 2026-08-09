@@ -27,6 +27,16 @@ describe('downloadIfMissing', () => {
     expect(fetchImpl).not.toHaveBeenCalled()
   })
 
+  it('re-downloads and overwrites an existing file when force is true', async () => {
+    const dest = join(dir, 'cover.jpg')
+    await writeFile(dest, 'stale')
+    const fetchImpl = vi.fn().mockResolvedValue(new Response(new Uint8Array([9, 9, 9])))
+
+    expect(await downloadIfMissing('https://example.test/a.jpg', dest, { fetchImpl, force: true })).toBe('downloaded')
+    expect(fetchImpl).toHaveBeenCalledTimes(1)
+    expect(new Uint8Array(await readFile(dest))).toEqual(new Uint8Array([9, 9, 9]))
+  })
+
   it('throws and leaves no partial file when the response fails', async () => {
     const fetchImpl = vi.fn().mockResolvedValue(new Response('nope', { status: 500 }))
     const dest = join(dir, 'cover.jpg')
