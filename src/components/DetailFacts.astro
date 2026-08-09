@@ -21,7 +21,7 @@ const gap = record.pressedYear !== null && record.originalYear !== null
   {!record.isOriginalPressing && record.originalYear !== null && (
     <div>
       <dt>Originally released</dt>
-      <dd>{record.originalYear}{gap !== null && <span class="ago">{gap} years earlier</span>}</dd>
+      <dd>{record.originalYear}{gap !== null && <span class="ago">{gap} year{gap === 1 ? '' : 's'} earlier</span>}</dd>
     </div>
   )}
 
