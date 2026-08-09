@@ -29,7 +29,7 @@ const YearSchema = z.number().int().min(1000).max(2999).nullable()
 export const RecordSchema = z.object({
   id: z.number().int().positive(),
   slug: z.string().min(1),
-  title: z.string(),
+  title: z.string().min(1),
   /** Full credit. Can be 188 characters on opera releases. */
   artist: z.string(),
   /** First credited artist only — for grid captions. */
@@ -45,7 +45,7 @@ export const RecordSchema = z.object({
   originalYear: YearSchema,
   isOriginalPressing: z.boolean(),
   /** "1970s" … or "Unknown" when pressedYear is null. */
-  decade: z.string(),
+  decade: z.union([z.string().regex(/^\d{3}0s$/), z.literal('Unknown')]),
   formatDescriptions: z.array(z.string()),
   isPlainLP: z.boolean(),
   tracklist: z.array(TrackSchema),

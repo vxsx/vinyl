@@ -46,4 +46,24 @@ describe('RecordSchema', () => {
   it('rejects year zero — absent years must be null, not 0', () => {
     expect(() => RecordSchema.parse({ ...valid, pressedYear: 0 })).toThrow()
   })
+
+  it('rejects originalYear zero', () => {
+    expect(() => RecordSchema.parse({ ...valid, originalYear: 0 })).toThrow()
+  })
+
+  it('accepts valid decade labels matching the 19d0s/20d0s pattern', () => {
+    expect(() => RecordSchema.parse({ ...valid, decade: '1970s' })).not.toThrow()
+    expect(() => RecordSchema.parse({ ...valid, decade: '2010s' })).not.toThrow()
+  })
+
+  it('accepts "Unknown" for decade', () => {
+    expect(() => RecordSchema.parse({ ...valid, decade: 'Unknown' })).not.toThrow()
+  })
+
+  it('rejects malformed decade values', () => {
+    expect(() => RecordSchema.parse({ ...valid, decade: '197s' })).toThrow()
+    expect(() => RecordSchema.parse({ ...valid, decade: '1975s' })).toThrow()
+    expect(() => RecordSchema.parse({ ...valid, decade: '' })).toThrow()
+    expect(() => RecordSchema.parse({ ...valid, decade: 'banana' })).toThrow()
+  })
 })
