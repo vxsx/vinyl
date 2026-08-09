@@ -1,12 +1,17 @@
 // A near-fullscreen lightbox shared by every `.art` block on the page.
 // Activating the main cover or any thumbnail opens it at up to ~90vw/90vh
-// using the full-size asset; ArrowLeft/ArrowRight (or the visible prev/next
-// buttons) step through that record's images (cover first, then
-// secondaries, wrapping); Escape or a backdrop click closes it.
+// using the full-size asset; ArrowLeft/ArrowRight, the visible prev/next
+// buttons, or a horizontal swipe step through that record's images (cover
+// first, then secondaries, wrapping); Escape or a backdrop click closes it.
 interface GalleryItem {
   full: string
   alt: string
 }
+
+// How far a finger must travel sideways before it counts as a swipe rather
+// than a tap that wandered. Horizontal dominance is required on top of this,
+// so a long vertical drag can never clear the bar by accident.
+const SWIPE_MIN_PX = 50
 
 let dialog: HTMLDivElement | null = null
 let dialogPanel: HTMLElement | null = null
@@ -65,6 +70,68 @@ function step(delta: number): void {
   render()
 }
 
+// Horizontal swipe as the touch equivalent of the prev/next buttons — same
+// step(), so the same crossfade and the same wrap at either end.
+//
+// The listeners are passive and never call preventDefault(): what keeps the
+// browser from stealing a sideways drag is the image's `touch-action: pan-y
+// pinch-zoom` (declared alongside the rest of the lightbox CSS in
+// pages/record/[slug].astro), which gives up horizontal panning on this one
+// element only. Page scrolling is left alone everywhere, here included.
+function bindSwipe(img: HTMLImageElement): void {
+  let startX = 0
+  let startY = 0
+  let tracking = false
+
+  img.addEventListener(
+    'touchstart',
+    (event) => {
+      // A second finger means a pinch, not a swipe. Abandon the gesture rather
+      // than letting whichever touch survives decide a direction.
+      tracking = event.touches.length === 1
+      const touch = event.touches[0]
+      if (!tracking || !touch) return
+      startX = touch.clientX
+      startY = touch.clientY
+    },
+    { passive: true },
+  )
+
+  img.addEventListener(
+    'touchmove',
+    (event) => {
+      if (event.touches.length !== 1) tracking = false
+    },
+    { passive: true },
+  )
+
+  img.addEventListener(
+    'touchend',
+    (event) => {
+      if (!tracking) return
+      tracking = false
+      const touch = event.changedTouches[0]
+      if (!touch) return
+      const dx = touch.clientX - startX
+      const dy = touch.clientY - startY
+      // Deliberate sideways travel only: far enough to be a swipe, and more
+      // horizontal than vertical so a drag down the page is never misread.
+      if (Math.abs(dx) < SWIPE_MIN_PX || Math.abs(dx) <= Math.abs(dy)) return
+      // Left drags the next image in from the right, as the strip would move.
+      step(dx < 0 ? 1 : -1)
+    },
+    { passive: true },
+  )
+
+  img.addEventListener(
+    'touchcancel',
+    () => {
+      tracking = false
+    },
+    { passive: true },
+  )
+}
+
 function close(): void {
   if (!dialog || !isOpen()) return
   dialog.classList.remove('is-open')
@@ -104,6 +171,10 @@ function ensureDialog(): HTMLDivElement {
   prevBtn?.addEventListener('click', () => step(-1))
   nextBtn?.addEventListener('click', () => step(1))
   imgEl?.addEventListener('load', fitImage)
+  // Bound here, not in initGallery: this element is rebuilt from scratch on
+  // every navigation that detaches it, so each image gets its listeners exactly
+  // once and there is nothing to double-bind.
+  if (imgEl) bindSwipe(imgEl)
 
   if (!globalListenersBound) {
     globalListenersBound = true

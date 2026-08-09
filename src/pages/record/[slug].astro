@@ -313,6 +313,10 @@ const thumbs = (
     image-rendering: auto;
     display: block;
     box-shadow: 0 30px 80px rgb(0 0 0 / 0.6);
+    /* Hands horizontal panning to gallery.ts's swipe handler on this one
+       element, and nothing else: vertical scrolling and pinch-zoom stay with
+       the browser, so nowhere does page scroll get locked. */
+    touch-action: pan-y pinch-zoom;
   }
   /* Stepping to another image (prev/next or arrow keys) restarts this via a
      class toggle in gallery.ts — a quick fade-in reads as a crossfade
