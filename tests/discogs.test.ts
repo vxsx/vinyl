@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest'
-import { DiscogsClient } from '../scripts/lib/discogs'
+import { DiscogsClient, parseRetryAfter } from '../scripts/lib/discogs'
 
 function jsonResponse(body: unknown, init: { status?: number; headers?: Record<string, string> } = {}) {
   return new Response(JSON.stringify(body), {
@@ -85,5 +85,71 @@ describe('DiscogsClient.getAllPages', () => {
     const { client } = makeClient(fetchImpl)
 
     expect(await client.getAllPages('/users/x/wants', 'wants')).toEqual([])
+  })
+})
+
+describe('parseRetryAfter', () => {
+  it('parses delta-seconds', () => {
+    const ms = parseRetryAfter('3')
+    expect(ms).toBe(3000)
+    expect(Number.isFinite(ms)).toBe(true)
+  })
+
+  it('defaults to 60 seconds when header is absent', () => {
+    const ms = parseRetryAfter(null)
+    expect(ms).toBe(60000)
+    expect(Number.isFinite(ms)).toBe(true)
+  })
+
+  it('parses HTTP-date form', () => {
+    const futureDate = 'Wed, 21 Oct 2026 07:28:00 GMT'
+    const pastDate = Date.parse('Wed, 21 Oct 2026 07:26:00 GMT')
+    const ms = parseRetryAfter(futureDate, pastDate)
+    expect(ms).toBe(120000) // 2 minutes in milliseconds
+    expect(Number.isFinite(ms)).toBe(true)
+  })
+
+  it('clamps past HTTP-date to 0', () => {
+    const pastDate = 'Wed, 21 Oct 2026 07:25:00 GMT'
+    const now = Date.parse('Wed, 21 Oct 2026 07:26:00 GMT')
+    const ms = parseRetryAfter(pastDate, now)
+    expect(ms).toBe(0)
+    expect(Number.isFinite(ms)).toBe(true)
+  })
+
+  it('treats garbage as fallback to 60 seconds', () => {
+    const ms = parseRetryAfter('soon')
+    expect(ms).toBe(60000)
+    expect(Number.isFinite(ms)).toBe(true)
+  })
+
+  it('clamps huge delta-seconds to 300 seconds', () => {
+    const ms = parseRetryAfter('99999')
+    expect(ms).toBe(300000)
+    expect(Number.isFinite(ms)).toBe(true)
+  })
+
+  it('integration: 429 with HTTP-date header calls sleep with finite value', async () => {
+    const futureDate = 'Wed, 21 Oct 2026 07:28:00 GMT'
+    const pastDate = Date.parse('Wed, 21 Oct 2026 07:26:00 GMT')
+    const fetchImpl = vi.fn()
+      .mockResolvedValueOnce(jsonResponse({ message: 'slow down' }, { status: 429, headers: { 'retry-after': futureDate } }))
+      .mockResolvedValueOnce(jsonResponse({ id: 42 }))
+    const sleep = vi.fn().mockResolvedValue(undefined)
+    const client = new DiscogsClient({
+      token: 'test-token',
+      userAgent: 'VinylTest/1.0',
+      fetchImpl,
+      sleep,
+      minIntervalMs: 0,
+    })
+
+    const result = await client.get<{ id: number }>('/releases/42')
+
+    expect(result.id).toBe(42)
+    expect(sleep).toHaveBeenCalledTimes(1)
+    const sleepArg = sleep.mock.calls[0]![0]
+    expect(Number.isFinite(sleepArg)).toBe(true)
+    expect(sleepArg).toBeGreaterThan(0)
   })
 })

@@ -18,6 +18,40 @@ type Options = {
 
 const defaultSleep: SleepFn = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
+const MAX_WAIT_MS = 300000 // 5 minutes max
+
+/**
+ * Parse a Retry-After header, which can be delta-seconds (RFC 7231) or an HTTP-date (RFC 9110).
+ * Returns milliseconds to wait. Always returns a finite non-negative number.
+ * @param header The Retry-After header value, or null if absent
+ * @param now Current timestamp in milliseconds (for testing)
+ * @returns Milliseconds to wait, clamped to [0, MAX_WAIT_MS]
+ */
+export function parseRetryAfter(header: string | null, now: number = Date.now()): number {
+  if (!header) {
+    // No header: default to 60 seconds
+    return 60000
+  }
+
+  // Try to parse as delta-seconds (a number)
+  const deltaSeconds = Number(header)
+  if (Number.isFinite(deltaSeconds) && deltaSeconds >= 0) {
+    // It's a valid finite non-negative number: treat as delta-seconds
+    return Math.min(deltaSeconds * 1000, MAX_WAIT_MS)
+  }
+
+  // Try to parse as HTTP-date
+  const dateMs = Date.parse(header)
+  if (Number.isFinite(dateMs)) {
+    // Valid HTTP-date: calculate wait time (clamped at 0 if already past)
+    const waitMs = Math.max(0, dateMs - now)
+    return Math.min(waitMs, MAX_WAIT_MS)
+  }
+
+  // Garbage: fall back to 60 seconds
+  return 60000
+}
+
 export class DiscogsClient {
   private readonly token: string
   private readonly userAgent: string
@@ -49,8 +83,8 @@ export class DiscogsClient {
       })
 
       if (response.status === 429) {
-        const retryAfter = Number(response.headers.get('retry-after') ?? 60)
-        await this.sleep(retryAfter * 1000)
+        const retryAfterMs = parseRetryAfter(response.headers.get('retry-after'))
+        await this.sleep(retryAfterMs)
         continue
       }
 
