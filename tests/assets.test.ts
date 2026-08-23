@@ -3,7 +3,7 @@ import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { mkdtemp, rm, writeFile, readFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
-import { downloadIfMissing } from '../scripts/lib/assets'
+import { downloadIfMissing, pickImages, MAX_SECONDARY_IMAGES } from '../scripts/lib/assets'
 
 let dir: string
 beforeEach(async () => { dir = await mkdtemp(join(tmpdir(), 'assets-')) })
@@ -43,5 +43,30 @@ describe('downloadIfMissing', () => {
 
     await expect(downloadIfMissing('https://example.test/a.jpg', dest, { fetchImpl })).rejects.toThrow(/500/)
     await expect(readFile(dest)).rejects.toThrow()
+  })
+})
+
+describe('pickImages', () => {
+  const img = (type: string, n: number) => ({ type, uri: `u${n}`, width: 600, height: 600 })
+
+  it('uses the primary as cover and the secondaries as gallery', () => {
+    const { cover, gallery } = pickImages([img('secondary', 1), img('primary', 2), img('secondary', 3)])
+    expect(cover?.uri).toBe('u2')
+    expect(gallery.map((i) => i.uri)).toEqual(['u1', 'u3'])
+  })
+
+  it('falls back to the first image as cover and keeps it out of the gallery', () => {
+    const { cover, gallery } = pickImages([img('secondary', 1), img('secondary', 2), img('secondary', 3)])
+    expect(cover?.uri).toBe('u1')
+    expect(gallery.map((i) => i.uri)).toEqual(['u2', 'u3'])
+  })
+
+  it('caps the gallery', () => {
+    const all = Array.from({ length: MAX_SECONDARY_IMAGES + 5 }, (_, n) => img('secondary', n))
+    expect(pickImages(all).gallery).toHaveLength(MAX_SECONDARY_IMAGES)
+  })
+
+  it('handles no images', () => {
+    expect(pickImages([])).toEqual({ cover: undefined, gallery: [] })
   })
 })

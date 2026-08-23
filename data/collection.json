@@ -4242,13 +4242,7 @@
       }
     ],
     "notes": "Seems to be released around 1971, looking at the pressing plant's catalog numbers.",
-    "images": [
-      {
-        "file": "7744735-1.jpg",
-        "width": 424,
-        "height": 600
-      }
-    ],
+    "images": [],
     "dateAdded": "2026-07-29T02:51:04-07:00"
   },
   {
@@ -6965,18 +6959,18 @@
     "images": [
       {
         "file": "38226141-1.jpg",
-        "width": 594,
-        "height": 600
-      },
-      {
-        "file": "38226141-2.jpg",
         "width": 600,
         "height": 63
       },
       {
-        "file": "38226141-3.jpg",
+        "file": "38226141-2.jpg",
         "width": 600,
         "height": 588
+      },
+      {
+        "file": "38226141-3.jpg",
+        "width": 600,
+        "height": 594
       },
       {
         "file": "38226141-4.jpg",
@@ -6986,17 +6980,17 @@
       {
         "file": "38226141-5.jpg",
         "width": 600,
-        "height": 594
+        "height": 595
       },
       {
         "file": "38226141-6.jpg",
         "width": 600,
-        "height": 595
+        "height": 597
       },
       {
         "file": "38226141-7.jpg",
         "width": 600,
-        "height": 597
+        "height": 599
       },
       {
         "file": "38226141-8.jpg",
@@ -7006,7 +7000,7 @@
       {
         "file": "38226141-9.jpg",
         "width": 600,
-        "height": 599
+        "height": 600
       },
       {
         "file": "38226141-10.jpg",
@@ -7041,17 +7035,17 @@
       {
         "file": "38226141-16.jpg",
         "width": 600,
-        "height": 600
+        "height": 586
       },
       {
         "file": "38226141-17.jpg",
         "width": 600,
-        "height": 586
+        "height": 300
       },
       {
         "file": "38226141-18.jpg",
         "width": 600,
-        "height": 300
+        "height": 297
       },
       {
         "file": "38226141-19.jpg",
@@ -7061,20 +7055,15 @@
       {
         "file": "38226141-20.jpg",
         "width": 600,
-        "height": 297
+        "height": 296
       },
       {
         "file": "38226141-21.jpg",
         "width": 600,
-        "height": 296
-      },
-      {
-        "file": "38226141-22.jpg",
-        "width": 600,
         "height": 295
       },
       {
-        "file": "38226141-23.jpg",
+        "file": "38226141-22.jpg",
         "width": 418,
         "height": 600
       }
@@ -7422,36 +7411,31 @@
       },
       {
         "file": "17980264-2.jpg",
-        "width": 592,
-        "height": 600
-      },
-      {
-        "file": "17980264-3.jpg",
         "width": 591,
         "height": 600
       },
       {
-        "file": "17980264-4.jpg",
+        "file": "17980264-3.jpg",
         "width": 600,
         "height": 600
       },
       {
-        "file": "17980264-5.jpg",
+        "file": "17980264-4.jpg",
         "width": 598,
         "height": 600
       },
       {
-        "file": "17980264-6.jpg",
+        "file": "17980264-5.jpg",
         "width": 600,
         "height": 599
       },
       {
-        "file": "17980264-7.jpg",
+        "file": "17980264-6.jpg",
         "width": 600,
         "height": 598
       },
       {
-        "file": "17980264-8.jpg",
+        "file": "17980264-7.jpg",
         "width": 599,
         "height": 600
       }
@@ -9620,20 +9604,15 @@
       {
         "file": "12200440-1.jpg",
         "width": 600,
-        "height": 599
-      },
-      {
-        "file": "12200440-2.jpg",
-        "width": 600,
         "height": 595
       },
       {
-        "file": "12200440-3.jpg",
+        "file": "12200440-2.jpg",
         "width": 597,
         "height": 600
       },
       {
-        "file": "12200440-4.jpg",
+        "file": "12200440-3.jpg",
         "width": 600,
         "height": 598
       }
@@ -10418,13 +10397,7 @@
       }
     ],
     "notes": null,
-    "images": [
-      {
-        "file": "4705809-1.jpg",
-        "width": 599,
-        "height": 600
-      }
-    ],
+    "images": [],
     "dateAdded": "2026-07-29T02:38:57-07:00"
   },
   {
@@ -13452,21 +13425,16 @@
     "images": [
       {
         "file": "8680331-1.jpg",
-        "width": 600,
-        "height": 596
-      },
-      {
-        "file": "8680331-2.jpg",
         "width": 599,
         "height": 600
       },
       {
-        "file": "8680331-3.jpg",
+        "file": "8680331-2.jpg",
         "width": 600,
         "height": 599
       },
       {
-        "file": "8680331-4.jpg",
+        "file": "8680331-3.jpg",
         "width": 600,
         "height": 587
       }

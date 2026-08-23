@@ -5,7 +5,7 @@ import { DiscogsClient } from './lib/discogs.js'
 import { assignSlugs } from './lib/slug.js'
 import { primaryArtistName } from './lib/artist.js'
 import { normalizeRecord, type RawCollectionEntry, type RawRelease, type RawMaster } from './lib/normalize.js'
-import { downloadIfMissing, MAX_SECONDARY_IMAGES } from './lib/assets.js'
+import { downloadIfMissing, pickImages, type ImageInfo } from './lib/assets.js'
 import { applyDecadeOverrides, unusedOverrideIds } from './lib/decade-overrides.js'
 import {
   CollectionSchema,
@@ -88,8 +88,6 @@ async function writeJson(path: string, value: unknown): Promise<void> {
   await rename(temp, path)
 }
 
-type ImageInfo = { uri: string; type: string; width: number; height: number }
-
 async function buildRecords(
   entries: RawCollectionEntry[],
   label: string,
@@ -112,9 +110,8 @@ async function buildRecords(
       ? await cached<RawMaster>('masters', basic.master_id, () => client.get(`/masters/${basic.master_id}`))
       : null
 
-    const allImages = release.images ?? []
-    const primary = allImages.find((image) => image.type === 'primary') ?? allImages[0]
-    const coverUrl = primary?.uri ?? basic.cover_image
+    const { cover, gallery } = pickImages(release.images ?? [])
+    const coverUrl = cover?.uri ?? basic.cover_image
 
     let coverFile: string | null = null
     if (coverUrl) {
@@ -122,9 +119,8 @@ async function buildRecords(
       await downloadIfMissing(coverUrl, join(COVER_DIR, coverFile), { force })
     }
 
-    const secondary = allImages.filter((image) => image.type === 'secondary').slice(0, MAX_SECONDARY_IMAGES)
     const images: { file: string; width: number; height: number }[] = []
-    for (const [n, image] of secondary.entries()) {
+    for (const [n, image] of gallery.entries()) {
       const file = `${id}-${n + 1}.jpg`
       await downloadIfMissing(image.uri, join(IMAGE_DIR, file), { force })
       images.push({ file, width: image.width, height: image.height })

@@ -6,6 +6,22 @@ import type { FetchLike } from './discogs.js'
 /** Cap per record so the repo stays small as the collection grows. */
 export const MAX_SECONDARY_IMAGES = 25
 
+export type ImageInfo = { uri: string; type: string; width: number; height: number }
+
+/**
+ * The cover is the image Discogs marks primary. A freshly submitted release
+ * can have none — every image comes back "secondary" — so the first image
+ * stands in, and whichever image is the cover stays out of the gallery so the
+ * detail page never shows it twice.
+ */
+export function pickImages(all: ImageInfo[]): { cover: ImageInfo | undefined; gallery: ImageInfo[] } {
+  const cover = all.find((image) => image.type === 'primary') ?? all[0]
+  const gallery = all
+    .filter((image) => image !== cover && image.type === 'secondary')
+    .slice(0, MAX_SECONDARY_IMAGES)
+  return { cover, gallery }
+}
+
 async function exists(path: string): Promise<boolean> {
   try {
     await access(path)
