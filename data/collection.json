@@ -6456,6 +6456,372 @@
     "dateAdded": "2026-07-29T09:20:37-07:00"
   },
   {
+    "id": 38226141,
+    "slug": "giacomo-puccini-turandot",
+    "title": "Turandot",
+    "artist": "Giacomo Puccini - Joan Sutherland, Luciano Pavarotti, Montserrat Caballé, Nicolai Ghiaurov, Tom Krause With Peter Pears, John Alldis Choir, London Philharmonic Orchestra, Zubin Mehta",
+    "primaryArtist": "Giacomo Puccini",
+    "artistSort": "Giacomo Puccini - Joan Sutherland, Luciano Pavarotti, Montserrat Caballé, Nicolai Ghiaurov, Tom Krause With Peter Pears, John Alldis Choir, London Philharmonic Orchestra, Zubin Mehta",
+    "coverFile": "38226141.jpg",
+    "genres": [
+      "Classical"
+    ],
+    "styles": [
+      "Opera",
+      "Romantic",
+      "Bel Canto"
+    ],
+    "label": "Decca",
+    "catno": "487 1872",
+    "country": "Europe",
+    "pressedYear": 2026,
+    "originalYear": null,
+    "isOriginalPressing": false,
+    "decade": "2020s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Reissue",
+      "Remastered",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Popolo di Pekino!",
+        "duration": "5:35"
+      },
+      {
+        "position": "A2",
+        "title": "Gira la cote!",
+        "duration": "7:02"
+      },
+      {
+        "position": "A3",
+        "title": "O giovinetto! Grazia, grazia!",
+        "duration": "4:59"
+      },
+      {
+        "position": "B1",
+        "title": "Figlio, che fai?",
+        "duration": "1:40"
+      },
+      {
+        "position": "B2",
+        "title": "Fermo! Che fai? T'arresta!",
+        "duration": "6:15"
+      },
+      {
+        "position": "B3",
+        "title": "Signore, ascolta!",
+        "duration": "2:40"
+      },
+      {
+        "position": "B4",
+        "title": "Non piangere, Liù!",
+        "duration": "5:12"
+      },
+      {
+        "position": "C1",
+        "title": "Olà, Pang! Olà, Pong!",
+        "duration": "3:17"
+      },
+      {
+        "position": "C2",
+        "title": "Ho una casa nell'Honan",
+        "duration": "3:42"
+      },
+      {
+        "position": "C3",
+        "title": "O mondo",
+        "duration": "5:33"
+      },
+      {
+        "position": "C4",
+        "title": "Introduzione",
+        "duration": "1:00"
+      },
+      {
+        "position": "C5",
+        "title": "Gravi, enormi ed imponenti",
+        "duration": "3:27"
+      },
+      {
+        "position": "C6",
+        "title": "Un giuramento atroce mi costringe",
+        "duration": "4:03"
+      },
+      {
+        "position": "C7",
+        "title": "Popolo di Pekino!",
+        "duration": "1:48"
+      },
+      {
+        "position": "D1",
+        "title": "In questa Reggia",
+        "duration": "6:32"
+      },
+      {
+        "position": "D2",
+        "title": "Straniero, ascolta",
+        "duration": "6:50"
+      },
+      {
+        "position": "D3",
+        "title": "Gloria, gloria, o vincitore!",
+        "duration": "4:08"
+      },
+      {
+        "position": "D4",
+        "title": "Tre enigmi m'hai proposto",
+        "duration": "4:08"
+      },
+      {
+        "position": "E1",
+        "title": "Introduzione – Così comanda Turandot",
+        "duration": "3:25"
+      },
+      {
+        "position": "E2",
+        "title": "Nessun dorma!",
+        "duration": "6:42"
+      },
+      {
+        "position": "E3",
+        "title": "Principessa divina!",
+        "duration": "7:11"
+      },
+      {
+        "position": "E4",
+        "title": "Tu che di gel sei cinta",
+        "duration": "2:52"
+      },
+      {
+        "position": "E5",
+        "title": "Liù! Liù! Sorgi! Sorgi!",
+        "duration": "4:42"
+      },
+      {
+        "position": "F1",
+        "title": "Principessa di morte!",
+        "duration": "3:17"
+      },
+      {
+        "position": "F2",
+        "title": "Che è mai di me?",
+        "duration": "2:46"
+      },
+      {
+        "position": "F3",
+        "title": "Del primo pianto",
+        "duration": "3:57"
+      },
+      {
+        "position": "F4",
+        "title": "So il tuo nome!",
+        "duration": "2:13"
+      },
+      {
+        "position": "F5",
+        "title": "Diecimila anni al nostro Imperatore!",
+        "duration": "2:24"
+      }
+    ],
+    "sides": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "credits": [
+      {
+        "role": "Advisor [Stylistic Adviser]",
+        "name": "Roberto Benaglio"
+      },
+      {
+        "role": "Baritone Vocals [Mandarin]",
+        "name": "Sabin Markov"
+      },
+      {
+        "role": "Baritone Vocals [Ping]",
+        "name": "Tom Krause"
+      },
+      {
+        "role": "Bass Vocals [Timur]",
+        "name": "Nicolai Ghiaurov"
+      },
+      {
+        "role": "Chorus",
+        "name": "John Alldis Choir"
+      },
+      {
+        "role": "Chorus",
+        "name": "Wandsworth School Boys' Choir"
+      },
+      {
+        "role": "Chorus Master [John Alldis Choir]",
+        "name": "John Alldis"
+      },
+      {
+        "role": "Chorus Master [Wandsworth School Boy's Choir]",
+        "name": "Russell Burgess"
+      },
+      {
+        "role": "Composed By",
+        "name": "Giacomo Puccini"
+      },
+      {
+        "role": "Conductor",
+        "name": "Zubin Mehta"
+      },
+      {
+        "role": "Engineer",
+        "name": "James Lock (2)"
+      },
+      {
+        "role": "Engineer",
+        "name": "Kenneth Wilkinson"
+      },
+      {
+        "role": "Illustration",
+        "name": "David Palladini"
+      },
+      {
+        "role": "Lacquer Cut By, Remastered By",
+        "name": "Miles Showell"
+      },
+      {
+        "role": "Libretto By",
+        "name": "Giuseppe Adami"
+      },
+      {
+        "role": "Libretto By",
+        "name": "Renato Simoni"
+      },
+      {
+        "role": "Liner Notes",
+        "name": "Freddie De Tommaso"
+      },
+      {
+        "role": "Liner Notes",
+        "name": "Roger Pines"
+      },
+      {
+        "role": "Liner Notes",
+        "name": "William Fense Weaver"
+      },
+      {
+        "role": "Orchestra",
+        "name": "London Philharmonic Orchestra"
+      },
+      {
+        "role": "Photography By",
+        "name": "John Thomson (2)"
+      },
+      {
+        "role": "Producer",
+        "name": "Michael Woolcock"
+      },
+      {
+        "role": "Producer",
+        "name": "Ray Minshull"
+      },
+      {
+        "role": "Soprano Vocals [Liu]",
+        "name": "Montserrat Caballé"
+      },
+      {
+        "role": "Soprano Vocals [Turandot]",
+        "name": "Joan Sutherland"
+      },
+      {
+        "role": "Tenor Vocals [Calaf]",
+        "name": "Luciano Pavarotti"
+      },
+      {
+        "role": "Tenor Vocals [Emperor Altoum]",
+        "name": "Peter Pears"
+      },
+      {
+        "role": "Tenor Vocals [Pang / Il Principino di Persia]",
+        "name": "Pier Francesco Poli"
+      },
+      {
+        "role": "Tenor Vocals [Pong]",
+        "name": "Piero De Palma"
+      },
+      {
+        "role": "Translated By [Libretto]",
+        "name": "Laura Mardon"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": "Text; printed on labels as Set",
+        "value": "028948718726"
+      },
+      {
+        "type": "Label Code",
+        "description": null,
+        "value": "LC 00171"
+      },
+      {
+        "type": "Rights Society",
+        "description": null,
+        "value": "BIEM/SDRM"
+      }
+    ],
+    "notes": "Limited edition 3LP box set. Half-speed mastered by Miles Showell at Abbey Road Studios from a new 24-bit/192kHz transfer of the original master tapes. 180g vinyl in poly-lined inner sleeves.\n\nLinen-bound box with cloth-wrapped slipcase containing a hardback book (essay by Roger Pines, artist features on Pavarotti, Sutherland and Caballé, article by Freddie de Tommaso, facsimile of the 1970s LP booklet with libretto in Italian, English, French and German, session photographs) and an A4 reproduction of a 1920s Turandot poster.\n\nSleeve front and back covers reproduce the original LP artwork of the Decca complete (SET 561/3) and highlights (SET 573) releases.\n\nRecorded August 1972, Kingsway Hall, London.\n\n℗ & © 2026 Universal Music Operations Limited. A Decca Classics Release.\nMade in the EU.\n\nIndividual disc catalogue numbers: 487 1932 (LP1), 487 1958 (LP2), 487 1959 (LP3).",
+    "images": [
+      {
+        "file": "38226141-1.jpg",
+        "width": 594,
+        "height": 600
+      },
+      {
+        "file": "38226141-2.jpg",
+        "width": 600,
+        "height": 63
+      },
+      {
+        "file": "38226141-3.jpg",
+        "width": 600,
+        "height": 588
+      },
+      {
+        "file": "38226141-4.jpg",
+        "width": 600,
+        "height": 594
+      },
+      {
+        "file": "38226141-5.jpg",
+        "width": 600,
+        "height": 594
+      },
+      {
+        "file": "38226141-6.jpg",
+        "width": 600,
+        "height": 595
+      },
+      {
+        "file": "38226141-7.jpg",
+        "width": 600,
+        "height": 597
+      },
+      {
+        "file": "38226141-8.jpg",
+        "width": 600,
+        "height": 599
+      }
+    ],
+    "dateAdded": "2026-08-23T03:33:06-07:00"
+  },
+  {
     "id": 11625933,
     "slug": "giuseppe-verdi-aida",
     "title": "Aida",
