@@ -4,7 +4,7 @@ import { dirname } from 'node:path'
 import type { FetchLike } from './discogs.js'
 
 /** Cap per record so the repo stays small as the collection grows. */
-export const MAX_SECONDARY_IMAGES = 8
+export const MAX_SECONDARY_IMAGES = 25
 
 async function exists(path: string): Promise<boolean> {
   try {
