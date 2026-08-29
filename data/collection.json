@@ -7726,6 +7726,355 @@
     "dateAdded": "2026-07-28T23:52:37-07:00"
   },
   {
+    "id": 1629007,
+    "slug": "jimi-hendrix-the-jimi-hendrix-concerts",
+    "title": "The Jimi Hendrix Concerts",
+    "artist": "Jimi Hendrix",
+    "primaryArtist": "Jimi Hendrix",
+    "artistSort": "Jimi Hendrix",
+    "coverFile": "1629007.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Blues Rock",
+      "Psychedelic Rock"
+    ],
+    "label": "CBS",
+    "catno": "88592",
+    "country": "Europe",
+    "pressedYear": 1982,
+    "originalYear": 1982,
+    "isOriginalPressing": true,
+    "decade": "1980s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Compilation"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Fire",
+        "duration": "3:50"
+      },
+      {
+        "position": "A2",
+        "title": "I Don't Live Today",
+        "duration": "6:45"
+      },
+      {
+        "position": "A3",
+        "title": "Red House",
+        "duration": "8:40"
+      },
+      {
+        "position": "B1",
+        "title": "Stone Free",
+        "duration": "11:01"
+      },
+      {
+        "position": "B2",
+        "title": "Are You Experienced",
+        "duration": "6:40"
+      },
+      {
+        "position": "C1",
+        "title": "Little Wing",
+        "duration": "4:11"
+      },
+      {
+        "position": "C2",
+        "title": "Voodoo Chile (Slight Return)",
+        "duration": "7:11"
+      },
+      {
+        "position": "C3",
+        "title": "Bleeding Heart (Blues In C Sharp)",
+        "duration": "7:31"
+      },
+      {
+        "position": "D1",
+        "title": "Hey Joe",
+        "duration": "5:13"
+      },
+      {
+        "position": "D2",
+        "title": "Wild Thing",
+        "duration": "3:33"
+      },
+      {
+        "position": "D3",
+        "title": "Hear My Train A Comin (Gettin' My Heart Back Together Again)",
+        "duration": "8:47"
+      }
+    ],
+    "sides": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "credits": [
+      {
+        "role": "Artwork [Cover Painting]",
+        "name": "Jean Messagier"
+      },
+      {
+        "role": "Backing Vocals",
+        "name": "Noel Redding"
+      },
+      {
+        "role": "Bass",
+        "name": "Billy Cox"
+      },
+      {
+        "role": "Bass",
+        "name": "Noel Redding"
+      },
+      {
+        "role": "Design [Cover]",
+        "name": "Norman Mongan"
+      },
+      {
+        "role": "Drums",
+        "name": "Mitch Mitchell"
+      },
+      {
+        "role": "Guitar, Vocals",
+        "name": "Jimi Hendrix"
+      },
+      {
+        "role": "Mastered By",
+        "name": "John Dent"
+      },
+      {
+        "role": "Mixed By [Production Mix Down Assistant]",
+        "name": "Reno Ruocco"
+      },
+      {
+        "role": "Mixed By [Production Mix Down]",
+        "name": "Bob Potter"
+      },
+      {
+        "role": "Mixed By [Production Mix Down]",
+        "name": "John Porter"
+      },
+      {
+        "role": "Photography By",
+        "name": "Jim Marshall (3)"
+      },
+      {
+        "role": "Photography By [Cover Painting]",
+        "name": "Christian Tchirakadze"
+      },
+      {
+        "role": "Producer [Associate]",
+        "name": "Albert Koski"
+      },
+      {
+        "role": "Producer [Associate]",
+        "name": "Daniel Secunda"
+      },
+      {
+        "role": "Producer [Consultants To Production]",
+        "name": "Leo Branton"
+      },
+      {
+        "role": "Producer [Consultants To Production]",
+        "name": "Mike Shaw"
+      },
+      {
+        "role": "Producer [Consultants To Production], Liner Notes",
+        "name": "Bruce Pates"
+      },
+      {
+        "role": "Producer [Pre-production]",
+        "name": "Buddy Epstein"
+      },
+      {
+        "role": "Producer [Pre-production]",
+        "name": "Les Kahn"
+      },
+      {
+        "role": "Producer, Cover, Design",
+        "name": "Alan Douglas"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Rights Society",
+        "description": null,
+        "value": "BIEM/STEMRA"
+      },
+      {
+        "type": "Label Code",
+        "description": null,
+        "value": "LC 0149"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Label side A",
+        "value": "CBS 88592-1"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Label side B",
+        "value": "CBS 88592-2"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Label side C",
+        "value": "CBS 88592-3"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Label side D",
+        "value": "CBS 88592-4"
+      },
+      {
+        "type": "Cistribution Code",
+        "description": "Encircled, on back cover",
+        "value": "63"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 1 - Runout side A",
+        "value": "01-88592-1A-1 A NL"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 1 - Runout side B",
+        "value": "01-88592-1B-1 A NL"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 1 - Runout side C",
+        "value": "01-88592-1C-1 A NL"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 1 - Runout side D",
+        "value": "01-88592-4D-1 A NL"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 2 - Runout side A",
+        "value": "01-88592-1A-1 A NL"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 2 - Runout side B",
+        "value": "01-88592-1B-1 A NL"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 2 - Runout side C",
+        "value": "01-88592-3C-1 A NL"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 2 - Runout side D",
+        "value": "01-88592-4D-1 A NL"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 3 - Runout side A",
+        "value": "01-88592-1A-1 A NL"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 3 - Runout side B",
+        "value": "01-88592-1B-1 A NL"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 3 - Runout side C",
+        "value": "01-88592-3C-1 A NL"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Variant 3 - Runout side D",
+        "value": "01-88592-5D-1 A NL"
+      }
+    ],
+    "notes": "Cat# 88592 inside gatefold and on back cover.\nCat# CBS 88592 on front sticker, spine and labels.\n\nRound sticker on front cover:\n\"The Jimi Hendrix Concerts Featuring Previously Unreleased Live Versions Of Hey Joe, Stone Free, Voodoo Chile CBS 88592\"\n\nOn back cover:\nA collection of his most exciting performances\nMixed at Matrix Studios, London, England.\nAssociate producers: Daniel Secunda, Albert Koski\nProduced by: Alan Douglas for Presentaciones Musicales S.A.\nThese recordings are authorized from the Estate of Jimi Hendrix.\n℗ 1982 Mediamotion/© 1982 Mediamotion /(...) / Printed in Holland\n\nTracks A1, B2, C2 and D3: Winterland, San Francisco, CA. October 10, 1968.\nTrack A2: The Sports Arena, San Diego, CA. May 24, 1969.\nTrack A3: New York Pop, Randall's Island, NY. July 17, 1970.\nTracks B1 and C3: Albert Hall, London, England. February 24, 1969.\nTrack C1: Winterland, San Francisco, CA. October 11, 1968.\nTrack D1: Berkeley Community Theatre, Berkeley, CA. May 30, 1970.\nTrack D2: Winterland, San Francisco, CA. October 12, 1968.\n\nFull laminated gatefold jacket.\nRunout details: everything is stamped on each side.\nMade In Holland (on labels).\n\nSimilar to [url=https://www.discogs.com/release/15225315-Jimi-Hendrix-The-Jimi-Hendrix-Concerts]The Jimi Hendrix Concerts[/url] but with slightly different labels (e.g. on the first line of the side B label: \"2. Are\" is written NOT \"2. Are You\").",
+    "images": [
+      {
+        "file": "1629007-1.jpg",
+        "width": 600,
+        "height": 597
+      },
+      {
+        "file": "1629007-2.jpg",
+        "width": 600,
+        "height": 596
+      },
+      {
+        "file": "1629007-3.jpg",
+        "width": 597,
+        "height": 600
+      },
+      {
+        "file": "1629007-4.jpg",
+        "width": 417,
+        "height": 417
+      },
+      {
+        "file": "1629007-5.jpg",
+        "width": 410,
+        "height": 410
+      },
+      {
+        "file": "1629007-6.jpg",
+        "width": 405,
+        "height": 405
+      },
+      {
+        "file": "1629007-7.jpg",
+        "width": 411,
+        "height": 411
+      },
+      {
+        "file": "1629007-8.jpg",
+        "width": 600,
+        "height": 590
+      },
+      {
+        "file": "1629007-9.jpg",
+        "width": 600,
+        "height": 347
+      },
+      {
+        "file": "1629007-10.jpg",
+        "width": 600,
+        "height": 42
+      },
+      {
+        "file": "1629007-11.jpg",
+        "width": 600,
+        "height": 281
+      },
+      {
+        "file": "1629007-12.jpg",
+        "width": 600,
+        "height": 241
+      },
+      {
+        "file": "1629007-13.jpg",
+        "width": 600,
+        "height": 321
+      },
+      {
+        "file": "1629007-14.jpg",
+        "width": 600,
+        "height": 309
+      }
+    ],
+    "dateAdded": "2026-08-29T08:41:39-07:00"
+  },
+  {
     "id": 14769649,
     "slug": "johann-sebastian-bach-integrale-de-l-uvre-pour-orgue-n-ix-x-xi-xii",
     "title": "Intégrale De L'Œuvre Pour Orgue : N° IX, X, XI, XII",
@@ -8486,12 +8835,12 @@
       {
         "type": "Matrix / Runout",
         "description": "Label, side A",
-        "value": "K 99131 A^"
+        "value": "K 99131 A*"
       },
       {
         "type": "Matrix / Runout",
         "description": "Label, side B",
-        "value": "K 99131 B^"
+        "value": "K 99131 B*"
       },
       {
         "type": "Matrix / Runout",
@@ -8612,6 +8961,16 @@
         "type": "Matrix / Runout",
         "description": "B-side runout, variant 12",
         "value": "GHS-2-2001-REI-UK-SET-5 K 99131 B5 W152 1 STERLING"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "A-side runout, variant 13",
+        "value": "GHS-1-2001-UK-SET-5 K 99131 A5 W-8 STERLING"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "B-side runout, variant 13",
+        "value": "GHS-2-2001-RE1-UK-SET-4 STERLING W 24 K 99131 B-4"
       }
     ],
     "notes": "DOUBLE FANTASY\nA Heart Play\nBy\nJohn Lennon & Yoko Ono\n\nRecorded and remixed at Hit Factory, New York. Single remix at Record Plant, New York. Mastering at Sterling Sound, New York.\n\nWith special thanks to all the people, known and unknown, who helped us stay in America, without whom this album would not have been made. Love, John & Yoko.\n\n-Labels-\n℗ 1980 The David Geffen Company\nMade in UK\n\n-Back cover-\n℗© 1980 WEA International Inc. ... Printed and Made in England\n\nHas the cat. # as K99131 on the back cover, spine of the outer sleeve, on the lyric inner sleeve and as K 99131 on record labels. Cat # GHS 2001 appears on back cover and record labels..\n\nEarl Slick courtesy of Columbia Records\nEric Troyer courtesy of Chrysalis Records\n\nRunouts are etched except \"STERLING\" which is stamped.",
@@ -8645,6 +9004,11 @@
         "file": "459185-6.jpg",
         "width": 600,
         "height": 450
+      },
+      {
+        "file": "459185-7.jpg",
+        "width": 600,
+        "height": 600
       }
     ],
     "dateAdded": "2026-07-29T08:15:00-07:00"
