@@ -1,1 +1,686 @@
-[]
+[
+  {
+    "id": 1557861,
+    "slug": "the-gaslight-anthem-the-59-sound",
+    "title": "The '59 Sound",
+    "artist": "The Gaslight Anthem",
+    "primaryArtist": "The Gaslight Anthem",
+    "artistSort": "Gaslight Anthem, The",
+    "coverFile": "1557861.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Alternative Rock",
+      "Punk"
+    ],
+    "label": "SideOneDummy Records",
+    "catno": "SD1358",
+    "country": "Germany",
+    "pressedYear": 2008,
+    "originalYear": 2008,
+    "isOriginalPressing": true,
+    "decade": "2000s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Great Expectations",
+        "duration": null
+      },
+      {
+        "position": "A2",
+        "title": "The '59 Sound",
+        "duration": null
+      },
+      {
+        "position": "A3",
+        "title": "Old White Lincoln",
+        "duration": null
+      },
+      {
+        "position": "A4",
+        "title": "High Lonesome",
+        "duration": null
+      },
+      {
+        "position": "A5",
+        "title": "Film Noir",
+        "duration": null
+      },
+      {
+        "position": "A6",
+        "title": "Miles Davis & The Cool",
+        "duration": null
+      },
+      {
+        "position": "B1",
+        "title": "The Patient Ferris Wheel",
+        "duration": null
+      },
+      {
+        "position": "B2",
+        "title": "Casanova, Baby!",
+        "duration": null
+      },
+      {
+        "position": "B3",
+        "title": "Even Cowgirls Get The Blues",
+        "duration": null
+      },
+      {
+        "position": "B4",
+        "title": "Meet Me By The River´s Edge",
+        "duration": null
+      },
+      {
+        "position": "B5",
+        "title": "Here´s Looking At You Kid",
+        "duration": null
+      },
+      {
+        "position": "B6",
+        "title": "The Backseat",
+        "duration": null
+      }
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "credits": [
+      {
+        "role": "Art Direction, Design",
+        "name": "Jonas Kleiner"
+      },
+      {
+        "role": "Bass, Vocals",
+        "name": "Alex Levine"
+      },
+      {
+        "role": "Drums [Tubular Bells, Tambourine, Garbage Cans, Chains]",
+        "name": "Benny Horowitz"
+      },
+      {
+        "role": "Guitar, Vocals [Wollensack]",
+        "name": "Alex Rosamilia"
+      },
+      {
+        "role": "Lacquer Cut By",
+        "name": "Frank Kirschner"
+      },
+      {
+        "role": "Photography By",
+        "name": "Lisa Johnson (5)"
+      },
+      {
+        "role": "Vocals, Guitar",
+        "name": "Brian Fallon (2)"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Matrix / Runout",
+        "description": "Side A",
+        "value": "104970A1FK"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side B",
+        "value": "104970B1FK"
+      }
+    ],
+    "notes": "Released with gatefold sleeve and lyric sheet. 300 copies pressed on green translucent vinyl.\r\nEuropean Press, this color was sold exclusively at Green Hell (Germany).\r\n",
+    "images": [
+      {
+        "file": "1557861-1.jpg",
+        "width": 591,
+        "height": 580
+      },
+      {
+        "file": "1557861-2.jpg",
+        "width": 591,
+        "height": 579
+      },
+      {
+        "file": "1557861-3.jpg",
+        "width": 591,
+        "height": 576
+      },
+      {
+        "file": "1557861-4.jpg",
+        "width": 591,
+        "height": 591
+      },
+      {
+        "file": "1557861-5.jpg",
+        "width": 591,
+        "height": 588
+      },
+      {
+        "file": "1557861-6.jpg",
+        "width": 591,
+        "height": 589
+      },
+      {
+        "file": "1557861-7.jpg",
+        "width": 591,
+        "height": 574
+      }
+    ],
+    "dateAdded": "2026-09-03T09:01:48-07:00"
+  },
+  {
+    "id": 30265358,
+    "slug": "intervals-the-shape-of-colour",
+    "title": "The Shape of Colour",
+    "artist": "Intervals",
+    "primaryArtist": "Intervals",
+    "artistSort": "Intervals",
+    "coverFile": "30265358.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Progressive Metal",
+      "Prog Rock"
+    ],
+    "label": "Sheet Happens Publishing",
+    "catno": "SHV-024-RE-4",
+    "country": "Canada",
+    "pressedYear": 2024,
+    "originalYear": 2015,
+    "isOriginalPressing": false,
+    "decade": "2010s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Limited Edition",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "I'm Awake",
+        "duration": "3:58"
+      },
+      {
+        "position": "A2",
+        "title": "Sure Shot",
+        "duration": "4:07"
+      },
+      {
+        "position": "A3",
+        "title": "Fable",
+        "duration": "4:20"
+      },
+      {
+        "position": "A4",
+        "title": "Sweet Tooth",
+        "duration": "3:28"
+      },
+      {
+        "position": "B1",
+        "title": "Black Box",
+        "duration": "3:05"
+      },
+      {
+        "position": "B2",
+        "title": "Slight of Hand",
+        "duration": "5:42"
+      },
+      {
+        "position": "B3",
+        "title": "Meridian",
+        "duration": "5:09"
+      },
+      {
+        "position": "B4",
+        "title": "Libra",
+        "duration": "4:56"
+      }
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "credits": [
+      {
+        "role": "Artwork By",
+        "name": "Daniel Wagner"
+      },
+      {
+        "role": "Bass, Performer, Engineer, Co-producer",
+        "name": "Cameron McLellan"
+      },
+      {
+        "role": "Co-producer, Mixed By, Mastered By",
+        "name": "Anthony Calabretta"
+      },
+      {
+        "role": "Drums, Percussion",
+        "name": "Travis Orbin"
+      },
+      {
+        "role": "Engineer [Drum]",
+        "name": "Justin Bonfini"
+      },
+      {
+        "role": "Guitar",
+        "name": "Nick Johnston (3)"
+      },
+      {
+        "role": "Guitar",
+        "name": "Plini"
+      },
+      {
+        "role": "Legal",
+        "name": "Ian J. Friedman"
+      },
+      {
+        "role": "Management",
+        "name": "Brett Powell"
+      },
+      {
+        "role": "Management",
+        "name": "Outerloop Management"
+      },
+      {
+        "role": "Music By, Written By, Composed By, Lead Guitar, Rhythm Guitar, Co-producer",
+        "name": "Aaron Marshall (2)"
+      },
+      {
+        "role": "Saxophone",
+        "name": "Leland Whitty"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Matrix / Runout",
+        "description": "Stamped",
+        "value": "10-86950 / SHV-024 - A   196146E1/A"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Stamped",
+        "value": "10-86950 / SHV-024 - B   196146E2/A"
+      }
+    ],
+    "notes": "Sold on Sheet Happens webstore and on Spring 2024 tour with Hail the Sun.\n\nFrom the Sheet Happens webstore listing:\nSixth pressing.\nLimited to 500 copies.\n180 gram 12\" Record (33rpm)\nCustom Mix - Cobalt Blue and Neon Pink Marble LP\nStandard Jacket (matted)\nBlack Inner Sleeve (matted)\nFull Colour Record Labels\nShrinkwrap\nInstant digital download of Album Audio (MP3)",
+    "images": [
+      {
+        "file": "30265358-1.jpg",
+        "width": 600,
+        "height": 583
+      },
+      {
+        "file": "30265358-2.jpg",
+        "width": 596,
+        "height": 600
+      }
+    ],
+    "dateAdded": "2026-09-03T08:57:49-07:00"
+  },
+  {
+    "id": 38275920,
+    "slug": "my-chemical-romance-the-black-parade",
+    "title": "The Black Parade",
+    "artist": "My Chemical Romance",
+    "primaryArtist": "My Chemical Romance",
+    "artistSort": "My Chemical Romance",
+    "coverFile": "38275920.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Alternative Rock",
+      "Emo"
+    ],
+    "label": "Reprise Records",
+    "catno": "093624820734",
+    "country": "US",
+    "pressedYear": 2026,
+    "originalYear": 2006,
+    "isOriginalPressing": false,
+    "decade": "2000s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Limited Edition",
+      "Reissue",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "The End",
+        "duration": "1:52"
+      },
+      {
+        "position": "A2",
+        "title": "Dead!",
+        "duration": "3:15"
+      },
+      {
+        "position": "A3",
+        "title": "This Is How I Disappear",
+        "duration": "3:59"
+      },
+      {
+        "position": "A4",
+        "title": "The Sharpest Lives",
+        "duration": "3:20"
+      },
+      {
+        "position": "A5",
+        "title": "Welcome To The Black Parade",
+        "duration": "5:11"
+      },
+      {
+        "position": "A6",
+        "title": "I Don't Love You",
+        "duration": "3:58"
+      },
+      {
+        "position": "A7",
+        "title": "House Of Wolves",
+        "duration": "3:04"
+      },
+      {
+        "position": "A8",
+        "title": "Cancer",
+        "duration": "2:22"
+      },
+      {
+        "position": "B1",
+        "title": "Mama",
+        "duration": "4:39"
+      },
+      {
+        "position": "B2",
+        "title": "Sleep",
+        "duration": "4:43"
+      },
+      {
+        "position": "B3",
+        "title": "Teenagers",
+        "duration": "2:41"
+      },
+      {
+        "position": "B4",
+        "title": "Disenchanted",
+        "duration": "4:55"
+      },
+      {
+        "position": "B5",
+        "title": "Famous Last Words",
+        "duration": "4:59"
+      },
+      {
+        "position": "B6",
+        "title": "Blood",
+        "duration": "2:53"
+      }
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "credits": [],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "093624820383"
+      }
+    ],
+    "notes": "Limited edition pressing made for the Long Live The Black Parade 2026 tour, Denver (Coors Field) show.",
+    "images": [
+      {
+        "file": "38275920-1.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "38275920-2.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "38275920-3.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "38275920-4.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "38275920-5.jpg",
+        "width": 600,
+        "height": 597
+      },
+      {
+        "file": "38275920-6.jpg",
+        "width": 598,
+        "height": 584
+      },
+      {
+        "file": "38275920-7.jpg",
+        "width": 600,
+        "height": 600
+      }
+    ],
+    "dateAdded": "2026-09-03T09:00:32-07:00"
+  },
+  {
+    "id": 38247792,
+    "slug": "stan-getz-getz-gilberto",
+    "title": "Getz / Gilberto",
+    "artist": "Stan Getz, João Gilberto",
+    "primaryArtist": "Stan Getz",
+    "artistSort": "Stan Getz, João Gilberto",
+    "coverFile": "38247792.jpg",
+    "genres": [
+      "Jazz"
+    ],
+    "styles": [
+      "Bossa Nova"
+    ],
+    "label": "Second Records",
+    "catno": "SRPD0009CV",
+    "country": "Europe",
+    "pressedYear": 2026,
+    "originalYear": 1964,
+    "isOriginalPressing": false,
+    "decade": "1960s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Reissue",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "The Girl From Ipanema",
+        "duration": null
+      },
+      {
+        "position": "A2",
+        "title": "Doralice",
+        "duration": null
+      },
+      {
+        "position": "A3",
+        "title": "Para Machucar Meu Coracao",
+        "duration": null
+      },
+      {
+        "position": "A4",
+        "title": "Desafinado",
+        "duration": null
+      },
+      {
+        "position": "B1",
+        "title": "Corcovado (Quiet Nights Of Quiet Stars)",
+        "duration": null
+      },
+      {
+        "position": "B2",
+        "title": "So Danco Samba (Jazz Samba)",
+        "duration": null
+      },
+      {
+        "position": "B3",
+        "title": "O Grande Amor",
+        "duration": null
+      },
+      {
+        "position": "B4",
+        "title": "Vivo Sohando",
+        "duration": null
+      }
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "credits": [],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": "Text",
+        "value": "9 003829 977851"
+      },
+      {
+        "type": "Barcode",
+        "description": "Scanned",
+        "value": "9003829977851"
+      }
+    ],
+    "notes": "First cat. no. on hype sticker, second on spine and back cover.\nGatefold cover. \n\"Manufactured in Europe. Printed in 2026\" printed on back cover.",
+    "images": [],
+    "dateAdded": "2026-09-03T08:59:39-07:00"
+  },
+  {
+    "id": 13260891,
+    "slug": "while-she-sleeps-so-what",
+    "title": "So What?",
+    "artist": "While She Sleeps",
+    "primaryArtist": "While She Sleeps",
+    "artistSort": "While She Sleeps",
+    "coverFile": "13260891.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Metalcore"
+    ],
+    "label": "Spinefarm Records",
+    "catno": "SPINE709795",
+    "country": "Europe",
+    "pressedYear": 2019,
+    "originalYear": 2019,
+    "isOriginalPressing": true,
+    "decade": "2010s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Anti-Social",
+        "duration": "4:14"
+      },
+      {
+        "position": "A2",
+        "title": "I've Seen It All",
+        "duration": "4:12"
+      },
+      {
+        "position": "A3",
+        "title": "Inspire",
+        "duration": "4:10"
+      },
+      {
+        "position": "B1",
+        "title": "So What?",
+        "duration": "4:32"
+      },
+      {
+        "position": "B2",
+        "title": "The Guilty Party",
+        "duration": "4:26"
+      },
+      {
+        "position": "B3",
+        "title": "Haunt Me",
+        "duration": "4:31"
+      },
+      {
+        "position": "C1",
+        "title": "Elephant",
+        "duration": "4:38"
+      },
+      {
+        "position": "C2",
+        "title": "Set You Free",
+        "duration": "4:17"
+      },
+      {
+        "position": "C3",
+        "title": "Good Grief",
+        "duration": "3:38"
+      },
+      {
+        "position": "D1",
+        "title": "Back Of My Mind",
+        "duration": "4:27"
+      },
+      {
+        "position": "D2",
+        "title": "Gates Of Paradise",
+        "duration": "5:20"
+      }
+    ],
+    "sides": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "credits": [],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "602577097959"
+      }
+    ],
+    "notes": "Black vinyl edition, non-gatefold.\nGOOD GRIEF is misspelt as \"GOOD GREIF\" on Side C.",
+    "images": [
+      {
+        "file": "13260891-1.jpg",
+        "width": 500,
+        "height": 400
+      }
+    ],
+    "dateAdded": "2026-09-03T09:01:09-07:00"
+  }
+]
