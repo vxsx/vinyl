@@ -1,5 +1,2666 @@
 [
   {
+    "id": 15260820,
+    "slug": "65daysofstatic-we-were-exploding-anyway-heavy-sky-ep",
+    "title": "We Were Exploding Anyway | Heavy Sky EP",
+    "artist": "65daysofstatic",
+    "primaryArtist": "65daysofstatic",
+    "artistSort": "65daysofstatic",
+    "coverFile": "15260820.jpg",
+    "genres": [
+      "Electronic",
+      "Rock"
+    ],
+    "styles": [
+      "Post Rock",
+      "Glitch"
+    ],
+    "label": "Hassle Records",
+    "catno": "HOFF095LPX",
+    "country": "UK",
+    "pressedYear": 2020,
+    "originalYear": 2010,
+    "isOriginalPressing": false,
+    "decade": "2010s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Mountainhead",
+        "duration": "5:33"
+      },
+      {
+        "position": "A2",
+        "title": "Crash Tactics",
+        "duration": "3:47"
+      },
+      {
+        "position": "A3",
+        "title": "Dance Dance Dance",
+        "duration": "4:01"
+      },
+      {
+        "position": "A4",
+        "title": "Piano Fights",
+        "duration": "3:50"
+      },
+      {
+        "position": "A5",
+        "title": "Weak4",
+        "duration": "3:54"
+      },
+      {
+        "position": "A6",
+        "title": "Come To Me",
+        "duration": "8:00"
+      },
+      {
+        "position": "B1",
+        "title": "Go Complex",
+        "duration": "4:04"
+      },
+      {
+        "position": "B2",
+        "title": "Debutante",
+        "duration": "7:21"
+      },
+      {
+        "position": "B3",
+        "title": "Tiger Girl",
+        "duration": "10:37"
+      },
+      {
+        "position": "C1",
+        "title": "Tiger Girl (Wishful Thinking Edit)",
+        "duration": "3:36"
+      },
+      {
+        "position": "C2",
+        "title": "Sawtooth Rising",
+        "duration": "4:55"
+      },
+      {
+        "position": "C3",
+        "title": "The Wrong Shape",
+        "duration": "4:04"
+      },
+      {
+        "position": "C4",
+        "title": "Pacify",
+        "duration": "4:15"
+      },
+      {
+        "position": "D1",
+        "title": "PX3",
+        "duration": "4:00"
+      },
+      {
+        "position": "D2",
+        "title": "Beats Like A Helix",
+        "duration": "2:09"
+      },
+      {
+        "position": "D3",
+        "title": "Guitar Cascades",
+        "duration": "10:27"
+      }
+    ],
+    "sides": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "credits": [
+      {
+        "role": "Art Direction, Design, Photography By",
+        "name": "Caspar Newbolt"
+      },
+      {
+        "role": "Mastered By",
+        "name": "Paul Gold"
+      },
+      {
+        "role": "Mixed By",
+        "name": "Alex Newport"
+      },
+      {
+        "role": "Mixed By [Mix Assistant]",
+        "name": "Chris Tabron"
+      },
+      {
+        "role": "Photography By",
+        "name": "Matt Sundin"
+      },
+      {
+        "role": "Producer [Produced By]",
+        "name": "65daysofstatic"
+      },
+      {
+        "role": "Recorded By",
+        "name": "Alan Smyth"
+      },
+      {
+        "role": "Recorded By",
+        "name": "Dave Sanderson"
+      },
+      {
+        "role": "Written-By",
+        "name": "65daysofstatic"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "5060626461802"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": null,
+        "value": "Side A - 0568038-A-2"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": null,
+        "value": "Side B - 0568038-B-1"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": null,
+        "value": "Side C - 0568076-C-1"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": null,
+        "value": "Side D - 0568076-D-1"
+      },
+      {
+        "type": "Label Code",
+        "description": null,
+        "value": "LC14592"
+      }
+    ],
+    "notes": "10th Anniversary Pressing\nLimited Edition of 500\n",
+    "images": [
+      {
+        "file": "15260820-1.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "15260820-2.jpg",
+        "width": 561,
+        "height": 600
+      },
+      {
+        "file": "15260820-3.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "15260820-4.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "15260820-5.jpg",
+        "width": 570,
+        "height": 600
+      },
+      {
+        "file": "15260820-6.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "15260820-7.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "15260820-8.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "15260820-9.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "15260820-10.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "15260820-11.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "15260820-12.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "15260820-13.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "15260820-14.jpg",
+        "width": 600,
+        "height": 600
+      }
+    ],
+    "dateAdded": "2026-09-03T09:05:09-07:00"
+  },
+  {
+    "id": 1627853,
+    "slug": "65daysofstatic-the-destruction-of-small-ideas",
+    "title": "The Destruction Of Small Ideas",
+    "artist": "65daysofstatic",
+    "primaryArtist": "65daysofstatic",
+    "artistSort": "65daysofstatic",
+    "coverFile": "1627853.jpg",
+    "genres": [
+      "Electronic",
+      "Rock"
+    ],
+    "styles": [
+      "Glitch",
+      "Post Rock",
+      "Experimental"
+    ],
+    "label": "Monotreme Records",
+    "catno": "MONO-28VNL",
+    "country": "UK",
+    "pressedYear": 2007,
+    "originalYear": 2007,
+    "isOriginalPressing": true,
+    "decade": "2000s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "When We Were Younger & Better",
+        "duration": null
+      },
+      {
+        "position": "A2",
+        "title": "A Failsafe",
+        "duration": null
+      },
+      {
+        "position": "A3",
+        "title": "Don't Go Down To Sorrow",
+        "duration": null
+      },
+      {
+        "position": "B1",
+        "title": "Wax Futures",
+        "duration": null
+      },
+      {
+        "position": "B2",
+        "title": "These Things You Can't Unlearn",
+        "duration": null
+      },
+      {
+        "position": "B3",
+        "title": "Lyonesse",
+        "duration": null
+      },
+      {
+        "position": "C1",
+        "title": "Music Is Music As Devices Are Kisses Is Everything",
+        "duration": null
+      },
+      {
+        "position": "C2",
+        "title": "The Distant & Mechanised Glow Of Eastern European Dance Parties",
+        "duration": null
+      },
+      {
+        "position": "C3",
+        "title": "Little Victories",
+        "duration": null
+      },
+      {
+        "position": "D1",
+        "title": "Primer",
+        "duration": null
+      },
+      {
+        "position": "D2",
+        "title": "White Peak / Dark Peak",
+        "duration": null
+      },
+      {
+        "position": "D3",
+        "title": "The Conspiracy Of Seeds",
+        "duration": null
+      }
+    ],
+    "sides": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "credits": [
+      {
+        "role": "Engineer [Front Of House & Much More]",
+        "name": "Johnny Caton"
+      },
+      {
+        "role": "Lacquer Cut By",
+        "name": "Christoph Grote-Beverborg"
+      },
+      {
+        "role": "Management [65daysofstatic Are Managed By, At HBF Management]",
+        "name": "Pete Spiby"
+      },
+      {
+        "role": "Mastered By",
+        "name": "Noel Summerville"
+      },
+      {
+        "role": "Mixed By",
+        "name": "Graham Deas"
+      },
+      {
+        "role": "Producer [Produced By]",
+        "name": "65daysofstatic"
+      },
+      {
+        "role": "Recorded By",
+        "name": "Graham Deas"
+      },
+      {
+        "role": "Recorded By",
+        "name": "Murray Mackay"
+      },
+      {
+        "role": "Recorded By [Demos & Drones]",
+        "name": "Alan Smyth"
+      },
+      {
+        "role": "Technician [Invaluable Soldering, Video Link-ups, Pick-up Rewiring & Buzz Removal]",
+        "name": "Craig Howie"
+      },
+      {
+        "role": "Technician [Technicalities]",
+        "name": "Damo Fowkes"
+      },
+      {
+        "role": "Technician [Technicalities]",
+        "name": "Ozzy Lister"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "5050693184117"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side A runout",
+        "value": "MONO-28 VNL A CGB@D&M"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side B runout",
+        "value": "MONO-28 VNL B CGB@D&M"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side C runout",
+        "value": "MONO-28 VNL C CGB@D&M"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side D runout",
+        "value": "MONO-28 VNL D CGB@D&M"
+      }
+    ],
+    "notes": "www.65daysofstatic.com\nFor everything, always.\nAll songs © & ℗ 65daysofstatic 2007.\nMonotreme Records LTD. PO Box 31395.\nLondon SW11 1XT. United Kingdom.\n\nWritten & fought with at Stag Works, Little Sheffield, 2006.\nRecorded at the Substation, Rosyth, Scotland, 071206-221296 & 040107-200107\nPiano recorded at St. Columbus Junior School, Fife\nDemos & Drones recorded at 2fly Studios, Sheffield, Aug 2006 & Oct 2006\nMastered at Metropolis Studios, London, 240107\n\nThis record is for Pete Spiby, Kim Harrison-Lavoie of the Evil Monotreme Corporation, and for you.",
+    "images": [
+      {
+        "file": "1627853-1.jpg",
+        "width": 600,
+        "height": 596
+      },
+      {
+        "file": "1627853-2.jpg",
+        "width": 600,
+        "height": 590
+      },
+      {
+        "file": "1627853-3.jpg",
+        "width": 600,
+        "height": 585
+      },
+      {
+        "file": "1627853-4.jpg",
+        "width": 600,
+        "height": 586
+      },
+      {
+        "file": "1627853-5.jpg",
+        "width": 600,
+        "height": 591
+      },
+      {
+        "file": "1627853-6.jpg",
+        "width": 600,
+        "height": 299
+      },
+      {
+        "file": "1627853-7.jpg",
+        "width": 600,
+        "height": 587
+      },
+      {
+        "file": "1627853-8.jpg",
+        "width": 600,
+        "height": 585
+      },
+      {
+        "file": "1627853-9.jpg",
+        "width": 600,
+        "height": 585
+      },
+      {
+        "file": "1627853-10.jpg",
+        "width": 600,
+        "height": 586
+      }
+    ],
+    "dateAdded": "2026-09-03T09:04:37-07:00"
+  },
+  {
+    "id": 29287111,
+    "slug": "alexisonfire-crisis",
+    "title": "Crisis",
+    "artist": "Alexisonfire",
+    "primaryArtist": "Alexisonfire",
+    "artistSort": "Alexisonfire",
+    "coverFile": "29287111.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Post-Hardcore"
+    ],
+    "label": "Dine Alone Records",
+    "catno": "DAV062EX1",
+    "country": "US",
+    "pressedYear": 2023,
+    "originalYear": 2006,
+    "isOriginalPressing": false,
+    "decade": "2000s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Limited Edition",
+      "Reissue",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Drunks, Lovers, Sinners And Saints",
+        "duration": null
+      },
+      {
+        "position": "A2",
+        "title": "This Could Be Anywhere In The World",
+        "duration": null
+      },
+      {
+        "position": "A3",
+        "title": "Mailbox Arson",
+        "duration": null
+      },
+      {
+        "position": "B1",
+        "title": "Boiled Frogs",
+        "duration": null
+      },
+      {
+        "position": "B2",
+        "title": "We Are The Sound",
+        "duration": null
+      },
+      {
+        "position": "B3",
+        "title": "You Burn First",
+        "duration": null
+      },
+      {
+        "position": "C1",
+        "title": "We Are The End ",
+        "duration": null
+      },
+      {
+        "position": "C2",
+        "title": "Crisis",
+        "duration": null
+      },
+      {
+        "position": "C3",
+        "title": "Keep It On Wax",
+        "duration": null
+      },
+      {
+        "position": "D1",
+        "title": "To A Friend ",
+        "duration": null
+      },
+      {
+        "position": "D2",
+        "title": "Rough Hands ",
+        "duration": null
+      }
+    ],
+    "sides": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "credits": [
+      {
+        "role": "Lacquer Cut By",
+        "name": "Alex Abrash"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": "Sticker text",
+        "value": "8 21826 03677 2"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side A runout",
+        "value": "23123-A AA 23123-A"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side B runout",
+        "value": "23123-B AA 23123-B"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side C runout",
+        "value": "23123-C AA 23123-C"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side D runout",
+        "value": "23123-D AA 23123-D"
+      }
+    ],
+    "notes": "Limited edition of 500.\n\nComes bundled with an 80-page, special edition Brooklyn Vegan magazine with album matching die cut cover.\nIncludes two printed inner sleeves.\n\n℗ & © 2006 Alexisonefire Inc.",
+    "images": [
+      {
+        "file": "29287111-1.jpg",
+        "width": 600,
+        "height": 291
+      },
+      {
+        "file": "29287111-2.jpg",
+        "width": 306,
+        "height": 306
+      },
+      {
+        "file": "29287111-3.jpg",
+        "width": 592,
+        "height": 600
+      },
+      {
+        "file": "29287111-4.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29287111-5.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29287111-6.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29287111-7.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29287111-8.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29287111-9.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29287111-10.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29287111-11.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29287111-12.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29287111-13.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29287111-14.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29287111-15.jpg",
+        "width": 600,
+        "height": 454
+      },
+      {
+        "file": "29287111-16.jpg",
+        "width": 403,
+        "height": 600
+      },
+      {
+        "file": "29287111-17.jpg",
+        "width": 413,
+        "height": 600
+      }
+    ],
+    "dateAdded": "2026-09-03T09:03:57-07:00"
+  },
+  {
+    "id": 30507118,
+    "slug": "arctic-monkeys-whatever-people-say-i-am-that-s-what-i-m-not",
+    "title": "Whatever People Say I Am, That's What I'm Not",
+    "artist": "Arctic Monkeys",
+    "primaryArtist": "Arctic Monkeys",
+    "artistSort": "Arctic Monkeys",
+    "coverFile": "30507118.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Indie Rock",
+      "Garage Rock"
+    ],
+    "label": "Domino",
+    "catno": "WIGLP162",
+    "country": "Europe",
+    "pressedYear": null,
+    "originalYear": 2006,
+    "isOriginalPressing": false,
+    "decade": "2000s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Reissue",
+      "Repress"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "The View From The Afternoon",
+        "duration": null
+      },
+      {
+        "position": "A2",
+        "title": "I Bet You Look Good On The Dancefloor",
+        "duration": null
+      },
+      {
+        "position": "A3",
+        "title": "Fake Tales Of San Francisco",
+        "duration": null
+      },
+      {
+        "position": "A4",
+        "title": "Dancing Shoes",
+        "duration": null
+      },
+      {
+        "position": "A5",
+        "title": "You Probably Couldn't See For The Lights But You Were Staring Straight At Me",
+        "duration": null
+      },
+      {
+        "position": "A6",
+        "title": "Still Take You Home",
+        "duration": null
+      },
+      {
+        "position": "B1",
+        "title": "Riot Van",
+        "duration": null
+      },
+      {
+        "position": "B2",
+        "title": "Red Light Indicates Doors Are Secured",
+        "duration": null
+      },
+      {
+        "position": "B3",
+        "title": "Mardy Bum",
+        "duration": null
+      },
+      {
+        "position": "B4",
+        "title": "Perhaps Vampires Is A Bit Strong But..",
+        "duration": null
+      },
+      {
+        "position": "B5",
+        "title": "When The Sun Goes Down",
+        "duration": null
+      },
+      {
+        "position": "B6",
+        "title": "From The Ritz To The Rubble",
+        "duration": null
+      },
+      {
+        "position": "B7",
+        "title": "A Certain Romance",
+        "duration": null
+      }
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "credits": [
+      {
+        "role": "Design [Liverpool]",
+        "name": "Juno (16)"
+      },
+      {
+        "role": "Mixed By",
+        "name": "Barny Barnicott"
+      },
+      {
+        "role": "Mixed By [Assisted By]",
+        "name": "Owen Skinner"
+      },
+      {
+        "role": "Photography By [Front, Back Cover, Label, Innersleeve Pictures]",
+        "name": "Alexandra Wolkowicz"
+      },
+      {
+        "role": "Photography By [Innersleeve Pictures]",
+        "name": "Andy Brown (16)"
+      },
+      {
+        "role": "Producer",
+        "name": "Jim Abbiss"
+      },
+      {
+        "role": "Recorded By",
+        "name": "Ewan Davies"
+      },
+      {
+        "role": "Recorded By",
+        "name": "Jim Abbiss"
+      },
+      {
+        "role": "Recorded By [Assisted By]",
+        "name": "Henry (3)"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "5034202016212"
+      },
+      {
+        "type": "Label Code",
+        "description": null,
+        "value": "LC10192"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout side A, etched",
+        "value": "WIGLP 162 BL38338-01 A1"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout side B, etched",
+        "value": "WIGLP 162 BL38338-01 B1 1=-"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout side B, etched",
+        "value": "WIGLP 162 BL38338-01 B1 -TΛ"
+      }
+    ],
+    "notes": "Band name sticker on shrink wrap is affixed in top left corner. Sticker has rounded corners.\nIncludes printed dust sleeve with photos and credits, plus a download code card.",
+    "images": [
+      {
+        "file": "30507118-1.jpg",
+        "width": 600,
+        "height": 596
+      },
+      {
+        "file": "30507118-2.jpg",
+        "width": 596,
+        "height": 600
+      },
+      {
+        "file": "30507118-3.jpg",
+        "width": 596,
+        "height": 600
+      },
+      {
+        "file": "30507118-4.jpg",
+        "width": 600,
+        "height": 580
+      },
+      {
+        "file": "30507118-5.jpg",
+        "width": 598,
+        "height": 600
+      },
+      {
+        "file": "30507118-6.jpg",
+        "width": 600,
+        "height": 596
+      },
+      {
+        "file": "30507118-7.jpg",
+        "width": 600,
+        "height": 595
+      }
+    ],
+    "dateAdded": "2026-09-03T09:24:24-07:00"
+  },
+  {
+    "id": 20799985,
+    "slug": "arctic-monkeys-favourite-worst-nightmare",
+    "title": "Favourite Worst Nightmare",
+    "artist": "Arctic Monkeys",
+    "primaryArtist": "Arctic Monkeys",
+    "artistSort": "Arctic Monkeys",
+    "coverFile": "20799985.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Alternative Rock",
+      "Indie Rock"
+    ],
+    "label": "Domino",
+    "catno": "WIGLP188",
+    "country": "UK & Europe",
+    "pressedYear": 2021,
+    "originalYear": 2007,
+    "isOriginalPressing": false,
+    "decade": "2000s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Reissue",
+      "Repress",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Brianstorm",
+        "duration": "2:50"
+      },
+      {
+        "position": "A2",
+        "title": "Teddy Picker",
+        "duration": "2:43"
+      },
+      {
+        "position": "A3",
+        "title": "D Is For Dangerous",
+        "duration": "2:16"
+      },
+      {
+        "position": "A4",
+        "title": "Balaclava",
+        "duration": "2:49"
+      },
+      {
+        "position": "A5",
+        "title": "Fluorescent Adolescent",
+        "duration": "2:57"
+      },
+      {
+        "position": "A6",
+        "title": "Only Ones Who Know",
+        "duration": "3:02"
+      },
+      {
+        "position": "B1",
+        "title": "Do Me A Favour",
+        "duration": "3:27"
+      },
+      {
+        "position": "B2",
+        "title": "This House Is A Circus",
+        "duration": "3:09"
+      },
+      {
+        "position": "B3",
+        "title": "If You Were There, Beware",
+        "duration": "4:34"
+      },
+      {
+        "position": "B4",
+        "title": "The Bad Thing",
+        "duration": "2:23"
+      },
+      {
+        "position": "B5",
+        "title": "Old Yellow Bricks",
+        "duration": "3:11"
+      },
+      {
+        "position": "B6",
+        "title": "505",
+        "duration": "4:13"
+      }
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "credits": [
+      {
+        "role": "Art Direction, Design, Photography By [Booklet]",
+        "name": "Juno (16)"
+      },
+      {
+        "role": "Artwork [Spray Can Murals]",
+        "name": "54 Crew"
+      },
+      {
+        "role": "Illustration",
+        "name": "Anne-Marie Moore"
+      },
+      {
+        "role": "Illustration",
+        "name": "Drew Millward"
+      },
+      {
+        "role": "Illustration",
+        "name": "Graphique Club"
+      },
+      {
+        "role": "Illustration",
+        "name": "Joseph Bramhall"
+      },
+      {
+        "role": "Illustration",
+        "name": "Juno (16)"
+      },
+      {
+        "role": "Illustration",
+        "name": "Tobias Warwick Jones"
+      },
+      {
+        "role": "Layout",
+        "name": "Matthew Cooper (2)"
+      },
+      {
+        "role": "Management",
+        "name": "Geoff Barradale"
+      },
+      {
+        "role": "Management",
+        "name": "Ian McAndrew"
+      },
+      {
+        "role": "Mastered By",
+        "name": "George Marino"
+      },
+      {
+        "role": "Mixed By",
+        "name": "Alan Moulder"
+      },
+      {
+        "role": "Mixed By",
+        "name": "James Ford"
+      },
+      {
+        "role": "Mixed By",
+        "name": "Mike Crossey"
+      },
+      {
+        "role": "Music By",
+        "name": "Arctic Monkeys"
+      },
+      {
+        "role": "Photography By [Except Booklet]",
+        "name": "Matt Goodfellow"
+      },
+      {
+        "role": "Producer",
+        "name": "James Ford"
+      },
+      {
+        "role": "Producer",
+        "name": "Mike Crossey"
+      },
+      {
+        "role": "Words By",
+        "name": "Alex Turner"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": "Text",
+        "value": "5 034202 018810"
+      },
+      {
+        "type": "Barcode",
+        "description": "Scanned",
+        "value": "5034202018810"
+      },
+      {
+        "type": "Label Code",
+        "description": null,
+        "value": "LC10192"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Stamped / Etched, Side A",
+        "value": "WIGLP 188 MPO® 21 216977 BD33961-01_A1"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Stamped / Etched, Side B",
+        "value": "WIGLP 188 MPO® 21 216978 BD33961-01_B1"
+      }
+    ],
+    "notes": "℗&© 2007 Domino Recording Co Ltd\nMade in the EU.\nGatefold sleeve.\n\nAll tracks published by EMI Music Publishing.\nExcept tracks 5/11: Published by EMI Music Publishing/Copyright Control.\n\nMixed at Assault and Battery Studios, London.\nRecorded at Miloco Garden, London, Eastcote Studios, London, Motor Museum, Liverpool and Konk Studios, London.\nMastered at Sterling Sound, New York.\nPhotography at Mills Media.\n\nPressed by MPO from Optimal Media stampers used for the [url=https://www.discogs.com/release/6985823-Arctic-Monkeys-Favourite-Worst-Nightmare]2013 reissue[/url].",
+    "images": [
+      {
+        "file": "20799985-1.jpg",
+        "width": 600,
+        "height": 594
+      },
+      {
+        "file": "20799985-2.jpg",
+        "width": 598,
+        "height": 600
+      }
+    ],
+    "dateAdded": "2026-09-03T09:24:08-07:00"
+  },
+  {
+    "id": 31823732,
+    "slug": "bring-me-the-horizon-post-human-nex-gen",
+    "title": "Post Human: Nex Gen",
+    "artist": "Bring Me The Horizon",
+    "primaryArtist": "Bring Me The Horizon",
+    "artistSort": "Bring Me The Horizon",
+    "coverFile": "31823732.jpg",
+    "genres": [
+      "Electronic",
+      "Rock"
+    ],
+    "styles": [
+      "Metalcore",
+      "Alternative Metal",
+      "Alternative Rock",
+      "Drum n Bass",
+      "Experimental"
+    ],
+    "label": "RCA",
+    "catno": "19439943441",
+    "country": "Europe",
+    "pressedYear": 2024,
+    "originalYear": 2024,
+    "isOriginalPressing": true,
+    "decade": "2020s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "[Ost] Dreamseeker",
+        "duration": "0:19"
+      },
+      {
+        "position": "A2",
+        "title": "Youtopia",
+        "duration": "4:03"
+      },
+      {
+        "position": "A3",
+        "title": "Kool-Aid",
+        "duration": "3:48"
+      },
+      {
+        "position": "A4",
+        "title": "Top 10 Statues That Cried Blood",
+        "duration": "4:01"
+      },
+      {
+        "position": "A5",
+        "title": "Limousine",
+        "duration": "4:12"
+      },
+      {
+        "position": "B1",
+        "title": "Darkside",
+        "duration": "2:45"
+      },
+      {
+        "position": "B2",
+        "title": "A Bullet W- My Name On",
+        "duration": "4:21"
+      },
+      {
+        "position": "B3",
+        "title": "[Ost] (Spi)ritual ",
+        "duration": "1:54"
+      },
+      {
+        "position": "B4",
+        "title": "N/A",
+        "duration": "3:20"
+      },
+      {
+        "position": "C1",
+        "title": "Lost",
+        "duration": "3:25"
+      },
+      {
+        "position": "C2",
+        "title": "Strangers",
+        "duration": "3:16"
+      },
+      {
+        "position": "C3",
+        "title": "R.i.p. (Duskcore Remix)",
+        "duration": "3:24"
+      },
+      {
+        "position": "C4",
+        "title": "Amen!",
+        "duration": "3:10"
+      },
+      {
+        "position": "D1",
+        "title": "[Ost] P.u.s.s.-e",
+        "duration": "2:49"
+      },
+      {
+        "position": "D2",
+        "title": "Die4u",
+        "duration": "3:27"
+      },
+      {
+        "position": "D3",
+        "title": "Dig It",
+        "duration": "7:13"
+      }
+    ],
+    "sides": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "credits": [
+      {
+        "role": "Lacquer Cut By",
+        "name": "Jasper Ward"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "1 94399 43441 3"
+      },
+      {
+        "type": "Barcode",
+        "description": "Sticker",
+        "value": "1 96588 33221 0"
+      },
+      {
+        "type": "Rights Society",
+        "description": null,
+        "value": "BIEM/GEMA"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout side A",
+        "value": "BO 16064-01 A1 1| JASPER"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout side B",
+        "value": "BO 16064-01 B1 X1 JASPER"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout side C",
+        "value": "BO 16064-02 C1 =1 JASPER"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout side D",
+        "value": "BO 16064-02 D1 =1 JASPER"
+      }
+    ],
+    "notes": "Amazon Europe exclusive.\n\nCat.number 19439943441 on release itself, cat.number 19658833221 on barcode sticker.\n\nTitle is stylized: \"POST HUMAN: NeX GEn\".\n\nTracks A1, B3 and D1 are stylized in all lowercase.\nTrack A2 title is stylized: \"YOUtopia\".\nTrack A4 title is stylized: \"Top 10 staTues tHat CriEd bloOd\".\nTrack A5 title is stylized: \"liMOusIne\".\nTrack B1 title is stylized: \"DArkSide\".\nTrack B2 title is stylized: \"a bulleT w- my namE On\".\nTrack C1 title is stylized: \"LosT\".\nTrack C2 title is stylized: \"sTraNgeRs\".\nTrack C3 title is stylized: \"R.i.p. (duskCOre RemIx)\".\nTrack C4 title is stylized: \"AmEN!\".\nTrack D1 title is stylized: \"DiE4u\".\nTrack D2 title is stylized: \"DIg It\".\n\nRunout markings are hand etched.\n'1|', 'X1' and '=1' are mirrored.",
+    "images": [
+      {
+        "file": "31823732-1.jpg",
+        "width": 597,
+        "height": 600
+      },
+      {
+        "file": "31823732-2.jpg",
+        "width": 600,
+        "height": 450
+      },
+      {
+        "file": "31823732-3.jpg",
+        "width": 600,
+        "height": 587
+      },
+      {
+        "file": "31823732-4.jpg",
+        "width": 596,
+        "height": 600
+      },
+      {
+        "file": "31823732-5.jpg",
+        "width": 600,
+        "height": 579
+      },
+      {
+        "file": "31823732-6.jpg",
+        "width": 600,
+        "height": 590
+      },
+      {
+        "file": "31823732-7.jpg",
+        "width": 600,
+        "height": 595
+      },
+      {
+        "file": "31823732-8.jpg",
+        "width": 600,
+        "height": 591
+      },
+      {
+        "file": "31823732-9.jpg",
+        "width": 598,
+        "height": 600
+      },
+      {
+        "file": "31823732-10.jpg",
+        "width": 591,
+        "height": 600
+      },
+      {
+        "file": "31823732-11.jpg",
+        "width": 591,
+        "height": 600
+      },
+      {
+        "file": "31823732-12.jpg",
+        "width": 587,
+        "height": 600
+      },
+      {
+        "file": "31823732-13.jpg",
+        "width": 597,
+        "height": 600
+      },
+      {
+        "file": "31823732-14.jpg",
+        "width": 591,
+        "height": 600
+      },
+      {
+        "file": "31823732-15.jpg",
+        "width": 600,
+        "height": 598
+      },
+      {
+        "file": "31823732-16.jpg",
+        "width": 598,
+        "height": 600
+      }
+    ],
+    "dateAdded": "2026-09-03T09:12:31-07:00"
+  },
+  {
+    "id": 37571901,
+    "slug": "bring-me-the-horizon-post-human-survival-horror",
+    "title": "Post Human: Survival Horror",
+    "artist": "Bring Me The Horizon",
+    "primaryArtist": "Bring Me The Horizon",
+    "artistSort": "Bring Me The Horizon",
+    "coverFile": "37571901.jpg",
+    "genres": [
+      "Electronic",
+      "Rock"
+    ],
+    "styles": [
+      "Deathcore",
+      "Metalcore",
+      "Nu Metal",
+      "Industrial",
+      "Experimental",
+      "Pop Rock"
+    ],
+    "label": "Sony Music",
+    "catno": "19439804611",
+    "country": "Europe",
+    "pressedYear": null,
+    "originalYear": 2020,
+    "isOriginalPressing": false,
+    "decade": "2020s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Reissue",
+      "Repress"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Dear Diary,",
+        "duration": null
+      },
+      {
+        "position": "A2",
+        "title": "Parasite Eve",
+        "duration": null
+      },
+      {
+        "position": "A3",
+        "title": "Teardrops",
+        "duration": null
+      },
+      {
+        "position": "A4",
+        "title": "Obey",
+        "duration": null
+      },
+      {
+        "position": "B5",
+        "title": "Itch For The Cure (When Will We Be Free?)",
+        "duration": null
+      },
+      {
+        "position": "B6",
+        "title": "Kingslayer",
+        "duration": null
+      },
+      {
+        "position": "B7",
+        "title": "1x1",
+        "duration": null
+      },
+      {
+        "position": "B8",
+        "title": "Ludens",
+        "duration": null
+      },
+      {
+        "position": "B9",
+        "title": "One Day The Only Butterflies Left Will Be In Your Chest As You March Towards Your Death",
+        "duration": null
+      }
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "credits": [],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "1 94398 04611 2"
+      },
+      {
+        "type": "Label Code",
+        "description": null,
+        "value": "LC00316"
+      },
+      {
+        "type": "Rights Society",
+        "description": null,
+        "value": "BMI"
+      },
+      {
+        "type": "Rights Society",
+        "description": null,
+        "value": "BIEM/GEMA"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side A runout",
+        "value": "216609E1 02515935 2185395 NAT"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side B runout",
+        "value": "216609E2 02515231 2398404"
+      }
+    ],
+    "notes": "Sleeve:\n℗&© 2021 Sony Music Entertainment UK Limited.\nMade in the EU.\n\nInner sleeve:\nPhase one written & recorded remotely from Caso Do Syko, Lord House & Juxtaposition Records 2020\n(P) 2020 Sony Music Entertainment UK Limited\n\nA1. Published by BMG\nRecorded at Caso do Syko, UK\nAdditional production engineered at The Nostromo, Brisbane, Australia\nMixed at MDDN Studios\nMastered at Chris Athens Masters is Austin, TX, USA\n\nA2. Published by BMG; Cellier Editions\nRecorded at Caso do Syko, UK\nAdditional production engineered at The Nostromo, Brisbane, Australia\nMixed at MDDN Studios \nMastered at Chris Athens Masters is Austin, TX, USA\n\nA3. Published by BMG\nRecorded at Caso do Syko, UK\nMixed at MDDN Studios\nMastered at Chris Athens Masters is Austin, TX, USA\n\nA4. Published by BMG; BMG; Locomotion Music Publishing (BMI)  / Kobalt\nRecorded at Caso do Syko, UK\nDrums engineered at Treehouse Studio, UK\nYUNGBLUD vocals engineered at MDDN Studios, Los Angeles, CA\nAdditional production engineered at The Nostromo, Brisbane, Australia\nMixed at MDDN Studios\nMastered at Chris Athens Masters is Austin, TX, USA\n\nB5. Published by BMG\nRecorded at Caso do Syko, UK\nAdditional production engineered at The Nostromo, Brisbane, Australia\nMixed at MDDN Studios\nMastered at Chris Athens Masters is Austin, TX, USA\n\nB6. Published by BMG; Amuse Inc.\nRecorded at Caso do Syko, UK\nBABYMETAL vocals recorded in Tokyo, Japan\nAdditional production engineered at The Nostromo, Brisbane, Australia\nMixed at MDDN Studios\n\nB7. Published by BMG; Just Isn't Music (Worldwide ex. Europe)/BMG Rights Management Ltd (Europe)\nRecorded at Caso do Syko, UK\nNova Twins vocals and bass recorded at DDM Studios, Hastings, UK\nMixed at MDDN Studios\nMastered at Chris Athens Masters is Austin, TX, USA\n\nB8. Published by BMG\nRecorded at Fonoprint Studios, Bologna, Italy\nMixed at MDDN Studios\nMastered at Chris Athens Masters is Austin, TX, USA\n\nB9. Published by BMG; Professor Screweye Publishing (BMI)/BMG Platinum Songs (BMI)\nAll rights administered by BMG Rights Management (US) LLC\nRecorded at Caso do Syko UK\nAmy Lee vocals recorded in Nashville, TN\nAdditional production engineered at The Nostromo, Brisbane, Australia\nMixed at MDDN Studios\nMastered at Chris Athens Masters is Austin, TX, USA\n\nLabels:\n℗&© 2021 Sony Music Entertainment UK Limited.\nMade in the EU.\n\nRunouts are stamped, except for 'NAT'.",
+    "images": [
+      {
+        "file": "37571901-1.jpg",
+        "width": 600,
+        "height": 585
+      },
+      {
+        "file": "37571901-2.jpg",
+        "width": 600,
+        "height": 598
+      },
+      {
+        "file": "37571901-3.jpg",
+        "width": 600,
+        "height": 596
+      },
+      {
+        "file": "37571901-4.jpg",
+        "width": 600,
+        "height": 570
+      },
+      {
+        "file": "37571901-5.jpg",
+        "width": 600,
+        "height": 582
+      },
+      {
+        "file": "37571901-6.jpg",
+        "width": 600,
+        "height": 450
+      }
+    ],
+    "dateAdded": "2026-09-03T09:11:37-07:00"
+  },
+  {
+    "id": 4570366,
+    "slug": "daft-punk-random-access-memories",
+    "title": "Random Access Memories",
+    "artist": "Daft Punk",
+    "primaryArtist": "Daft Punk",
+    "artistSort": "Daft Punk",
+    "coverFile": "4570366.jpg",
+    "genres": [
+      "Electronic",
+      "Funk / Soul",
+      "Pop"
+    ],
+    "styles": [
+      "Disco",
+      "Funk",
+      "Synth-pop",
+      "Electro",
+      "French House"
+    ],
+    "label": "Columbia",
+    "catno": "88883716861",
+    "country": "UK, Europe & US",
+    "pressedYear": 2013,
+    "originalYear": 2013,
+    "isOriginalPressing": true,
+    "decade": "2010s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Give Life Back To Music",
+        "duration": "4:35"
+      },
+      {
+        "position": "A2",
+        "title": "The Game Of Love",
+        "duration": "5:22"
+      },
+      {
+        "position": "A3",
+        "title": "Giorgio By Moroder",
+        "duration": "9:04"
+      },
+      {
+        "position": "B1",
+        "title": "Within",
+        "duration": "3:48"
+      },
+      {
+        "position": "B2",
+        "title": "Instant Crush",
+        "duration": "5:37"
+      },
+      {
+        "position": "B3",
+        "title": "Lose Yourself To Dance",
+        "duration": "5:53"
+      },
+      {
+        "position": "C1",
+        "title": "Touch",
+        "duration": "8:18"
+      },
+      {
+        "position": "C2",
+        "title": "Get Lucky",
+        "duration": "6:09"
+      },
+      {
+        "position": "C3",
+        "title": "Beyond",
+        "duration": "4:50"
+      },
+      {
+        "position": "D1",
+        "title": "Motherboard",
+        "duration": "5:41"
+      },
+      {
+        "position": "D2",
+        "title": "Fragments Of Time",
+        "duration": "4:39"
+      },
+      {
+        "position": "D3",
+        "title": "Doin' It Right",
+        "duration": "4:11"
+      },
+      {
+        "position": "D4",
+        "title": "Contact",
+        "duration": "6:23"
+      }
+    ],
+    "sides": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "credits": [
+      {
+        "role": "Arranged By [Arrangements]",
+        "name": "Chris Caswell (2)"
+      },
+      {
+        "role": "Arranged By [Arrangements]",
+        "name": "Guy-Manuel de Homem-Christo"
+      },
+      {
+        "role": "Arranged By [Arrangements]",
+        "name": "Thomas Bangalter"
+      },
+      {
+        "role": "Conductor [Orchestra]",
+        "name": "Doug Walter"
+      },
+      {
+        "role": "Contractor [Orchestra]",
+        "name": "Joseph Solido"
+      },
+      {
+        "role": "Coordinator [Booth (Orchestra)]",
+        "name": "Chris Caswell (2)"
+      },
+      {
+        "role": "Coordinator [Production Coordinator]",
+        "name": "Jackie O'Brien"
+      },
+      {
+        "role": "Coordinator [Production Coordinator]",
+        "name": "Sam Cooper (3)"
+      },
+      {
+        "role": "Cover [Cover Art], Artwork [Cover Art]",
+        "name": "Cedric Hervet"
+      },
+      {
+        "role": "Cover [Cover Art], Artwork [Cover Art]",
+        "name": "Warren Fu"
+      },
+      {
+        "role": "Creative Director",
+        "name": "Cedric Hervet"
+      },
+      {
+        "role": "Design Concept [Concept], Art Direction",
+        "name": "Cedric Hervet"
+      },
+      {
+        "role": "Design Concept [Concept], Art Direction",
+        "name": "Guy-Manuel de Homem-Christo"
+      },
+      {
+        "role": "Design Concept [Concept], Art Direction",
+        "name": "Paul Hahn"
+      },
+      {
+        "role": "Design Concept [Concept], Art Direction",
+        "name": "Thomas Bangalter"
+      },
+      {
+        "role": "Design Concept [Concept], Art Direction",
+        "name": "Warren Fu"
+      },
+      {
+        "role": "Directed By [Media Director]",
+        "name": "Biz3"
+      },
+      {
+        "role": "Directed By [Media Director]",
+        "name": "Kathryn Frazier"
+      },
+      {
+        "role": "Edited By [Music Editor]",
+        "name": "David Channing"
+      },
+      {
+        "role": "Engineer [Additional Recording Engineers]",
+        "name": "Alana Da Fonseca"
+      },
+      {
+        "role": "Engineer [Additional Recording Engineers]",
+        "name": "Phil Joly"
+      },
+      {
+        "role": "Engineer [Assistant Mixing Engineers]",
+        "name": "Peter Franco"
+      },
+      {
+        "role": "Engineer [Assistant Mixing Engineers]",
+        "name": "Seth Waldmann"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Bill Rahko"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Charlie Paakkari"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Cory Brice"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Derek Karlquist"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Doug Tyo"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Eric Eylands"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Eric Weaver"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Kevin Mills"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Kyle Stevens (3)"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Miguel Lara (2)"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Mike Larson (4)"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Nicolas Essig"
+      },
+      {
+        "role": "Engineer [Assistant Recording Engineers]",
+        "name": "Seth Waldmann"
+      },
+      {
+        "role": "Engineer [Digital Audio Engineer]",
+        "name": "Daniel Lerner"
+      },
+      {
+        "role": "Featuring [Starring]",
+        "name": "Chilly Gonzales"
+      },
+      {
+        "role": "Featuring [Starring]",
+        "name": "DJ Falcon"
+      },
+      {
+        "role": "Featuring [Starring]",
+        "name": "Julian Casablancas"
+      },
+      {
+        "role": "Featuring [Starring]",
+        "name": "Nile Rodgers"
+      },
+      {
+        "role": "Featuring [Starring]",
+        "name": "Paul Williams (2)"
+      },
+      {
+        "role": "Featuring [Starring]",
+        "name": "Pharrell Williams"
+      },
+      {
+        "role": "Featuring [Starring]",
+        "name": "Todd Edwards"
+      },
+      {
+        "role": "Illustration",
+        "name": "Warren Fu"
+      },
+      {
+        "role": "Lacquer Cut By",
+        "name": "Chab (2)"
+      },
+      {
+        "role": "Legal",
+        "name": "Clintons"
+      },
+      {
+        "role": "Legal",
+        "name": "Peter Button"
+      },
+      {
+        "role": "Management",
+        "name": "Paul Hahn"
+      },
+      {
+        "role": "Mastered By",
+        "name": "Bob Ludwig"
+      },
+      {
+        "role": "Mastered By",
+        "name": "Chab (2)"
+      },
+      {
+        "role": "Mixed By",
+        "name": "Mick Guzauski"
+      },
+      {
+        "role": "Musician",
+        "name": "Chilly Gonzales"
+      },
+      {
+        "role": "Musician",
+        "name": "Chris Caswell (2)"
+      },
+      {
+        "role": "Musician",
+        "name": "Greg Leisz"
+      },
+      {
+        "role": "Musician",
+        "name": "Guy-Manuel de Homem-Christo"
+      },
+      {
+        "role": "Musician",
+        "name": "James Genus"
+      },
+      {
+        "role": "Musician",
+        "name": "John Robinson (2)"
+      },
+      {
+        "role": "Musician",
+        "name": "Julian Casablancas"
+      },
+      {
+        "role": "Musician",
+        "name": "Nathan East"
+      },
+      {
+        "role": "Musician",
+        "name": "Nile Rodgers"
+      },
+      {
+        "role": "Musician",
+        "name": "Omar Hakim"
+      },
+      {
+        "role": "Musician",
+        "name": "Paul Jackson Jr."
+      },
+      {
+        "role": "Musician",
+        "name": "Quinn (3)"
+      },
+      {
+        "role": "Musician",
+        "name": "Thomas Bangalter"
+      },
+      {
+        "role": "Musician",
+        "name": "Thomas Bloch"
+      },
+      {
+        "role": "Orchestra, Bass",
+        "name": "Chuck Berghofer"
+      },
+      {
+        "role": "Orchestra, Bass",
+        "name": "Donald V. Ferrone"
+      },
+      {
+        "role": "Orchestra, Bass",
+        "name": "Drew Dembowski"
+      },
+      {
+        "role": "Orchestra, Bass Clarinet [B. Clarinet]",
+        "name": "Gene Cipriano"
+      },
+      {
+        "role": "Orchestra, Bass Trombone",
+        "name": "Craig Gosnell"
+      },
+      {
+        "role": "Orchestra, Bassoon",
+        "name": "Judy Farmer"
+      },
+      {
+        "role": "Orchestra, Cello [Cellos]",
+        "name": "Armen Ksajikian"
+      },
+      {
+        "role": "Orchestra, Cello [Cellos]",
+        "name": "Christina Soule"
+      },
+      {
+        "role": "Orchestra, Cello [Cellos]",
+        "name": "Paula Hochhalter"
+      },
+      {
+        "role": "Orchestra, Cello [Cellos]",
+        "name": "Timothy Loo"
+      },
+      {
+        "role": "Orchestra, Cello [Cellos]",
+        "name": "Vanessa Freebairn-Smith"
+      },
+      {
+        "role": "Orchestra, Clarinet [Clarinets]",
+        "name": "Gene Cipriano"
+      },
+      {
+        "role": "Orchestra, Clarinet [Clarinets]",
+        "name": "Marty Krystall"
+      },
+      {
+        "role": "Orchestra, English Horn [E. Horn]",
+        "name": "David Kossoff (2)"
+      },
+      {
+        "role": "Orchestra, Flute [Flutes]",
+        "name": "Greg Huckins"
+      },
+      {
+        "role": "Orchestra, Flute [Flutes]",
+        "name": "Sara Andon"
+      },
+      {
+        "role": "Orchestra, Flute [Flutes]",
+        "name": "Steve Kajala"
+      },
+      {
+        "role": "Orchestra, French Horn [French Horns]",
+        "name": "Danielle Ondarza"
+      },
+      {
+        "role": "Orchestra, French Horn [French Horns]",
+        "name": "Jim Atkinson"
+      },
+      {
+        "role": "Orchestra, French Horn [French Horns]",
+        "name": "Justin Hageman"
+      },
+      {
+        "role": "Orchestra, French Horn [French Horns]",
+        "name": "Nathan Campbell"
+      },
+      {
+        "role": "Orchestra, French Horn [French Horns]",
+        "name": "Stephanie O'Keefe"
+      },
+      {
+        "role": "Orchestra, Oboe",
+        "name": "Earl Dumler"
+      },
+      {
+        "role": "Orchestra, Percussion [Percussions]",
+        "name": "Brian Kilgore"
+      },
+      {
+        "role": "Orchestra, Percussion [Percussions]",
+        "name": "Mark Converse"
+      },
+      {
+        "role": "Orchestra, Trombone [Trombones]",
+        "name": "Andy Martin"
+      },
+      {
+        "role": "Orchestra, Trombone [Trombones]",
+        "name": "Bob McChesney"
+      },
+      {
+        "role": "Orchestra, Trombone [Trombones]",
+        "name": "Charles Loper"
+      },
+      {
+        "role": "Orchestra, Trombone [Trombones]",
+        "name": "Charlie Morillas"
+      },
+      {
+        "role": "Orchestra, Trumpet [Trumpets]",
+        "name": "Chuck Findley"
+      },
+      {
+        "role": "Orchestra, Trumpet [Trumpets]",
+        "name": "Gary Grant"
+      },
+      {
+        "role": "Orchestra, Trumpet [Trumpets]",
+        "name": "Larry McGuire"
+      },
+      {
+        "role": "Orchestra, Trumpet [Trumpets]",
+        "name": "Warren Luening"
+      },
+      {
+        "role": "Orchestra, Viola [Violas]",
+        "name": "Alma Fernandez"
+      },
+      {
+        "role": "Orchestra, Viola [Violas]",
+        "name": "Andrew Picken"
+      },
+      {
+        "role": "Orchestra, Viola [Violas]",
+        "name": "Carolyn Riley"
+      },
+      {
+        "role": "Orchestra, Viola [Violas]",
+        "name": "Harry Shirinian"
+      },
+      {
+        "role": "Orchestra, Viola [Violas]",
+        "name": "Jody Rubin"
+      },
+      {
+        "role": "Orchestra, Viola [Violas]",
+        "name": "Ray Tischer"
+      },
+      {
+        "role": "Orchestra, Viola [Violas]",
+        "name": "Rodney Wirtz"
+      },
+      {
+        "role": "Orchestra, Viola [Violas]",
+        "name": "Roland Kato"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Audrey Solomon"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Calabria McChesney"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Carrie Kennedy"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Cindy Moussas"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Irina Voloshina"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Joel Pargman"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Johana Krejci"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Kevin Connolly"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Lisa Dondlinger"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Lisa Sutton"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Margaret Wooten"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Mary Sloan"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Miwako Watanabe"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Neel Hammond"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Nina Evtuhov"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Olivia Tsui"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Rafael Rishik"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Rita Weber"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Samuel Fischer"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Sara Parkins"
+      },
+      {
+        "role": "Orchestra, Violin [Violins]",
+        "name": "Songa Lee"
+      },
+      {
+        "role": "Orchestra, Violin [Violins], Concertmaster",
+        "name": "Assa Drori"
+      },
+      {
+        "role": "Orchestrated By [Orchestration]",
+        "name": "Chris Caswell (2)"
+      },
+      {
+        "role": "Producer",
+        "name": "Guy-Manuel de Homem-Christo"
+      },
+      {
+        "role": "Producer",
+        "name": "Thomas Bangalter"
+      },
+      {
+        "role": "Recorded By",
+        "name": "Florian Lagatta"
+      },
+      {
+        "role": "Recorded By",
+        "name": "Mick Guzauski"
+      },
+      {
+        "role": "Recorded By",
+        "name": "Peter Franco"
+      },
+      {
+        "role": "Sound Designer [Sound Design]",
+        "name": "Gus Koven"
+      },
+      {
+        "role": "Technician [Audio Consultant]",
+        "name": "Jean-Pierre Janiaud"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": "Text",
+        "value": "8 88837 16861 8"
+      },
+      {
+        "type": "Barcode",
+        "description": "Scanned",
+        "value": "888837168618"
+      },
+      {
+        "type": "Label Code",
+        "description": null,
+        "value": "LC00162"
+      },
+      {
+        "type": "Rights Society",
+        "description": null,
+        "value": "BIEM/GEMA"
+      },
+      {
+        "type": "Rights Society",
+        "description": null,
+        "value": "BMI"
+      },
+      {
+        "type": "Rights Society",
+        "description": null,
+        "value": "ASCAP"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout side A, etched",
+        "value": "AL88883716861-2 BD11929-01 A2 Chab.☆"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout side B, etched",
+        "value": "BL88883716861-2 BD11929-01 B2 Chab☆"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout side C, etched",
+        "value": "CL88883716861-2 BD11929-02 C2 Chab.☆"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout side D, etched",
+        "value": "DL88883716861-2 Chab.☆ BD11929-02 D2 IF LOVE IS THE ANSWER YOU'RE HOME"
+      }
+    ],
+    "notes": "This entry is for the original 2013 first pressing release, cut by [a=Chab (2)], identifiable by \"Chab.☆\" etchings appearing in all runouts, and side D runout without a \"-30372-\" stamp.\n\nNot to be confused with:\n[r=9216088] (2013 repress), which contains the additional \"-30372-\" stamped in the side D runout.\n[r=31621720] (2017 reissue), which does not contain the additional \"-30372-\" on the second record, and lacquer cut by \"GOPHER\" on the first record.\n\nOr later reissues with 'DREAM BEYOND DREAMS' in the runouts:\n[r=10790424] (2017, lacquer cut by 'GOPHER')\n[r=19570846] (2017, lacquer cut by 'GOPHER')\n[r=17432941] (2021, lacquer cut by 'Ben. S & MPƵ') \n\nRelease date:\nContinental Europe and Ireland: 17 May 2013; UK: 20 May 2013; USA: 21 May 2013.\n\nIssued in gatefold jacket with 8-page 12\" × 12\" booklet containing detailed credits and complete lyrics to each track. Includes a voucher for downloading the album in MP3, 320 kbps.\n\nSealed copies have a hype sticker on the front:\nFeat. [m=546596] & [m=594096]\nDaft Punk\n180 gram double vinyl\nAlso includes digital download.\n88883716861\n\nCatalog number 88883 71686 1 on back cover, label rimtext.\nCatalog number 88883716861 on spine, labels, booklet.\n\nColumbia and Sony Music logos on back cover. Columbia only on spine, labels.\n\nGatefold back cover: \n© 2013 and ℗ 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment / Distributed by Sony Music Entertainment / Dystrybucja w Polsce: Sony Music Entertainment Poland Sp. z o.o., ul. Chóralna 14, 02-879 Warszawa [...] Made in the EU / Columbia is the exclusive trademark of Sony Music Entertainment\n\nIn booklet:\nTrack A1: Songs published by Imagem Music for the world excluding France, Daft Music / Because Music for France, XLC Music (BMI), Miss Mittie Music (BMI)\nTrack A2: Songs published by Imagem Music for the world excluding France, Daft Music / Because Music for France\nTrack A3: Songs published by Imagem Music for the world excluding France, Daft Music / Because Music for France, Giorgio Moroder Publishing (ASCAP)\nTrack B1: Songs published by Imagem Music for the world excluding France, Daft Music / Because Music for France, EMI Music Publishing\nTrack B2: Julian Casablancas appears courtesy of Rough Trade / RCA Records. Songs published by Imagem Music for the world excluding France, Daft Music / Because Music for France, Julian Casablancas Publishing (ASCAP) for North America & Warner/Chappell Music Publishing Limited for Rest of the World.\nTrack B3: Imagem Music for the world excluding France, Daft Music / Because Music for France, XLC Music (BMI), EMI April Music, Inc. obo Itself and More Water From Nazareth (ASCAP)\nTrack C1: Songs published by Imagem Music for the world excluding France, Daft Music / Because Music for France, Sunset Squid Music, Kazz Song, Inc\nTrack C2: Songs published by Imagem Music for the world excluding France, Daft Music / Because Music for France, XLC Music (BMI), EMI April Music, Inc. obo Itself and More Water From Nazareth (ASCAP)\nTrack C3: © Daft Life / Published by Imagem Music for the world excluding France, Daft Music / Because Music for France, Sunset Squid Music, Kazz Song, Inc.\nTrack D1: Songs published by Imagem Music for the world excluding France, Daft Music / Because Music for France\nTrack D2: Songs published by Imagem Music for the world excluding France, Daft Music / Because Music for France, Todd Imperatrice (ASCAP)\nTrack D3: Panda Bear appears courtesy of Domino Records. Songs published by Imagem Music for the world excluding France, Daft Music / Because Music for France, Panda Lennox (ASCAP) published by Chrysalis.\nTrack D4: Songs published by Imagem Music for the world excluding France, Daft Music / Because Music for France, Stephane Queme, Perfect Pitch Music Publishing (ASCAP). Contains a sample from The Sherbs recording \"We Ride Tonight\" Produced Under License From Liberation Music Pty Ltd and used by courtesy of Atlantic Recording Corp. under license from Rhino Entertainment Company, a Warner Music Group Company. Contains audio from the Apollo 17 mission used by courtesy of NASA and Capt. Eugene Cernan.\n\nRecorded at:\nGang Recording Studio, Paris.\nHenson Recording Studios, Hollywood.\nConway Recording Studios, Hollywood.\nElectric Lady Studios, New York.\nCapitol Studios, Hollywood.\n\nMixed at:\nConway Studios, Hollywood.\n\nMastered [...] at Gateway Mastering Studios, Portland, ME & Chab at Translab, Paris.\n\nLabels:\n© 2013 and ℗ 2013 Daft Life Limited under exclusive license to Columbia Records, a Division of Sony Music Entertainment [...] Made in the EU\n\nBPM:\n[not provided on the release]\nA1: 118-120 | A2: 90 | A3: 112-114\nB1: 109-112 | B2: 110 | B3: 100\nC1: 116/91 | C2: 116 | C3: 104\nD1: 103 | D2: 130 | D3: 89 | D4: 124",
+    "images": [
+      {
+        "file": "4570366-1.jpg",
+        "width": 600,
+        "height": 585
+      },
+      {
+        "file": "4570366-2.jpg",
+        "width": 600,
+        "height": 595
+      },
+      {
+        "file": "4570366-3.jpg",
+        "width": 600,
+        "height": 292
+      },
+      {
+        "file": "4570366-4.jpg",
+        "width": 600,
+        "height": 596
+      },
+      {
+        "file": "4570366-5.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "4570366-6.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "4570366-7.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "4570366-8.jpg",
+        "width": 600,
+        "height": 595
+      },
+      {
+        "file": "4570366-9.jpg",
+        "width": 600,
+        "height": 338
+      },
+      {
+        "file": "4570366-10.jpg",
+        "width": 599,
+        "height": 600
+      },
+      {
+        "file": "4570366-11.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "4570366-12.jpg",
+        "width": 596,
+        "height": 600
+      },
+      {
+        "file": "4570366-13.jpg",
+        "width": 600,
+        "height": 598
+      },
+      {
+        "file": "4570366-14.jpg",
+        "width": 600,
+        "height": 598
+      },
+      {
+        "file": "4570366-15.jpg",
+        "width": 600,
+        "height": 593
+      },
+      {
+        "file": "4570366-16.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "4570366-17.jpg",
+        "width": 599,
+        "height": 600
+      },
+      {
+        "file": "4570366-18.jpg",
+        "width": 600,
+        "height": 91
+      },
+      {
+        "file": "4570366-19.jpg",
+        "width": 600,
+        "height": 597
+      },
+      {
+        "file": "4570366-20.jpg",
+        "width": 600,
+        "height": 593
+      },
+      {
+        "file": "4570366-21.jpg",
+        "width": 330,
+        "height": 339
+      },
+      {
+        "file": "4570366-22.jpg",
+        "width": 167,
+        "height": 69
+      }
+    ],
+    "dateAdded": "2026-09-03T09:19:00-07:00"
+  },
+  {
+    "id": 37101378,
+    "slug": "the-dave-brubeck-quartet-time-out",
+    "title": "Time Out",
+    "artist": "The Dave Brubeck Quartet",
+    "primaryArtist": "The Dave Brubeck Quartet",
+    "artistSort": "Dave Brubeck Quartet, The",
+    "coverFile": "37101378.jpg",
+    "genres": [
+      "Jazz"
+    ],
+    "styles": [],
+    "label": "Vinyl Passion",
+    "catno": "VP 90173",
+    "country": "Europe",
+    "pressedYear": 2026,
+    "originalYear": 1959,
+    "isOriginalPressing": false,
+    "decade": "1950s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Limited Edition",
+      "Reissue",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Blue Rondo A La Turk ",
+        "duration": "6:46"
+      },
+      {
+        "position": "A2",
+        "title": "Strange Meadow Lark",
+        "duration": "7:23"
+      },
+      {
+        "position": "A3",
+        "title": "Take Five",
+        "duration": "5:27"
+      },
+      {
+        "position": "B1",
+        "title": "Three To Get Ready",
+        "duration": "5:23"
+      },
+      {
+        "position": "B2",
+        "title": "Kathy'S Waltz",
+        "duration": "4:45"
+      },
+      {
+        "position": "B3",
+        "title": "Everybody'S Jumpin'",
+        "duration": "4:24"
+      },
+      {
+        "position": "B4",
+        "title": "Pick Up Sticks",
+        "duration": "4:17"
+      }
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "credits": [],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "8719039007608"
+      }
+    ],
+    "notes": "Made in the Netherlands.",
+    "images": [
+      {
+        "file": "37101378-1.jpg",
+        "width": 600,
+        "height": 579
+      }
+    ],
+    "dateAdded": "2026-09-03T09:17:15-07:00"
+  },
+  {
+    "id": 13222942,
+    "slug": "dream-theater-distance-over-time",
+    "title": "Distance Over Time",
+    "artist": "Dream Theater",
+    "primaryArtist": "Dream Theater",
+    "artistSort": "Dream Theater",
+    "coverFile": "13222942.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Progressive Metal"
+    ],
+    "label": "Inside Out Music",
+    "catno": "19075925651",
+    "country": "US",
+    "pressedYear": 2019,
+    "originalYear": 2019,
+    "isOriginalPressing": true,
+    "decade": "2010s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Limited Edition",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Untethered Angel",
+        "duration": "6:14"
+      },
+      {
+        "position": "A2",
+        "title": "Paralyzed",
+        "duration": "4:17"
+      },
+      {
+        "position": "A3",
+        "title": "Fall Into The Light",
+        "duration": "7:04"
+      },
+      {
+        "position": "B1",
+        "title": "Barstool Warrior",
+        "duration": "6:43"
+      },
+      {
+        "position": "B2",
+        "title": "Room 137",
+        "duration": "4:23"
+      },
+      {
+        "position": "B3",
+        "title": "S2N",
+        "duration": "6:21"
+      },
+      {
+        "position": "C1",
+        "title": "At Wit's End",
+        "duration": "9:20"
+      },
+      {
+        "position": "C2",
+        "title": "Out Of Reach",
+        "duration": "4:04"
+      },
+      {
+        "position": "D1",
+        "title": "Pale Blue Dot",
+        "duration": "8:25"
+      },
+      {
+        "position": "D2",
+        "title": "Viper King",
+        "duration": "4:00"
+      }
+    ],
+    "sides": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "credits": [
+      {
+        "role": "Art Direction, Illustration, Design",
+        "name": "Hugh Syme"
+      },
+      {
+        "role": "Bass",
+        "name": "John Myung"
+      },
+      {
+        "role": "Drums",
+        "name": "Mike Mangini (2)"
+      },
+      {
+        "role": "Engineer",
+        "name": "James Meslin"
+      },
+      {
+        "role": "Engineer",
+        "name": "Richard Chycki"
+      },
+      {
+        "role": "Guitar, Producer",
+        "name": "John Petrucci"
+      },
+      {
+        "role": "Keyboards",
+        "name": "Jordan Rudess"
+      },
+      {
+        "role": "Lead Vocals",
+        "name": "James LaBrie"
+      },
+      {
+        "role": "Mastered By",
+        "name": "Tom Baker (3)"
+      },
+      {
+        "role": "Mixed By",
+        "name": "Ben Grosse"
+      },
+      {
+        "role": "Photography",
+        "name": "Mark Maryanovich"
+      },
+      {
+        "role": "Recorded By",
+        "name": "James Meslin"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "190759256510"
+      },
+      {
+        "type": "Label Code",
+        "description": null,
+        "value": "LC 01414"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side A (hand etched)",
+        "value": "1907592563-1-A"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side B (hand etched)",
+        "value": "1907592563-1-B"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side C (hand etched)",
+        "value": "1907592563-1-C"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side D (hand etched)",
+        "value": "1907592563-1-D"
+      }
+    ],
+    "notes": "Includes booklet\nLimited to 200 copies",
+    "images": [
+      {
+        "file": "13222942-1.jpg",
+        "width": 449,
+        "height": 600
+      },
+      {
+        "file": "13222942-2.jpg",
+        "width": 600,
+        "height": 450
+      },
+      {
+        "file": "13222942-3.jpg",
+        "width": 600,
+        "height": 450
+      },
+      {
+        "file": "13222942-4.jpg",
+        "width": 600,
+        "height": 450
+      },
+      {
+        "file": "13222942-5.jpg",
+        "width": 600,
+        "height": 450
+      },
+      {
+        "file": "13222942-6.jpg",
+        "width": 600,
+        "height": 450
+      },
+      {
+        "file": "13222942-7.jpg",
+        "width": 600,
+        "height": 450
+      },
+      {
+        "file": "13222942-8.jpg",
+        "width": 600,
+        "height": 450
+      }
+    ],
+    "dateAdded": "2026-09-03T09:23:13-07:00"
+  },
+  {
     "id": 1557861,
     "slug": "the-gaslight-anthem-the-59-sound",
     "title": "The '59 Sound",
@@ -174,6 +2835,204 @@
       }
     ],
     "dateAdded": "2026-09-03T09:01:48-07:00"
+  },
+  {
+    "id": 1152545,
+    "slug": "george-benson-breezin",
+    "title": "Breezin'",
+    "artist": "George Benson",
+    "primaryArtist": "George Benson",
+    "artistSort": "George Benson",
+    "coverFile": "1152545.jpg",
+    "genres": [
+      "Jazz",
+      "Funk / Soul"
+    ],
+    "styles": [
+      "Smooth Jazz",
+      "Jazz-Funk",
+      "Contemporary Jazz"
+    ],
+    "label": "Warner Bros. Records",
+    "catno": "BS 2919",
+    "country": "US",
+    "pressedYear": 1976,
+    "originalYear": 1976,
+    "isOriginalPressing": true,
+    "decade": "1970s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Breezin'",
+        "duration": "5:40"
+      },
+      {
+        "position": "A2",
+        "title": "This Masquerade",
+        "duration": "8:03"
+      },
+      {
+        "position": "A3",
+        "title": "Six To Four",
+        "duration": "5:06"
+      },
+      {
+        "position": "B1",
+        "title": "Affirmation",
+        "duration": "7:01"
+      },
+      {
+        "position": "B2",
+        "title": "So This Is Love?",
+        "duration": "7:03"
+      },
+      {
+        "position": "B3",
+        "title": "Lady",
+        "duration": "5:49"
+      }
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "credits": [
+      {
+        "role": "Arranged By, Conductor",
+        "name": "Claus Ogerman"
+      },
+      {
+        "role": "Art Direction",
+        "name": "Ed Thrasher"
+      },
+      {
+        "role": "Art Direction",
+        "name": "Robert Lockart"
+      },
+      {
+        "role": "Bass",
+        "name": "Stanley Banks"
+      },
+      {
+        "role": "Clavinet, Piano [Acoustic]",
+        "name": "Jorge Dalto"
+      },
+      {
+        "role": "Coordinator [Production Assistant]",
+        "name": "Noel Newbolt"
+      },
+      {
+        "role": "Design",
+        "name": "Peter Palombi"
+      },
+      {
+        "role": "Drums",
+        "name": "Harvey Mason"
+      },
+      {
+        "role": "Electric Piano, Synthesizer [Mini-moog]",
+        "name": "Ronnie Foster"
+      },
+      {
+        "role": "Engineer [Assistant]",
+        "name": "Don Henderson"
+      },
+      {
+        "role": "Lead Guitar, Vocals",
+        "name": "George Benson"
+      },
+      {
+        "role": "Liner Notes",
+        "name": "Al Young (2)"
+      },
+      {
+        "role": "Mastered By",
+        "name": "Doug Sax"
+      },
+      {
+        "role": "Percussion",
+        "name": "Ralph MacDonald"
+      },
+      {
+        "role": "Photography By",
+        "name": "Mario Casilli"
+      },
+      {
+        "role": "Producer",
+        "name": "Tommy Lipuma"
+      },
+      {
+        "role": "Recorded By, Mixed By",
+        "name": "Al Schmitt"
+      },
+      {
+        "role": "Rhythm Guitar",
+        "name": "Phil Upchurch"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Matrix / Runout",
+        "description": "Side A Label",
+        "value": "S41,262"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side B Label",
+        "value": "S41,263"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout Side A Variation 1",
+        "value": "SIDE 1 BS 2919-41262-C #3 TML-S"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout Side B Variation 1",
+        "value": "SIDE 2 BS 2919-41263-A #2 TML-M"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout Side A Variation 2",
+        "value": "BS 2919 41262-1A TML-M"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout Side B Variation 2",
+        "value": "BS 2919 41263-1C TML-S"
+      }
+    ],
+    "notes": "First issue without \"Contains: This Masquerade\" or RIAA logo on cover.\n\nRecorded & Mixed at Capitol Records, Hollywood, on January 6, 7 & 8, 1976\nMastered at The Mastering Lab, Hollywood\n\nTrack A1 published by Unart Music Corp./Tracebob Music Co. (BMI)\nTrack A2 published by Skyhill Pub. Co., Inc. (BMI)\nTrack A3 published by Utom Music Pub. Co. (BMI)\nTrack B1 published by J & H Pub. Co. (ASCAP)\nTrack B2 & B3 published by Communicated Music Co. (BMI)\n\nPhil Upchurch appears courtesy of CTI Records\nRonnie Foster appears courtesy of Blue Note Records\nJorge Dalto appears courtesy of Spring Records, Inc.\nHarvey Mason appears courtesy of Arista Records, Inc.\n\nLP housed in company catalog sleeve.\n",
+    "images": [
+      {
+        "file": "1152545-1.jpg",
+        "width": 597,
+        "height": 600
+      },
+      {
+        "file": "1152545-2.jpg",
+        "width": 600,
+        "height": 599
+      },
+      {
+        "file": "1152545-3.jpg",
+        "width": 600,
+        "height": 597
+      },
+      {
+        "file": "1152545-4.jpg",
+        "width": 600,
+        "height": 444
+      }
+    ],
+    "dateAdded": "2026-09-03T09:18:46-07:00"
   },
   {
     "id": 30265358,
@@ -682,5 +3541,160 @@
       }
     ],
     "dateAdded": "2026-09-03T09:01:09-07:00"
+  },
+  {
+    "id": 29729869,
+    "slug": "wugazi-13-chambers",
+    "title": "13 Chambers",
+    "artist": "Wugazi",
+    "primaryArtist": "Wugazi",
+    "artistSort": "Wugazi",
+    "coverFile": "29729869.jpg",
+    "genres": [
+      "Hip Hop",
+      "Rock"
+    ],
+    "styles": [
+      "Post-Hardcore",
+      "Hardcore Hip-Hop"
+    ],
+    "label": "Eggroll Records",
+    "catno": "ER10013-M",
+    "country": "US",
+    "pressedYear": 2024,
+    "originalYear": 2011,
+    "isOriginalPressing": false,
+    "decade": "2010s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Limited Edition",
+      "Unofficial Release",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Sleep Rules Everything Around Me",
+        "duration": null
+      },
+      {
+        "position": "A2",
+        "title": "Suicide Surprise",
+        "duration": null
+      },
+      {
+        "position": "A3",
+        "title": "Another Chessboxin' Argument",
+        "duration": null
+      },
+      {
+        "position": "A4",
+        "title": "Ghetto Afterthought",
+        "duration": null
+      },
+      {
+        "position": "A5",
+        "title": "Sweet Release",
+        "duration": null
+      },
+      {
+        "position": "A6",
+        "title": "Shame On Blue",
+        "duration": null
+      },
+      {
+        "position": "B1",
+        "title": "Slow Like That",
+        "duration": null
+      },
+      {
+        "position": "B2",
+        "title": "Floating Labels",
+        "duration": null
+      },
+      {
+        "position": "B3",
+        "title": "P.L.O. Squared",
+        "duration": null
+      },
+      {
+        "position": "B4",
+        "title": "Nowhere To Wait",
+        "duration": null
+      },
+      {
+        "position": "B5",
+        "title": "Last Chance For The Clientele Kid",
+        "duration": null
+      },
+      {
+        "position": "B6",
+        "title": "Killa Hill",
+        "duration": null
+      },
+      {
+        "position": "B7",
+        "title": "Forensic Shimmy",
+        "duration": null
+      }
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "credits": [
+      {
+        "role": "Lacquer Cut By",
+        "name": "David Cheppa"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": "Sticker on Sleeve",
+        "value": "1076703v1"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side A, runout",
+        "value": "ER10013 A DC EGGROLL - ASMEHOW-A"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side B, runout",
+        "value": "ER10013 B DC EGGROLL - ASKMEHOW-B"
+      }
+    ],
+    "notes": "2024 pressing on marbled yellow & black vinyl. \nLimited to 1000 copies with hand-stamped labels.\nComes with prismatic round hype sticker that reads \"Hype\" in Japanese.\n\nRunouts are hand etched.\n\nTracks are numbered 1 through 13 across both sides on the back of the jacket.",
+    "images": [
+      {
+        "file": "29729869-1.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29729869-2.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29729869-3.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29729869-4.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "29729869-5.jpg",
+        "width": 600,
+        "height": 500
+      }
+    ],
+    "dateAdded": "2026-09-03T09:13:08-07:00"
   }
 ]
