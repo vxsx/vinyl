@@ -40,8 +40,14 @@ const { genres, decades, total } = Astro.props
 </div>
 
 <style>
+  /* Groups are top-aligned so every label sits on the line's top edge no
+     matter how many rows its chips wrap into. Bottom-aligned, a group's
+     label rode on whether it happened to be the tallest thing on its line:
+     the collection's genre chips wrap to two rows and win, the wishlist's
+     fit on one and lose to the search box, and GENRE moved 8px between the
+     two pages. */
   .filters {
-    display: flex; flex-wrap: wrap; gap: 18px 26px; align-items: flex-end;
+    display: flex; flex-wrap: wrap; gap: 18px 26px; align-items: flex-start;
     padding-bottom: 18px; border-bottom: 1px solid var(--line);
   }
   .group { display: flex; flex-direction: column; gap: 8px; }
@@ -85,5 +91,6 @@ const { genres, decades, total } = Astro.props
     touch-action: manipulation;
   }
   .q-clear:hover { color: var(--ink); }
-  .count { margin: 0 0 0 auto; font-size: 12px; color: var(--dim); }
+  /* The count keeps sitting on the controls' bottom edge, not the labels'. */
+  .count { margin: 0 0 0 auto; align-self: flex-end; font-size: 12px; color: var(--dim); }
 </style>
