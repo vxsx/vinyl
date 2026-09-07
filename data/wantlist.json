@@ -1135,6 +1135,150 @@
     "dateAdded": "2026-09-03T09:24:08-07:00"
   },
   {
+    "id": 8531827,
+    "slug": "astronautalis-this-is-our-science",
+    "title": "This Is Our Science",
+    "artist": "Astronautalis",
+    "primaryArtist": "Astronautalis",
+    "artistSort": "Astronautalis",
+    "coverFile": "8531827.jpg",
+    "genres": [
+      "Hip Hop",
+      "Rock"
+    ],
+    "styles": [
+      "Indie Rock",
+      "Conscious"
+    ],
+    "label": "Cargo Records",
+    "catno": "CARLP185",
+    "country": "Germany",
+    "pressedYear": 2016,
+    "originalYear": 2011,
+    "isOriginalPressing": false,
+    "decade": "2010s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Limited Edition",
+      "Reissue"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "1",
+        "title": "The River, The Woods",
+        "duration": null
+      },
+      {
+        "position": "2",
+        "title": "This Is Our Science",
+        "duration": null
+      },
+      {
+        "position": "3",
+        "title": "Thomas Jefferson",
+        "duration": null
+      },
+      {
+        "position": "4",
+        "title": "Measure The Globe",
+        "duration": null
+      },
+      {
+        "position": "5",
+        "title": "Dimitri Mendeleev",
+        "duration": null
+      },
+      {
+        "position": "6",
+        "title": "Midday Moon",
+        "duration": null
+      },
+      {
+        "position": "7",
+        "title": "Contrails",
+        "duration": null
+      },
+      {
+        "position": "8",
+        "title": "Holy Water",
+        "duration": null
+      },
+      {
+        "position": "9",
+        "title": "Secrets On Our Lips",
+        "duration": null
+      },
+      {
+        "position": "10",
+        "title": "Lift The Curse",
+        "duration": null
+      },
+      {
+        "position": "11",
+        "title": "One For The Money",
+        "duration": null
+      }
+    ],
+    "sides": [],
+    "credits": [
+      {
+        "role": "Artwork [Cover Fashion]",
+        "name": "Jamie Lyn"
+      },
+      {
+        "role": "Concept By, Written-By",
+        "name": "Astronautalis"
+      },
+      {
+        "role": "Recorded By, Mixed By, Producer",
+        "name": "John Congleton"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "1024572961275"
+      },
+      {
+        "type": "Label Code",
+        "description": null,
+        "value": "LC 10634"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Runout etched A-side",
+        "value": "BG31651-01A1 JP"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "runout etched B-side",
+        "value": "BG31651-01B1 JP"
+      },
+      {
+        "type": "Barcode",
+        "description": "scan barcode ",
+        "value": "4024572961275"
+      }
+    ],
+    "notes": "While this album was ultimately produced, recorded & mixed in 14 days at the Elmwood Funeral Home in Dallas, TX, it was conceived & written all over world over the curse of three years & hundreds of thousands of miles by Astronautalis & his astounding friends.",
+    "images": [
+      {
+        "file": "8531827-1.jpg",
+        "width": 543,
+        "height": 600
+      },
+      {
+        "file": "8531827-2.jpg",
+        "width": 595,
+        "height": 600
+      }
+    ],
+    "dateAdded": "2026-09-03T09:27:26-07:00"
+  },
+  {
     "id": 31823732,
     "slug": "bring-me-the-horizon-post-human-nex-gen",
     "title": "Post Human: Nex Gen",
@@ -3186,6 +3330,188 @@
       }
     ],
     "dateAdded": "2026-09-03T08:57:49-07:00"
+  },
+  {
+    "id": 15860794,
+    "slug": "motley-crue-dr-feelgood",
+    "title": "Dr. Feelgood",
+    "artist": "Mötley Crüe",
+    "primaryArtist": "Mötley Crüe",
+    "artistSort": "Mötley Crüe",
+    "coverFile": "15860794.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Hard Rock"
+    ],
+    "label": "Elektra",
+    "catno": "7559-60829-1",
+    "country": "Europe",
+    "pressedYear": null,
+    "originalYear": 1989,
+    "isOriginalPressing": false,
+    "decade": "1980s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Reissue"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "T.n T (Terror 'n Tinseltown)",
+        "duration": "0:42"
+      },
+      {
+        "position": "A2",
+        "title": "Dr. Feelgood",
+        "duration": "4:50"
+      },
+      {
+        "position": "A3",
+        "title": "Slice Of Your Pie",
+        "duration": "4:32"
+      },
+      {
+        "position": "A4",
+        "title": "Rattlesnake Shake",
+        "duration": "3:40"
+      },
+      {
+        "position": "A5",
+        "title": "Kickstart My Heart",
+        "duration": "4:43"
+      },
+      {
+        "position": "A6",
+        "title": "Without You",
+        "duration": "4:29"
+      },
+      {
+        "position": "B1",
+        "title": "Same Ol' Situation (S.O.S.)",
+        "duration": "4:12"
+      },
+      {
+        "position": "B2",
+        "title": "Sticky Sweet",
+        "duration": "3:52"
+      },
+      {
+        "position": "B3",
+        "title": "She Goes Down",
+        "duration": "4:37"
+      },
+      {
+        "position": "B4",
+        "title": "Don't Go Away Mad (Just Go Away)",
+        "duration": "4:40"
+      },
+      {
+        "position": "B5",
+        "title": "Time For Change",
+        "duration": "4:45"
+      }
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "credits": [],
+    "identifiers": [
+      {
+        "type": "Rights Society",
+        "description": null,
+        "value": "GEMA/BIEM"
+      },
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "0 7559 60829 1 4"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side A Runout - Stamped",
+        "value": "R / S Alsdorf 960829-1-AX"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side B Runout - Stamped",
+        "value": "R / S Alsdorf 960829-1-B2X"
+      },
+      {
+        "type": "Label Code",
+        "description": null,
+        "value": "LC 0192"
+      },
+      {
+        "type": "Price Code",
+        "description": "Circled",
+        "value": "U"
+      },
+      {
+        "type": "Price Code",
+        "description": "France",
+        "value": "WE 381"
+      }
+    ],
+    "notes": null,
+    "images": [
+      {
+        "file": "15860794-1.jpg",
+        "width": 600,
+        "height": 591
+      },
+      {
+        "file": "15860794-2.jpg",
+        "width": 600,
+        "height": 524
+      },
+      {
+        "file": "15860794-3.jpg",
+        "width": 590,
+        "height": 600
+      },
+      {
+        "file": "15860794-4.jpg",
+        "width": 600,
+        "height": 589
+      },
+      {
+        "file": "15860794-5.jpg",
+        "width": 600,
+        "height": 589
+      },
+      {
+        "file": "15860794-6.jpg",
+        "width": 600,
+        "height": 591
+      },
+      {
+        "file": "15860794-7.jpg",
+        "width": 600,
+        "height": 586
+      },
+      {
+        "file": "15860794-8.jpg",
+        "width": 600,
+        "height": 450
+      },
+      {
+        "file": "15860794-9.jpg",
+        "width": 600,
+        "height": 450
+      },
+      {
+        "file": "15860794-10.jpg",
+        "width": 600,
+        "height": 421
+      }
+    ],
+    "dateAdded": "2026-09-03T22:14:26-07:00"
   },
   {
     "id": 38275920,
