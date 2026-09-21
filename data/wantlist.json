@@ -3514,6 +3514,517 @@
     "dateAdded": "2026-09-03T22:14:26-07:00"
   },
   {
+    "id": 35233159,
+    "slug": "oasis-what-s-the-story-morning-glory",
+    "title": "(What's The Story) Morning Glory?",
+    "artist": "Oasis",
+    "primaryArtist": "Oasis",
+    "artistSort": "Oasis (2)",
+    "coverFile": "35233159.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Britpop"
+    ],
+    "label": "Big Brother",
+    "catno": "RKIDLP151CI",
+    "country": "Worldwide",
+    "pressedYear": 2025,
+    "originalYear": 1995,
+    "isOriginalPressing": false,
+    "decade": "1990s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Reissue",
+      "Remastered"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Hello",
+        "duration": "3:24"
+      },
+      {
+        "position": "A2",
+        "title": "Roll With It",
+        "duration": "3:58"
+      },
+      {
+        "position": "A3",
+        "title": "Wonderwall",
+        "duration": "4:21"
+      },
+      {
+        "position": "B1",
+        "title": "Don't Look Back In Anger",
+        "duration": "4:50"
+      },
+      {
+        "position": "B2",
+        "title": "Hey Now!",
+        "duration": "5:42"
+      },
+      {
+        "position": "B3",
+        "title": "(Untitled)",
+        "duration": "0:43"
+      },
+      {
+        "position": "B4",
+        "title": "Bonehead's Bank Holiday",
+        "duration": "4:03"
+      },
+      {
+        "position": "C1",
+        "title": "Some Might Say",
+        "duration": "5:30"
+      },
+      {
+        "position": "C2",
+        "title": "Cast No Shadow",
+        "duration": "4:55"
+      },
+      {
+        "position": "C3",
+        "title": "She's Electric",
+        "duration": "3:41"
+      },
+      {
+        "position": "D1",
+        "title": "Morning Glory",
+        "duration": "5:05"
+      },
+      {
+        "position": "D2",
+        "title": "(Untitled)",
+        "duration": "0:38"
+      },
+      {
+        "position": "D3",
+        "title": "Champagne Supernova",
+        "duration": "7:35"
+      },
+      {
+        "position": "E1",
+        "title": "Cast No Shadow",
+        "duration": "5:01"
+      },
+      {
+        "position": "E2",
+        "title": "Morning Glory",
+        "duration": "4:35"
+      },
+      {
+        "position": "E3",
+        "title": "Wonderwall",
+        "duration": "4:11"
+      },
+      {
+        "position": "F1",
+        "title": "Acquiesce",
+        "duration": "4:01"
+      },
+      {
+        "position": "F2",
+        "title": "Champagne Supernova",
+        "duration": "6:31"
+      }
+    ],
+    "sides": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "credits": [
+      {
+        "role": "Artwork",
+        "name": "Brian Cannon"
+      },
+      {
+        "role": "Bass",
+        "name": "Paul McGuigan"
+      },
+      {
+        "role": "Drums, Percussion",
+        "name": "Alan White (2)"
+      },
+      {
+        "role": "Lead Guitar, Vocals, Mellotron, Piano",
+        "name": "Noel Gallagher"
+      },
+      {
+        "role": "Producer",
+        "name": "Noel Gallagher"
+      },
+      {
+        "role": "Producer",
+        "name": "Owen Morris"
+      },
+      {
+        "role": "Rhythm Guitar, Mellotron, Piano",
+        "name": "Paul Arthurs"
+      },
+      {
+        "role": "Vocals",
+        "name": "Liam Gallagher"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": "Text",
+        "value": "5 051961 151091"
+      },
+      {
+        "type": "Barcode",
+        "description": "Scanned",
+        "value": "5051961151091"
+      }
+    ],
+    "notes": "(What’s The Story) Morning Glory? (Deluxe 30th Anniversary Edition) featuring newly unplugged versions of five classic tracks ‘Cast No Shadow’, ‘Morning Glory’, ‘Wonderwall’, ‘Acquiesce’ and ‘Champagne Supernova’, all newly mixed by Noel Gallagher.",
+    "images": [
+      {
+        "file": "35233159-1.jpg",
+        "width": 600,
+        "height": 593
+      },
+      {
+        "file": "35233159-2.jpg",
+        "width": 600,
+        "height": 337
+      },
+      {
+        "file": "35233159-3.jpg",
+        "width": 555,
+        "height": 600
+      },
+      {
+        "file": "35233159-4.jpg",
+        "width": 553,
+        "height": 600
+      },
+      {
+        "file": "35233159-5.jpg",
+        "width": 521,
+        "height": 600
+      },
+      {
+        "file": "35233159-6.jpg",
+        "width": 489,
+        "height": 600
+      },
+      {
+        "file": "35233159-7.jpg",
+        "width": 530,
+        "height": 600
+      },
+      {
+        "file": "35233159-8.jpg",
+        "width": 502,
+        "height": 600
+      },
+      {
+        "file": "35233159-9.jpg",
+        "width": 518,
+        "height": 600
+      },
+      {
+        "file": "35233159-10.jpg",
+        "width": 421,
+        "height": 600
+      },
+      {
+        "file": "35233159-11.jpg",
+        "width": 538,
+        "height": 600
+      },
+      {
+        "file": "35233159-12.jpg",
+        "width": 415,
+        "height": 600
+      },
+      {
+        "file": "35233159-13.jpg",
+        "width": 540,
+        "height": 600
+      },
+      {
+        "file": "35233159-14.jpg",
+        "width": 529,
+        "height": 600
+      },
+      {
+        "file": "35233159-15.jpg",
+        "width": 597,
+        "height": 600
+      },
+      {
+        "file": "35233159-16.jpg",
+        "width": 474,
+        "height": 600
+      }
+    ],
+    "dateAdded": "2026-09-17T09:05:42-07:00"
+  },
+  {
+    "id": 26443970,
+    "slug": "oasis-definitely-maybe",
+    "title": "Definitely Maybe",
+    "artist": "Oasis",
+    "primaryArtist": "Oasis",
+    "artistSort": "Oasis (2)",
+    "coverFile": "26443970.jpg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Britpop"
+    ],
+    "label": "Big Brother Recordings Ltd.",
+    "catno": "RKIDLP70",
+    "country": "UK & Europe",
+    "pressedYear": null,
+    "originalYear": 1994,
+    "isOriginalPressing": false,
+    "decade": "1990s",
+    "recordedDecade": null,
+    "formatDescriptions": [
+      "LP",
+      "Album",
+      "Reissue",
+      "Remastered",
+      "Stereo"
+    ],
+    "isPlainLP": true,
+    "tracklist": [
+      {
+        "position": "A1",
+        "title": "Rock 'n' Roll Star",
+        "duration": "5:22"
+      },
+      {
+        "position": "A2",
+        "title": "Shakermaker",
+        "duration": "5:08"
+      },
+      {
+        "position": "A3",
+        "title": "Live Forever",
+        "duration": "4:33"
+      },
+      {
+        "position": "B1",
+        "title": "Up In The Sky",
+        "duration": "4:32"
+      },
+      {
+        "position": "B2",
+        "title": "Columbia",
+        "duration": "6:11"
+      },
+      {
+        "position": "B3",
+        "title": "Sad Song",
+        "duration": "4:24"
+      },
+      {
+        "position": "C1",
+        "title": "Supersonic",
+        "duration": "4:42"
+      },
+      {
+        "position": "C2",
+        "title": "Bring It On Down",
+        "duration": "4:17"
+      },
+      {
+        "position": "C3",
+        "title": "Cigarettes & Alcohol",
+        "duration": "4:47"
+      },
+      {
+        "position": "D1",
+        "title": "Digsy's Dinner",
+        "duration": "2:32"
+      },
+      {
+        "position": "D2",
+        "title": "Slide Away",
+        "duration": "6:32"
+      },
+      {
+        "position": "D3",
+        "title": "Married With Children",
+        "duration": "3:07"
+      }
+    ],
+    "sides": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "credits": [
+      {
+        "role": "Bass Guitar",
+        "name": "Paul McGuigan"
+      },
+      {
+        "role": "Drums",
+        "name": "Tony McCarroll"
+      },
+      {
+        "role": "Engineer",
+        "name": "Anjali Dutt"
+      },
+      {
+        "role": "Engineer",
+        "name": "Dave Scott"
+      },
+      {
+        "role": "Engineer",
+        "name": "Mark Coyle"
+      },
+      {
+        "role": "Engineer",
+        "name": "Roy Spong"
+      },
+      {
+        "role": "Lacquer Cut By",
+        "name": "John Davis (4)"
+      },
+      {
+        "role": "Lead Guitar, Backing Vocals",
+        "name": "Noel Gallagher"
+      },
+      {
+        "role": "Management",
+        "name": "Ignition (13)"
+      },
+      {
+        "role": "Photography By",
+        "name": "Brian Cannon"
+      },
+      {
+        "role": "Photography By",
+        "name": "Kevin Cummins"
+      },
+      {
+        "role": "Photography By [Outer]",
+        "name": "Michael Spencer Jones"
+      },
+      {
+        "role": "Producer",
+        "name": "Mark Coyle"
+      },
+      {
+        "role": "Producer",
+        "name": "Oasis (2)"
+      },
+      {
+        "role": "Producer [Additional], Mixed By",
+        "name": "Owen Morris"
+      },
+      {
+        "role": "Remastered By",
+        "name": "Ian Cooper"
+      },
+      {
+        "role": "Rhythm Guitar",
+        "name": "Paul Arthurs"
+      },
+      {
+        "role": "Sleeve, Design, Artwork",
+        "name": "Brian Cannon"
+      },
+      {
+        "role": "Vocals",
+        "name": "Liam Gallagher"
+      },
+      {
+        "role": "Written-By",
+        "name": "Noel Gallagher"
+      }
+    ],
+    "identifiers": [
+      {
+        "type": "Barcode",
+        "description": null,
+        "value": "5051961070019"
+      },
+      {
+        "type": "Rights Society",
+        "description": null,
+        "value": "MCPS"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side 1, stamped. \"A7\", \"John D\" & \"I\" etched.",
+        "value": "70 RKIDLP A7 John D - 56193 - I"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side 2, stamped. \"B7\" & \"I\" etched.",
+        "value": "RKIDLP 70 B7 - 56193 - I"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side 3, stamped. \"C7\" & \"I\" etched.",
+        "value": "RKIDLP 70 C7 - 56194 - I"
+      },
+      {
+        "type": "Matrix / Runout",
+        "description": "Side 4, stamped. \"D7\" & \"I\" etched.",
+        "value": "RKIDLP 70 D7 - 56194 - I"
+      }
+    ],
+    "notes": "Different from other versions as ATV Music Publishing is not mentioned anywhere. This edition using the 2014 remaster first surfaced around spring 2023 though an exact release date is unclear.\n\nOn rear cover:\n℗ & © 2014 Big Brother Recordings Ltd.\nThe copyright in this sound recording and artwork is owned by Big Brother Recordings Ltd.\nWWW.OASISINET.COM\n\nInside gatefold:\nOpposite - Sly Street, London. 21st Feb 1994.\n\nThis image - Columbia demo promo.\nCreation Records CTP 8.\nThe first Oasis record ever to be committed to vinyl.",
+    "images": [
+      {
+        "file": "26443970-1.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "26443970-2.jpg",
+        "width": 597,
+        "height": 600
+      },
+      {
+        "file": "26443970-3.jpg",
+        "width": 600,
+        "height": 594
+      },
+      {
+        "file": "26443970-4.jpg",
+        "width": 596,
+        "height": 600
+      },
+      {
+        "file": "26443970-5.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "26443970-6.jpg",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "file": "26443970-7.jpg",
+        "width": 600,
+        "height": 600
+      }
+    ],
+    "dateAdded": "2026-09-17T09:05:12-07:00"
+  },
+  {
     "id": 38247792,
     "slug": "stan-getz-getz-gilberto",
     "title": "Getz / Gilberto",
